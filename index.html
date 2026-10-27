@@ -107,20 +107,20 @@
         <div class="command-actions">
           <button class="btn pantry-toggle-btn" id="pantryToggleBtn" aria-expanded="false" title="Filter by ingredients in your fridge or pantry">
             <span>🥕</span>
-            <span>Kitchen Pantry</span>
+            <span class="pantry-btn-label">Kitchen Pantry</span>
             <span class="badge-count pantry-count-badge" id="pantryCountBadge" style="display: none;">0</span>
             <span class="pantry-chevron" id="pantryChevron">▾</span>
           </button>
 
           <div class="sort-wrapper">
             <select id="sortSelect" class="select-control" aria-label="Sort recipes">
-              <option value="default">✨ Sort: Smart / Doc Order</option>
-              <option value="doc-asc">📖 Doc Order (#1–200)</option>
-              <option value="protein-desc">🥩 Highest Protein</option>
-              <option value="efficiency-desc">⚡ Protein Efficiency (P/Cal)</option>
-              <option value="calories-asc">🔥 Lowest Calories</option>
-              <option value="time-asc">⏱️ Quickest Prep</option>
-              <option value="title-asc">🔤 Title (A–Z)</option>
+              <option value="default">✨ Sort: Smart Order</option>
+              <option value="doc-asc">📖 Sort: Doc #1–200</option>
+              <option value="protein-desc">🥩 Sort: High Protein</option>
+              <option value="efficiency-desc">⚡ Sort: Protein/Cal</option>
+              <option value="calories-asc">🔥 Sort: Low Calorie</option>
+              <option value="time-asc">⏱️ Sort: Quickest</option>
+              <option value="title-asc">🔤 Sort: Title A–Z</option>
             </select>
           </div>
         </div>
@@ -162,40 +162,51 @@
         <!-- Row 1: Protein Source Pills -->
         <div class="filter-strip-row">
           <span class="filter-row-label">Protein</span>
-          <div class="filter-pills-row" id="proteinPillsRow">
-            <!-- Populated by JS -->
+          <div class="filter-scroll-wrap">
+            <div class="filter-pills-row" id="proteinPillsRow">
+              <!-- Populated by JS -->
+            </div>
+            <button class="scroll-nudge-btn" data-scroll-target="proteinPillsRow" title="Scroll more proteins" aria-label="Scroll more proteins">›</button>
           </div>
         </div>
 
-        <!-- Row 2: Meal Category Pills + Quick Goal Presets -->
+        <!-- Row 2: Meal Category Pills -->
         <div class="filter-strip-row">
           <span class="filter-row-label">Category</span>
-          <div class="filter-pills-row" id="categoryPillsRow">
-            <!-- Populated by JS -->
+          <div class="filter-scroll-wrap">
+            <div class="filter-pills-row" id="categoryPillsRow">
+              <!-- Populated by JS -->
+            </div>
+            <button class="scroll-nudge-btn" data-scroll-target="categoryPillsRow" title="Scroll more categories" aria-label="Scroll more categories">›</button>
           </div>
         </div>
 
-        <!-- Row 3: Quick Macro & Source Filters + Active Results Counter -->
-        <div class="deck-toolbar">
-          <div class="quick-filters-scroll" id="quickFiltersRow">
-            <span class="filter-row-label" style="margin-right: 0.25rem;">Goals</span>
-            <button class="pill-chip quick-filter-chip" data-tag="high-protein">⚡ High-Protein (&gt;35g)</button>
-            <button class="pill-chip quick-filter-chip" data-tag="quick">⏱️ Quick (&le;25m)</button>
-            <button class="pill-chip quick-filter-chip" data-tag="low-cal">🥗 Low-Cal (&le;400 kcal)</button>
-            <button class="pill-chip quick-filter-chip" data-tag="has-source">🔗 Verified Video/Web</button>
-            <button class="pill-chip quick-filter-chip" data-tag="succinct">📝 Quick-Fire</button>
-            <button class="pill-chip quick-filter-chip" data-tag="favorites">❤️ Favorites</button>
+        <!-- Row 3: Quick Macro & Source Goal Filters (Full Width + Scroll Cue) -->
+        <div class="filter-strip-row">
+          <span class="filter-row-label">Goals</span>
+          <div class="filter-scroll-wrap">
+            <div class="filter-pills-row" id="quickFiltersRow">
+              <button class="pill-chip quick-filter-chip" data-tag="high-protein">⚡ High-Protein (&gt;35g)</button>
+              <button class="pill-chip quick-filter-chip" data-tag="quick">⏱️ Quick (&le;25m)</button>
+              <button class="pill-chip quick-filter-chip" data-tag="low-cal">🥗 Low-Cal (&le;400 kcal)</button>
+              <button class="pill-chip quick-filter-chip" data-tag="has-source">🔗 Verified Source</button>
+              <button class="pill-chip quick-filter-chip" data-tag="succinct">📝 Quick-Fire</button>
+              <button class="pill-chip quick-filter-chip" data-tag="favorites">❤️ Favorites</button>
+            </div>
+            <button class="scroll-nudge-btn" data-scroll-target="quickFiltersRow" title="Swipe or click for more goal filters" aria-label="Scroll more goal filters">›</button>
           </div>
+        </div>
 
+        <!-- Dynamic Active Filter Breadcrumb Bar + Live Results Count -->
+        <div class="deck-status-footer">
           <div class="results-status-bar">
             <span class="results-count" id="resultsCount">Loading recipes...</span>
+            <span class="swipe-hint-label">↔ Swipe filter bars for more</span>
           </div>
-        </div>
-
-        <!-- Dynamic Active Filter Breadcrumb Bar (Hidden when no filters active) -->
-        <div class="active-filters-bar" id="activeFiltersBar" hidden>
-          <div class="active-filters-list" id="activeFiltersList"></div>
-          <button class="btn-reset-all" id="clearAllFiltersBarBtn">Reset All &times;</button>
+          <div class="active-filters-bar" id="activeFiltersBar" hidden>
+            <div class="active-filters-list" id="activeFiltersList"></div>
+            <button class="btn-reset-all" id="clearAllFiltersBarBtn">Reset All &times;</button>
+          </div>
         </div>
       </div>
     </div>

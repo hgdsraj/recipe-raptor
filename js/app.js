@@ -801,7 +801,26 @@
     });
   }
 
-  function openRecipeModal(recipeId) {
+  function pushOverlayHistory(hashStr) {
+    if (window.location.hash === hashStr) return;
+    if (history.pushState) {
+      history.pushState({ hash: hashStr }, "", hashStr);
+      state.historyDepth = (state.historyDepth || 0) + 1;
+    }
+  }
+
+  function popOverlayHistory() {
+    if ((state.historyDepth || 0) > 0 && history.back) {
+      state.historyDepth -= 1;
+      state.ignoringNextPop = true;
+      history.back();
+    } else if (history.replaceState && window.location.hash) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  }
+
+  function openRecipeModal(recipeId, fromHistory = false) {
+    const isFromHistory = fromHistory === true;
     const recipe = state.recipes.find(r => r.id === recipeId);
     if (!recipe) return;
 
@@ -816,8 +835,8 @@
       state.checkedModalSteps[recipe.id] = new Set();
     }
 
-    if (history.replaceState) {
-      history.replaceState(null, "", `#recipe=${encodeURIComponent(recipe.id)}`);
+    if (!isFromHistory) {
+      pushOverlayHistory(`#recipe=${encodeURIComponent(recipe.id)}`);
     }
 
     renderModalContent();
@@ -825,12 +844,14 @@
     document.body.style.overflow = "hidden";
   }
 
-  function closeRecipeModal() {
+  function closeRecipeModal(fromHistory = false) {
+    const isFromHistory = fromHistory === true;
+    const wasOpen = el.recipeModalBackdrop.classList.contains("open");
     el.recipeModalBackdrop.classList.remove("open");
     document.body.style.overflow = "";
     state.currentModalRecipe = null;
-    if (history.replaceState && window.location.hash.startsWith("#recipe=")) {
-      history.replaceState(null, "", window.location.pathname + window.location.search);
+    if (!isFromHistory && wasOpen) {
+      popOverlayHistory();
     }
   }
 
@@ -994,7 +1015,6 @@
 
       <div class="modal-footer">
         <div class="modal-footer-left">
-          <button class="btn btn-card-action modal-footer-close-btn" id="modalFooterCloseBtn" title="Close Recipe">✕ Close</button>
           <button class="btn btn-card-action" id="modalToggleFavBtn">
             ${isFav ? '❤️ Saved' : '🤍 Save'}
           </button>
@@ -1104,7 +1124,8 @@
 
     document.getElementById("modalStartCookBtn").addEventListener("click", () => {
       const currentServings = state.modalServings;
-      closeRecipeModal();
+      el.recipeModalBackdrop.classList.remove("open");
+      state.currentModalRecipe = null;
       openCookMode(recipe, currentServings);
     });
   }
@@ -1126,16 +1147,19 @@
   let rouletteInterval = null;
   let rouletteChosenRecipe = null;
 
-  function openRouletteModal() {
+  function openRouletteModal(fromHistory = false) {
+    if (fromHistory !== true) pushOverlayHistory("#roulette");
     el.rouletteBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
     spinRoulette();
   }
 
-  function closeRouletteModal() {
+  function closeRouletteModal(fromHistory = false) {
+    const wasOpen = el.rouletteBackdrop.classList.contains("open");
     el.rouletteBackdrop.classList.remove("open");
     document.body.style.overflow = "";
     if (rouletteInterval) clearInterval(rouletteInterval);
+    if (fromHistory !== true && wasOpen) popOverlayHistory();
   }
 
   function spinRoulette() {
@@ -1165,12 +1189,14 @@
     rouletteInterval = setInterval(() => {
       const tempPick = pool[Math.floor(Math.random() * pool.length)];
       el.rouletteSlot.innerHTML = `
-        <div class="roulette-protein-tag">${escapeHtml(tempPick.protein)} • ${escapeHtml(tempPick.category)}</div>
-        <div class="roulette-title">${escapeHtml(tempPick.title)}</div>
-        <div class="roulette-macros">
-          <span>🔥 ${tempPick.calories} kcal</span>
-          <span>🥩 ${tempPick.macros?.protein_g}g Protein</span>
-          <span>⏱️ ${escapeHtml(tempPick.totalTime || '25m')}</span>
+        <div class="roulette-slot-inner">
+          <div class="roulette-protein-tag">${escapeHtml(tempPick.protein)} • ${escapeHtml(tempPick.category)}</div>
+          <div class="roulette-title"><span>${escapeHtml(tempPick.title)}</span></div>
+          <div class="roulette-macros">
+            <span>🔥 ${tempPick.calories} kcal</span>
+            <span>🥩 ${tempPick.macros?.protein_g}g Protein</span>
+            <span>⏱️ ${escapeHtml(tempPick.totalTime || '25m')}</span>
+          </div>
         </div>
       `;
       AudioEngine.beep(300 + ticks * 16, 0.04, "triangle");
@@ -1186,9 +1212,13 @@
   }
 
   // --- Cook Mode (With Ingredients Reference & Live Step Progress Bar) ---
-  function openCookMode(recipe, servingsOverride) {
+  function openCookMode(recipe, servingsOverride, fromHistory = false) {
     state.cookModeStepProgress.clear();
     state.cookModeIngProgress.clear();
+
+    if (fromHistory !== true) {
+      pushOverlayHistory(`#cook=${encodeURIComponent(recipe.id)}`);
+    }
 
     const scaleFactor = (servingsOverride || recipe.servings || 2) / (recipe.servings || 2);
     el.cookModeTitle.textContent = recipe.title;
@@ -1269,13 +1299,17 @@
     document.body.style.overflow = "hidden";
   }
 
-  function closeCookMode() {
+  function closeCookMode(fromHistory = false) {
+    const wasOpen = el.cookModeOverlay.classList.contains("active");
     el.cookModeOverlay.classList.remove("active");
     document.body.style.overflow = "";
     if (state.timerInterval) clearInterval(state.timerInterval);
     if (state.wakeLock) {
       state.wakeLock.release().catch(() => {});
       state.wakeLock = null;
+    }
+    if (fromHistory !== true && wasOpen) {
+      popOverlayHistory();
     }
   }
 
@@ -1319,15 +1353,18 @@
     showToast(`Added "${recipe.title}" to Meal Plan!`, "📅");
   }
 
-  function openMealPlanModal() {
+  function openMealPlanModal(fromHistory = false) {
+    if (fromHistory !== true) pushOverlayHistory("#meal-plan");
     renderMealPlan();
     el.mealPlanBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
   }
 
-  function closeMealPlanModal() {
+  function closeMealPlanModal(fromHistory = false) {
+    const wasOpen = el.mealPlanBackdrop.classList.contains("open");
     el.mealPlanBackdrop.classList.remove("open");
     document.body.style.overflow = "";
+    if (fromHistory !== true && wasOpen) popOverlayHistory();
   }
 
   function renderMealPlan() {
@@ -1403,7 +1440,7 @@
     el.mealPlanBody.querySelectorAll(".meal-plan-row-title").forEach(t => {
       t.addEventListener("click", () => {
         const id = t.getAttribute("data-open-id");
-        closeMealPlanModal();
+        closeMealPlanModal(true);
         openRecipeModal(id);
       });
     });
@@ -1453,13 +1490,16 @@
     showToast(`Added ${itemsToAdd.length} ingredients to Grocery List!`, "🛒");
   }
 
-  function openGroceryDrawer() {
+  function openGroceryDrawer(fromHistory = false) {
+    if (fromHistory !== true) pushOverlayHistory("#grocery");
     renderGroceryList();
     el.groceryDrawer.classList.add("open");
   }
 
-  function closeGroceryDrawer() {
+  function closeGroceryDrawer(fromHistory = false) {
+    const wasOpen = el.groceryDrawer.classList.contains("open");
     el.groceryDrawer.classList.remove("open");
+    if (fromHistory !== true && wasOpen) popOverlayHistory();
   }
 
   function renderGroceryList() {
@@ -1537,15 +1577,18 @@
   }
 
   // --- Add Recipe Modal ---
-  function openAddRecipeModal() {
+  function openAddRecipeModal(fromHistory = false) {
+    if (fromHistory !== true) pushOverlayHistory("#add-recipe");
     el.addRecipeBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
     updateGeneratedRecipeJson();
   }
 
-  function closeAddRecipeModal() {
+  function closeAddRecipeModal(fromHistory = false) {
+    const wasOpen = el.addRecipeBackdrop.classList.contains("open");
     el.addRecipeBackdrop.classList.remove("open");
     document.body.style.overflow = "";
+    if (fromHistory !== true && wasOpen) popOverlayHistory();
   }
 
   function updateGeneratedRecipeJson() {
@@ -1842,7 +1885,7 @@
     el.rouletteFilterSelect.addEventListener("change", spinRoulette);
     el.rouletteOpenRecipeBtn.addEventListener("click", () => {
       if (rouletteChosenRecipe) {
-        closeRouletteModal();
+        closeRouletteModal(true);
         openRecipeModal(rouletteChosenRecipe.id);
       }
     });
@@ -1882,7 +1925,7 @@
           const r = state.recipes.find(x => x.id === entry.id);
           if (r) addRecipeToGrocery(r, 1);
         });
-        closeMealPlanModal();
+        closeMealPlanModal(true);
         openGroceryDrawer();
       });
     }
@@ -1926,6 +1969,7 @@
         closeRouletteModal();
         closeMealPlanModal();
         closeGroceryDrawer();
+        closeCookMode();
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
     }
@@ -1935,31 +1979,35 @@
         closeRouletteModal();
         closeMealPlanModal();
         closeGroceryDrawer();
+        closeCookMode();
         togglePantryDrawer(true);
         el.pantryToggleBtn?.scrollIntoView({ behavior: "smooth", block: "center" });
       });
     }
     if (el.mobNavSpinBtn) {
       el.mobNavSpinBtn.addEventListener("click", () => {
-        closeRecipeModal();
-        closeMealPlanModal();
-        closeGroceryDrawer();
+        closeRecipeModal(true);
+        closeMealPlanModal(true);
+        closeGroceryDrawer(true);
+        closeCookMode(true);
         openRouletteModal();
       });
     }
     if (el.mobNavPlanBtn) {
       el.mobNavPlanBtn.addEventListener("click", () => {
-        closeRecipeModal();
-        closeRouletteModal();
-        closeGroceryDrawer();
+        closeRecipeModal(true);
+        closeRouletteModal(true);
+        closeGroceryDrawer(true);
+        closeCookMode(true);
         openMealPlanModal();
       });
     }
     if (el.mobNavGroceryBtn) {
       el.mobNavGroceryBtn.addEventListener("click", () => {
-        closeRecipeModal();
-        closeRouletteModal();
-        closeMealPlanModal();
+        closeRecipeModal(true);
+        closeRouletteModal(true);
+        closeMealPlanModal(true);
+        closeCookMode(true);
         openGroceryDrawer();
       });
     }
@@ -1975,12 +2023,103 @@
         showToast("Recipe JSON copied! Drop it into recipes/ and run build.py", "📋");
       });
     });
+
+    initScrollableFilterStrips();
   }
 
-  function checkDeepLinkHash() {
-    if (window.location.hash && window.location.hash.startsWith("#recipe=")) {
-      const id = decodeURIComponent(window.location.hash.replace("#recipe=", ""));
-      if (id) openRecipeModal(id);
+  function initScrollableFilterStrips() {
+    const updateScrollStrip = (row) => {
+      if (!row) return;
+      const wrap = row.closest(".filter-scroll-wrap");
+      if (!wrap) return;
+      const btn = wrap.querySelector(".scroll-nudge-btn");
+      const maxScroll = row.scrollWidth - row.clientWidth;
+      if (maxScroll <= 6) {
+        wrap.classList.remove("can-scroll-right");
+      } else {
+        wrap.classList.add("can-scroll-right");
+        if (btn) {
+          const atEnd = row.scrollLeft >= maxScroll - 8;
+          btn.textContent = atEnd ? "‹" : "›";
+          btn.setAttribute("title", atEnd ? "Scroll back to start" : "Scroll for more options");
+        }
+      }
+    };
+
+    const rows = [el.proteinPillsRow, el.categoryPillsRow, el.quickFiltersRow].filter(Boolean);
+    rows.forEach(row => {
+      row.addEventListener("scroll", () => updateScrollStrip(row), { passive: true });
+      setTimeout(() => updateScrollStrip(row), 50);
+    });
+
+    window.addEventListener("resize", () => {
+      rows.forEach(updateScrollStrip);
+    });
+
+    document.querySelectorAll(".scroll-nudge-btn").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const targetId = btn.getAttribute("data-scroll-target");
+        const row = document.getElementById(targetId);
+        if (!row) return;
+        const maxScroll = row.scrollWidth - row.clientWidth;
+        if (row.scrollLeft >= maxScroll - 8) {
+          row.scrollTo({ left: 0, behavior: "smooth" });
+        } else {
+          row.scrollBy({ left: 200, behavior: "smooth" });
+        }
+      });
+    });
+  }
+
+  function syncWithLocationHash() {
+    if (state.ignoringNextPop) {
+      state.ignoringNextPop = false;
+      return;
+    }
+    state.historyDepth = Math.max(0, (state.historyDepth || 1) - 1);
+    const h = window.location.hash || "";
+
+    // Close all overlays first using fromHistory=true so we don't trigger another history.back()
+    closeRecipeModal(true);
+    closeCookMode(true);
+    closeRouletteModal(true);
+    closeMealPlanModal(true);
+    closeGroceryDrawer(true);
+    closeAddRecipeModal(true);
+
+    if (h.startsWith("#recipe=")) {
+      const id = decodeURIComponent(h.replace("#recipe=", ""));
+      if (id) openRecipeModal(id, true);
+    } else if (h.startsWith("#cook=")) {
+      const id = decodeURIComponent(h.replace("#cook=", ""));
+      const recipe = state.recipes.find(r => r.id === id);
+      if (recipe) openCookMode(recipe, null, true);
+    } else if (h === "#roulette") {
+      openRouletteModal(true);
+    } else if (h === "#meal-plan") {
+      openMealPlanModal(true);
+    } else if (h === "#grocery") {
+      openGroceryDrawer(true);
+    } else if (h === "#add-recipe") {
+      openAddRecipeModal(true);
+    }
+  }
+
+  function handleInitialDeepLink() {
+    const h = window.location.hash || "";
+    if (!h) return;
+    // Seed base home state in history so swiping back on mobile from a direct deep link returns to RecipeRaptor home instead of exiting the tab!
+    if (history.replaceState) {
+      history.replaceState({ hash: "" }, "", window.location.pathname + window.location.search);
+    }
+    if (h.startsWith("#recipe=")) {
+      const id = decodeURIComponent(h.replace("#recipe=", ""));
+      if (id) openRecipeModal(id, false);
+    } else if (h.startsWith("#cook=")) {
+      const id = decodeURIComponent(h.replace("#cook=", ""));
+      const recipe = state.recipes.find(r => r.id === id);
+      if (recipe) openCookMode(recipe, null, false);
     }
   }
 
@@ -1989,8 +2128,8 @@
     renderFilterBars();
     renderRecipes();
     setupEventListeners();
-    checkDeepLinkHash();
-    window.addEventListener("hashchange", checkDeepLinkHash);
+    handleInitialDeepLink();
+    window.addEventListener("popstate", syncWithLocationHash);
     console.log("🦖 RecipeRaptor 2.0 Pro loaded with", state.recipes.length, "recipes!");
   }
 
