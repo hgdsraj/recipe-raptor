@@ -1,0 +1,62 @@
+{
+  "id": "chef-tini-viral-mac-and-cheese",
+  "title": "Chef Tini\u2019s Viral Mac & Cheese",
+  "category": "Pasta & Noodles",
+  "protein": "Vegetarian",
+  "servings": 8,
+  "prepTime": "20 mins",
+  "cookTime": "30 mins",
+  "totalTime": "50 mins",
+  "calories": 580,
+  "macros": {
+    "protein_g": 26,
+    "carbs_g": 45,
+    "fat_g": 34
+  },
+  "micros": {
+    "fiber_g": 2.0,
+    "sodium_mg": 740,
+    "iron_mg": 2.2,
+    "potassium_mg": 380,
+    "vitamin_c_mg": 2,
+    "calcium_mg": 520
+  },
+  "ingredients": [
+    "1 lb cavatappi (or corkscrew pasta)",
+    "16 oz (1 lb) Mozzarella (freshly grated)",
+    "16 oz (1 lb) Colby Jack (freshly grated)",
+    "8 oz Sharp Cheddar (freshly grated)",
+    "3 tbsp unsalted butter",
+    "3 tbsp all-purpose flour",
+    "12 oz (1 can) evaporated milk",
+    "2 cups heavy cream",
+    "1 tbsp Dijon mustard",
+    "1 tsp garlic powder",
+    "1 tsp smoked paprika",
+    "\u00bd tsp salt",
+    "\u00bd tsp freshly ground black or white pepper"
+  ],
+  "instructions": [
+    "Preheat your oven to 350\u00b0F (175\u00b0C) and grease a 9x13-inch baking dish.",
+    "Boil cavatappi in salted water until al dente (about 1\u20132 minutes under package directions). Drain and set aside.",
+    "Hand-grate all three cheeses and mix them together in a large bowl. Divide into two equal halves (one half for sauce, one half for layering and topping).",
+    "Combine garlic powder, smoked paprika, salt, and pepper in a small bowl.",
+    "Melt 3 tbsp butter in a large pot or deep skillet over medium heat. Stir in half of the seasoning mix to bloom the spices.",
+    "Sprinkle in 3 tbsp all-purpose flour and whisk continuously for 1 to 2 minutes to cook out raw flour taste.",
+    "Slowly stream in the 12 oz can of evaporated milk while whisking constantly. Pour in the 2 cups heavy cream, remaining seasoning mix, and 1 tbsp Dijon mustard. Whisk gently until smooth and bubbling.",
+    "Turn heat to low. Add half of the total shredded cheese gradually, one handful at a time, whisking until velvety.",
+    "Remove from heat and gently fold the cooked cavatappi into the cheese sauce until fully coated.",
+    "Spread half of the cheesy pasta into the prepared baking dish. Sprinkle half of the reserved cheese over the layer.",
+    "Add remaining pasta, then top with the rest of the cheese blend.",
+    "Bake at 350\u00b0F for 25\u201330 minutes until bubbly around the edges. Broil for 2 minutes to get a golden-brown blistered top."
+  ],
+  "notes": "Exact recipe from @Tiniyounger. Hand-grating block cheese rather than using pre-shredded cheese is critical to avoid graininess from cellulose coatings.",
+  "sourceUrl": "https://www.tiktok.com/@tiniyounger",
+  "succinct": false,
+  "tags": [
+    "Pasta & Noodles",
+    "Vegetarian",
+    "Holiday",
+    "Comfort Food"
+  ]
+}

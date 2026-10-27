@@ -1490,6 +1490,68 @@
     ]
   },
   {
+    "id": "chef-tini-viral-mac-and-cheese",
+    "title": "Chef Tini’s Viral Mac & Cheese",
+    "category": "Pasta & Noodles",
+    "protein": "Vegetarian",
+    "servings": 8,
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "totalTime": "50 mins",
+    "calories": 580,
+    "macros": {
+      "protein_g": 26,
+      "carbs_g": 45,
+      "fat_g": 34
+    },
+    "micros": {
+      "fiber_g": 2.0,
+      "sodium_mg": 740,
+      "iron_mg": 2.2,
+      "potassium_mg": 380,
+      "vitamin_c_mg": 2,
+      "calcium_mg": 520
+    },
+    "ingredients": [
+      "1 lb cavatappi (or corkscrew pasta)",
+      "16 oz (1 lb) Mozzarella (freshly grated)",
+      "16 oz (1 lb) Colby Jack (freshly grated)",
+      "8 oz Sharp Cheddar (freshly grated)",
+      "3 tbsp unsalted butter",
+      "3 tbsp all-purpose flour",
+      "12 oz (1 can) evaporated milk",
+      "2 cups heavy cream",
+      "1 tbsp Dijon mustard",
+      "1 tsp garlic powder",
+      "1 tsp smoked paprika",
+      "½ tsp salt",
+      "½ tsp freshly ground black or white pepper"
+    ],
+    "instructions": [
+      "Preheat your oven to 350°F (175°C) and grease a 9x13-inch baking dish.",
+      "Boil cavatappi in salted water until al dente (about 1–2 minutes under package directions). Drain and set aside.",
+      "Hand-grate all three cheeses and mix them together in a large bowl. Divide into two equal halves (one half for sauce, one half for layering and topping).",
+      "Combine garlic powder, smoked paprika, salt, and pepper in a small bowl.",
+      "Melt 3 tbsp butter in a large pot or deep skillet over medium heat. Stir in half of the seasoning mix to bloom the spices.",
+      "Sprinkle in 3 tbsp all-purpose flour and whisk continuously for 1 to 2 minutes to cook out raw flour taste.",
+      "Slowly stream in the 12 oz can of evaporated milk while whisking constantly. Pour in the 2 cups heavy cream, remaining seasoning mix, and 1 tbsp Dijon mustard. Whisk gently until smooth and bubbling.",
+      "Turn heat to low. Add half of the total shredded cheese gradually, one handful at a time, whisking until velvety.",
+      "Remove from heat and gently fold the cooked cavatappi into the cheese sauce until fully coated.",
+      "Spread half of the cheesy pasta into the prepared baking dish. Sprinkle half of the reserved cheese over the layer.",
+      "Add remaining pasta, then top with the rest of the cheese blend.",
+      "Bake at 350°F for 25–30 minutes until bubbly around the edges. Broil for 2 minutes to get a golden-brown blistered top."
+    ],
+    "notes": "Exact recipe from @Tiniyounger. Hand-grating block cheese rather than using pre-shredded cheese is critical to avoid graininess from cellulose coatings.",
+    "sourceUrl": "https://www.tiktok.com/@tiniyounger",
+    "succinct": false,
+    "tags": [
+      "Pasta & Noodles",
+      "Vegetarian",
+      "Holiday",
+      "Comfort Food"
+    ]
+  },
+  {
     "id": "chicken-breast-sides",
     "title": "Chicken breast Sides",
     "category": "Sides & Sauces",
@@ -3249,6 +3311,61 @@
     ]
   },
   {
+    "id": "gordon-ramsay-slow-roasted-pork-belly-with-fennel",
+    "title": "Gordon Ramsay's Slow-Roasted Pork Belly with Fennel",
+    "category": "Mains & Grills",
+    "protein": "Pork",
+    "servings": 4,
+    "prepTime": "20 mins",
+    "cookTime": "150 mins",
+    "totalTime": "170 mins",
+    "calories": 620,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 12,
+      "fat_g": 46
+    },
+    "micros": {
+      "fiber_g": 3.0,
+      "sodium_mg": 680,
+      "iron_mg": 2.8,
+      "potassium_mg": 520,
+      "vitamin_c_mg": 14,
+      "calcium_mg": 70
+    },
+    "ingredients": [
+      "1 kg (2.2 lbs) pork belly, skin-on",
+      "1 bulb fresh fennel, trimmed and roughly sliced",
+      "1 tbsp fennel seeds",
+      "4 fresh bay leaves",
+      "3 garlic cloves, peeled and bashed",
+      "1 tsp cardamom pods, bashed",
+      "4 whole star anise",
+      "325 ml (1⅓ cups) dry white wine",
+      "500–750 ml (2–3 cups) chicken stock",
+      "1 tbsp wholegrain mustard",
+      "Olive oil, sea salt, and black pepper"
+    ],
+    "instructions": [
+      "Preheat your oven to 180°C (350°F). Score the skin in a diamond pattern at 1.5 cm intervals, cutting through the fat without piercing the meat.",
+      "Place a stovetop-safe roasting tray on medium heat with a drizzle of olive oil. Add sliced fresh fennel, fennel seeds, cardamom pods, star anise, garlic cloves, and bay leaves. Season lightly and fry for 2–3 minutes until fragrant.",
+      "Season the underside of the pork with salt and pepper, then place it skin-side down in the tray directly over the aromatics. Sear for 2–3 minutes until the skin begins to crisp.",
+      "Flip pork skin-side up. Pour in white wine and simmer until reduced by half. Add chicken stock until it reaches about halfway up the pork (do not submerge the skin).",
+      "Transfer the uncovered roasting tray to the oven. Slow-roast for 2 hours 30 minutes until the meat is fork-tender and the crackling is golden and blistered.",
+      "Transfer pork to a carving board to rest for 10-15 minutes.",
+      "Skim excess fat from the tray juices, stir in wholegrain mustard, reduce slightly over medium heat, and strain to create rich pan gravy."
+    ],
+    "notes": "Featured in Gordon Ramsay's Ultimate Cookery Course. Keeping the skin completely dry and above the braising liquid is the secret to blistered crackling.",
+    "sourceUrl": "https://www.youtube.com/watch?v=isky-17f1tQ",
+    "succinct": false,
+    "tags": [
+      "High-Protein",
+      "Pork",
+      "Mains & Grills",
+      "Slow Roast"
+    ]
+  },
+  {
     "id": "greek-goddess-turkey-burger",
     "title": "Greek goddess turkey burger",
     "category": "Sandwiches & Wraps",
@@ -4475,6 +4592,55 @@
       "white",
       "anchovy",
       "sandwich"
+    ]
+  },
+  {
+    "id": "marco-pierre-white-barbecue-lamb-chops-and-salmon",
+    "title": "Marco Pierre White Barbecue Lamb Chops & Salmon",
+    "category": "Mains & Grills",
+    "protein": "Lamb",
+    "servings": 2,
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "totalTime": "30 mins",
+    "calories": 490,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 8,
+      "fat_g": 32
+    },
+    "micros": {
+      "fiber_g": 1.0,
+      "sodium_mg": 520,
+      "iron_mg": 3.4,
+      "potassium_mg": 540,
+      "vitamin_c_mg": 6,
+      "calcium_mg": 40
+    },
+    "ingredients": [
+      "4 lamb loin chops",
+      "2 salmon fillets",
+      "Olive oil",
+      "Salt and freshly cracked black pepper",
+      "Ketchup vinaigrette: ketchup, red wine vinegar, olive oil, finely chopped shallot and chives"
+    ],
+    "instructions": [
+      "Preheat grill or heavy cast iron ridged grill pan over high heat.",
+      "Season lamb chops generously with salt, pepper, and a touch of olive oil.",
+      "Grill lamb chops for 3-4 minutes per side for medium-rare, getting deep sear marks.",
+      "Grill salmon skin-side down until crispy, about 4 minutes, then flip for 2 minutes.",
+      "Whisk ketchup, red wine vinegar, shallots, chives, and olive oil for the signature ketchup vinaigrette.",
+      "Drizzle warm vinaigrette over the rested chops and crispy salmon."
+    ],
+    "notes": "Classic Marco Pierre White preparation highlighting the contrasting richness of charred lamb and salmon paired with an acidic ketchup vinaigrette.",
+    "sourceUrl": "https://youtu.be/2i-nYlbDKaQ?si=uBNmTjw5UuGC-sd5",
+    "succinct": true,
+    "tags": [
+      "High-Protein",
+      "Lamb",
+      "Fish & Seafood",
+      "Mains & Grills",
+      "Quick (<25m)"
     ]
   },
   {

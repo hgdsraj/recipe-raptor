@@ -1,10 +1,130 @@
 /**
  * RecipeRaptor - Static Web Application Engine
  * High-performance, zero-dependency, client-side cooking dashboard
+ * Features Smart Linguistic Stemming, Culinary Synonyms, & Fuzzy Search
  */
 
 (function () {
   "use strict";
+
+  // --- Culinary Synonyms & Normalization Dictionary ---
+  const CULINARY_SYNONYMS = {
+    "mashed": "mash",
+    "mashing": "mash",
+    "potatoes": "potato",
+    "spuds": "potato",
+    "spud": "potato",
+    "taters": "potato",
+    "tater": "potato",
+    "sando": "sandwich",
+    "sandos": "sandwich",
+    "parm": "parmesan",
+    "avo": "avocado",
+    "guac": "guacamole",
+    "chilli": "chili",
+    "chilies": "chili",
+    "bbq": "barbecue",
+    "veggies": "vegetable",
+    "veggie": "vegetable",
+    "zuchini": "zucchini",
+    "zucchinis": "zucchini",
+    "slamon": "salmon",
+    "salmom": "salmon",
+    "brocolli": "broccoli",
+    "brocolini": "broccolini",
+    "chiken": "chicken",
+    "burgers": "burger",
+    "noodles": "noodle",
+    "scallions": "scallion",
+    "cilantro": "coriander",
+    "shrooms": "mushroom",
+    "shroom": "mushroom",
+    "mushrooms": "mushroom",
+    "tomatoes": "tomato",
+    "pasta": "pasta",
+    "rotisserie": "rotisserie",
+    "fajitas": "fajita",
+    "tacos": "taco",
+    "wraps": "wrap"
+  };
+
+  /**
+   * Smart Word Stemmer: Normalizes plurals, conjugations, and culinary variations
+   */
+  function stemWord(word) {
+    if (!word || word.length <= 2) return word;
+    let s = word.toLowerCase().trim();
+
+    // Check synonym dictionary first
+    if (CULINARY_SYNONYMS[s]) return CULINARY_SYNONYMS[s];
+
+    // Plurals: ies -> y (e.g. berries -> berry)
+    if (s.endsWith("ies") && s.length > 4) return s.slice(0, -3) + "y";
+
+    // Plurals: oes -> o (potatoes -> potato, tomatoes -> tomato)
+    if (s.endsWith("oes") && s.length > 4) return s.slice(0, -2);
+
+    // Plurals: s/es (boxes -> box, dishes -> dish, sauces -> sauce)
+    if (/(ches|shes|sses)$/.test(s)) return s.slice(0, -2);
+
+    // Past tense / Participles: -ed (mashed -> mash, roasted -> roast, baked -> bake)
+    if (s.endsWith("ied") && s.length > 4) return s.slice(0, -3) + "y";
+    if (s.endsWith("ed") && s.length > 4) {
+      if (/(bb|dd|ff|gg|mm|nn|pp|rr|tt)ed$/.test(s)) return s.slice(0, -3);
+      if (s.endsWith("eed")) return s.slice(0, -1);
+      return s.slice(0, -2);
+    }
+
+    // Gerund: -ing (mashing -> mash, roasting -> roast, boiling -> boil)
+    if (s.endsWith("ing") && s.length > 5) {
+      if (/(bb|dd|ff|gg|mm|nn|pp|rr|tt)ing$/.test(s)) return s.slice(0, -4);
+      return s.slice(0, -3);
+    }
+
+    // General plural: strip trailing 's' if not double-s (e.g. carrots -> carrot, wings -> wing)
+    if (s.endsWith("s") && !s.endsWith("ss") && s.length > 3) {
+      return s.slice(0, -1);
+    }
+
+    return s;
+  }
+
+  /**
+   * Levenshtein Distance for fuzzy typo tolerance
+   */
+  function levenshtein(a, b) {
+    if (a === b) return 0;
+    if (!a.length) return b.length;
+    if (!b.length) return a.length;
+    const matrix = [];
+    for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+    for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+    for (let i = 1; i <= b.length; i++) {
+      for (let j = 1; j <= a.length; j++) {
+        if (b.charAt(i - 1) === a.charAt(j - 1)) {
+          matrix[i][j] = matrix[i - 1][j - 1];
+        } else {
+          matrix[i][j] = Math.min(
+            matrix[i - 1][j - 1] + 1,
+            matrix[i][j - 1] + 1,
+            matrix[i - 1][j] + 1
+          );
+        }
+      }
+    }
+    return matrix[b.length][a.length];
+  }
+
+  /**
+   * Fuzzy Match Token: allows 1 typo for words 4-6 chars, 2 typos for 7+ chars
+   */
+  function fuzzyMatches(token, targetToken) {
+    if (token === targetToken) return true;
+    if (targetToken.includes(token) || token.includes(targetToken)) return true;
+    const maxDist = token.length >= 7 ? 2 : token.length >= 4 ? 1 : 0;
+    if (maxDist === 0) return false;
+    return levenshtein(token, targetToken) <= maxDist;
+  }
 
   // --- State ---
   const state = {
@@ -28,6 +148,25 @@
     timerTotalSeconds: 0,
     wakeLock: null
   };
+
+  // Precompute searchable tokens on every recipe for blazing performance
+  state.recipes.forEach(r => {
+    const titleTokens = (r.title || "").toLowerCase().match(/\b\w+\b/g) || [];
+    const ingTokens = (r.ingredients || []).join(" ").toLowerCase().match(/\b\w+\b/g) || [];
+    const instTokens = (r.instructions || []).join(" ").toLowerCase().match(/\b\w+\b/g) || [];
+    const tagTokens = (r.tags || []).join(" ").toLowerCase().match(/\b\w+\b/g) || [];
+
+    r._tokens = {
+      title: titleTokens,
+      titleStemmed: titleTokens.map(stemWord),
+      ingredients: ingTokens,
+      ingredientsStemmed: ingTokens.map(stemWord),
+      instructions: instTokens,
+      instructionsStemmed: instTokens.map(stemWord),
+      tags: tagTokens,
+      tagsStemmed: tagTokens.map(stemWord)
+    };
+  });
 
   // --- DOM Elements ---
   const el = {
@@ -92,7 +231,7 @@
     toastContainer: document.getElementById("toastContainer")
   };
 
-  // --- Sound Effects using Web Audio API (No external sound files required) ---
+  // --- Sound Effects using Web Audio API ---
   const AudioEngine = {
     ctx: null,
     init() {
@@ -114,14 +253,12 @@
         gain.connect(this.ctx.destination);
         osc.start();
         osc.stop(this.ctx.currentTime + duration);
-      } catch (e) {
-        // audio muted or restricted
-      }
+      } catch (e) {}
     },
     chime() {
-      this.beep(523.25, 0.15, "triangle"); // C5
-      setTimeout(() => this.beep(659.25, 0.15, "triangle"), 120); // E5
-      setTimeout(() => this.beep(783.99, 0.25, "triangle"), 240); // G5
+      this.beep(523.25, 0.15, "triangle");
+      setTimeout(() => this.beep(659.25, 0.15, "triangle"), 120);
+      setTimeout(() => this.beep(783.99, 0.25, "triangle"), 240);
     },
     alertChime() {
       this.beep(880, 0.2, "square");
@@ -130,7 +267,6 @@
     }
   };
 
-  // --- Toast Notification ---
   function showToast(msg, icon = "🦖") {
     const toast = document.createElement("div");
     toast.className = "toast";
@@ -143,7 +279,6 @@
     }, 3200);
   }
 
-  // --- Helper: Escape HTML ---
   function escapeHtml(str) {
     if (!str) return "";
     return String(str)
@@ -174,7 +309,6 @@
       : `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
   }
 
-  // --- Quick Common Ingredients List ---
   const COMMON_INGREDIENTS = [
     "chicken", "rice", "garlic", "onion", "soy sauce", "spinach", 
     "tofu", "salmon", "turkey", "eggs", "cheese", "tomato", 
@@ -182,7 +316,6 @@
     "mushrooms", "bell pepper", "beans", "bread", "pork"
   ];
 
-  // --- Render Filter Bars ---
   function renderFilterBars() {
     // 1. Proteins
     const proteinCounts = { All: state.recipes.length };
@@ -231,16 +364,13 @@
       </button>`;
     }).join("");
 
-    // 3. Quick Ingredients Chips
     renderIngredientChips();
-
-    // 4. Badges
     updateHeaderBadges();
   }
 
   function renderIngredientChips() {
     el.ingredientChipsList.innerHTML = COMMON_INGREDIENTS.map(ing => {
-      const isSelected = state.selectedIngredients.has(ing.toLowerCase());
+      const isSelected = state.selectedIngredients.has(stemWord(ing.toLowerCase()));
       return `<button class="ing-chip ${isSelected ? 'selected' : ''}" data-ing="${escapeHtml(ing)}">
         ${isSelected ? '✓ ' : '+ '}${escapeHtml(ing)}
       </button>`;
@@ -252,84 +382,150 @@
     el.groceryCountBadge.textContent = state.groceryList.length;
   }
 
+  /**
+   * Smart Search Score Calculator
+   * Matches raw tokens, stemmed tokens, and fuzzy distances across recipe fields
+   */
+  function scoreRecipeSearch(recipe, rawQueryTokens, stemmedQueryTokens) {
+    if (rawQueryTokens.length === 0) return 100;
+
+    const t = recipe._tokens;
+    let totalScore = 0;
+
+    for (let i = 0; i < rawQueryTokens.length; i++) {
+      const rawQ = rawQueryTokens[i];
+      const stemQ = stemmedQueryTokens[i];
+      let termMatched = false;
+      let termScore = 0;
+
+      // 1. Title match (highest weight)
+      if (t.titleStemmed.includes(stemQ) || t.title.includes(rawQ)) {
+        termScore += 100;
+        termMatched = true;
+      } else if (t.title.some(tok => tok.includes(rawQ)) || t.titleStemmed.some(tok => tok.includes(stemQ))) {
+        termScore += 70;
+        termMatched = true;
+      } else if (t.titleStemmed.some(tok => fuzzyMatches(stemQ, tok))) {
+        termScore += 50;
+        termMatched = true;
+      }
+
+      // 2. Ingredients match (high weight)
+      if (t.ingredientsStemmed.includes(stemQ) || t.ingredients.includes(rawQ)) {
+        termScore += 45;
+        termMatched = true;
+      } else if (t.ingredientsStemmed.some(tok => fuzzyMatches(stemQ, tok))) {
+        termScore += 30;
+        termMatched = true;
+      }
+
+      // 3. Protein & Category & Tags match
+      if (t.tagsStemmed.includes(stemQ) || t.tags.includes(rawQ)) {
+        termScore += 35;
+        termMatched = true;
+      }
+
+      // 4. Instructions match
+      if (t.instructionsStemmed.includes(stemQ) || t.instructions.includes(rawQ)) {
+        termScore += 15;
+        termMatched = true;
+      }
+
+      // If a term in multi-word query doesn't match anywhere, penalize or exclude
+      if (!termMatched) {
+        return 0; // Strict AND condition across terms for accurate matching
+      }
+
+      totalScore += termScore;
+    }
+
+    return totalScore;
+  }
+
   // --- Filtering & Sorting Core Engine ---
   function getFilteredRecipes() {
     const query = state.searchQuery.toLowerCase().trim();
-    const queryTerms = query ? query.split(/\s+/).filter(Boolean) : [];
+    const rawQueryTokens = query ? query.match(/\b\w+\b/g) || [] : [];
+    const stemmedQueryTokens = rawQueryTokens.map(stemWord);
 
-    return state.recipes.filter(recipe => {
+    const scoredRecipes = [];
+
+    for (let i = 0; i < state.recipes.length; i++) {
+      const recipe = state.recipes[i];
+
       // 1. Protein filter
       if (state.selectedProtein !== "All" && recipe.protein !== state.selectedProtein) {
-        return false;
+        continue;
       }
 
       // 2. Category filter
       if (state.selectedCategory !== "All" && recipe.category !== state.selectedCategory) {
-        return false;
+        continue;
       }
 
       // 3. Quick Tag / Preset filter
       if (state.activeTag) {
         if (state.activeTag === "favorites") {
-          if (!state.favorites.has(recipe.id)) return false;
+          if (!state.favorites.has(recipe.id)) continue;
         } else if (state.activeTag === "high-protein") {
-          if ((recipe.macros?.protein_g || 0) < 35) return false;
+          if ((recipe.macros?.protein_g || 0) < 35) continue;
         } else if (state.activeTag === "quick") {
           const totalMin = parseInt(recipe.totalTime) || 30;
-          if (totalMin > 25) return false;
+          if (totalMin > 25) continue;
         } else if (state.activeTag === "low-cal") {
-          if ((recipe.calories || 0) > 400) return false;
+          if ((recipe.calories || 0) > 400) continue;
         } else if (state.activeTag === "succinct") {
-          if (!recipe.succinct) return false;
+          if (!recipe.succinct) continue;
         }
       }
 
       // 4. Ingredient Picker Filter
       if (state.selectedIngredients.size > 0) {
-        const recipeIngs = (recipe.ingredientKeywords || []).map(k => k.toLowerCase());
+        const recipeStemmedIngs = recipe._tokens.ingredientsStemmed;
         const recipeRawIngs = (recipe.ingredients || []).join(" ").toLowerCase();
 
-        const matchCount = Array.from(state.selectedIngredients).filter(ing => {
-          return recipeIngs.includes(ing) || recipeRawIngs.includes(ing);
+        const matchCount = Array.from(state.selectedIngredients).filter(stemmedIng => {
+          return recipeStemmedIngs.includes(stemmedIng) || 
+                 recipeRawIngs.includes(stemmedIng) || 
+                 recipeStemmedIngs.some(tok => fuzzyMatches(stemmedIng, tok));
         }).length;
 
         if (state.ingredientMatchMode === "all") {
-          if (matchCount < state.selectedIngredients.size) return false;
+          if (matchCount < state.selectedIngredients.size) continue;
         } else {
-          // 'any' mode: must match at least one selected ingredient
-          if (matchCount === 0) return false;
+          if (matchCount === 0) continue;
         }
       }
 
-      // 5. Keyword search query across all details
-      if (queryTerms.length > 0) {
-        const titleStr = (recipe.title || "").toLowerCase();
-        const ingStr = (recipe.ingredients || []).join(" ").toLowerCase();
-        const instStr = (recipe.instructions || []).join(" ").toLowerCase();
-        const tagsStr = (recipe.tags || []).join(" ").toLowerCase();
-        const notesStr = (recipe.notes || "").toLowerCase();
-        const combined = `${titleStr} ${ingStr} ${instStr} ${tagsStr} ${notesStr} ${recipe.category} ${recipe.protein}`.toLowerCase();
-
-        const matchesAll = queryTerms.every(term => combined.includes(term));
-        if (!matchesAll) return false;
+      // 5. Smart Search relevance calculation
+      const score = scoreRecipeSearch(recipe, rawQueryTokens, stemmedQueryTokens);
+      if (score === 0 && rawQueryTokens.length > 0) {
+        continue;
       }
 
-      return true;
-    }).sort((a, b) => {
-      // Sorting
+      scoredRecipes.push({ recipe, score });
+    }
+
+    // Sort results
+    return scoredRecipes.sort((a, b) => {
+      // If user typed a search query, rank by smart search score first!
+      if (rawQueryTokens.length > 0 && state.sortBy === "default") {
+        if (b.score !== a.score) return b.score - a.score;
+      }
+
       if (state.sortBy === "title-asc") {
-        return a.title.localeCompare(b.title);
+        return a.recipe.title.localeCompare(b.recipe.title);
       } else if (state.sortBy === "protein-desc") {
-        return (b.macros?.protein_g || 0) - (a.macros?.protein_g || 0);
+        return (b.recipe.macros?.protein_g || 0) - (a.recipe.macros?.protein_g || 0);
       } else if (state.sortBy === "calories-asc") {
-        return (a.calories || 0) - (b.calories || 0);
+        return (a.recipe.calories || 0) - (b.recipe.calories || 0);
       } else if (state.sortBy === "time-asc") {
-        const tA = parseInt(a.totalTime) || 30;
-        const tB = parseInt(b.totalTime) || 30;
+        const tA = parseInt(a.recipe.totalTime) || 30;
+        const tB = parseInt(b.recipe.totalTime) || 30;
         return tA - tB;
       }
-      return 0; // Default
-    });
+      return 0;
+    }).map(sr => sr.recipe);
   }
 
   // --- Render Recipe Cards Grid ---
@@ -360,20 +556,20 @@
       const cPct = Math.round((carbs / totalMacroGrams) * 100);
       const fPct = Math.round((fat / totalMacroGrams) * 100);
 
-      // Ingredient match badge if active
       let matchBadgeHtml = "";
       if (state.selectedIngredients.size > 0) {
-        const recipeIngs = (recipe.ingredientKeywords || []).map(k => k.toLowerCase());
+        const recipeStemmedIngs = recipe._tokens.ingredientsStemmed;
         const recipeRawIngs = (recipe.ingredients || []).join(" ").toLowerCase();
-        const matches = Array.from(state.selectedIngredients).filter(ing => {
-          return recipeIngs.includes(ing) || recipeRawIngs.includes(ing);
+        const matches = Array.from(state.selectedIngredients).filter(stemmedIng => {
+          return recipeStemmedIngs.includes(stemmedIng) || 
+                 recipeRawIngs.includes(stemmedIng) || 
+                 recipeStemmedIngs.some(tok => fuzzyMatches(stemmedIng, tok));
         }).length;
         if (matches > 0) {
           matchBadgeHtml = `<span class="badge badge-match">✨ ${matches}/${state.selectedIngredients.size} Match</span>`;
         }
       }
 
-      // Short preview text
       let previewText = "";
       if (recipe.ingredients && recipe.ingredients.length > 0) {
         previewText = recipe.ingredients.slice(0, 4).join(", ");
@@ -448,10 +644,8 @@
     }).join("");
   }
 
-  // --- Dynamic Serving Scaler ---
   function scaleIngredient(text, scaleFactor) {
     if (scaleFactor === 1) return text;
-    // Replace leading numbers / fractions: e.g. "4 zuchinis" -> "8 zuchinis", "1/2 cup" -> "1 cup"
     return text.replace(/^(\d+(?:\.\d+)?|\d+\/\d+)/, (match) => {
       let val = 1;
       if (match.includes("/")) {
@@ -466,7 +660,6 @@
     });
   }
 
-  // --- Recipe Detail Modal ---
   function openRecipeModal(recipeId) {
     const recipe = state.recipes.find(r => r.id === recipeId);
     if (!recipe) return;
@@ -514,7 +707,6 @@
       </div>
 
       <div class="modal-body">
-        <!-- Servings Scaler & Macro Strip -->
         <div class="recipe-summary-strip">
           <div class="summary-item">
             <span class="summary-item-label">Servings</span>
@@ -546,7 +738,6 @@
           </div>
         </div>
 
-        <!-- Micronutrient Grid -->
         <div class="micros-grid-section">
           <div class="section-subhead">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
@@ -580,7 +771,6 @@
           </div>
         </div>
 
-        <!-- Recipe Details Grid -->
         <div class="recipe-details-grid">
           <div class="ingredients-panel">
             <div class="panel-header">
@@ -634,7 +824,6 @@
       </div>
     `;
 
-    // Modal Events
     document.getElementById("modalCloseInnerBtn").addEventListener("click", closeRecipeModal);
 
     document.getElementById("scalerMinusBtn").addEventListener("click", () => {
@@ -669,7 +858,6 @@
     });
   }
 
-  // --- Favorite Management ---
   function toggleFavorite(id) {
     if (state.favorites.has(id)) {
       state.favorites.delete(id);
@@ -683,7 +871,7 @@
     updateHeaderBadges();
   }
 
-  // --- Raptor Roulette / Random Chooser ---
+  // --- Raptor Roulette ---
   let rouletteInterval = null;
   let rouletteChosenRecipe = null;
 
@@ -745,7 +933,7 @@
     }, 70);
   }
 
-  // --- Interactive Cook Mode (Distraction-Free) ---
+  // --- Cook Mode ---
   function openCookMode(recipe) {
     state.cookModeStepProgress.clear();
     el.cookModeTitle.textContent = `${recipe.title} (Cook Mode)`;
@@ -758,7 +946,6 @@
       </div>
     `).join("");
 
-    // Setup steps click handlers
     document.querySelectorAll(".cook-step-item").forEach(item => {
       item.addEventListener("click", () => {
         const idx = parseInt(item.getAttribute("data-step-idx"));
@@ -773,7 +960,6 @@
       });
     });
 
-    // Request Screen Wake Lock so display doesn't sleep while cooking
     if ("wakeLock" in navigator) {
       navigator.wakeLock.request("screen").then(lock => {
         state.wakeLock = lock;
@@ -794,7 +980,6 @@
     }
   }
 
-  // --- Cooking Timer ---
   function startTimer(seconds) {
     if (state.timerInterval) clearInterval(state.timerInterval);
     state.timerSecondsLeft = seconds;
@@ -820,7 +1005,7 @@
     el.cookTimerDisplay.textContent = `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
   }
 
-  // --- Smart Grocery List ---
+  // --- Grocery List ---
   function addRecipeToGrocery(recipe, scaleFactor = 1) {
     const itemsToAdd = (recipe.ingredients || []).map(ing => {
       return {
@@ -868,7 +1053,6 @@
       </div>
     `).join("");
 
-    // Checkbox toggles
     el.groceryListContainer.querySelectorAll(".grocery-checkbox").forEach(cb => {
       cb.addEventListener("change", (e) => {
         const idx = parseInt(e.target.getAttribute("data-idx"));
@@ -878,7 +1062,6 @@
       });
     });
 
-    // Delete item
     el.groceryListContainer.querySelectorAll(".grocery-delete-btn").forEach(btn => {
       btn.addEventListener("click", (e) => {
         const idx = parseInt(e.target.getAttribute("data-idx"));
@@ -909,7 +1092,7 @@
     }
   }
 
-  // --- Add New Recipe Form & JSON Schema Generator ---
+  // --- Add Recipe Modal ---
   function openAddRecipeModal() {
     el.addRecipeBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
@@ -982,7 +1165,6 @@
     state.sortBy = "default";
     el.sortSelect.value = "default";
 
-    // Reset UI buttons
     document.querySelectorAll(".pill-chip").forEach(btn => {
       btn.classList.toggle("active", btn.getAttribute("data-protein") === "All" || btn.getAttribute("data-category") === "All");
     });
@@ -994,10 +1176,8 @@
 
   // --- Setup Event Listeners ---
   function setupEventListeners() {
-    // Theme toggle
     el.themeToggle.addEventListener("click", toggleTheme);
 
-    // Search input
     el.searchInput.addEventListener("input", (e) => {
       state.searchQuery = e.target.value;
       el.searchClearBtn.style.display = state.searchQuery ? "block" : "none";
@@ -1011,7 +1191,6 @@
       renderRecipes();
     });
 
-    // Keyboard shortcut '/' to search
     window.addEventListener("keydown", (e) => {
       if (e.key === "/" && document.activeElement !== el.searchInput && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") {
         e.preventDefault();
@@ -1025,7 +1204,6 @@
       }
     });
 
-    // Protein pills
     el.proteinPillsRow.addEventListener("click", (e) => {
       const btn = e.target.closest(".pill-chip");
       if (!btn) return;
@@ -1036,7 +1214,6 @@
       renderRecipes();
     });
 
-    // Category pills
     el.categoryPillsRow.addEventListener("click", (e) => {
       const btn = e.target.closest(".pill-chip");
       if (!btn) return;
@@ -1047,11 +1224,10 @@
       renderRecipes();
     });
 
-    // Ingredient picker clicks
     el.ingredientChipsList.addEventListener("click", (e) => {
       const chip = e.target.closest(".ing-chip");
       if (!chip) return;
-      const ing = chip.getAttribute("data-ing").toLowerCase();
+      const ing = stemWord(chip.getAttribute("data-ing").toLowerCase());
       if (state.selectedIngredients.has(ing)) {
         state.selectedIngredients.delete(ing);
       } else {
@@ -1061,9 +1237,8 @@
       renderRecipes();
     });
 
-    // Add custom ingredient input
     el.addIngredientBtn.addEventListener("click", () => {
-      const val = el.ingredientSearchInput.value.trim().toLowerCase();
+      const val = stemWord(el.ingredientSearchInput.value.trim().toLowerCase());
       if (val) {
         state.selectedIngredients.add(val);
         el.ingredientSearchInput.value = "";
@@ -1089,7 +1264,6 @@
       renderRecipes();
     });
 
-    // Quick filter chips (High protein, quick, low-cal, favorites, succinct)
     el.quickFiltersRow.addEventListener("click", (e) => {
       const chip = e.target.closest(".quick-filter-chip");
       if (!chip) return;
@@ -1105,13 +1279,11 @@
       renderRecipes();
     });
 
-    // Sort select
     el.sortSelect.addEventListener("change", (e) => {
       state.sortBy = e.target.value;
       renderRecipes();
     });
 
-    // Recipe Card grid clicks
     el.recipesGrid.addEventListener("click", (e) => {
       const favBtn = e.target.closest(".favorite-btn");
       if (favBtn) {
@@ -1138,12 +1310,10 @@
       }
     });
 
-    // Modal backdrop click outside
     el.recipeModalBackdrop.addEventListener("click", (e) => {
       if (e.target === el.recipeModalBackdrop) closeRecipeModal();
     });
 
-    // Roulette modal
     el.rouletteBtn.addEventListener("click", openRouletteModal);
     el.rouletteCloseBtn.addEventListener("click", closeRouletteModal);
     el.rouletteBackdrop.addEventListener("click", (e) => {
@@ -1158,10 +1328,8 @@
       }
     });
 
-    // Cook mode
     el.cookModeCloseBtn.addEventListener("click", closeCookMode);
 
-    // Timer presets
     el.timerPresetBtns.forEach(btn => {
       btn.addEventListener("click", () => {
         const sec = parseInt(btn.getAttribute("data-sec"));
@@ -1176,13 +1344,11 @@
       updateTimerDisplay();
     });
 
-    // Grocery drawer
     el.groceryBtn.addEventListener("click", openGroceryDrawer);
     el.groceryDrawerCloseBtn.addEventListener("click", closeGroceryDrawer);
     el.copyGroceryBtn.addEventListener("click", copyGroceryListToClipboard);
     el.clearGroceryBtn.addEventListener("click", clearGroceryList);
 
-    // Add recipe modal
     el.addRecipeBtn.addEventListener("click", openAddRecipeModal);
     el.addRecipeCloseBtn.addEventListener("click", closeAddRecipeModal);
     el.addRecipeBackdrop.addEventListener("click", (e) => {
@@ -1196,16 +1362,14 @@
     });
   }
 
-  // --- Initialize Application ---
   function init() {
     initTheme();
     renderFilterBars();
     renderRecipes();
     setupEventListeners();
-    console.log("🦖 RecipeRaptor loaded successfully with", state.recipes.length, "recipes!");
+    console.log("🦖 RecipeRaptor loaded with Smart NLP Search &", state.recipes.length, "recipes!");
   }
 
-  // Start on DOM ready
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {
