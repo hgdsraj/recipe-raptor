@@ -632,80 +632,41 @@ body {
   flex-shrink: 0;
 }
 
-.filter-scroll-wrap {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex: 1;
-  min-width: 0;
-  max-width: 100%;
-}
-
 .filter-pills-row {
   display: flex;
   gap: 0.38rem;
   overflow-x: auto;
-  padding-bottom: 4px;
-  padding-right: 2rem;
+  overflow-y: hidden;
+  padding-bottom: 5px;
+  padding-right: 1.25rem;
   scrollbar-width: thin;
-  scrollbar-color: var(--border-color) transparent;
+  scrollbar-color: rgba(16, 185, 129, 0.38) transparent;
   flex: 1;
   min-width: 0;
-  scroll-behavior: smooth;
+  max-width: 100%;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
+  -webkit-mask-image: linear-gradient(to right, #000 88%, transparent 100%);
+  mask-image: linear-gradient(to right, #000 88%, transparent 100%);
 }
 
-.filter-scroll-wrap.can-scroll-right .filter-pills-row {
-  -webkit-mask-image: linear-gradient(to right, #000 82%, transparent 99%);
-  mask-image: linear-gradient(to right, #000 82%, transparent 99%);
+.filter-pills-row.scrolled-end {
+  -webkit-mask-image: none;
+  mask-image: none;
 }
 
 .filter-pills-row::-webkit-scrollbar {
-  height: 3px;
+  height: 4px;
 }
 
 .filter-pills-row::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.filter-pills-row::-webkit-scrollbar-thumb {
-  background: var(--border-color);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: var(--radius-full);
 }
 
-.scroll-nudge-btn {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-55%);
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: var(--bg-card);
-  border: 1.5px solid var(--raptor-green);
-  color: var(--raptor-green);
-  font-size: 1.05rem;
-  font-weight: 800;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 3;
-  box-shadow: var(--shadow-md);
-  transition: var(--transition);
-  opacity: 0;
-  pointer-events: none;
-}
-
-.filter-scroll-wrap.can-scroll-right .scroll-nudge-btn {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.scroll-nudge-btn:hover {
-  background: var(--raptor-green);
-  color: #ffffff;
+.filter-pills-row::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.42);
+  border-radius: var(--radius-full);
 }
 
 .pill-chip {

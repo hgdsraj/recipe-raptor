@@ -804,15 +804,16 @@
   function pushOverlayHistory(hashStr) {
     if (window.location.hash === hashStr) return;
     if (history.pushState) {
-      history.pushState({ hash: hashStr }, "", hashStr);
+      history.pushState({ overlay: hashStr }, "", hashStr);
       state.historyDepth = (state.historyDepth || 0) + 1;
+    } else {
+      window.location.hash = hashStr;
     }
   }
 
   function popOverlayHistory() {
-    if ((state.historyDepth || 0) > 0 && history.back) {
-      state.historyDepth -= 1;
-      state.ignoringNextPop = true;
+    if ((state.historyDepth || 0) > 0 && window.location.hash) {
+      state.historyDepth = Math.max(0, state.historyDepth - 1);
       history.back();
     } else if (history.replaceState && window.location.hash) {
       history.replaceState(null, "", window.location.pathname + window.location.search);
@@ -2025,24 +2026,17 @@
     });
 
     initScrollableFilterStrips();
+    initTouchSwipeBack();
   }
 
   function initScrollableFilterStrips() {
     const updateScrollStrip = (row) => {
       if (!row) return;
-      const wrap = row.closest(".filter-scroll-wrap");
-      if (!wrap) return;
-      const btn = wrap.querySelector(".scroll-nudge-btn");
       const maxScroll = row.scrollWidth - row.clientWidth;
-      if (maxScroll <= 6) {
-        wrap.classList.remove("can-scroll-right");
+      if (maxScroll <= 6 || row.scrollLeft >= maxScroll - 8) {
+        row.classList.add("scrolled-end");
       } else {
-        wrap.classList.add("can-scroll-right");
-        if (btn) {
-          const atEnd = row.scrollLeft >= maxScroll - 8;
-          btn.textContent = atEnd ? "‹" : "›";
-          btn.setAttribute("title", atEnd ? "Scroll back to start" : "Scroll for more options");
-        }
+        row.classList.remove("scrolled-end");
       }
     };
 
@@ -2055,30 +2049,58 @@
     window.addEventListener("resize", () => {
       rows.forEach(updateScrollStrip);
     });
+  }
 
-    document.querySelectorAll(".scroll-nudge-btn").forEach(btn => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const targetId = btn.getAttribute("data-scroll-target");
-        const row = document.getElementById(targetId);
-        if (!row) return;
-        const maxScroll = row.scrollWidth - row.clientWidth;
-        if (row.scrollLeft >= maxScroll - 8) {
-          row.scrollTo({ left: 0, behavior: "smooth" });
-        } else {
-          row.scrollBy({ left: 200, behavior: "smooth" });
+  function initTouchSwipeBack() {
+    let startX = 0;
+    let startY = 0;
+    let trackingSwipe = false;
+
+    document.addEventListener("touchstart", (e) => {
+      if (!e.touches || e.touches.length !== 1) {
+        trackingSwipe = false;
+        return;
+      }
+      // Do not hijack horizontal swipes inside horizontally-scrollable strips
+      if (e.target.closest(".filter-pills-row, .micros-compact-strip, .ingredient-chips-list")) {
+        trackingSwipe = false;
+        return;
+      }
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      trackingSwipe = true;
+    }, { passive: true });
+
+    document.addEventListener("touchend", (e) => {
+      if (!trackingSwipe || !e.changedTouches || e.changedTouches.length !== 1) return;
+      trackingSwipe = false;
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = Math.abs(e.changedTouches[0].clientY - startY);
+
+      // Left-to-right swipe gesture (swipe back)
+      if (dx > 65 && dy < 60 && dx > dy * 1.6) {
+        if (el.cookModeOverlay?.classList.contains("open")) {
+          closeCookMode();
+        } else if (el.recipeModalBackdrop?.classList.contains("open")) {
+          closeRecipeModal();
+        } else if (el.rouletteBackdrop?.classList.contains("open")) {
+          closeRouletteModal();
+        } else if (el.mealPlanBackdrop?.classList.contains("open")) {
+          closeMealPlanModal();
+        } else if (el.groceryDrawer?.classList.contains("open")) {
+          closeGroceryDrawer();
+        } else if (el.addRecipeBackdrop?.classList.contains("open")) {
+          closeAddRecipeModal();
         }
-      });
-    });
+      }
+    }, { passive: true });
   }
 
   function syncWithLocationHash() {
-    if (state.ignoringNextPop) {
-      state.ignoringNextPop = false;
-      return;
-    }
-    state.historyDepth = Math.max(0, (state.historyDepth || 1) - 1);
     const h = window.location.hash || "";
+    if (!h) {
+      state.historyDepth = 0;
+    }
 
     // Close all overlays first using fromHistory=true so we don't trigger another history.back()
     closeRecipeModal(true);
@@ -2111,7 +2133,7 @@
     if (!h) return;
     // Seed base home state in history so swiping back on mobile from a direct deep link returns to RecipeRaptor home instead of exiting the tab!
     if (history.replaceState) {
-      history.replaceState({ hash: "" }, "", window.location.pathname + window.location.search);
+      history.replaceState({ overlay: "" }, "", window.location.pathname + window.location.search);
     }
     if (h.startsWith("#recipe=")) {
       const id = decodeURIComponent(h.replace("#recipe=", ""));
@@ -2130,6 +2152,7 @@
     setupEventListeners();
     handleInitialDeepLink();
     window.addEventListener("popstate", syncWithLocationHash);
+    window.addEventListener("hashchange", syncWithLocationHash);
     console.log("🦖 RecipeRaptor 2.0 Pro loaded with", state.recipes.length, "recipes!");
   }
 
