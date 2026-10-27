@@ -1,0 +1,48 @@
+{
+  "id": "healthy-sea-bass-and-chard-stew",
+  "title": "Healthy Sea Bass and Chard Stew",
+  "category": "Soups & Stews",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 410,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 630,
+    "iron_mg": 2.1,
+    "potassium_mg": 820,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Healthy Sea Bass and Chard Stew"
+  ],
+  "instructions": [
+    "Garnish with chives flower?? Parsley, chives",
+    "Sea bass and chard stewed with leeks and tarragon in vegetable broth lightly reduced with garlic and butter"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "healthy",
+    "sea",
+    "bass",
+    "and",
+    "chard",
+    "stew"
+  ]
+}

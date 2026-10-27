@@ -1,0 +1,48 @@
+{
+  "id": "turkey-stroganoff-with-mushrooms-hamburger-helper",
+  "title": "Turkey stroganoff with mushrooms hamburger helper",
+  "category": "Mains & Grills",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 10,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Turkey stroganoff with mushrooms hamburger helper"
+  ],
+  "instructions": [
+    "Prepare Turkey stroganoff with mushrooms hamburger helper according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick-Fire Note",
+    "Turkey",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "turkey",
+    "stroganoff",
+    "with",
+    "mushrooms",
+    "hamburger",
+    "helper"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "steelhead-with-accordion-potatoes-and-asparagus",
+  "title": "Steelhead with Accordion Potatoes and Asparagus",
+  "category": "Mains & Grills",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 402,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 34,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Make steelhead - garlic powder, salt pepper, bake.",
+    "Crispy accordion potatoes - accordion with chopsticks, bake hot oven coated in olive oil salt and pepper"
+  ],
+  "instructions": [
+    "Bake asparagus."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Fish & Seafood",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "make",
+    "steelhead",
+    "garlic",
+    "powder",
+    "salt",
+    "pepper",
+    "bake",
+    "crispy",
+    "accordion",
+    "potatoes",
+    "with",
+    "chopsticks"
+  ]
+}

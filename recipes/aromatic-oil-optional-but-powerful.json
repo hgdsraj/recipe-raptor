@@ -1,0 +1,63 @@
+{
+  "id": "aromatic-oil-optional-but-powerful",
+  "title": "Aromatic Oil (optional but powerful)",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "120 mins",
+  "totalTime": "135 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "## 🧄 Aromatic Oil (optional but powerful)",
+    "*Chicken oil or garlic oil:**",
+    "Render chicken skin slowly over low heat until crisp and golden.",
+    "Add a few slices of garlic and a small piece of ginger to perfume the oil.",
+    "Strain and store.",
+    "--"
+  ],
+  "instructions": [
+    "## 🧄 Aromatic Oil (optional but powerful)",
+    "**Chicken oil or garlic oil:**",
+    "* Render chicken skin slowly over low heat until crisp and golden.",
+    "* Add a few slices of garlic and a small piece of ginger to perfume the oil.",
+    "* Strain and store.",
+    "---"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "aromatic",
+    "oil",
+    "but",
+    "powerful",
+    "*chicken",
+    "garlic",
+    "render",
+    "chicken",
+    "skin",
+    "slowly",
+    "over",
+    "low"
+  ]
+}

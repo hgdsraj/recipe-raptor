@@ -1,0 +1,45 @@
+{
+  "id": "turkey-shepherds-pie-2",
+  "title": "Turkey shepherds pie",
+  "category": "Sweets & Drinks",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "15 mins",
+  "totalTime": "25 mins",
+  "calories": 342,
+  "macros": {
+    "protein_g": 13,
+    "carbs_g": 50,
+    "fat_g": 10
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 10,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Turkey shepherds pie"
+  ],
+  "instructions": [
+    "Prepare Turkey shepherds pie according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.foodandwine.com/recipes/turkey-shepherds-pie-two-potato-topping",
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sweets & Drinks"
+  ],
+  "ingredientKeywords": [
+    "turkey",
+    "shepherds",
+    "pie"
+  ]
+}

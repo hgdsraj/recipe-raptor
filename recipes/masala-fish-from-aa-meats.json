@@ -1,0 +1,47 @@
+{
+  "id": "masala-fish-from-aa-meats",
+  "title": "Masala fish from aa meats",
+  "category": "Bowls & Skillets",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Masala fish from aa meats"
+  ],
+  "instructions": [
+    "Prepare Masala fish from aa meats according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "masala",
+    "fish",
+    "from",
+    "meats"
+  ]
+}

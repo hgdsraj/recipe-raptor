@@ -1,0 +1,45 @@
+{
+  "id": "vivald-breakfast-i-sando",
+  "title": "Vivald breakfast i Sando",
+  "category": "Sandwiches & Wraps",
+  "protein": "Vegetarian",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Vivald breakfast i Sando"
+  ],
+  "instructions": [
+    "Prepare Vivald breakfast i Sando according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/F7CX4a8aB28?si=HrTuESFmbvFWt_jU",
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "vivald",
+    "breakfast",
+    "sando"
+  ]
+}

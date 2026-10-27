@@ -1,0 +1,62 @@
+{
+  "id": "beanz-pizza-dough-above",
+  "title": "Beanz pizza (dough above)",
+  "category": "Pizza & Breads",
+  "protein": "Pork",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "25 mins",
+  "totalTime": "45 mins",
+  "calories": 698,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 57,
+    "fat_g": 38
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 pre-made pizza crust (or homemade if you prefer)",
+    "1 can of Heinz baked beans",
+    "1 teaspoon of dried oregano",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Preheat your oven to 425°F (218°C).",
+    "Drain the baked beans",
+    "Spread the beanz sauce on the crust",
+    "Spread the beans evenly over the pre-made pizza crust.",
+    "Add the chopped red onion, green bell pepper, and cooked bacon or ham (if using) on top of the beans.",
+    "Sprinkle the grated cheese over the vegetables and beans.",
+    "Season the pizza with dried oregano, salt, and pepper.",
+    "Bake the pizza in the oven for 12-15 minutes, or until the cheese is melted and the crust is crispy.",
+    "Slice the pizza into wedges and serve hot."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Pork",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "pre-made",
+    "pizza",
+    "crust",
+    "homemade",
+    "you",
+    "prefer",
+    "heinz",
+    "baked",
+    "beans",
+    "teaspoon",
+    "oregano",
+    "salt"
+  ]
+}

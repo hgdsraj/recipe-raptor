@@ -1,0 +1,58 @@
+{
+  "id": "miso-tofu-pura-vida-veg-500g-serving",
+  "title": "Miso Tofu & Pura Vida Veg (500g Serving)",
+  "category": "Mains & Grills",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 384,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 45,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 420,
+    "iron_mg": 4.2,
+    "potassium_mg": 580,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Tofu: 125g Extra Firm (1cm cubes) + 125g Medium Firm (2cm cubes).",
+    "Vegetables: 250g Pura Vida Fire Roasted Primavera mix.",
+    "Glaze: 0.75 tbsp Miso paste + 1.5 tbsp water (whisked)."
+  ],
+  "instructions": [
+    "Sear Tofu: Brown extra firm cubes in a hot non-stick pan (5 mins). Add medium firm cubes (2 mins). Remove all tofu.",
+    "Sauté Veg: Dump frozen mix into high-heat pan. Cook undisturbed (2 mins), then toss until hot (4 mins).",
+    "Glaze: Return tofu to pan. Reduce heat to medium-low.",
+    "Finish: Pour miso mixture over. Toss 45 seconds until coated and liquid evaporates.",
+    "Macros (Per 500g): ~385 kcal | 26g Protein | 18g Fat | 16g Net Carbs | 1,250mg Sodium."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Tofu & Plant-Based",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "tofu",
+    "125g",
+    "extra",
+    "firm",
+    "1cm",
+    "cubes",
+    "medium",
+    "2cm",
+    "vegetables",
+    "250g",
+    "pura",
+    "vida"
+  ]
+}

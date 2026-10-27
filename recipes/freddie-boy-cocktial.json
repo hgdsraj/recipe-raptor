@@ -1,0 +1,64 @@
+{
+  "id": "freddie-boy-cocktial",
+  "title": "Freddie boy cocktial",
+  "category": "Mains & Grills",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2oz vanilla voeka",
+    "1 oz passion fruit syrup",
+    "1 oz lemon juice",
+    "2 dashes angostura bitters",
+    "Shake in ice",
+    "Double strain",
+    "Lychee foam"
+  ],
+  "instructions": [
+    "2oz vanilla voeka",
+    "1 oz passion fruit syrup",
+    "1 oz lemon juice",
+    "2 dashes angostura bitters",
+    "Shake in ice",
+    "Double strain",
+    "Lychee foam"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "vanilla",
+    "voeka",
+    "passion",
+    "fruit",
+    "syrup",
+    "lemon",
+    "juice",
+    "dashes",
+    "angostura",
+    "bitters",
+    "shake",
+    "ice"
+  ]
+}

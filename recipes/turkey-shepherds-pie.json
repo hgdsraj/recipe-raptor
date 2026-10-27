@@ -1,0 +1,53 @@
+{
+  "id": "turkey-shepherds-pie",
+  "title": "Turkey shepherds pie",
+  "category": "Soups & Stews",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 457,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 36,
+    "fat_g": 17
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 640,
+    "iron_mg": 2.2,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 10,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "parsley paprika garlic chives on top and cheese on top lightly, creamed potatoes very smooth yukon gold, low fat sour cream, low fat vegetable broth. Garlic, parsley with immersion blender. Mix meat with carrots, onion, celery, sliced mushrooms"
+  ],
+  "instructions": [
+    "parsley paprika garlic chives on top and cheese on top lightly, creamed potatoes very smooth yukon gold, low fat sour cream, low fat vegetable broth. Garlic, parsley with immersion blender. Mix meat with carrots, onion, celery, sliced mushrooms"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick-Fire Note",
+    "Turkey",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "parsley",
+    "paprika",
+    "garlic",
+    "chives",
+    "top",
+    "and",
+    "cheese",
+    "lightly",
+    "creamed",
+    "potatoes",
+    "very",
+    "smooth"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "tarragon-chicken",
+  "title": "Tarragon chicken",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Andy"
+  ],
+  "instructions": [
+    "Andy"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick-Fire Note",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "andy"
+  ]
+}

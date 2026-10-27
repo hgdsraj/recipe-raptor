@@ -1,0 +1,50 @@
+{
+  "id": "split-pea-soup",
+  "title": "split pea soup,",
+  "category": "Soups & Stews",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 458,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 68,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 9,
+    "sodium_mg": 560,
+    "iron_mg": 3.0,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "make extra hearty with double vegetables/potatoes: https://www.allrecipes.com/recipe/13384/split-pea-soup/"
+  ],
+  "instructions": [
+    "make extra hearty with double vegetables/potatoes: https://www.allrecipes.com/recipe/13384/split-pea-soup/"
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.allrecipes.com/recipe/13384/split-pea-soup/",
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "make",
+    "extra",
+    "hearty",
+    "with",
+    "double",
+    "vegetables/potatoes",
+    "https",
+    "//www",
+    "allrecipes",
+    "com/recipe/13384/split-pea-soup/"
+  ]
+}

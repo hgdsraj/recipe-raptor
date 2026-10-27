@@ -1,0 +1,63 @@
+{
+  "id": "corn-salsa",
+  "title": "Corn salsa",
+  "category": "Soups & Stews",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 11,
+    "sodium_mg": 560,
+    "iron_mg": 3.0,
+    "potassium_mg": 720,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Lime one juice",
+    "1 corn",
+    "Chili powder",
+    "Chopped finely red onion half",
+    "Red bell pepper half",
+    "Touch of vinegar",
+    "Fresh chopped cilantro",
+    "Jalapeno one deseeded",
+    "Or sub vinegar and jalapeno with canned jalapenos + some juice to taste",
+    "Tsp olive oil",
+    "Avocado"
+  ],
+  "instructions": [
+    "Combine except avocado",
+    "Add avocado + salt when serving"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "lime",
+    "one",
+    "juice",
+    "corn",
+    "chili",
+    "powder",
+    "red",
+    "onion",
+    "half",
+    "bell",
+    "pepper",
+    "touch"
+  ]
+}

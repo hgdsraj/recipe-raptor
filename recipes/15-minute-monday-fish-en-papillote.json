@@ -1,0 +1,64 @@
+{
+  "id": "15-minute-monday-fish-en-papillote",
+  "title": "15-Minute Monday Fish \"En Papillote\"",
+  "category": "Sides & Sauces",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Fish: 150g–200g Fillet (Halibut, Steelhead, or Rockfish).",
+    "Vegetable Bed: 2 cups Shredded Cabbage (high volume) + 1 cup Snap Peas or Asparagus.",
+    "Aromatics: 2 Lemon slices, 1 tsp grated Ginger, 1 sliced Garlic clove.",
+    "Glaze: 1 tbsp Soy Sauce + 1 tsp Toasted Sesame Oil."
+  ],
+  "instructions": [
+    "Prep: Preheat oven to 425°F (220°C). Lay a large square of parchment paper or foil on a sheet pan.",
+    "Layer: Pile the cabbage and green vegetables in the center. Place the fish fillet directly on top.",
+    "Season: Top the fish with lemon, ginger, and garlic. Drizzle the soy sauce and sesame oil over everything.",
+    "Seal: Fold the paper/foil over the fish and crimp the edges tightly to create a sealed, airtight pouch.",
+    "Bake: * Rockfish/Halibut: 10–12 minutes.",
+    "Steelhead: 12–14 minutes.",
+    "Serve: Carefully tear open the pouch (avoid the steam) and eat directly from the paper to save on cleanup.",
+    "Macros (Estimated per Serving): ~320–400 kcal | 30g–35g Protein | 8g–15g Fat | 6g Fiber."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "One-Pot",
+    "Fish & Seafood",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "fish",
+    "150g–200g",
+    "fillet",
+    "halibut",
+    "steelhead",
+    "rockfish",
+    "vegetable",
+    "bed",
+    "cups",
+    "shredded",
+    "cabbage",
+    "high"
+  ]
+}

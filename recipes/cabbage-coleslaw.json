@@ -1,0 +1,62 @@
+{
+  "id": "cabbage-coleslaw",
+  "title": "Cabbage coleslaw",
+  "category": "Salads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 334,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 37,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 12,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 55,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "ChatGPT",
+    "Apologies for the oversight! Here's the updated recipe that includes Dijon mustard:",
+    "1 small head of green cabbage",
+    "1 tablespoon honey",
+    "1 tablespoon Dijon mustard",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Remove any wilted or damaged outer leaves from the cabbage. Cut the cabbage in half and remove the core. Thinly slice the cabbage into shreds.",
+    "In a large mixing bowl, whisk together the apple cider vinegar, olive oil, honey, Dijon mustard, salt, and pepper.",
+    "Add the sliced cabbage to the bowl and toss to coat with the dressing.",
+    "Let the coleslaw sit for at least 10 minutes to allow the flavors to meld together.",
+    "Serve chilled. Enjoy!"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Vegetarian",
+    "Salads"
+  ],
+  "ingredientKeywords": [
+    "chatgpt",
+    "apologies",
+    "for",
+    "the",
+    "oversight!",
+    "here's",
+    "updated",
+    "recipe",
+    "that",
+    "includes",
+    "dijon",
+    "mustard"
+  ]
+}

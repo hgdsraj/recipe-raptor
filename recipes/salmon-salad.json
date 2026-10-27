@@ -1,0 +1,78 @@
+{
+  "id": "salmon-salad",
+  "title": "Salmon salad",
+  "category": "Salads",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 386,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 12,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 26,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Can of salmon",
+    "Honey",
+    "Hot sauce",
+    "Onion or green onion",
+    "Celery",
+    "Cucumber",
+    "Lemon",
+    "Greek yogurt",
+    "Dill",
+    "Cilantro",
+    "Cumin",
+    "Oregano",
+    "Feta cheese"
+  ],
+  "instructions": [
+    "Can of salmon",
+    "Honey",
+    "Hot sauce",
+    "Onion or green onion",
+    "Celery",
+    "Cucumber",
+    "Lemon",
+    "Greek yogurt",
+    "Dill",
+    "Cilantro",
+    "Cumin",
+    "Oregano",
+    "Feta cheese"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Fish & Seafood",
+    "Salads"
+  ],
+  "ingredientKeywords": [
+    "can",
+    "salmon",
+    "honey",
+    "hot",
+    "sauce",
+    "onion",
+    "green",
+    "celery",
+    "cucumber",
+    "lemon",
+    "greek",
+    "yogurt"
+  ]
+}

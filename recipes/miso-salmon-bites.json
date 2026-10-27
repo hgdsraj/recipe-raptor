@@ -1,0 +1,60 @@
+{
+  "id": "miso-salmon-bites",
+  "title": "Miso salmon bites",
+  "category": "Sides & Sauces",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "4, 6 oz filets of wild salmon cut into bites",
+    "Sesame seeds roasted",
+    "Green onion"
+  ],
+  "instructions": [
+    "Mix the marinade",
+    "Mix in the salmon",
+    "1 hr in fridge",
+    "Save marinade, add to parchment, put some extra marinade",
+    "Bake 400 for a few mins",
+    "Glaze with more marinade, flip, glaze",
+    "Bake til done"
+  ],
+  "notes": "Note: 2 tbsp each for one 6 oz filet",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Fish & Seafood",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "filets",
+    "wild",
+    "salmon",
+    "cut",
+    "into",
+    "bites",
+    "sesame",
+    "seeds",
+    "roasted",
+    "green",
+    "onion"
+  ]
+}

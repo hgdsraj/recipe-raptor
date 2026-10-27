@@ -1,0 +1,64 @@
+{
+  "id": "ingredients",
+  "title": "Ingredients",
+  "category": "Mains & Grills",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 384,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 45,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 10,
+    "sodium_mg": 420,
+    "iron_mg": 4.2,
+    "potassium_mg": 700,
+    "vitamin_c_mg": 35,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "#### 🥘 Ingredients:",
+    "**200g firm tofu**, pressed and crumbled",
+    "**1 tbsp olive oil**",
+    "**1/2 red onion**, diced",
+    "**1 bell pepper**, chopped",
+    "**2 cloves garlic**, minced",
+    "Lime"
+  ],
+  "instructions": [
+    "#### 🥘 Ingredients:",
+    "* **200g firm tofu**, pressed and crumbled",
+    "* **1 tbsp olive oil**",
+    "* **1/2 red onion**, diced",
+    "* **1 bell pepper**, chopped",
+    "* **2 cloves garlic**, minced",
+    "Lime"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Tofu & Plant-Based",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "####",
+    "ingredients",
+    "**200g",
+    "firm",
+    "tofu**",
+    "pressed",
+    "and",
+    "crumbled",
+    "**1",
+    "tbsp",
+    "olive",
+    "oil**"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "turkey-swiss-sandwich",
+  "title": "Turkey Swiss Sandwich",
+  "category": "Sandwiches & Wraps",
+  "protein": "Turkey",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    ": mayo+mustard Swiss, turkey, tomato, salt, very thinly sliced red onion, chopped lettuce, red wine vinegar, olive oil, salt, pepper, oregano"
+  ],
+  "instructions": [
+    ": mayo+mustard Swiss, turkey, tomato, salt, very thinly sliced red onion, chopped lettuce, red wine vinegar, olive oil, salt, pepper, oregano"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "mayo+mustard",
+    "swiss",
+    "turkey",
+    "tomato",
+    "salt",
+    "very",
+    "thinly",
+    "red",
+    "onion",
+    "lettuce",
+    "wine",
+    "vinegar"
+  ]
+}

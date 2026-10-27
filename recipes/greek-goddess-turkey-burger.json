@@ -1,0 +1,77 @@
+{
+  "id": "greek-goddess-turkey-burger",
+  "title": "Greek goddess turkey burger",
+  "category": "Sandwiches & Wraps",
+  "protein": "Turkey",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "3 green onions",
+    "5 oz baby spinach",
+    "2 tbsp olive oil",
+    "Chopped 2 tbsp dill",
+    "Chopped 2 tbsp parsley",
+    "4 oz feta",
+    "Salt pepper to taste"
+  ],
+  "instructions": [
+    "Sautee onion and green onion whites until golden in olive oil",
+    "Salt ppeper",
+    "Sautee spinach until just wilted but still bright",
+    "Salt pepper",
+    "Take off heat",
+    "Add dill parsley, feta, and green onion greens",
+    "Get some tzatziki",
+    "Burger:",
+    "1 lb turkey",
+    "1/2 onion grated",
+    "Salt and pepper (like 1/2 tsp each)",
+    "Cook burgers",
+    "Bun buttered toasted",
+    "Put down tzatziki",
+    "Put down a burger",
+    "Put down the topping",
+    "Put down the bun",
+    "Bam"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Turkey",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "green",
+    "onions",
+    "baby",
+    "spinach",
+    "olive",
+    "oil",
+    "tbsp",
+    "dill",
+    "parsley",
+    "feta",
+    "salt",
+    "pepper"
+  ]
+}

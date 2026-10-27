@@ -1,0 +1,61 @@
+{
+  "id": "parmesan-mozza-just-egg",
+  "title": "Parmesan mozza just egg",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 26
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Make egg",
+    "Toast bread",
+    "Put egg and mozzarella and spinach and banana peppers on sandwich",
+    "Put parmesan down on pan and bread on top",
+    "Do same for other sude"
+  ],
+  "instructions": [
+    "Make egg",
+    "Toast bread",
+    "Put egg and mozzarella and spinach and banana peppers on sandwich",
+    "Put parmesan down on pan and bread on top",
+    "Do same for other sude"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "make",
+    "egg",
+    "toast",
+    "bread",
+    "put",
+    "and",
+    "mozzarella",
+    "spinach",
+    "banana",
+    "peppers",
+    "sandwich",
+    "parmesan"
+  ]
+}

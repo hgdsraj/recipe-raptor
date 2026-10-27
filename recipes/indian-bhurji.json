@@ -1,0 +1,72 @@
+{
+  "id": "indian-bhurji",
+  "title": "Indian bhurji",
+  "category": "Breakfast & Eggs",
+  "protein": "Eggs",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 26
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 340,
+    "vitamin_c_mg": 14,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 tbsp butter",
+    "1 small red onion, finely chopped",
+    "1 green or red chilli, deseeded and finely chopped",
+    "2 garlic cloves, crushed",
+    "¼ tsp ground cumin",
+    "¼ tsp garam masala",
+    "good pinch of turmeric",
+    "2 large tomatoes, deseeded and finely chopped",
+    "7 eggs, beaten",
+    "small pack coriander, roughly chopped",
+    "4 chapatis (or gluten-free alternative), lightly toasted, to serve"
+  ],
+  "instructions": [
+    "1 tbsp butter",
+    "1 small red onion, finely chopped",
+    "1 green or red chilli, deseeded and finely chopped",
+    "2 garlic cloves, crushed",
+    "¼ tsp ground cumin",
+    "¼ tsp garam masala",
+    "good pinch of turmeric",
+    "2 large tomatoes, deseeded and finely chopped",
+    "7 eggs, beaten",
+    "small pack coriander, roughly chopped",
+    "4 chapatis (or gluten-free alternative), lightly toasted, to serve"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Eggs",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "butter",
+    "small",
+    "red",
+    "onion",
+    "green",
+    "chilli",
+    "deseeded",
+    "and",
+    "garlic",
+    "cloves",
+    "crushed",
+    "tsp"
+  ]
+}

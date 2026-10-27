@@ -1,0 +1,68 @@
+{
+  "id": "leek-and-ramp-veloute",
+  "title": "Leek and Ramp Veloute",
+  "category": "Soups & Stews",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 432,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 670,
+    "iron_mg": 2.0,
+    "potassium_mg": 750,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Sure, here's a detailed explanation of the recipe for \"Leek and Ramp Veloute\":",
+    "3 leeks, trimmed and sliced",
+    "1 bunch of ramps, cleaned and chopped",
+    "2 cloves of garlic, minced",
+    "4 cups of vegetable or chicken stock",
+    "1 cup of heavy cream",
+    "1 tbsp of olive oil",
+    "Salt and pepper to taste",
+    "King oyster mushrooms, sliced",
+    "Torn bread for garnish"
+  ],
+  "instructions": [
+    "Heat the olive oil in a large pot over medium heat. Add the leeks and garlic and sauté for about 5 minutes, or until the leeks are soft and translucent.",
+    "Add the ramps to the pot and sauté for another 2-3 minutes, or until they are wilted.",
+    "Pour in the vegetable or chicken stock and bring the mixture to a boil. Reduce the heat and let it simmer for about 20-25 minutes, or until the vegetables are very tender.",
+    "Use an immersion blender or transfer the soup to a blender and puree until smooth.",
+    "Stir in the heavy cream and season with salt and pepper to taste.",
+    "In a separate pan, sauté the sliced king oyster mushrooms until golden brown.",
+    "Serve the Leek and Ramp Veloute in bowls, garnished with the sautéed king oyster mushrooms and torn bread on top.",
+    "Enjoy your delicious Leek and Ramp Veloute with a deliciously earthy and creamy flavor!"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Chicken",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "sure",
+    "here's",
+    "detailed",
+    "explanation",
+    "the",
+    "recipe",
+    "for",
+    "\"leek",
+    "and",
+    "ramp",
+    "veloute\"",
+    "leeks"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mash-potatoes-pannekoek",
+  "title": "Mash Potatoes Pannekoek",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 458,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 34,
+    "fat_g": 26
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 340,
+    "vitamin_c_mg": 14,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Parmesan mash + corn starch (like 60g/8tblsp for 6 potatoes), make a dough by kneading a bit, wrap mozarella in dough, fry 4-7 mins",
+    "Also try 125g flour baking powder one egg and chives"
+  ],
+  "instructions": [
+    "Parmesan mash + corn starch (like 60g/8tblsp for 6 potatoes), make a dough by kneading a bit, wrap mozarella in dough, fry 4-7 mins",
+    "Also try 125g flour baking powder one egg and chives"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Quick (<25m)",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "parmesan",
+    "mash",
+    "corn",
+    "starch",
+    "like",
+    "60g/8tblsp",
+    "for",
+    "potatoes",
+    "make",
+    "dough",
+    "kneading",
+    "bit"
+  ]
+}

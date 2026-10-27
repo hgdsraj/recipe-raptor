@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecipeRaptor — High-Protein & Macro Recipe Engine</title>
+  <meta name="description" content="RecipeRaptor: Lightning-fast static culinary app with random chooser, protein and ingredient pickers, micronutrient and macronutrient breakdowns, and interactive cooking mode.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦖</text></svg>">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+  <!-- ================= App Header ================= -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <div class="brand-icon">🦖</div>
+        <div class="brand-info">
+          <h1>RecipeRaptor <span class="brand-badge">2.0 Pro</span></h1>
+          <span class="brand-sub">Smart Macro & Ingredient Culinary Hub</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button class="btn btn-roulette" id="rouletteBtn" title="Random Recipe Chooser">
+          <span>🎲</span>
+          <span>What to Make?</span>
+        </button>
+
+        <button class="btn" id="groceryBtn" title="Shopping & Grocery List">
+          <span>🛒</span>
+          <span>Grocery</span>
+          <span class="badge-count" id="groceryCountBadge">0</span>
+        </button>
+
+        <button class="btn" id="addRecipeBtn" title="Add / Export New Recipe">
+          <span>➕</span>
+          <span>Add Recipe</span>
+        </button>
+
+        <button class="btn btn-icon" id="themeToggle" title="Toggle Dark/Light Mode">
+          <!-- Populated by JS -->
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= Hero & Control Deck ================= -->
+  <section class="hero-banner">
+    <div class="hero-inner">
+      <div class="hero-headline">
+        <div>
+          <h2>Precision Fuel & Real Food</h2>
+          <p>Explore 213 curated recipes with instant search, protein filters, and complete macronutrient breakdowns.</p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-pill">
+            <strong>213</strong>
+            <span>Recipes</span>
+          </div>
+          <div class="stat-pill">
+            <strong>32g</strong>
+            <span>Avg Protein</span>
+          </div>
+          <div class="stat-pill">
+            <strong id="favCountBadge">0</strong>
+            <span>Favorites</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instant Search Bar -->
+      <div class="search-box-wrapper">
+        <div class="search-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Search recipes, ingredients, instructions, cuisine, notes... (Press '/' to search)"
+          autocomplete="off"
+        >
+        <button id="searchClearBtn" class="search-clear-btn" title="Clear Search">&times;</button>
+      </div>
+
+      <!-- Filters Deck -->
+      <div class="filters-container">
+        <!-- 1. Protein Picker -->
+        <div>
+          <div class="filter-group-header">
+            <span class="filter-group-title">
+              <span>🥩</span> Protein Source Picker
+            </span>
+          </div>
+          <div class="filter-pills-row" id="proteinPillsRow">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- 2. Meal Category Picker -->
+        <div>
+          <div class="filter-group-header">
+            <span class="filter-group-title">
+              <span>🍽️</span> Category Picker
+            </span>
+          </div>
+          <div class="filter-pills-row" id="categoryPillsRow">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- 3. What's in My Fridge? Ingredient Picker -->
+        <div class="ingredient-tray">
+          <div class="ingredient-tray-header">
+            <span class="filter-group-title">
+              <span>🥕</span> What's in My Kitchen? (Ingredient Picker)
+            </span>
+            <div style="display: flex; gap: 0.75rem; align-items: center;">
+              <div class="ing-match-toggle">
+                <span>Match:</span>
+                <select id="ingMatchModeSelect" class="select-control" style="padding: 2px 8px; font-size: 0.75rem;">
+                  <option value="any">Has ANY selected</option>
+                  <option value="all">Has ALL selected</option>
+                </select>
+              </div>
+              <button class="btn btn-card-action" id="clearIngredientsBtn" style="font-size: 0.7rem; padding: 2px 8px;">Clear</button>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+            <div class="ingredient-input-wrapper">
+              <input type="text" id="ingredientSearchInput" class="ingredient-input" placeholder="Type an ingredient (e.g. spinach, garlic)...">
+              <button class="btn btn-card-action" id="addIngredientBtn">+ Add</button>
+            </div>
+          </div>
+
+          <div class="ingredient-chips-list" id="ingredientChipsList">
+            <!-- Populated by JS with common chips -->
+          </div>
+        </div>
+
+        <!-- Quick Goal Presets & Sorting -->
+        <div class="deck-toolbar">
+          <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;" id="quickFiltersRow">
+            <button class="pill-chip quick-filter-chip" data-tag="high-protein">⚡ High-Protein (>35g)</button>
+            <button class="pill-chip quick-filter-chip" data-tag="quick">⏱️ Quick (<25m)</button>
+            <button class="pill-chip quick-filter-chip" data-tag="low-cal">🥗 Low-Calorie (<400 kcal)</button>
+            <button class="pill-chip quick-filter-chip" data-tag="succinct">⚡ Quick-Fire Notes</button>
+            <button class="pill-chip quick-filter-chip" data-tag="favorites">❤️ Favorites</button>
+          </div>
+
+          <div class="toolbar-controls">
+            <span class="results-count" id="resultsCount">Loading recipes...</span>
+            <select id="sortSelect" class="select-control">
+              <option value="default">Sort: Default</option>
+              <option value="title-asc">Title (A-Z)</option>
+              <option value="protein-desc">Highest Protein</option>
+              <option value="calories-asc">Lowest Calories</option>
+              <option value="time-asc">Quickest Time</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Main Recipe Cards Grid ================= -->
+  <main class="main-content">
+    <div class="recipes-grid" id="recipesGrid">
+      <!-- Populated by JS -->
+    </div>
+  </main>
+
+  <!-- ================= Recipe Detail Modal ================= -->
+  <div class="modal-backdrop" id="recipeModalBackdrop">
+    <div class="modal-panel" id="modalContent">
+      <!-- Populated dynamically by JS -->
+    </div>
+  </div>
+
+  <!-- ================= Raptor Roulette Chooser Modal ================= -->
+  <div class="modal-backdrop" id="rouletteBackdrop">
+    <div class="modal-panel roulette-panel">
+      <div class="roulette-header">
+        <h3>🦖 Raptor Roulette</h3>
+        <p style="color: var(--text-secondary); margin-top: 0.25rem;">Can't decide what to cook? Let the Raptor decide your next meal!</p>
+      </div>
+
+      <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 0.5rem; align-items: center;">
+        <span style="font-size: 0.85rem; color: var(--text-muted);">Spin filter:</span>
+        <select id="rouletteFilterSelect" class="select-control">
+          <option value="all">Any Recipe</option>
+          <option value="high-protein">High-Protein Meals (>35g)</option>
+          <option value="quick">Quick Dinners (<25m)</option>
+          <option value="low-cal">Low-Calorie (<400 kcal)</option>
+          <option value="prot:Chicken">🍗 Chicken Only</option>
+          <option value="prot:Fish & Seafood">🐟 Seafood Only</option>
+          <option value="prot:Beef">🥩 Beef Only</option>
+          <option value="prot:Vegetarian">🥗 Vegetarian Only</option>
+        </select>
+      </div>
+
+      <div class="roulette-slot-machine" id="rouletteSlot">
+        <!-- Animated by JS -->
+      </div>
+
+      <div style="display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap;">
+        <button class="btn btn-roulette" id="rouletteSpinBtn" style="padding: 0.75rem 1.5rem; font-size: 1rem;">
+          🎲 Re-Spin!
+        </button>
+        <button class="btn btn-primary" id="rouletteOpenRecipeBtn" style="padding: 0.75rem 1.5rem; font-size: 1rem;">
+          🍽️ Cook This Meal!
+        </button>
+        <button class="btn" id="rouletteCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= Cook Mode (Distraction-Free) ================= -->
+  <div class="cook-mode-overlay" id="cookModeOverlay">
+    <div class="cook-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <span style="font-size: 1.5rem;">👨‍🍳</span>
+        <h2 id="cookModeTitle" style="font-size: 1.25rem; font-weight: 800;">Cook Mode</h2>
+      </div>
+      <button class="btn" id="cookModeCloseBtn">Exit Cook Mode (Esc)</button>
+    </div>
+
+    <div class="cook-body">
+      <!-- Built-in Multi-Timer -->
+      <div class="cook-timer-widget">
+        <div>
+          <span style="font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted);">Kitchen Timer</span>
+          <div class="timer-digits" id="cookTimerDisplay">00:00</div>
+        </div>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center;">
+          <button class="btn btn-card-action timer-preset-btn" data-sec="180">+3m</button>
+          <button class="btn btn-card-action timer-preset-btn" data-sec="300">+5m</button>
+          <button class="btn btn-card-action timer-preset-btn" data-sec="600">+10m</button>
+          <button class="btn btn-card-action timer-preset-btn" data-sec="900">+15m</button>
+          <button class="btn btn-card-action timer-preset-btn" data-sec="1500">+25m</button>
+          <button class="btn btn-card-action timer-preset-btn" data-sec="2100">+35m</button>
+          <button class="btn btn-card-action" id="timerResetBtn" style="color: var(--raptor-coral); border-color: rgba(244,63,94,0.3);">Reset</button>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.9rem;">
+        Click or tap any step below as you complete it to track your progress:
+      </div>
+
+      <div id="cookModeStepsContainer">
+        <!-- Steps rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= Grocery List Drawer ================= -->
+  <div class="grocery-drawer" id="groceryDrawer">
+    <div class="grocery-header">
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 1.3rem;">🛒</span>
+        <h3 style="font-size: 1.15rem; font-weight: 800;">Grocery List</h3>
+      </div>
+      <button class="modal-close-btn" id="groceryDrawerCloseBtn">&times;</button>
+    </div>
+
+    <div class="grocery-body" id="groceryListContainer">
+      <!-- Rendered by JS -->
+    </div>
+
+    <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-color); display: flex; gap: 0.5rem; background: var(--bg-secondary);">
+      <button class="btn btn-primary" id="copyGroceryBtn" style="flex: 1;">📋 Copy to Clipboard</button>
+      <button class="btn btn-card-action" id="clearGroceryBtn" style="color: var(--raptor-coral);">Clear All</button>
+    </div>
+  </div>
+
+  <!-- ================= Add Recipe / JSON Exporter Modal ================= -->
+  <div class="modal-backdrop" id="addRecipeBackdrop">
+    <div class="modal-panel" style="max-width: 800px;">
+      <div class="modal-header">
+        <div>
+          <span class="brand-badge">Local Recipe Builder</span>
+          <h2 class="modal-title">Add & Export New Recipe</h2>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">
+            Creates clean JSON matching RecipeRaptor's recipe schema. Drop the JSON into <code>recipes/</code> and run <code>python3 build.py</code>!
+          </p>
+        </div>
+        <button class="modal-close-btn" id="addRecipeCloseBtn">&times;</button>
+      </div>
+
+      <div class="modal-body" style="gap: 1rem;">
+        <form id="addRecipeForm" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+          <div style="grid-column: 1 / -1;">
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Recipe Title</label>
+            <input type="text" name="recipeTitle" class="ingredient-input" placeholder="e.g. Lemon Herb Roasted Chicken Thighs" required>
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Protein Category</label>
+            <select name="recipeProtein" class="select-control" style="width: 100%;">
+              <option value="Chicken">Chicken</option>
+              <option value="Fish & Seafood">Fish & Seafood</option>
+              <option value="Beef">Beef</option>
+              <option value="Pork">Pork</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Lamb">Lamb</option>
+              <option value="Tofu & Plant-Based">Tofu & Plant-Based</option>
+              <option value="Eggs">Eggs</option>
+              <option value="Vegetarian">Vegetarian</option>
+            </select>
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Meal Category</label>
+            <select name="recipeCategory" class="select-control" style="width: 100%;">
+              <option value="Mains & Grills">Mains & Grills</option>
+              <option value="Bowls & Skillets">Bowls & Skillets</option>
+              <option value="Pasta & Noodles">Pasta & Noodles</option>
+              <option value="Soups & Stews">Soups & Stews</option>
+              <option value="Sandwiches & Wraps">Sandwiches & Wraps</option>
+              <option value="Salads">Salads</option>
+              <option value="Pizza & Breads">Pizza & Breads</option>
+              <option value="Sides & Sauces">Sides & Sauces</option>
+              <option value="Breakfast & Eggs">Breakfast & Eggs</option>
+              <option value="Sweets & Drinks">Sweets & Drinks</option>
+            </select>
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Servings</label>
+            <input type="number" name="recipeServings" class="ingredient-input" value="2" min="1" max="20">
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Total Time</label>
+            <input type="text" name="recipeTotalTime" class="ingredient-input" value="25 mins">
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Calories (kcal)</label>
+            <input type="number" name="recipeCalories" class="ingredient-input" value="450">
+          </div>
+
+          <div style="display: flex; gap: 0.5rem;">
+            <div style="flex: 1;">
+              <label style="font-size: 0.75rem; font-weight: 700; color: var(--macro-protein);">Protein (g)</label>
+              <input type="number" name="recipeProteinG" class="ingredient-input" value="38">
+            </div>
+            <div style="flex: 1;">
+              <label style="font-size: 0.75rem; font-weight: 700; color: var(--macro-carbs);">Carbs (g)</label>
+              <input type="number" name="recipeCarbsG" class="ingredient-input" value="25">
+            </div>
+            <div style="flex: 1;">
+              <label style="font-size: 0.75rem; font-weight: 700; color: var(--macro-fat);">Fat (g)</label>
+              <input type="number" name="recipeFatG" class="ingredient-input" value="14">
+            </div>
+          </div>
+
+          <div style="grid-column: 1 / -1;">
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Ingredients (One per line)</label>
+            <textarea name="recipeIngredients" class="ingredient-input" rows="4" placeholder="4 chicken thighs&#10;2 tbsp olive oil&#10;1 lemon juiced&#10;3 cloves garlic minced"></textarea>
+          </div>
+
+          <div style="grid-column: 1 / -1;">
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Instructions (One step per line)</label>
+            <textarea name="recipeInstructions" class="ingredient-input" rows="4" placeholder="Preheat oven to 400°F (200°C).&#10;Toss chicken with oil, lemon juice, and seasonings.&#10;Roast for 25-30 minutes until internal temp reaches 165°F."></textarea>
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Notes (Optional)</label>
+            <input type="text" name="recipeNotes" class="ingredient-input" placeholder="Great paired with roasted asparagus">
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Source URL (YouTube / Website)</label>
+            <input type="url" name="recipeSourceUrl" class="ingredient-input" placeholder="https://youtube.com/...">
+          </div>
+        </form>
+
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+            <span style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Generated Recipe JSON:</span>
+            <button class="btn btn-card-action" id="copyRecipeJsonBtn" style="font-size: 0.75rem;">📋 Copy JSON</button>
+          </div>
+          <pre id="recipeJsonOutput" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 0.75rem; font-family: var(--font-mono); font-size: 0.75rem; max-height: 160px; overflow-y: auto; color: var(--raptor-cyan);"></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= Toast Notifications ================= -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Statically Embedded Recipe Database -->
+  <script src="js/recipes-data.js"></script>
+  <!-- Application Logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>

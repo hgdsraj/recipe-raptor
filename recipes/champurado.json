@@ -1,0 +1,42 @@
+{
+  "id": "champurado",
+  "title": "Champurado",
+  "category": "Sweets & Drinks",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "15 mins",
+  "totalTime": "25 mins",
+  "calories": 438,
+  "macros": {
+    "protein_g": 5,
+    "carbs_g": 82,
+    "fat_g": 10
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Champurado"
+  ],
+  "instructions": [
+    "Prepare Champurado according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/SRKdRuJfJz8?si=mZlUZuHg1xueT40v",
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sweets & Drinks"
+  ],
+  "ingredientKeywords": [
+    "champurado"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "italian-sausage-bread",
+  "title": "Italian sausage bread",
+  "category": "Pizza & Breads",
+  "protein": "Pork",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "25 mins",
+  "totalTime": "45 mins",
+  "calories": 626,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 57,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Bread",
+    "Pesto",
+    "Pan fried red peppers and red onions",
+    "Provole melted",
+    "Italian sausage"
+  ],
+  "instructions": [
+    "Bread",
+    "Pesto",
+    "Pan fried red peppers and red onions",
+    "Provole melted",
+    "Italian sausage"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Pork",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "bread",
+    "pesto",
+    "pan",
+    "fried",
+    "red",
+    "peppers",
+    "and",
+    "onions",
+    "provole",
+    "melted",
+    "italian",
+    "sausage"
+  ]
+}

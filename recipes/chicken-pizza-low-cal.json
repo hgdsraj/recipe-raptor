@@ -1,0 +1,45 @@
+{
+  "id": "chicken-pizza-low-cal",
+  "title": "Chicken pizza low cal",
+  "category": "Pizza & Breads",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "25 mins",
+  "totalTime": "45 mins",
+  "calories": 554,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 60,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Chicken pizza low cal"
+  ],
+  "instructions": [
+    "Prepare Chicken pizza low cal according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/L4S241Tj2Xs?si=RT-EXnS0KhzNxyj-",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick-Fire Note",
+    "Chicken",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "chicken",
+    "pizza",
+    "low",
+    "cal"
+  ]
+}

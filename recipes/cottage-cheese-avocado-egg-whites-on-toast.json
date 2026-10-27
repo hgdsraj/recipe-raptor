@@ -1,0 +1,48 @@
+{
+  "id": "cottage-cheese-avocado-egg-whites-on-toast",
+  "title": "Cottage cheese, avocado, egg whites on toast",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 26
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 340,
+    "vitamin_c_mg": 14,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Cottage cheese, avocado, egg whites on toast"
+  ],
+  "instructions": [
+    "Prepare Cottage cheese, avocado, egg whites on toast according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "cottage",
+    "cheese",
+    "avocado",
+    "egg",
+    "whites",
+    "toast"
+  ]
+}

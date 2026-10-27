@@ -1,0 +1,45 @@
+{
+  "id": "vivaldi-poached-salmon",
+  "title": "Vivaldi poached salmon",
+  "category": "Mains & Grills",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Vivaldi poached salmon"
+  ],
+  "instructions": [
+    "Prepare Vivaldi poached salmon according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/1sbcE6xSX2w?si=gJJLc8DUrjIUXClu",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "vivaldi",
+    "poached",
+    "salmon"
+  ]
+}

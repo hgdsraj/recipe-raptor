@@ -1,0 +1,57 @@
+{
+  "id": "fried-chicken-bread-bad-butter-slaw-burger",
+  "title": "Fried chicken bread bad butter slaw burger",
+  "category": "Sandwiches & Wraps",
+  "protein": "Chicken",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 432,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Fried chicken",
+    "Hot sauce drench it",
+    "Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots)"
+  ],
+  "instructions": [
+    "Fried chicken",
+    "Hot sauce drench it",
+    "Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots)"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Chicken",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "fried",
+    "chicken",
+    "hot",
+    "sauce",
+    "drench",
+    "brioch",
+    "potato",
+    "bun",
+    "then",
+    "lettuce",
+    "bread",
+    "and"
+  ]
+}

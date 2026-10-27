@@ -1,0 +1,46 @@
+{
+  "id": "turkey-bacon-quiche",
+  "title": "Turkey bacon quiche",
+  "category": "Breakfast & Eggs",
+  "protein": "Turkey",
+  "servings": 2,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 10,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Turkey bacon quiche"
+  ],
+  "instructions": [
+    "Prepare Turkey bacon quiche according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.yumaregional.org/Medical-Services/Heart-and-Vascular-Care/28daysofheart/Heart-Healthy-Recipes/Turkey-Bacon-Spinach-Quiche",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Turkey",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "turkey",
+    "bacon",
+    "quiche"
+  ]
+}

@@ -1,0 +1,88 @@
+/* RecipeRaptor Clean Print Stylesheet */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
+    font-size: 11pt;
+  }
+
+  .app-header,
+  .hero-banner,
+  .deck-toolbar,
+  .filters-container,
+  .header-actions,
+  .modal-close-btn,
+  .modal-footer,
+  .cook-mode-overlay,
+  .grocery-drawer,
+  .toast-container,
+  .btn,
+  .scaler-control,
+  .favorite-btn {
+    display: none !important;
+  }
+
+  .modal-backdrop {
+    position: static !important;
+    background: none !important;
+    padding: 0 !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+
+  .modal-panel {
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .modal-title {
+    font-size: 20pt !important;
+    color: #000000 !important;
+    margin-bottom: 8pt !important;
+  }
+
+  .recipe-summary-strip {
+    background: #f8fafc !important;
+    border: 1px solid #cbd5e1 !important;
+    padding: 8pt !important;
+    margin-bottom: 12pt !important;
+  }
+
+  .summary-item-val {
+    color: #000000 !important;
+  }
+
+  .recipe-details-grid {
+    display: block !important;
+  }
+
+  .ingredients-panel, .instructions-panel {
+    border: 1px solid #cbd5e1 !important;
+    background: none !important;
+    margin-bottom: 12pt !important;
+    page-break-inside: avoid;
+  }
+
+  .panel-title {
+    color: #000000 !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+  }
+
+  .ingredient-row {
+    color: #000000 !important;
+  }
+
+  .instruction-step {
+    color: #000000 !important;
+  }
+
+  .step-num {
+    background: #e2e8f0 !important;
+    color: #000000 !important;
+    border: 1px solid #94a3b8 !important;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "pizza-dough",
+  "title": "Pizza Dough",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "120 mins",
+  "totalTime": "140 mins",
+  "calories": 588,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 87,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 tsp instant yeast",
+    "1 tbsp olive oil"
+  ],
+  "instructions": [
+    "In the bowl of your stand mixer, whisk together the flour, instant yeast, salt, and sugar.",
+    "Attach the dough hook to your mixer and turn it on low speed.",
+    "Slowly pour in the warm water and olive oil, and let the mixer knead the dough for about 5-7 minutes until it forms a smooth, elastic ball of dough.",
+    "Remove the dough from the mixer bowl and form it into a ball.",
+    "Place the dough ball in a lightly greased bowl, cover with a clean kitchen towel, and let it rise in a warm place for about 30-45 minutes, or until it has doubled in size.",
+    "Once the dough has risen, punch it down to release any air bubbles and roll it out into a circle or rectangle, depending on your pizza pan or preference.",
+    "Top the pizza dough with your favorite toppings and bake in a preheated 425°F (218°C) oven for 12-15 minutes, or until the crust is golden brown and crispy."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "instant",
+    "yeast",
+    "olive",
+    "oil"
+  ]
+}

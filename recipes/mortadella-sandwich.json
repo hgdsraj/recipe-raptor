@@ -1,0 +1,57 @@
+{
+  "id": "mortadella-sandwich",
+  "title": "Mortadella sandwich",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 504,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 32
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Bread toasted with mayo and mustard on it",
+    "Pan fried thick pile mortadella and cheese melted in It ( can do 3 layers of mortadella cheese mortadella cheese, cooking each layer separately in pan)",
+    "Optionally spinach tomato thin"
+  ],
+  "instructions": [
+    "Bread toasted with mayo and mustard on it",
+    "Pan fried thick pile mortadella and cheese melted in It ( can do 3 layers of mortadella cheese mortadella cheese, cooking each layer separately in pan)",
+    "Optionally spinach tomato thin"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "bread",
+    "toasted",
+    "with",
+    "mayo",
+    "and",
+    "mustard",
+    "pan",
+    "fried",
+    "thick",
+    "pile",
+    "mortadella",
+    "cheese"
+  ]
+}

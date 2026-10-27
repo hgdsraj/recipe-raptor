@@ -1,0 +1,44 @@
+{
+  "id": "sloppy-joe",
+  "title": "Sloppy Joe",
+  "category": "Sandwiches & Wraps",
+  "protein": "Beef",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 438,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 24,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 480,
+    "vitamin_c_mg": 6,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Sloppy Joe"
+  ],
+  "instructions": [
+    "Prepare Sloppy Joe according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://pisomakitchen.substack.com/p/the-dari-king-barbecue-sandwich-love?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcATomP5wZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp8sNCjaOYETVJE_RhJROkEvP0RrmyhlvKTIDEBQscFda8MB6mAHV6CUPiYJx_aem_Gg8DfC8DVIeeti474BTtRQ",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Beef",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "sloppy",
+    "joe"
+  ]
+}

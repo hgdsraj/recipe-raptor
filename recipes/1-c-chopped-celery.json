@@ -1,0 +1,47 @@
+{
+  "id": "1-c-chopped-celery",
+  "title": "1 C chopped celery",
+  "category": "Sides & Sauces",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 9,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 46 oz bottle of tomato juice",
+    "1 29 oz can tomato sauce"
+  ],
+  "instructions": [
+    "1 46 oz bottle of tomato juice",
+    "1 29 oz can tomato sauce"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "bottle",
+    "tomato",
+    "juice",
+    "can",
+    "sauce"
+  ]
+}

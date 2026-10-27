@@ -1,0 +1,47 @@
+{
+  "id": "turkey-breast-fajitas-tzatziki",
+  "title": "Turkey breast fajitas tzatziki",
+  "category": "Sandwiches & Wraps",
+  "protein": "Turkey",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 10,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Turkey breast fajitas tzatziki"
+  ],
+  "instructions": [
+    "Prepare Turkey breast fajitas tzatziki according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "turkey",
+    "breast",
+    "fajitas",
+    "tzatziki"
+  ]
+}

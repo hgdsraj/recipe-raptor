@@ -1,0 +1,75 @@
+{
+  "id": "broth-the-heart-of-it",
+  "title": "Broth (the heart of it)",
+  "category": "Soups & Stews",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "120 mins",
+  "totalTime": "135 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 670,
+    "iron_mg": 2.0,
+    "potassium_mg": 630,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "## 🐔 Broth (the heart of it)",
+    "3 lbs (1.4 kg) chicken carcasses and wings (necks optional)",
+    "1 lb (450 g) chicken feet (crucial for collagen richness)",
+    "1 whole chicken breast or thigh (for extra flavor)",
+    "1 leek (roughly chopped)",
+    "1 onion (quartered)",
+    "1 knob ginger (smashed)",
+    "6 cloves garlic (smashed)",
+    "1 sheet kombu (optional, 10 cm)",
+    "Water (enough to cover, about 4–5 L)"
+  ],
+  "instructions": [
+    "**Parboil the bones:**",
+    "Add all chicken parts to a large pot, cover with water, and bring to a boil. Boil 5 minutes. Dump everything into a colander and rinse bones under cold water.",
+    "→ Removes scum and blood = clean flavor, pure white broth.*",
+    "**Hard simmer:**",
+    "Return the bones to the pot, cover with fresh water. Bring to a *rolling boil*, not a gentle simmer — this agitation helps emulsify fat and collagen into a milky white broth.",
+    "Skim foam for the first 10 minutes, then don’t worry about clarity.",
+    "**Add aromatics:**",
+    "Add leek, onion, ginger, garlic, and kombu (if using). Continue hard simmering for **5–6 hours**, topping up with hot water as it reduces.",
+    "**Blend (optional but key for creamy texture):**",
+    "Toward the end, remove large solids, then ladle some broth with soft chicken bits into a blender. Blend until smooth and creamy, then return to the pot.",
+    "→ This gives that velvety “paitan” thickness.*",
+    "**Strain:**",
+    "Pass through a fine sieve. Keep hot or chill immediately.",
+    "--"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Chicken",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "broth",
+    "the",
+    "heart",
+    "chicken",
+    "carcasses",
+    "and",
+    "wings",
+    "necks",
+    "450",
+    "feet",
+    "crucial",
+    "for"
+  ]
+}

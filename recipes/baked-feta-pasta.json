@@ -1,0 +1,53 @@
+{
+  "id": "baked-feta-pasta",
+  "title": "Baked feta pasta",
+  "category": "Pasta & Noodles",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 570,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 96,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 11,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Put 2 pint cherry tomatoes toss with olive oil and few garlic cloves in baking dish with one block of feta, basil, salt, pepper"
+  ],
+  "instructions": [
+    "Bake 400 for 30 - 35 mins",
+    "Mash with fork",
+    "Add cooked pasta and pasta water and combine"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "put",
+    "pint",
+    "cherry",
+    "tomatoes",
+    "toss",
+    "with",
+    "olive",
+    "oil",
+    "and",
+    "few",
+    "garlic",
+    "cloves"
+  ]
+}

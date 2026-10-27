@@ -1,0 +1,52 @@
+{
+  "id": "potato-leek-rosti",
+  "title": "Potato leek rosti",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "25 mins",
+  "totalTime": "45 mins",
+  "calories": 588,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 87,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Bread 400g flour, gram yeast, 8g flour, 300ml water, just mix til shaggy, let sit 24 hrs fold towards center, bake in dutch oven preheated, 20 min lod closed, 15 mins lid open"
+  ],
+  "instructions": [
+    "Bread 400g flour, gram yeast, 8g flour, 300ml water, just mix til shaggy, let sit 24 hrs fold towards center, bake in dutch oven preheated, 20 min lod closed, 15 mins lid open"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "bread",
+    "400g",
+    "flour",
+    "gram",
+    "yeast",
+    "300ml",
+    "water",
+    "just",
+    "mix",
+    "til",
+    "shaggy",
+    "let"
+  ]
+}

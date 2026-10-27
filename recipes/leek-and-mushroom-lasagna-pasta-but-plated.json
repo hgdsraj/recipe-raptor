@@ -1,0 +1,51 @@
+{
+  "id": "leek-and-mushroom-lasagna-pasta-but-plated",
+  "title": "Leek and Mushroom Lasagna pasta but plated.",
+  "category": "Pasta & Noodles",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 608,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 69,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Leek, mushroom, cream, garlic, chicken stock lasagna pasta, fresh tarragon"
+  ],
+  "instructions": [
+    "Leek, mushroom, cream, garlic, chicken stock lasagna pasta, fresh tarragon"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Chicken",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "leek",
+    "mushroom",
+    "cream",
+    "garlic",
+    "chicken",
+    "stock",
+    "lasagna",
+    "pasta",
+    "tarragon"
+  ]
+}

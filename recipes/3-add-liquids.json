@@ -1,0 +1,59 @@
+{
+  "id": "3-add-liquids",
+  "title": "3. Add liquids",
+  "category": "Soups & Stews",
+  "protein": "Lamb",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "120 mins",
+  "totalTime": "135 mins",
+  "calories": 473,
+  "macros": {
+    "protein_g": 34,
+    "carbs_g": 28,
+    "fat_g": 25
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 730,
+    "iron_mg": 3.2,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "#### 3. Add liquids",
+    "Add the seared lamb back to the pot.",
+    "Pour in 3 cups of water or broth.",
+    "Bring to a boil, then reduce to a gentle simmer.",
+    "Skim off foam if needed. Cover and cook for **1.5 hours**, or until lamb is tender. (Or transfer to oven at 325°F/163°C.)"
+  ],
+  "instructions": [
+    "#### 3. Add liquids",
+    "* Add the seared lamb back to the pot.",
+    "* Pour in 3 cups of water or broth.",
+    "* Bring to a boil, then reduce to a gentle simmer.",
+    "* Skim off foam if needed. Cover and cook for **1.5 hours**, or until lamb is tender. (Or transfer to oven at 325°F/163°C.)"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Lamb",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "####",
+    "add",
+    "liquids",
+    "the",
+    "seared",
+    "lamb",
+    "back",
+    "pot",
+    "pour",
+    "cups",
+    "water",
+    "broth"
+  ]
+}

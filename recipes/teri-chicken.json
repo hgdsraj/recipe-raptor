@@ -1,0 +1,55 @@
+{
+  "id": "teri-chicken",
+  "title": "Teri chicken",
+  "category": "Sides & Sauces",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 424,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 41,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "^ marinate very thinly sliced chicken thighs with corn starch, bachans, sesame oil, white pepper, black pepper",
+    "Steam broccoli, caramelize onions"
+  ],
+  "instructions": [
+    "Cook chicken, combine with veg",
+    "Make rice",
+    "Make a sauce with chicken stock, corn starch, bachans, honey"
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/zWNUIt8Q-Sg?si=tIPq2QK2JCFr7XJR",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Chicken",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "marinate",
+    "very",
+    "thinly",
+    "chicken",
+    "thighs",
+    "with",
+    "corn",
+    "starch",
+    "bachans",
+    "sesame",
+    "oil",
+    "white"
+  ]
+}

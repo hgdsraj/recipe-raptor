@@ -1,0 +1,68 @@
+{
+  "id": "teriyaki-brocolli-and-tofu-stir-fry-see-note",
+  "title": "Teriyaki brocolli and tofu stir fry (see note)",
+  "category": "Sides & Sauces",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 448,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 61,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 10,
+    "sodium_mg": 420,
+    "iron_mg": 4.2,
+    "potassium_mg": 700,
+    "vitamin_c_mg": 35,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Teriyaki Tofu and Broccoli Stir Fry:",
+    "1 block of firm tofu, pressed and cubed",
+    "1 head of broccoli, chopped into florets",
+    "1 red bell pepper, sliced",
+    "2 tablespoons of sesame oil",
+    "2 cloves of garlic, minced",
+    "1 tablespoon of fresh ginger, grated",
+    "Salt and pepper to taste",
+    "Cooked rice, for serving"
+  ],
+  "instructions": [
+    "Heat up the sesame oil in a large skillet or wok over medium-high heat.",
+    "Add in the cubed tofu and stir fry for 5-6 minutes or until it is browned and slightly crispy.",
+    "Remove the tofu from the skillet and set aside.",
+    "In the same skillet, add in the chopped broccoli and sliced red bell pepper. Stir fry for 3-4 minutes or until the vegetables are tender-crisp.",
+    "Add the garlic and ginger to the skillet and cook for 1 minute or until fragrant.",
+    "Add the teriyaki sauce to the skillet and stir to combine with the vegetables.",
+    "Return the tofu to the skillet and toss to coat with the teriyaki sauce.",
+    "Cook for an additional 2-3 minutes or until the sauce has thickened and the tofu is heated through.",
+    "Season with salt and pepper to taste.",
+    "Serve over cooked rice."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Tofu & Plant-Based",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "teriyaki",
+    "tofu",
+    "and",
+    "broccoli",
+    "stir",
+    "fry",
+    "firm",
+    "pressed",
+    "cubed",
+    "head",
+    "into",
+    "florets"
+  ]
+}

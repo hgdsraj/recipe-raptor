@@ -1,0 +1,70 @@
+{
+  "id": "tofu-seasoning",
+  "title": "Tofu Seasoning",
+  "category": "Soups & Stews",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 384,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 45,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 10,
+    "sodium_mg": 570,
+    "iron_mg": 4.2,
+    "potassium_mg": 660,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "##### 🧂 Tofu Seasoning:",
+    "**1 tbsp soy sauce**",
+    "**1 tsp chili powder**",
+    "**Pinch of turmeric** (optional, for color)",
+    "Garlic powder",
+    "Onion powder",
+    "**1 tbsp nutritional yeast** (optional, adds protein & umami)",
+    "Can of la costena beans",
+    "--"
+  ],
+  "instructions": [
+    "##### 🧂 Tofu Seasoning:",
+    "* **1 tbsp soy sauce**",
+    "* **1 tsp chili powder**",
+    "* **1/2 tsp cumin**",
+    "* **1/4 tsp smoked paprika**",
+    "* **Pinch of turmeric** (optional, for color)",
+    "Garlic powder",
+    "Onion powder",
+    "* **1 tbsp nutritional yeast** (optional, adds protein & umami)",
+    "Can of la costena beans",
+    "---"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Tofu & Plant-Based",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "#####",
+    "tofu",
+    "seasoning",
+    "**1",
+    "tbsp",
+    "soy",
+    "sauce**",
+    "tsp",
+    "chili",
+    "powder**",
+    "**pinch",
+    "turmeric**"
+  ]
+}

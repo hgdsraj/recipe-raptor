@@ -1,0 +1,48 @@
+{
+  "id": "hello-fresh-southwest-bbq-pork-chop",
+  "title": "Hello fresh southwest bbq pork chop",
+  "category": "Sides & Sauces",
+  "protein": "Pork",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 504,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 32
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Pan sear pork chop with southwest seasoning."
+  ],
+  "instructions": [
+    "Bake with barbecue sauce high heat.",
+    "Bake halved skin on sweet potato with salt and pepper. Add cheese at end.",
+    "Carmelize onions with salt pepper olive oil sugar and add red wine."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Pork",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "pan",
+    "sear",
+    "pork",
+    "chop",
+    "with",
+    "southwest",
+    "seasoning"
+  ]
+}

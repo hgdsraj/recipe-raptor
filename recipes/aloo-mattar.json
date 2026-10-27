@@ -1,0 +1,44 @@
+{
+  "id": "aloo-mattar",
+  "title": "Aloo mattar",
+  "category": "Bowls & Skillets",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Aloo mattar"
+  ],
+  "instructions": [
+    "Prepare Aloo mattar according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.thecuriouschickpea.com/restaurant-style-aloo-matar/",
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "aloo",
+    "mattar"
+  ]
+}

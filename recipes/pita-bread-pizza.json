@@ -1,0 +1,51 @@
+{
+  "id": "pita-bread-pizza",
+  "title": "Pita bread pizza",
+  "category": "Sandwiches & Wraps",
+  "protein": "Vegetarian",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 466,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Pita",
+    "Sauce",
+    "Pepperoni",
+    "Light cheese"
+  ],
+  "instructions": [
+    "Pita",
+    "Sauce",
+    "Pepperoni",
+    "Light cheese"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Quick (<25m)",
+    "Vegetarian",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "pita",
+    "sauce",
+    "pepperoni",
+    "light",
+    "cheese"
+  ]
+}

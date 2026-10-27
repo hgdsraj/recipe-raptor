@@ -1,0 +1,57 @@
+{
+  "id": "2-saut-aromatics-veggies",
+  "title": "2. Sauté aromatics & veggies",
+  "category": "Mains & Grills",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 458,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 68,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "#### 2. Sauté aromatics & veggies",
+    "In the same pot, add onion. Cook until softened and starting to brown (6–8 min).",
+    "Add garlic and ginger. Cook for 1 min.",
+    "Add carrots and potatoes, and stir for another 2 min."
+  ],
+  "instructions": [
+    "#### 2. Sauté aromatics & veggies",
+    "* In the same pot, add onion. Cook until softened and starting to brown (6–8 min).",
+    "* Add garlic and ginger. Cook for 1 min.",
+    "* Add carrots and potatoes, and stir for another 2 min."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "####",
+    "sauté",
+    "aromatics",
+    "veggies",
+    "the",
+    "same",
+    "pot",
+    "add",
+    "onion",
+    "cook",
+    "until",
+    "softened"
+  ]
+}

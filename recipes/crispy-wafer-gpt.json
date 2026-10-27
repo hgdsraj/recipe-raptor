@@ -1,0 +1,68 @@
+{
+  "id": "crispy-wafer-gpt",
+  "title": "Crispy wafer GPT",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "120 mins",
+  "totalTime": "130 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 26
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 340,
+    "vitamin_c_mg": 14,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "To make a delicious, light, and crispy wafer layer cookie, you will need the following ingredients and steps:",
+    "1 cup all-purpose flour",
+    "1 large egg, at room temperature",
+    "1 tsp. vanilla extract",
+    "2 tbsp. whole milk"
+  ],
+  "instructions": [
+    "Preheat your oven to 350°F (180°C) and line a baking sheet with parchment paper.",
+    "In a medium-sized mixing bowl, whisk together the flour, baking powder, and salt until well combined.",
+    "In a separate large mixing bowl, use an electric mixer to cream together the butter and sugar until light and fluffy, about 3-4 minutes.",
+    "Add the egg and vanilla extract to the butter mixture, and beat until well combined.",
+    "Slowly add the flour mixture to the butter mixture, mixing on low speed until just combined.",
+    "Add the milk to the batter and beat until well combined.",
+    "Using a tablespoon, scoop the batter onto the lined baking sheet, spacing them about 2 inches apart.",
+    "Use the back of the spoon to spread the batter into thin, even circles.",
+    "Bake for 8-10 minutes, or until the edges of the cookies are golden brown.",
+    "Remove from the oven and let cool on the baking sheet for 5 minutes.",
+    "Carefully transfer the cookies to a wire rack to cool completely.",
+    "Optional: You can sandwich two cookies together with your favorite filling (e.g. Nutella, whipped cream, jam, etc.) to make a delicious wafer cookie sandwich.",
+    "Enjoy your delicious, light, and crispy wafer layer cookies!"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "make",
+    "delicious",
+    "light",
+    "and",
+    "crispy",
+    "wafer",
+    "layer",
+    "cookie",
+    "you",
+    "will",
+    "need",
+    "the"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "furikake-on-egg",
+  "title": "Furikake on egg",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 458,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 34,
+    "fat_g": 26
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Make a fried egg throw on furikake",
+    "Or make a omelette or scramble",
+    "3 large eggs",
+    "1 tablespoon soy sauce",
+    "1 tablespoon mirin (sweet rice wine)",
+    "1 tablespoon vegetable oil",
+    "2 green onions, finely chopped",
+    "Salt and pepper to taste",
+    "Furikake"
+  ],
+  "instructions": [
+    "Mix mirin, eggs",
+    "Sautee green onions in a little oil",
+    "Mix soy sauce, salt, and pepper to eggs, pour in,.scramble or omelette",
+    "Top with furikkake",
+    "Naan egg wrap",
+    "Just egg patty",
+    "Two naan",
+    "Cream cheese one side",
+    "Peri Peri mayo other side",
+    "Onions or onion chimichurri with finely diced peppers and cilantro",
+    "Low fat mozarella on Peri side",
+    "Can include thinly sliced tomatoes and or thinly sliced cucumber (add salt or marinate in vinegar or add some vinegar)"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Quick (<25m)",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "make",
+    "fried",
+    "egg",
+    "throw",
+    "furikake",
+    "omelette",
+    "scramble",
+    "large",
+    "eggs",
+    "tablespoon",
+    "soy",
+    "sauce"
+  ]
+}

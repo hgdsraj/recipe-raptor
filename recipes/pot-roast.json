@@ -1,0 +1,60 @@
+{
+  "id": "pot-roast",
+  "title": "Pot roast",
+  "category": "Sides & Sauces",
+  "protein": "Beef",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "120 mins",
+  "totalTime": "130 mins",
+  "calories": 438,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 24,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Meat",
+    "Tomato crushed",
+    "Tomato diced big chunks",
+    "Oregano, basil",
+    "Salt pepper",
+    "Onion",
+    "Garlic"
+  ],
+  "instructions": [
+    "Sautee onion, garlic, throw in tomatoes, basil, oregano, salt, pepper",
+    "Sear the meat both sides",
+    "Throw in the sauce,",
+    "Simmer low slow 3 hours in dutch oven (or oven it for 3 hours low)"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Beef",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "meat",
+    "tomato",
+    "crushed",
+    "big",
+    "chunks",
+    "oregano",
+    "basil",
+    "salt",
+    "pepper",
+    "onion",
+    "garlic"
+  ]
+}

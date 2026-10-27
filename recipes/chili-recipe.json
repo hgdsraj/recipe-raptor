@@ -1,0 +1,43 @@
+{
+  "id": "chili-recipe",
+  "title": "Chili recipe",
+  "category": "Soups & Stews",
+  "protein": "Beef",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 438,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 24,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 750,
+    "iron_mg": 3.8,
+    "potassium_mg": 560,
+    "vitamin_c_mg": 6,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 lb ground beef"
+  ],
+  "instructions": [
+    "2 lb ground beef"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick-Fire Note",
+    "Beef",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "beef"
+  ]
+}

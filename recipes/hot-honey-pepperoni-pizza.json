@@ -1,0 +1,71 @@
+{
+  "id": "hot-honey-pepperoni-pizza",
+  "title": "Hot honey pepperoni pizza",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "25 mins",
+  "totalTime": "45 mins",
+  "calories": 660,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 87,
+    "fat_g": 28
+  },
+  "micros": {
+    "fiber_g": 9,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Mozzarella little bit",
+    "3-4 jalapenos pickled shredded up",
+    "Put pizza sauce keep crust bare",
+    "Put down some parmesan including on crust",
+    "Jalapenos",
+    "Cherry tomato sliced in half",
+    "Few mushrooms",
+    "Mozzarella",
+    "Pepperoni",
+    "Basil",
+    "Parmesan on itop"
+  ],
+  "instructions": [
+    "Mozzarella little bit",
+    "3-4 jalapenos pickled shredded up",
+    "Put pizza sauce keep crust bare",
+    "Put down some parmesan including on crust",
+    "Jalapenos",
+    "Cherry tomato sliced in half",
+    "Few mushrooms",
+    "Mozzarella",
+    "Pepperoni",
+    "Basil",
+    "Parmesan on itop"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "mozzarella",
+    "little",
+    "bit",
+    "3-4",
+    "jalapenos",
+    "pickled",
+    "shredded",
+    "put",
+    "pizza",
+    "sauce",
+    "keep",
+    "crust"
+  ]
+}

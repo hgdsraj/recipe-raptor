@@ -1,0 +1,47 @@
+{
+  "id": "one-pan-pot-fajita",
+  "title": "One pan pot fajita",
+  "category": "Sandwiches & Wraps",
+  "protein": "Vegetarian",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "One pan pot fajita"
+  ],
+  "instructions": [
+    "Prepare One pan pot fajita according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/WW8KQah_kRA?feature=share",
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "One-Pot",
+    "Vegetarian",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "one",
+    "pan",
+    "pot",
+    "fajita"
+  ]
+}

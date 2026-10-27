@@ -1,0 +1,66 @@
+{
+  "id": "toppings",
+  "title": "Toppings",
+  "category": "Sides & Sauces",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "#### 🌮 Toppings:",
+    "Avocado or guacamole",
+    "Salsa or pico de gallo",
+    "Greek yogurt or vegan yogurt",
+    "Shredded lettuce or cabbage",
+    "Lime wedges",
+    "Fresh cilantro",
+    "--"
+  ],
+  "instructions": [
+    "#### 🌮 Toppings:",
+    "* Avocado or guacamole",
+    "* Salsa or pico de gallo",
+    "* Greek yogurt or vegan yogurt",
+    "* Shredded lettuce or cabbage",
+    "* Lime wedges",
+    "* Fresh cilantro",
+    "---"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "####",
+    "toppings",
+    "avocado",
+    "guacamole",
+    "salsa",
+    "pico",
+    "gallo",
+    "greek",
+    "yogurt",
+    "vegan",
+    "shredded",
+    "lettuce"
+  ]
+}

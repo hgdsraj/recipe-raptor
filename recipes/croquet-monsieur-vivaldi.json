@@ -1,0 +1,51 @@
+{
+  "id": "croquet-monsieur-vivaldi",
+  "title": "Croquet Monsieur Vivaldi",
+  "category": "Mains & Grills",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 466,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1d ago (edited)",
+    "1 tbsp butter",
+    "1.5 tbsp flour",
+    "1 cup milk"
+  ],
+  "instructions": [
+    "Ingredients:",
+    "• 1d ago (edited)",
+    "1 tbsp butter",
+    "1.5 tbsp flour",
+    "1 cup milk"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "ago",
+    "edited",
+    "butter",
+    "flour",
+    "milk"
+  ]
+}

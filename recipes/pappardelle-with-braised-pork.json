@@ -1,0 +1,45 @@
+{
+  "id": "pappardelle-with-braised-pork",
+  "title": "Pappardelle with braised pork",
+  "category": "Pasta & Noodles",
+  "protein": "Pork",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 544,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 50,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 420,
+    "vitamin_c_mg": 5,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Pappardelle with braised pork"
+  ],
+  "instructions": [
+    "Prepare Pappardelle with braised pork according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Pork",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "pappardelle",
+    "with",
+    "braised",
+    "pork"
+  ]
+}

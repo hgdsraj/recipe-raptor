@@ -1,0 +1,45 @@
+{
+  "id": "smoked-hog-burger-boar",
+  "title": "Smoked hog burger (boar)",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 432,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 420,
+    "vitamin_c_mg": 5,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Smoked hog burger (boar)"
+  ],
+  "instructions": [
+    "Prepare Smoked hog burger (boar) according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "smoked",
+    "hog",
+    "burger",
+    "boar"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "pumpkin-pasta-alla-vodka",
+  "title": "Pumpkin pasta alla vodka",
+  "category": "Pasta & Noodles",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 570,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 96,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 9,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Pumpkin pasta alla vodka"
+  ],
+  "instructions": [
+    "Prepare Pumpkin pasta alla vodka according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.acozykitchen.com/pumpkin-pasta-alla-vodka",
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "pumpkin",
+    "pasta",
+    "alla",
+    "vodka"
+  ]
+}

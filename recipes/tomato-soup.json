@@ -1,0 +1,54 @@
+{
+  "id": "tomato-soup",
+  "title": "Tomato soup",
+  "category": "Soups & Stews",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 466,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 11,
+    "sodium_mg": 560,
+    "iron_mg": 3.0,
+    "potassium_mg": 720,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Tomatoes roast with garlic olive oil salt pepper roast 30 min 400 degrees",
+    "Put in pan with some veggie stock let it simmer. Puree hand blend, add cream, red wine vinegar, salt pepper"
+  ],
+  "instructions": [
+    "Tomatoes roast with garlic olive oil salt pepper roast 30 min 400 degrees",
+    "Put in pan with some veggie stock let it simmer. Puree hand blend, add cream, red wine vinegar, salt pepper"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "tomatoes",
+    "roast",
+    "with",
+    "garlic",
+    "olive",
+    "oil",
+    "salt",
+    "pepper",
+    "min",
+    "400",
+    "degrees",
+    "put"
+  ]
+}

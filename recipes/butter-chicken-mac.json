@@ -1,0 +1,45 @@
+{
+  "id": "butter-chicken-mac",
+  "title": "Butter chicken Mac",
+  "category": "Pasta & Noodles",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 544,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 53,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Butter chicken Mac"
+  ],
+  "instructions": [
+    "Prepare Butter chicken Mac according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.instagram.com/reel/Da_Eq6axAzl/?igsh=YTA0eXQ3eW94cTNy",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Chicken",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "butter",
+    "chicken",
+    "mac"
+  ]
+}

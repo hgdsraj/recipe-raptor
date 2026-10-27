@@ -1,0 +1,61 @@
+{
+  "id": "tare-seasoning-base",
+  "title": "Tare (seasoning base)",
+  "category": "Soups & Stews",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 670,
+    "iron_mg": 2.0,
+    "potassium_mg": 630,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "## 🍜 Tare (seasoning base)",
+    "*Shio Tare (simple salt style):**",
+    "3 tbsp fine sea salt",
+    "2 tbsp mirin",
+    "1 tbsp sake",
+    "1 tbsp dried anchovy powder (optional but amazing)",
+    "1 tbsp chicken fat (or neutral oil)",
+    "100 ml chicken broth (reduce from your main pot)"
+  ],
+  "instructions": [
+    "Simmer gently for 5 minutes to meld, then cool.",
+    "--"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Chicken",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "tare",
+    "seasoning",
+    "base",
+    "*shio",
+    "simple",
+    "salt",
+    "style",
+    "fine",
+    "sea",
+    "mirin",
+    "sake",
+    "anchovy"
+  ]
+}

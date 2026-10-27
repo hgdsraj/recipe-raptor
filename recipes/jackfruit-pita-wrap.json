@@ -1,0 +1,58 @@
+{
+  "id": "jackfruit-pita-wrap",
+  "title": "Jackfruit pita wrap",
+  "category": "Sandwiches & Wraps",
+  "protein": "Tofu & Plant-Based",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 456,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 45,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 10,
+    "sodium_mg": 420,
+    "iron_mg": 4.2,
+    "potassium_mg": 700,
+    "vitamin_c_mg": 35,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Whole wheat pita",
+    "In a bowl mix 3 chopped jalapeno slices, 1.5 tbsp  red onion, 1/4 cup coleslaw, 1-2tsp goat cheese, 2tsp tzatziki, 1.5tsp hummue, 3 halved cherry tomatoes"
+  ],
+  "instructions": [
+    "Combine",
+    "1/2 cup jackfruit In pita with sauce",
+    "Tomato thing",
+    "Tofu tacos",
+    "Great! Here's a **tofu-based high-protein veggie taco recipe**:",
+    "--"
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtube.com/shorts/j0gNWpcdNcg?si=djTXHwS-ex6Snqls",
+  "succinct": false,
+  "tags": [
+    "Quick (<25m)",
+    "Tofu & Plant-Based",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "whole",
+    "wheat",
+    "pita",
+    "bowl",
+    "mix",
+    "jalapeno",
+    "slices",
+    "tbsp",
+    "red",
+    "onion",
+    "1/4",
+    "cup"
+  ]
+}

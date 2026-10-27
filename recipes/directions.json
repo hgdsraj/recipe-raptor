@@ -1,0 +1,73 @@
+{
+  "id": "directions",
+  "title": "Directions",
+  "category": "Sandwiches & Wraps",
+  "protein": "Beef",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 574,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 40,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "#### 🔥 Directions:"
+  ],
+  "instructions": [
+    "**Prep tofu:** Press tofu for 10–15 minutes (or pat dry with a towel), then crumble with your hands or a fork.",
+    "**Sauté base:** In a large skillet, heat olive oil. Add onion and garlic, cook 2 minutes. Add bell pepper and zucchini, sauté 3–4 more minutes.",
+    "**mix olive oil, seasonings and soy sauce in tofu. Mix it into the onion garlic.",
+    "Add a can of bean",
+    "**Warm tortillas:** Heat in a dry skillet or microwave.",
+    "**Assemble tacos:** Add tofu-veggie filling and your favorite toppings.",
+    "--",
+    "Want a meal prep version that stores well too?",
+    "Toppings:",
+    "Tortilla",
+    "Lime",
+    "Sauce",
+    "Salsa",
+    "Guacamole",
+    "Cheese",
+    "Cilantro",
+    "Pickled onions",
+    "Arugula",
+    "Chips & salsa",
+    "Corn salad",
+    "One green onion",
+    "Two corn grilled",
+    "Half a lime squeezed",
+    "1/2 tbsp mayo",
+    "Salt pepper",
+    "Paprika smoked",
+    "Cilantro bunch",
+    "Lamb curry",
+    "Yes! Japanese lamb curry with potatoes is a delicious and comforting twist on the classic **Japanese kare raisu (カレーライス)** — usually made with beef or pork, but lamb works beautifully. It’s savory, slightly sweet, thick, and mild — perfect with rice.",
+    "You can use store-bought **Japanese curry roux blocks** (like Golden Curry, Vermont Curry, or Java Curry), or make a quick homemade version if you don’t have them. I’ll include both options.",
+    "--"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Beef",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "####",
+    "directions"
+  ]
+}

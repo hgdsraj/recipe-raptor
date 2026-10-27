@@ -1,0 +1,55 @@
+{
+  "id": "1-sear-the-lamb",
+  "title": "1. Sear the lamb",
+  "category": "Sides & Sauces",
+  "protein": "Lamb",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 473,
+  "macros": {
+    "protein_g": 34,
+    "carbs_g": 28,
+    "fat_g": 25
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 580,
+    "iron_mg": 3.2,
+    "potassium_mg": 580,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "#### 1. Sear the lamb",
+    "Season lamb with salt and pepper.",
+    "In a **Dutch oven** or pot, heat oil over medium-high. Sear lamb cubes until browned on all sides (6–8 min). Set aside."
+  ],
+  "instructions": [
+    "#### 1. Sear the lamb",
+    "* Season lamb with salt and pepper.",
+    "* In a **Dutch oven** or pot, heat oil over medium-high. Sear lamb cubes until browned on all sides (6–8 min). Set aside."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Lamb",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "####",
+    "sear",
+    "the",
+    "lamb",
+    "season",
+    "with",
+    "salt",
+    "and",
+    "pepper",
+    "**dutch",
+    "oven**",
+    "pot"
+  ]
+}

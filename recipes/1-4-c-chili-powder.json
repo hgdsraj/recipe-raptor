@@ -1,0 +1,63 @@
+{
+  "id": "1-4-c-chili-powder",
+  "title": "1/4 C chili powder",
+  "category": "Soups & Stews",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "120 mins",
+  "totalTime": "135 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 640,
+    "iron_mg": 2.2,
+    "potassium_mg": 720,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 tsp ground cumin",
+    "1 tsp salt",
+    "1 14.5 oz can diced tomatoes",
+    "1 15 oz can light red kidney beans, drained and rinsed",
+    "In a large pot over",
+    "Medium-high heat, cook the ground beef with onion, bell pepper, and celery until beef is browned and vegetables are soft (about 8-10 minutes). Drain excess fat. Return mixture to the pot. Add tomato juice,",
+    "Tomato sauce, diced tomatoes, kidney beans, chili beans, and all seasonings."
+  ],
+  "instructions": [
+    "Stir well and bring to a boil.",
+    "Reduce heat to low and simmer uncovered for 2 to 3 hours, stirring occasionally.",
+    "For chicken or turkey ground - cook separate first with tomato paste and dash of soy sauce and remove. Add Worcestershire sauce to the chili 1tbsp.",
+    "For Lamb ground - add 1- 1.5 tbsp each coriander, cumin, smoked paprika during ground lamb cooking and 1/4 tsp cinnamon before simmer",
+    "Pork shoulder 1/2 inch cubes sear hard then proceed normal"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Turkey",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "cumin",
+    "salt",
+    "can",
+    "tomatoes",
+    "light",
+    "red",
+    "kidney",
+    "beans",
+    "drained",
+    "and",
+    "rinsed"
+  ]
+}

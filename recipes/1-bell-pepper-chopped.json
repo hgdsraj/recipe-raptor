@@ -1,0 +1,43 @@
+{
+  "id": "1-bell-pepper-chopped",
+  "title": "1 bell pepper, chopped",
+  "category": "Mains & Grills",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 9,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 bell pepper, chopped"
+  ],
+  "instructions": [
+    "Prepare 1 bell pepper, chopped according to personal taste and desired accompaniments."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "bell",
+    "pepper"
+  ]
+}

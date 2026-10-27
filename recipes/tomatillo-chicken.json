@@ -1,0 +1,44 @@
+{
+  "id": "tomatillo-chicken",
+  "title": "Tomatillo chicken",
+  "category": "Bowls & Skillets",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "5 mins",
+  "cookTime": "15 mins",
+  "totalTime": "20 mins",
+  "calories": 424,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 41,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Tomatillo chicken"
+  ],
+  "instructions": [
+    "serve with beans and mexican rice"
+  ],
+  "notes": "",
+  "sourceUrl": "https://mexicanfoodjournal.com/tomatillo-chicken/",
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Quick-Fire Note",
+    "Chicken",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "tomatillo",
+    "chicken"
+  ]
+}
