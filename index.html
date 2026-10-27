@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>RecipeRaptor — High-Protein & Macro Recipe Engine</title>
   <meta name="description" content="RecipeRaptor: Lightning-fast static culinary app with random chooser, protein and ingredient pickers, micronutrient and macronutrient breakdowns, and interactive cooking mode.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦖</text></svg>">
@@ -19,162 +19,183 @@
         <div class="brand-icon">🦖</div>
         <div class="brand-info">
           <h1>RecipeRaptor <span class="brand-badge">2.0 Pro</span></h1>
-          <span class="brand-sub">Smart Macro & Ingredient Culinary Hub</span>
+          <span class="brand-sub">Precision Macro &amp; Culinary Hub</span>
         </div>
       </div>
 
       <div class="header-actions">
-        <button class="btn btn-roulette" id="rouletteBtn" title="Random Recipe Chooser (What should I make?)">
+        <button class="btn btn-roulette desktop-nav-btn" id="rouletteBtn" title="Random Recipe Chooser (What should I make?)">
           <span class="btn-icon-label">🎲</span>
           <span class="btn-text">What to Make?</span>
         </button>
 
-        <button class="btn" id="mealPlanBtn" title="Weekly Meal Planner & Macro Calculator">
+        <button class="btn desktop-nav-btn" id="mealPlanBtn" title="Weekly Meal Planner & Macro Calculator">
           <span class="btn-icon-label">📅</span>
           <span class="btn-text">Meal Plan</span>
           <span class="badge-count" id="mealPlanCountBadge">0</span>
         </button>
 
-        <button class="btn" id="groceryBtn" title="Shopping & Grocery List">
+        <button class="btn desktop-nav-btn" id="groceryBtn" title="Shopping & Grocery List">
           <span class="btn-icon-label">🛒</span>
           <span class="btn-text">Grocery</span>
           <span class="badge-count" id="groceryCountBadge">0</span>
         </button>
+
+        <a href="https://docs.google.com/document/d/13IKUkHLLzzCfwnQdv4Ne0Zi8pw-18TqxjDPn7qMrFTQ/edit?tab=t.0" target="_blank" rel="noopener noreferrer" class="btn" id="googleDocHeaderBtn" title="Open Synced Master Google Doc" style="text-decoration: none;">
+          <span class="btn-icon-label">📄</span>
+          <span class="btn-text">Google Doc</span>
+        </a>
 
         <button class="btn" id="addRecipeBtn" title="Add / Export New Recipe">
           <span class="btn-icon-label">➕</span>
           <span class="btn-text">Add Recipe</span>
         </button>
 
-        <button class="btn btn-icon" id="themeToggle" title="Toggle Dark/Light Mode">
+        <button class="btn btn-icon" id="themeToggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
           <!-- Populated by JS -->
         </button>
       </div>
     </div>
   </header>
 
-  <!-- ================= Hero & Control Deck ================= -->
+  <!-- ================= Compact Discovery & Control Deck ================= -->
   <section class="hero-banner">
     <div class="hero-inner">
-      <div class="hero-headline">
-        <div>
-          <h2>Precision Fuel & Real Food</h2>
-          <p id="heroSubtitle">Explore 200 curated recipes synced with your Google Doc — complete with video &amp; web sources, smart search, and full macro breakdowns.</p>
+      <!-- Top Row: Compact Headline + Live Stats Strip -->
+      <div class="hero-top-bar">
+        <div class="hero-title-group">
+          <h2>Precision Fuel &amp; Real Food</h2>
+          <p id="heroSubtitle">200 curated recipes synced with your Google Doc — smart linguistic search, verified sources &amp; interactive prep.</p>
         </div>
-        <div class="hero-stats">
-          <div class="stat-pill">
+        <div class="hero-stats" aria-label="Collection statistics">
+          <div class="stat-pill" title="Total curated recipes">
             <strong id="totalRecipesStat">200</strong>
             <span>Recipes</span>
           </div>
-          <div class="stat-pill">
-            <strong id="avgProteinStat">32g</strong>
+          <div class="stat-pill" title="Average protein per serving across all recipes">
+            <strong id="avgProteinStat">27g</strong>
             <span>Avg Protein</span>
           </div>
-          <div class="stat-pill">
+          <div class="stat-pill" title="Recipes with verified YouTube or website links">
             <strong id="sourceCountStat">113</strong>
             <span>Verified Links</span>
           </div>
-          <div class="stat-pill">
+          <div class="stat-pill stat-pill-clickable" id="favStatPill" title="Click to filter by your saved Favorites">
             <strong id="favCountBadge">0</strong>
-            <span>Favorites</span>
+            <span>❤️ Saved</span>
           </div>
         </div>
       </div>
 
-      <!-- Instant Search Bar -->
-      <div class="search-box-wrapper">
-        <div class="search-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <!-- Command Search Bar + Pantry Drawer Trigger + Sort -->
+      <div class="command-bar">
+        <div class="search-box-wrapper">
+          <div class="search-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search recipes, ingredients, creators ('mashed potatoes', 'andy cooks', 'salmon')..."
+            autocomplete="off"
+          >
+          <kbd class="search-kbd-hint" id="searchKbdHint" title="Press / to focus search">/</kbd>
+          <button id="searchClearBtn" class="search-clear-btn" title="Clear Search" aria-label="Clear Search">&times;</button>
         </div>
-        <input 
-          type="text" 
-          id="searchInput" 
-          class="search-input" 
-          placeholder="Search recipes, ingredients, instructions, cuisine, notes... (Press '/' to search)"
-          autocomplete="off"
-        >
-        <button id="searchClearBtn" class="search-clear-btn" title="Clear Search">&times;</button>
+
+        <div class="command-actions">
+          <button class="btn pantry-toggle-btn" id="pantryToggleBtn" aria-expanded="false" title="Filter by ingredients in your fridge or pantry">
+            <span>🥕</span>
+            <span>Kitchen Pantry</span>
+            <span class="badge-count pantry-count-badge" id="pantryCountBadge" style="display: none;">0</span>
+            <span class="pantry-chevron" id="pantryChevron">▾</span>
+          </button>
+
+          <div class="sort-wrapper">
+            <select id="sortSelect" class="select-control" aria-label="Sort recipes">
+              <option value="default">✨ Sort: Smart / Doc Order</option>
+              <option value="doc-asc">📖 Doc Order (#1–200)</option>
+              <option value="protein-desc">🥩 Highest Protein</option>
+              <option value="efficiency-desc">⚡ Protein Efficiency (P/Cal)</option>
+              <option value="calories-asc">🔥 Lowest Calories</option>
+              <option value="time-asc">⏱️ Quickest Prep</option>
+              <option value="title-asc">🔤 Title (A–Z)</option>
+            </select>
+          </div>
+        </div>
       </div>
 
-      <!-- Filters Deck -->
-      <div class="filters-container">
-        <!-- 1. Protein Picker -->
-        <div>
-          <div class="filter-group-header">
-            <span class="filter-group-title">
-              <span>🥩</span> Protein Source Picker
-            </span>
+      <!-- Collapsible Kitchen Pantry / Ingredient Picker Drawer -->
+      <div class="ingredient-tray" id="ingredientTray" hidden>
+        <div class="ingredient-tray-header">
+          <div class="ingredient-tray-title">
+            <span>🥕</span>
+            <div>
+              <strong>What's in Your Kitchen?</strong>
+              <span class="ingredient-tray-sub">Select staples you have on hand to find matching meals</span>
+            </div>
           </div>
+          <div class="ingredient-tray-controls">
+            <div class="ing-match-toggle">
+              <label for="ingMatchModeSelect">Match mode:</label>
+              <select id="ingMatchModeSelect" class="select-control select-sm">
+                <option value="any">Has ANY selected</option>
+                <option value="all">Has ALL selected</option>
+              </select>
+            </div>
+            <div class="ingredient-input-wrapper">
+              <input type="text" id="ingredientSearchInput" class="ingredient-input" placeholder="Add custom ingredient (e.g. kimchi, Halloumi)...">
+              <button class="btn btn-card-action" id="addIngredientBtn">+ Add</button>
+            </div>
+            <button class="btn btn-card-action" id="clearIngredientsBtn" style="color: var(--raptor-coral);">Clear Pantry</button>
+          </div>
+        </div>
+
+        <div class="ingredient-chips-list" id="ingredientChipsList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Unified Scannable Filter Strips -->
+      <div class="filters-deck">
+        <!-- Row 1: Protein Source Pills -->
+        <div class="filter-strip-row">
+          <span class="filter-row-label">Protein</span>
           <div class="filter-pills-row" id="proteinPillsRow">
             <!-- Populated by JS -->
           </div>
         </div>
 
-        <!-- 2. Meal Category Picker -->
-        <div>
-          <div class="filter-group-header">
-            <span class="filter-group-title">
-              <span>🍽️</span> Category Picker
-            </span>
-          </div>
+        <!-- Row 2: Meal Category Pills + Quick Goal Presets -->
+        <div class="filter-strip-row">
+          <span class="filter-row-label">Category</span>
           <div class="filter-pills-row" id="categoryPillsRow">
             <!-- Populated by JS -->
           </div>
         </div>
 
-        <!-- 3. What's in My Fridge? Ingredient Picker -->
-        <div class="ingredient-tray">
-          <div class="ingredient-tray-header">
-            <span class="filter-group-title">
-              <span>🥕</span> What's in My Kitchen? (Ingredient Picker)
-            </span>
-            <div style="display: flex; gap: 0.75rem; align-items: center;">
-              <div class="ing-match-toggle">
-                <span>Match:</span>
-                <select id="ingMatchModeSelect" class="select-control" style="padding: 2px 8px; font-size: 0.75rem;">
-                  <option value="any">Has ANY selected</option>
-                  <option value="all">Has ALL selected</option>
-                </select>
-              </div>
-              <button class="btn btn-card-action" id="clearIngredientsBtn" style="font-size: 0.7rem; padding: 2px 8px;">Clear</button>
-            </div>
-          </div>
-
-          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
-            <div class="ingredient-input-wrapper">
-              <input type="text" id="ingredientSearchInput" class="ingredient-input" placeholder="Type an ingredient (e.g. spinach, garlic)...">
-              <button class="btn btn-card-action" id="addIngredientBtn">+ Add</button>
-            </div>
-          </div>
-
-          <div class="ingredient-chips-list" id="ingredientChipsList">
-            <!-- Populated by JS with common chips -->
-          </div>
-        </div>
-
-        <!-- Quick Goal Presets & Sorting -->
+        <!-- Row 3: Quick Macro & Source Filters + Active Results Counter -->
         <div class="deck-toolbar">
-          <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;" id="quickFiltersRow">
+          <div class="quick-filters-scroll" id="quickFiltersRow">
+            <span class="filter-row-label" style="margin-right: 0.25rem;">Goals</span>
             <button class="pill-chip quick-filter-chip" data-tag="high-protein">⚡ High-Protein (&gt;35g)</button>
-            <button class="pill-chip quick-filter-chip" data-tag="quick">⏱️ Quick (&lt;25m)</button>
-            <button class="pill-chip quick-filter-chip" data-tag="low-cal">🥗 Low-Calorie (&lt;400 kcal)</button>
-            <button class="pill-chip quick-filter-chip" data-tag="has-source">🔗 Video / Web Source</button>
-            <button class="pill-chip quick-filter-chip" data-tag="succinct">📝 Quick-Fire Notes</button>
+            <button class="pill-chip quick-filter-chip" data-tag="quick">⏱️ Quick (&le;25m)</button>
+            <button class="pill-chip quick-filter-chip" data-tag="low-cal">🥗 Low-Cal (&le;400 kcal)</button>
+            <button class="pill-chip quick-filter-chip" data-tag="has-source">🔗 Verified Video/Web</button>
+            <button class="pill-chip quick-filter-chip" data-tag="succinct">📝 Quick-Fire</button>
             <button class="pill-chip quick-filter-chip" data-tag="favorites">❤️ Favorites</button>
           </div>
 
-          <div class="toolbar-controls">
+          <div class="results-status-bar">
             <span class="results-count" id="resultsCount">Loading recipes...</span>
-            <select id="sortSelect" class="select-control">
-              <option value="default">Sort: Smart / Doc Order</option>
-              <option value="doc-asc">📖 Google Doc Order (1–200)</option>
-              <option value="title-asc">🔤 Title (A-Z)</option>
-              <option value="protein-desc">🥩 Highest Protein</option>
-              <option value="efficiency-desc">⚡ Protein Efficiency (P/Cal)</option>
-              <option value="calories-asc">🔥 Lowest Calories</option>
-              <option value="time-asc">⏱️ Quickest Time</option>
-            </select>
           </div>
+        </div>
+
+        <!-- Dynamic Active Filter Breadcrumb Bar (Hidden when no filters active) -->
+        <div class="active-filters-bar" id="activeFiltersBar" hidden>
+          <div class="active-filters-list" id="activeFiltersList"></div>
+          <button class="btn-reset-all" id="clearAllFiltersBarBtn">Reset All &times;</button>
         </div>
       </div>
     </div>
@@ -186,6 +207,33 @@
       <!-- Populated by JS -->
     </div>
   </main>
+
+  <!-- ================= Mobile Sticky Bottom Navigation Bar ================= -->
+  <nav class="mobile-bottom-nav" aria-label="Mobile Quick Navigation">
+    <button class="mobile-nav-item active" id="mobNavExploreBtn">
+      <span class="mobile-nav-icon">🍽️</span>
+      <span class="mobile-nav-label">Explore</span>
+    </button>
+    <button class="mobile-nav-item" id="mobNavPantryBtn">
+      <span class="mobile-nav-icon">🥕</span>
+      <span class="mobile-nav-label">Pantry</span>
+      <span class="mobile-nav-badge" id="mobPantryBadge" style="display: none;">0</span>
+    </button>
+    <button class="mobile-nav-item mobile-nav-spin" id="mobNavSpinBtn">
+      <span class="mobile-nav-icon">🎲</span>
+      <span class="mobile-nav-label">Spin</span>
+    </button>
+    <button class="mobile-nav-item" id="mobNavPlanBtn">
+      <span class="mobile-nav-icon">📅</span>
+      <span class="mobile-nav-label">Meal Plan</span>
+      <span class="mobile-nav-badge" id="mobPlanBadge" style="display: none;">0</span>
+    </button>
+    <button class="mobile-nav-item" id="mobNavGroceryBtn">
+      <span class="mobile-nav-icon">🛒</span>
+      <span class="mobile-nav-label">Grocery</span>
+      <span class="mobile-nav-badge" id="mobGroceryBadge" style="display: none;">0</span>
+    </button>
+  </nav>
 
   <!-- ================= Recipe Detail Modal ================= -->
   <div class="modal-backdrop" id="recipeModalBackdrop">
@@ -199,19 +247,21 @@
     <div class="modal-panel roulette-panel">
       <div class="roulette-header">
         <h3>🦖 Raptor Roulette</h3>
-        <p style="color: var(--text-secondary); margin-top: 0.25rem;">Can't decide what to cook? Let the Raptor decide your next meal!</p>
+        <p style="color: var(--text-secondary); margin-top: 0.25rem;">Can't decide what to cook? Let the Raptor pick your next meal!</p>
       </div>
 
       <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 0.5rem; align-items: center;">
         <span style="font-size: 0.85rem; color: var(--text-muted);">Spin filter:</span>
         <select id="rouletteFilterSelect" class="select-control">
-          <option value="all">Any Recipe</option>
-          <option value="high-protein">High-Protein Meals (>35g)</option>
-          <option value="quick">Quick Dinners (<25m)</option>
-          <option value="low-cal">Low-Calorie (<400 kcal)</option>
+          <option value="all">Any Recipe (200)</option>
+          <option value="high-protein">⚡ High-Protein Meals (&gt;35g)</option>
+          <option value="quick">⏱️ Quick Dinners (&le;25m)</option>
+          <option value="low-cal">🥗 Low-Calorie (&le;400 kcal)</option>
           <option value="prot:Chicken">🍗 Chicken Only</option>
           <option value="prot:Fish & Seafood">🐟 Seafood Only</option>
           <option value="prot:Beef">🥩 Beef Only</option>
+          <option value="prot:Turkey">🦃 Turkey Only</option>
+          <option value="prot:Pork">🥓 Pork Only</option>
           <option value="prot:Vegetarian">🥗 Vegetarian Only</option>
         </select>
       </div>
@@ -225,28 +275,37 @@
           🎲 Re-Spin!
         </button>
         <button class="btn btn-primary" id="rouletteOpenRecipeBtn" style="padding: 0.75rem 1.5rem; font-size: 1rem;">
-          🍽️ Cook This Meal!
+          🍽️ Open Recipe
         </button>
         <button class="btn" id="rouletteCloseBtn">Close</button>
       </div>
     </div>
   </div>
 
-  <!-- ================= Cook Mode (Distraction-Free) ================= -->
+  <!-- ================= Cook Mode (Hands-Free Kitchen Focus) ================= -->
   <div class="cook-mode-overlay" id="cookModeOverlay">
     <div class="cook-header">
-      <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div class="cook-header-left">
         <span style="font-size: 1.5rem;">👨‍🍳</span>
-        <h2 id="cookModeTitle" style="font-size: 1.25rem; font-weight: 800;">Cook Mode</h2>
+        <div>
+          <h2 id="cookModeTitle" style="font-size: 1.15rem; font-weight: 800; line-height: 1.2;">Cook Mode</h2>
+          <div class="cook-progress-meta" id="cookProgressMeta">Step 0 of 0 completed</div>
+        </div>
       </div>
-      <button class="btn" id="cookModeCloseBtn">Exit Cook Mode (Esc)</button>
+      <div class="cook-header-right">
+        <button class="btn" id="cookModeCloseBtn">✕ Exit Cook Mode (Esc)</button>
+      </div>
+    </div>
+
+    <div class="cook-progress-bar-track">
+      <div class="cook-progress-bar-fill" id="cookProgressBarFill" style="width: 0%"></div>
     </div>
 
     <div class="cook-body">
       <!-- Built-in Multi-Timer -->
       <div class="cook-timer-widget">
         <div>
-          <span style="font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted);">Kitchen Timer</span>
+          <span style="font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted); letter-spacing: 0.05em;">Kitchen Timer</span>
           <div class="timer-digits" id="cookTimerDisplay">00:00</div>
         </div>
         <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center;">
@@ -260,12 +319,24 @@
         </div>
       </div>
 
-      <div style="margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.9rem;">
-        Click or tap any step below as you complete it to track your progress:
-      </div>
+      <!-- Two-Column Cook Layout: Ingredients Reference + Interactive Steps -->
+      <div class="cook-workspace-grid">
+        <aside class="cook-ingredients-sidebar">
+          <h3 class="cook-sidebar-title">🥗 Ingredients Reference</h3>
+          <p class="cook-sidebar-sub">Tap items to check off as you add them to the pan:</p>
+          <ul class="cook-ingredients-list" id="cookModeIngredientsContainer">
+            <!-- Populated by JS -->
+          </ul>
+        </aside>
 
-      <div id="cookModeStepsContainer">
-        <!-- Steps rendered by JS -->
+        <section class="cook-steps-column">
+          <div style="margin-bottom: 0.85rem; color: var(--text-secondary); font-size: 0.9rem; font-weight: 600;">
+            Tap any step below as you complete it:
+          </div>
+          <div id="cookModeStepsContainer">
+            <!-- Steps rendered by JS -->
+          </div>
+        </section>
       </div>
     </div>
   </div>
@@ -275,9 +346,18 @@
     <div class="grocery-header">
       <div style="display: flex; align-items: center; gap: 0.5rem;">
         <span style="font-size: 1.3rem;">🛒</span>
-        <h3 style="font-size: 1.15rem; font-weight: 800;">Grocery List</h3>
+        <div>
+          <h3 style="font-size: 1.1rem; font-weight: 800;">Grocery List</h3>
+          <span style="font-size: 0.75rem; color: var(--text-muted);" id="grocerySubStatus">0 items</span>
+        </div>
       </div>
       <button class="modal-close-btn" id="groceryDrawerCloseBtn">&times;</button>
+    </div>
+
+    <!-- Quick Add Custom Grocery Item -->
+    <div class="grocery-quick-add">
+      <input type="text" id="customGroceryInput" class="ingredient-input" placeholder="Add item to list (e.g. paper towels, Greek yogurt)...">
+      <button class="btn btn-card-action" id="customGroceryAddBtn">+ Add</button>
     </div>
 
     <div class="grocery-body" id="groceryListContainer">
@@ -285,7 +365,8 @@
     </div>
 
     <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-color); display: flex; gap: 0.5rem; background: var(--bg-secondary);">
-      <button class="btn btn-primary" id="copyGroceryBtn" style="flex: 1;">📋 Copy to Clipboard</button>
+      <button class="btn btn-primary" id="copyGroceryBtn" style="flex: 1;">📋 Copy List</button>
+      <button class="btn btn-card-action" id="clearCheckedGroceryBtn">Clear Checked</button>
       <button class="btn btn-card-action" id="clearGroceryBtn" style="color: var(--raptor-coral);">Clear All</button>
     </div>
   </div>
@@ -296,7 +377,7 @@
       <div class="modal-header">
         <div>
           <span class="brand-badge">Local Recipe Builder</span>
-          <h2 class="modal-title">Add & Export New Recipe</h2>
+          <h2 class="modal-title">Add &amp; Export New Recipe</h2>
           <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">
             Creates clean JSON matching RecipeRaptor's recipe schema. Drop the JSON into <code>recipes/</code> and run <code>python3 build.py</code>!
           </p>
@@ -315,12 +396,12 @@
             <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Protein Category</label>
             <select name="recipeProtein" class="select-control" style="width: 100%;">
               <option value="Chicken">Chicken</option>
-              <option value="Fish & Seafood">Fish & Seafood</option>
+              <option value="Fish & Seafood">Fish &amp; Seafood</option>
               <option value="Beef">Beef</option>
               <option value="Pork">Pork</option>
               <option value="Turkey">Turkey</option>
               <option value="Lamb">Lamb</option>
-              <option value="Tofu & Plant-Based">Tofu & Plant-Based</option>
+              <option value="Tofu & Plant-Based">Tofu &amp; Plant-Based</option>
               <option value="Eggs">Eggs</option>
               <option value="Vegetarian">Vegetarian</option>
             </select>
@@ -329,16 +410,16 @@
           <div>
             <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary);">Meal Category</label>
             <select name="recipeCategory" class="select-control" style="width: 100%;">
-              <option value="Mains & Grills">Mains & Grills</option>
-              <option value="Bowls & Skillets">Bowls & Skillets</option>
-              <option value="Pasta & Noodles">Pasta & Noodles</option>
-              <option value="Soups & Stews">Soups & Stews</option>
-              <option value="Sandwiches & Wraps">Sandwiches & Wraps</option>
+              <option value="Mains & Grills">Mains &amp; Grills</option>
+              <option value="Bowls & Skillets">Bowls &amp; Skillets</option>
+              <option value="Pasta & Noodles">Pasta &amp; Noodles</option>
+              <option value="Soups & Stews">Soups &amp; Stews</option>
+              <option value="Sandwiches & Wraps">Sandwiches &amp; Wraps</option>
               <option value="Salads">Salads</option>
-              <option value="Pizza & Breads">Pizza & Breads</option>
-              <option value="Sides & Sauces">Sides & Sauces</option>
-              <option value="Breakfast & Eggs">Breakfast & Eggs</option>
-              <option value="Sweets & Drinks">Sweets & Drinks</option>
+              <option value="Pizza & Breads">Pizza &amp; Breads</option>
+              <option value="Sides & Sauces">Sides &amp; Sauces</option>
+              <option value="Breakfast & Eggs">Breakfast &amp; Eggs</option>
+              <option value="Sweets & Drinks">Sweets &amp; Drinks</option>
             </select>
           </div>
 
@@ -412,7 +493,7 @@
           <span class="brand-badge">Daily &amp; Weekly Nutrition Deck</span>
           <h2 class="modal-title">📅 Meal Planner &amp; Macro Calculator</h2>
           <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">
-            Combine multiple recipes to calculate cumulative calories, protein, carbs, fat, and generate a 1-click grocery list.
+            Stack meals to calculate cumulative calories, protein, carbs, fat, and build a combined grocery list.
           </p>
         </div>
         <button class="modal-close-btn" id="mealPlanCloseBtn">&times;</button>
