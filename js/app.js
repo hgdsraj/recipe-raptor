@@ -289,6 +289,16 @@
       .replace(/'/g, "&#039;");
   }
 
+  function cleanMarkdownText(str) {
+    if (!str) return "";
+    return String(str)
+      .replace(/^#+\s*/g, "")
+      .replace(/\*\*(.*?)\*\*/g, "$1")
+      .replace(/\*(.*?)\*/g, "$1")
+      .replace(/^[\*\-\•]\s*/g, "")
+      .trim();
+  }
+
   // --- Theme Management ---
   function initTheme() {
     document.documentElement.setAttribute("data-theme", state.theme);
@@ -594,8 +604,8 @@
               </button>
             </div>
 
-            <h3 class="recipe-title">${escapeHtml(recipe.title)}</h3>
-            <p class="recipe-quick-desc">${escapeHtml(previewText)}</p>
+            <h3 class="recipe-title">${escapeHtml(cleanMarkdownText(recipe.title))}</h3>
+            <p class="recipe-quick-desc">${escapeHtml(cleanMarkdownText(previewText))}</p>
 
             <div class="card-nutrition">
               <div class="nutrition-headline">
@@ -699,7 +709,7 @@
             <span class="badge badge-category">${escapeHtml(recipe.category)}</span>
             ${recipe.succinct ? '<span class="badge badge-succinct">⚡ Quick-Fire Recipe Note</span>' : ''}
           </div>
-          <h2 class="modal-title">${escapeHtml(recipe.title)}</h2>
+          <h2 class="modal-title">${escapeHtml(cleanMarkdownText(recipe.title))}</h2>
         </div>
         <button class="modal-close-btn" id="modalCloseInnerBtn">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>

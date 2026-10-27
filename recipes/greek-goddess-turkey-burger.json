@@ -22,33 +22,35 @@
     "calcium_mg": 80
   },
   "ingredients": [
+    "Toppings:",
+    "1/2 onion",
     "3 green onions",
     "5 oz baby spinach",
     "2 tbsp olive oil",
     "Chopped 2 tbsp dill",
     "Chopped 2 tbsp parsley",
     "4 oz feta",
-    "Salt pepper to taste"
-  ],
-  "instructions": [
-    "Sautee onion and green onion whites until golden in olive oil",
+    "Salt pepper to taste",
     "Salt ppeper",
-    "Sautee spinach until just wilted but still bright",
     "Salt pepper",
     "Take off heat",
-    "Add dill parsley, feta, and green onion greens",
     "Get some tzatziki",
     "Burger:",
     "1 lb turkey",
     "1/2 onion grated",
     "Salt and pepper (like 1/2 tsp each)",
-    "Cook burgers",
     "Bun buttered toasted",
     "Put down tzatziki",
     "Put down a burger",
     "Put down the topping",
     "Put down the bun",
     "Bam"
+  ],
+  "instructions": [
+    "Sautee onion and green onion whites until golden in olive oil",
+    "Sautee spinach until just wilted but still bright",
+    "Add dill parsley, feta, and green onion greens",
+    "Cook burgers"
   ],
   "notes": "",
   "sourceUrl": "",
@@ -61,6 +63,9 @@
     "Sandwiches & Wraps"
   ],
   "ingredientKeywords": [
+    "toppings",
+    "1/2",
+    "onion",
     "green",
     "onions",
     "baby",
@@ -69,9 +74,6 @@
     "oil",
     "tbsp",
     "dill",
-    "parsley",
-    "feta",
-    "salt",
-    "pepper"
+    "parsley"
   ]
 }

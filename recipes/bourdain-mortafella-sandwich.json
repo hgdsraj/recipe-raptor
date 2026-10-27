@@ -2,46 +2,43 @@
   "id": "bourdain-mortafella-sandwich",
   "title": "Bourdain mortafella sandwich",
   "category": "Sandwiches & Wraps",
-  "protein": "Fish & Seafood",
+  "protein": "Pork",
   "servings": 2,
   "prepTime": "10 mins",
   "cookTime": "10 mins",
   "totalTime": "20 mins",
-  "calories": 338,
+  "calories": 432,
   "macros": {
-    "protein_g": 35,
-    "carbs_g": 18,
-    "fat_g": 14
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 24
   },
   "micros": {
     "fiber_g": 4,
-    "sodium_mg": 480,
-    "iron_mg": 2.1,
-    "potassium_mg": 620,
-    "vitamin_c_mg": 8,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 420,
+    "vitamin_c_mg": 5,
     "calcium_mg": 80
   },
   "ingredients": [
     "Portuguese roll",
     "Provolone",
     "Mortadella",
-    "Dijon one side, provolone other"
+    "Dijon one side, provolone other",
+    "Stack them on sandwich"
   ],
   "instructions": [
     "Fry mortadella 3 stacks",
     "Melt provolone 3 slices on it",
-    "Stack them on sandwich",
-    "Fry sandwich slightly push down in pan soak up mortadella juicesb",
-    "Marco Pierre White barbecue lamb chops and salmon with ketchup vinaigrette"
+    "Fry sandwich slightly push down in pan soak up mortadella juicesb"
   ],
   "notes": "",
   "sourceUrl": "https://youtube.com/shorts/ndxyBHbH89U?si=leYJAygYDQjfgsYJ",
   "succinct": false,
   "tags": [
-    "High-Protein",
-    "Low-Calorie",
     "Quick (<25m)",
-    "Fish & Seafood",
+    "Pork",
     "Sandwiches & Wraps"
   ],
   "ingredientKeywords": [
@@ -52,6 +49,9 @@
     "dijon",
     "one",
     "side",
-    "other"
+    "other",
+    "stack",
+    "them",
+    "sandwich"
   ]
 }

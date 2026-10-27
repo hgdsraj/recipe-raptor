@@ -4,9 +4,9 @@
   "category": "Sides & Sauces",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "10 mins",
-  "cookTime": "20 mins",
-  "totalTime": "30 mins",
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
   "calories": 424,
   "macros": {
     "protein_g": 38,
@@ -37,13 +37,13 @@
     "Cooked rice",
     "Green onion",
     "Parsley/cilantro/carrot greens",
-    "Sesame oil"
+    "Sesame oil",
+    "Garlic ginger paste in 30 seconds",
+    "Tofu/chicken in bit of olibe oil fry up"
   ],
   "instructions": [
     "Fry onion in olive oil with carrots, peppers, snap peas, salt pepper",
-    "Garlic ginger paste in 30 seconds",
     "Pat tofu/chicken dry cut into chunks",
-    "Tofu/chicken in bit of olibe oil fry up",
     "Add bit of mirin, rice wine vinegar, teriyaki sauce",
     "Deglaze with sake",
     "Add cornstarch slurry to thicken if needed",

@@ -2,23 +2,23 @@
   "id": "champurado",
   "title": "Champurado",
   "category": "Sweets & Drinks",
-  "protein": "Vegetarian",
+  "protein": "Pork",
   "servings": 4,
-  "prepTime": "10 mins",
+  "prepTime": "5 mins",
   "cookTime": "15 mins",
-  "totalTime": "25 mins",
-  "calories": 438,
+  "totalTime": "20 mins",
+  "calories": 338,
   "macros": {
-    "protein_g": 5,
-    "carbs_g": 82,
+    "protein_g": 10,
+    "carbs_g": 52,
     "fat_g": 10
   },
   "micros": {
-    "fiber_g": 7,
-    "sodium_mg": 410,
-    "iron_mg": 3.0,
-    "potassium_mg": 520,
-    "vitamin_c_mg": 22,
+    "fiber_g": 4,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 420,
+    "vitamin_c_mg": 5,
     "calcium_mg": 80
   },
   "ingredients": [
@@ -31,9 +31,10 @@
   "sourceUrl": "https://youtube.com/shorts/SRKdRuJfJz8?si=mZlUZuHg1xueT40v",
   "succinct": true,
   "tags": [
+    "Low-Calorie",
     "Quick (<25m)",
     "Quick-Fire Note",
-    "Vegetarian",
+    "Pork",
     "Sweets & Drinks"
   ],
   "ingredientKeywords": [

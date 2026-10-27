@@ -4,9 +4,9 @@
   "category": "Sides & Sauces",
   "protein": "Pork",
   "servings": 4,
-  "prepTime": "10 mins",
-  "cookTime": "20 mins",
-  "totalTime": "30 mins",
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
   "calories": 432,
   "macros": {
     "protein_g": 32,
@@ -24,17 +24,17 @@
   "ingredients": [
     "Pork shoulder",
     "Favorite rub",
-    "Favorite sauce"
+    "Favorite sauce",
+    "Double butterfly the pork shoulder into a flat 1-1.5in thick uniform long strip",
+    "Mustard + rub all over. Season with salt and pepper both sides",
+    "Coat top side with sauce, broil for 2 mins. Coat bottom side with sauce, broil 2 min or until caramelized.",
+    "Coat with sauce and rest"
   ],
   "instructions": [
     "Heat oven 275F",
-    "Double butterfly the pork shoulder into a flat 1-1.5in thick uniform long strip",
-    "Mustard + rub all over. Season with salt and pepper both sides",
     "Cover tightly aluminum foil in a casserole dish or pan.",
     "Roast 2hr15m @275 or until 190-200 internal",
-    "Transfer to clean sheet pan, broil on high for 2 mins each side",
-    "Coat top side with sauce, broil for 2 mins. Coat bottom side with sauce, broil 2 min or until caramelized.",
-    "Coat with sauce and rest"
+    "Transfer to clean sheet pan, broil on high for 2 mins each side"
   ],
   "notes": "",
   "sourceUrl": "",
@@ -49,6 +49,13 @@
     "shoulder",
     "favorite",
     "rub",
-    "sauce"
+    "sauce",
+    "double",
+    "butterfly",
+    "the",
+    "into",
+    "flat",
+    "1-1",
+    "5in"
   ]
 }

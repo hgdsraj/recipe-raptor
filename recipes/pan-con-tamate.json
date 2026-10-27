@@ -22,12 +22,12 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "Tomatoes, hella riep, shredded on a cheese grater or blend it"
-  ],
-  "instructions": [
-    "Mix it with salt and olive oil (lil bit like tsp per tomato)",
+    "Tomatoes, hella riep, shredded on a cheese grater or blend it",
     "Put it on olive oil toasted bread with garlic",
     "Optional burrata on top"
+  ],
+  "instructions": [
+    "Mix it with salt and olive oil (lil bit like tsp per tomato)"
   ],
   "notes": "",
   "sourceUrl": "",
@@ -43,6 +43,11 @@
     "shredded",
     "cheese",
     "grater",
-    "blend"
+    "blend",
+    "put",
+    "olive",
+    "oil",
+    "toasted",
+    "bread"
   ]
 }

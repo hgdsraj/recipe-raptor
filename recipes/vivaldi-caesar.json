@@ -1,43 +1,63 @@
 {
   "id": "vivaldi-caesar",
   "title": "Vivaldi caesar",
-  "category": "Mains & Grills",
-  "protein": "Vegetarian",
-  "servings": 4,
+  "category": "Breakfast & Eggs",
+  "protein": "Eggs",
+  "servings": 2,
   "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 394,
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
+  "calories": 322,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 52,
-    "fat_g": 14
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 18
   },
   "micros": {
-    "fiber_g": 7,
-    "sodium_mg": 410,
-    "iron_mg": 3.0,
-    "potassium_mg": 520,
-    "vitamin_c_mg": 22,
+    "fiber_g": 4,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 340,
+    "vitamin_c_mg": 14,
     "calcium_mg": 80
   },
   "ingredients": [
-    "1 cup avocado oil"
+    "1 cup avocado oil",
+    "3 egg yolks",
+    "2 tsp Dijon mustard",
+    "2 cloves of garlic",
+    "3 tbsp lemon juice",
+    "1 tbsp red wine vinegar",
+    "2 tsp Worcestershire",
+    "1/2 tsp Tabasco",
+    "1/4 tsp salt",
+    "1 tbsp rinsed capers",
+    "4-6 Anchovies",
+    "1 tbsp chopped Italian parsley"
   ],
   "instructions": [
-    "Ingredients:",
-    "1 cup avocado oil"
+    "1. Place all ingredients into a large measuring cup and emulsify with a stick blender"
   ],
   "notes": "",
   "sourceUrl": "",
   "succinct": false,
   "tags": [
     "Low-Calorie",
-    "Vegetarian",
-    "Mains & Grills"
+    "Eggs",
+    "Breakfast & Eggs"
   ],
   "ingredientKeywords": [
     "avocado",
-    "oil"
+    "oil",
+    "egg",
+    "yolks",
+    "dijon",
+    "mustard",
+    "garlic",
+    "lemon",
+    "juice",
+    "red",
+    "wine",
+    "vinegar"
   ]
 }

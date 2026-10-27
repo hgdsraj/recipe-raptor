@@ -1,0 +1,71 @@
+{
+  "id": "sweet-potato-black-bean-chili-high-protein-veggie",
+  "title": "Sweet Potato & Black Bean Chili",
+  "category": "Soups & Stews",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 390,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 58,
+    "fat_g": 8
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 610,
+    "iron_mg": 2.6,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 tbsp olive oil",
+    "1 medium onion, diced",
+    "3 cloves garlic, minced",
+    "2 medium sweet potatoes, peeled and cut into 1/2-inch cubes",
+    "1 bell pepper, diced",
+    "1 can (14 oz) black beans, rinsed and drained",
+    "1 can (14 oz) kidney beans or pinto beans, rinsed and drained",
+    "1 can (14 oz) fire-roasted diced tomatoes",
+    "2 cups vegetable broth",
+    "1 tbsp chili powder",
+    "1 tsp ground cumin",
+    "1/2 tsp smoked paprika",
+    "1/4 tsp cayenne pepper",
+    "Salt & black pepper to taste",
+    "Optional: 1/2 cup red lentils for extra protein",
+    "Toppings: fresh cilantro, sliced avocado, lime wedges"
+  ],
+  "instructions": [
+    "Heat olive oil in a large pot over medium heat. Sauté onion and garlic for 2–3 minutes until fragrant.",
+    "Add sweet potato cubes, bell pepper, chili powder, cumin, and smoked paprika. Stir for 2 minutes to bloom the spices.",
+    "Pour in black beans, kidney beans, diced tomatoes (with juices), and vegetable broth.",
+    "Bring to a boil, then reduce heat to low, cover, and simmer for 25–30 minutes until sweet potatoes are tender.",
+    "Optional: Stir in red lentils with 1/2 cup extra water or broth for an extra protein boost.",
+    "Uncover and simmer for 5–10 minutes until thick. Ladle into bowls and serve with cilantro, avocado, and fresh lime juice."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "succinct": false,
+  "tags": [
+    "Eggs",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "protein",
+    "~20–25g",
+    "per",
+    "serving",
+    "with",
+    "toppings",
+    "added",
+    "lentils",
+    "olive",
+    "oil",
+    "medium",
+    "onion"
+  ]
+}

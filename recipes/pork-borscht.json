@@ -22,13 +22,13 @@
     "calcium_mg": 80
   },
   "ingredients": [
-    "Pork Borscht"
+    "Pork borscht based on this https://youtu.be/RnotGXO0qSs"
   ],
   "instructions": [
-    "Prepare Pork Borscht according to personal taste and desired accompaniments."
+    "Pork borscht based on this https://youtu.be/RnotGXO0qSs"
   ],
   "notes": "",
-  "sourceUrl": "",
+  "sourceUrl": "https://youtu.be/RnotGXO0qSs",
   "succinct": true,
   "tags": [
     "Quick-Fire Note",
@@ -37,6 +37,11 @@
   ],
   "ingredientKeywords": [
     "pork",
-    "borscht"
+    "borscht",
+    "based",
+    "this",
+    "https",
+    "//youtu",
+    "be/rnotgxo0qss"
   ]
 }

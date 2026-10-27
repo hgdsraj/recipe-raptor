@@ -1,7 +1,7 @@
 {
-  "id": "make-ramen-noodles-for-3-5-mins-only",
-  "title": "Make ramen noodles for 3.5 mins only",
-  "category": "Soups & Stews",
+  "id": "fernand-point-pommes-dauphine",
+  "title": "Fernand point pommes dauphine",
+  "category": "Mains & Grills",
   "protein": "Vegetarian",
   "servings": 4,
   "prepTime": "15 mins",
@@ -14,34 +14,32 @@
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 9,
-    "sodium_mg": 560,
+    "fiber_g": 7,
+    "sodium_mg": 410,
     "iron_mg": 3.0,
-    "potassium_mg": 600,
+    "potassium_mg": 520,
     "vitamin_c_mg": 22,
     "calcium_mg": 80
   },
   "ingredients": [
-    "Make ramen noodles for 3.5 mins only"
+    "Fernand point pommes dauphine"
   ],
   "instructions": [
-    "Prepare Make ramen noodles for 3.5 mins only according to personal taste and desired accompaniments."
+    "Prepare Fernand point pommes dauphine according to personal taste and desired accompaniments."
   ],
   "notes": "",
-  "sourceUrl": "",
+  "sourceUrl": "https://youtube.com/shorts/zLk-S8ijjrU?si=7NzHDJtId3uU6wPk",
   "succinct": true,
   "tags": [
     "Low-Calorie",
     "Quick-Fire Note",
     "Vegetarian",
-    "Soups & Stews"
+    "Mains & Grills"
   ],
   "ingredientKeywords": [
-    "make",
-    "ramen",
-    "noodles",
-    "for",
-    "mins",
-    "only"
+    "fernand",
+    "point",
+    "pommes",
+    "dauphine"
   ]
 }

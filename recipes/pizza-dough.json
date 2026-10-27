@@ -22,7 +22,11 @@
     "calcium_mg": 80
   },
   "ingredients": [
+    "1 1/2 cups all-purpose flour",
     "1 tsp instant yeast",
+    "1/2 tsp salt",
+    "1/2 tsp sugar",
+    "3/4 cup warm water",
     "1 tbsp olive oil"
   ],
   "instructions": [
@@ -42,8 +46,14 @@
     "Pizza & Breads"
   ],
   "ingredientKeywords": [
+    "all-purpose",
+    "flour",
     "instant",
     "yeast",
+    "salt",
+    "sugar",
+    "warm",
+    "water",
     "olive",
     "oil"
   ]

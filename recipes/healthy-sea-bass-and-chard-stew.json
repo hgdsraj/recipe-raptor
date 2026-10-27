@@ -22,11 +22,10 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "Healthy Sea Bass and Chard Stew"
+    "Sea bass and chard stewed with leeks and tarragon in vegetable broth lightly reduced with garlic and butter"
   ],
   "instructions": [
-    "Garnish with chives flower?? Parsley, chives",
-    "Sea bass and chard stewed with leeks and tarragon in vegetable broth lightly reduced with garlic and butter"
+    "Garnish with chives flower?? Parsley, chives"
   ],
   "notes": "",
   "sourceUrl": "",
@@ -38,11 +37,17 @@
     "Soups & Stews"
   ],
   "ingredientKeywords": [
-    "healthy",
     "sea",
     "bass",
     "and",
     "chard",
-    "stew"
+    "stewed",
+    "with",
+    "leeks",
+    "tarragon",
+    "vegetable",
+    "broth",
+    "lightly",
+    "reduced"
   ]
 }

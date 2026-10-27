@@ -22,16 +22,16 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "Do chicken breast, scored on one side cross cross"
-  ],
-  "instructions": [
-    "Toss in flour",
-    "Fry in tbsp butter and tsp olive oil (small pan if just a little) just use olive oil for healthier one",
+    "Do chicken breast, scored on one side cross cross",
     "Chuck in garlic fresh",
     "Tsp soy sauce, tsp apple cider vinegar, tsp honey",
     "Chives on top to garnish",
     "Salt pepper as needed",
     "Can add ginger and chili flakes and sesame oil"
+  ],
+  "instructions": [
+    "Toss in flour",
+    "Fry in tbsp butter and tsp olive oil (small pan if just a little) just use olive oil for healthier one"
   ],
   "notes": "",
   "sourceUrl": "",
@@ -47,6 +47,12 @@
     "scored",
     "one",
     "side",
-    "cross"
+    "cross",
+    "chuck",
+    "garlic",
+    "tsp",
+    "soy",
+    "sauce",
+    "apple"
   ]
 }

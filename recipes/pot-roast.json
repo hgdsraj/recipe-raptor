@@ -4,9 +4,9 @@
   "category": "Sides & Sauces",
   "protein": "Beef",
   "servings": 4,
-  "prepTime": "10 mins",
+  "prepTime": "15 mins",
   "cookTime": "120 mins",
-  "totalTime": "130 mins",
+  "totalTime": "135 mins",
   "calories": 438,
   "macros": {
     "protein_g": 36,
@@ -28,12 +28,12 @@
     "Oregano, basil",
     "Salt pepper",
     "Onion",
-    "Garlic"
+    "Garlic",
+    "Throw in the sauce,"
   ],
   "instructions": [
     "Sautee onion, garlic, throw in tomatoes, basil, oregano, salt, pepper",
     "Sear the meat both sides",
-    "Throw in the sauce,",
     "Simmer low slow 3 hours in dutch oven (or oven it for 3 hours low)"
   ],
   "notes": "",
@@ -55,6 +55,7 @@
     "salt",
     "pepper",
     "onion",
-    "garlic"
+    "garlic",
+    "throw"
   ]
 }

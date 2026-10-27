@@ -4,9 +4,9 @@
   "category": "Pasta & Noodles",
   "protein": "Turkey",
   "servings": 4,
-  "prepTime": "10 mins",
-  "cookTime": "20 mins",
-  "totalTime": "30 mins",
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
   "calories": 505,
   "macros": {
     "protein_g": 40,
@@ -26,12 +26,12 @@
     "Garlic",
     "Lemon",
     "Meatballs",
-    "Make.meatballs, can do garlic pepper or lemon pepper, pork or turkey. Add bread crumbs, bake in 450 oven for 10 mins."
+    "Make.meatballs, can do garlic pepper or lemon pepper, pork or turkey. Add bread crumbs, bake in 450 oven for 10 mins.",
+    "Sauteed garlic and chopped tomatoes or cherry tomatoes in olive oil and butter"
   ],
   "instructions": [
     "Roast some veggies like peppers and zucchini or sautee",
     "Cook orzo",
-    "Sauteed garlic and chopped tomatoes or cherry tomatoes in olive oil and butter",
     "Add orzo and lemon",
     "Add everything else",
     "Serve with garnish, can do Greek style with tzatzik"

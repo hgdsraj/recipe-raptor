@@ -22,22 +22,18 @@
     "calcium_mg": 80
   },
   "ingredients": [
-    "Tofu: 125g Extra Firm (1cm cubes) + 125g Medium Firm (2cm cubes).",
-    "Vegetables: 250g Pura Vida Fire Roasted Primavera mix.",
-    "Glaze: 0.75 tbsp Miso paste + 1.5 tbsp water (whisked)."
+    "Tofu: 125g Extra Firm (1cm cubes) + 125g Medium Firm (2cm cubes)."
   ],
   "instructions": [
-    "Sear Tofu: Brown extra firm cubes in a hot non-stick pan (5 mins). Add medium firm cubes (2 mins). Remove all tofu.",
-    "Sauté Veg: Dump frozen mix into high-heat pan. Cook undisturbed (2 mins), then toss until hot (4 mins).",
-    "Glaze: Return tofu to pan. Reduce heat to medium-low.",
-    "Finish: Pour miso mixture over. Toss 45 seconds until coated and liquid evaporates.",
-    "Macros (Per 500g): ~385 kcal | 26g Protein | 18g Fat | 16g Net Carbs | 1,250mg Sodium."
+    "Ingredients",
+    "* Tofu: 125g Extra Firm (1cm cubes) + 125g Medium Firm (2cm cubes)."
   ],
   "notes": "",
   "sourceUrl": "",
-  "succinct": false,
+  "succinct": true,
   "tags": [
     "Low-Calorie",
+    "Quick-Fire Note",
     "Tofu & Plant-Based",
     "Mains & Grills"
   ],
@@ -49,10 +45,6 @@
     "1cm",
     "cubes",
     "medium",
-    "2cm",
-    "vegetables",
-    "250g",
-    "pura",
-    "vida"
+    "2cm"
   ]
 }

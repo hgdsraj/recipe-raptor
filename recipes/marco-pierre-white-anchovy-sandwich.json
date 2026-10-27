@@ -2,23 +2,23 @@
   "id": "marco-pierre-white-anchovy-sandwich",
   "title": "Marco Pierre White anchovy sandwich",
   "category": "Sandwiches & Wraps",
-  "protein": "Vegetarian",
+  "protein": "Fish & Seafood",
   "servings": 2,
   "prepTime": "10 mins",
   "cookTime": "10 mins",
   "totalTime": "20 mins",
-  "calories": 394,
+  "calories": 338,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 52,
+    "protein_g": 35,
+    "carbs_g": 18,
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 7,
-    "sodium_mg": 410,
-    "iron_mg": 3.0,
-    "potassium_mg": 520,
-    "vitamin_c_mg": 22,
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
     "calcium_mg": 80
   },
   "ingredients": [
@@ -31,10 +31,11 @@
   "sourceUrl": "https://youtube.com/shorts/2zfadqGciSk?si=k9rsO4LEh5utT5ih",
   "succinct": true,
   "tags": [
+    "High-Protein",
     "Low-Calorie",
     "Quick (<25m)",
     "Quick-Fire Note",
-    "Vegetarian",
+    "Fish & Seafood",
     "Sandwiches & Wraps"
   ],
   "ingredientKeywords": [

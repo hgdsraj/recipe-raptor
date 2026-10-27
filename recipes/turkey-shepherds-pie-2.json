@@ -4,9 +4,9 @@
   "category": "Sweets & Drinks",
   "protein": "Turkey",
   "servings": 4,
-  "prepTime": "10 mins",
+  "prepTime": "5 mins",
   "cookTime": "15 mins",
-  "totalTime": "25 mins",
+  "totalTime": "20 mins",
   "calories": 342,
   "macros": {
     "protein_g": 13,

@@ -1,12 +1,12 @@
 {
   "id": "pita-bread-pizza",
   "title": "Pita bread pizza",
-  "category": "Sandwiches & Wraps",
+  "category": "Soups & Stews",
   "protein": "Vegetarian",
-  "servings": 2,
-  "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
   "calories": 466,
   "macros": {
     "protein_g": 15,
@@ -14,10 +14,10 @@
     "fat_g": 22
   },
   "micros": {
-    "fiber_g": 7,
-    "sodium_mg": 410,
+    "fiber_g": 9,
+    "sodium_mg": 560,
     "iron_mg": 3.0,
-    "potassium_mg": 520,
+    "potassium_mg": 600,
     "vitamin_c_mg": 22,
     "calcium_mg": 200
   },
@@ -25,27 +25,40 @@
     "Pita",
     "Sauce",
     "Pepperoni",
-    "Light cheese"
+    "Light cheese",
+    "Soup",
+    "Put in 1 radish slices",
+    "2 slices ginger",
+    "3 garlic cloves",
+    "3 sage leaves",
+    "1 sprig of thyme just whisk around",
+    "Thinly sliced onion 1/4",
+    "1/4 cup of frozen mixed veg",
+    "Little bit of soup base",
+    "Make ramen noodles for 3.5 mins only"
   ],
   "instructions": [
-    "Pita",
-    "Sauce",
-    "Pepperoni",
-    "Light cheese"
+    "Simmer 2.5 cups with 5 baby bok choy cut up"
   ],
   "notes": "",
   "sourceUrl": "",
   "succinct": false,
   "tags": [
-    "Quick (<25m)",
     "Vegetarian",
-    "Sandwiches & Wraps"
+    "Soups & Stews"
   ],
   "ingredientKeywords": [
     "pita",
     "sauce",
     "pepperoni",
     "light",
-    "cheese"
+    "cheese",
+    "soup",
+    "put",
+    "radish",
+    "slices",
+    "ginger",
+    "garlic",
+    "cloves"
   ]
 }

@@ -4,9 +4,9 @@
   "category": "Pasta & Noodles",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "10 mins",
+  "prepTime": "15 mins",
   "cookTime": "120 mins",
-  "totalTime": "130 mins",
+  "totalTime": "135 mins",
   "calories": 578,
   "macros": {
     "protein_g": 15,
@@ -25,18 +25,21 @@
     "8 ounces linguine",
     "2 medium zucchini",
     "1 cup fresh basil leaves",
+    "1/4 cup pine nuts",
     "2 cloves garlic, minced",
+    "1/2 cup grated Parmesan cheese",
+    "1/4 cup extra-virgin olive oil",
     "Salt and pepper to taste",
     "Optional toppings: cherry tomatoes, red pepper flakes, additional Parmesan cheese"
   ],
   "instructions": [
-    "Cook the linguine according to the package instructions until al dente. Drain and set aside.",
-    "While the linguine is cooking, prepare the zucchini. Trim off the ends and cut the zucchini into thin, long strips resembling linguine using a spiralizer or a vegetable peeler. Set aside.",
-    "In a food processor or blender, combine the basil leaves, pine nuts, minced garlic, and grated Parmesan cheese. Pulse until the ingredients are finely chopped.",
-    "With the food processor or blender running, slowly drizzle in the olive oil until the mixture forms a smooth and creamy pesto sauce. Add salt and pepper to taste, and blend again to combine.",
-    "In a large skillet, heat a drizzle of olive oil over medium heat. Add the zucchini noodles and sauté for 2-3 minutes until they are just tender. Be careful not to overcook them, as they can become mushy.",
-    "Add the cooked linguine to the skillet with the zucchini noodles. Pour the fresh pesto sauce over the noodles and gently toss to coat everything evenly. Cook for an additional 1-2 minutes until the sauce is heated through.",
-    "Remove from heat and serve the pesto zucchini linguine immediately. Optionally, you can garnish with halved cherry tomatoes, red pepper flakes for a hint of spice, and additional grated Parmesan cheese.",
+    "1. Cook the linguine according to the package instructions until al dente. Drain and set aside.",
+    "2. While the linguine is cooking, prepare the zucchini. Trim off the ends and cut the zucchini into thin, long strips resembling linguine using a spiralizer or a vegetable peeler. Set aside.",
+    "3. In a food processor or blender, combine the basil leaves, pine nuts, minced garlic, and grated Parmesan cheese. Pulse until the ingredients are finely chopped.",
+    "4. With the food processor or blender running, slowly drizzle in the olive oil until the mixture forms a smooth and creamy pesto sauce. Add salt and pepper to taste, and blend again to combine.",
+    "5. In a large skillet, heat a drizzle of olive oil over medium heat. Add the zucchini noodles and sauté for 2-3 minutes until they are just tender. Be careful not to overcook them, as they can become mushy.",
+    "6. Add the cooked linguine to the skillet with the zucchini noodles. Pour the fresh pesto sauce over the noodles and gently toss to coat everything evenly. Cook for an additional 1-2 minutes until the sauce is heated through.",
+    "7. Remove from heat and serve the pesto zucchini linguine immediately. Optionally, you can garnish with halved cherry tomatoes, red pepper flakes for a hint of spice, and additional grated Parmesan cheese.",
     "Enjoy your fresh pesto zucchini linguine!"
   ],
   "notes": "",
@@ -53,11 +56,11 @@
     "zucchini",
     "basil",
     "leaves",
+    "pine",
+    "nuts",
     "garlic",
     "minced",
-    "salt",
-    "and",
-    "pepper",
-    "toppings"
+    "grated",
+    "parmesan"
   ]
 }

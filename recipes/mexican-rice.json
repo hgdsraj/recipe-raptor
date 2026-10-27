@@ -22,6 +22,7 @@
     "calcium_mg": 80
   },
   "ingredients": [
+    "1/4 cup tomato sauce or one large tomato chopped finely (different flavors)",
     "1/2 red onion",
     "2 tbsp garlic powder",
     "Mixed frozen veg 1 cup",
@@ -29,12 +30,14 @@
     "Hot pepper powder or chili flakes 1/2 tsp",
     "Chili powder like 1tsp",
     "Tsp cumin",
-    "Can of diced green chilies (mild)"
+    "1/4 cup oil",
+    "1/4 cup tomatillo salsa",
+    "Can of diced green chilies (mild)",
+    "3 cup water",
+    "Rinse rice til water clear"
   ],
   "instructions": [
-    "5 cup rice",
-    "3 cup water",
-    "Rinse rice til water clear",
+    "1.5 cup rice",
     "Sautee the rice in oil",
     "Add everything except mixed veg",
     "Stir in to combine",
@@ -51,17 +54,17 @@
     "Soups & Stews"
   ],
   "ingredientKeywords": [
+    "tomato",
+    "sauce",
+    "one",
+    "large",
+    "different",
+    "flavors",
     "1/2",
     "red",
     "onion",
     "garlic",
     "powder",
-    "mixed",
-    "frozen",
-    "veg",
-    "cup",
-    "salt",
-    "probably",
-    "tsp"
+    "mixed"
   ]
 }

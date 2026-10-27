@@ -1,0 +1,41 @@
+{
+  "id": "marco-pierre-white-barbecue-lamb-chops-and-salmon-with-ketchup-vinaigrette",
+  "title": "Marco Pierre White barbecue lamb chops and salmon with ketchup vinaigrette",
+  "category": "Pasta & Noodles",
+  "protein": "Lamb",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
+  "calories": 585,
+  "macros": {
+    "protein_g": 34,
+    "carbs_g": 56,
+    "fat_g": 25
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 580,
+    "iron_mg": 3.2,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Recipes doc"
+  ],
+  "instructions": [
+    "Recipes doc"
+  ],
+  "notes": "",
+  "sourceUrl": "https://youtu.be/2i-nYlbDKaQ?si=uBNmTjw5UuGC-sd5",
+  "succinct": false,
+  "tags": [
+    "Lamb",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "recipes",
+    "doc"
+  ]
+}

@@ -4,9 +4,9 @@
   "category": "Sides & Sauces",
   "protein": "Pork",
   "servings": 4,
-  "prepTime": "10 mins",
-  "cookTime": "20 mins",
-  "totalTime": "30 mins",
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
   "calories": 504,
   "macros": {
     "protein_g": 32,
@@ -22,12 +22,12 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "Pan sear pork chop with southwest seasoning."
+    "Pan sear pork chop with southwest seasoning.",
+    "Carmelize onions with salt pepper olive oil sugar and add red wine."
   ],
   "instructions": [
     "Bake with barbecue sauce high heat.",
-    "Bake halved skin on sweet potato with salt and pepper. Add cheese at end.",
-    "Carmelize onions with salt pepper olive oil sugar and add red wine."
+    "Bake halved skin on sweet potato with salt and pepper. Add cheese at end."
   ],
   "notes": "",
   "sourceUrl": "",
@@ -43,6 +43,11 @@
     "chop",
     "with",
     "southwest",
-    "seasoning"
+    "seasoning",
+    "carmelize",
+    "onions",
+    "salt",
+    "pepper",
+    "olive"
   ]
 }

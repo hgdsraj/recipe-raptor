@@ -1,47 +1,70 @@
 {
   "id": "japanese-lamb-curry-with-potatoes",
-  "title": "**Japanese Lamb Curry with Potatoes (カレーライス風ラムカレー)**",
-  "category": "Bowls & Skillets",
+  "title": "Japanese Lamb Curry with Potatoes (カレーライス風ラムカレー)",
+  "category": "Soups & Stews",
   "protein": "Lamb",
   "servings": 4,
-  "prepTime": "5 mins",
-  "cookTime": "15 mins",
-  "totalTime": "20 mins",
-  "calories": 537,
+  "prepTime": "20 mins",
+  "cookTime": "90 mins",
+  "totalTime": "110 mins",
+  "calories": 520,
   "macros": {
-    "protein_g": 34,
-    "carbs_g": 44,
-    "fat_g": 25
+    "protein_g": 36,
+    "carbs_g": 42,
+    "fat_g": 24
   },
   "micros": {
-    "fiber_g": 4,
-    "sodium_mg": 580,
+    "fiber_g": 8,
+    "sodium_mg": 730,
     "iron_mg": 3.2,
-    "potassium_mg": 460,
-    "vitamin_c_mg": 8,
+    "potassium_mg": 660,
+    "vitamin_c_mg": 23,
     "calcium_mg": 80
   },
   "ingredients": [
-    "## 🇯🇵 **Japanese Lamb Curry with Potatoes (カレーライス風ラムカレー)**"
+    "3 lbs cubed lamb leg",
+    "Salt & freshly ground black pepper",
+    "1 tbsp oil (neutral or olive oil)",
+    "1 large onion, sliced",
+    "3 carrots, peeled and chopped",
+    "5 medium potatoes, peeled and cut into chunks",
+    "1 clove garlic, minced",
+    "1 tsp ginger, grated or minced",
+    "3 cups chicken broth (or water)",
+    "1 tbsp honey",
+    "1 tbsp mirin",
+    "1 tbsp dark soy sauce",
+    "1 tsp rice wine vinegar",
+    "Garnish: sliced green onions & pickled ginger",
+    "Option A: 1/2 box (about 100g) Japanese curry roux blocks (Golden Curry, Vermont, etc.)",
+    "Option B (homemade roux): 2 tbsp flour, 1 tbsp curry powder, 1 tbsp soy sauce, 1 tbsp ketchup, 1 tsp Worcestershire sauce, 1 tsp sugar, 1 tsp garam masala"
   ],
   "instructions": [
-    "## 🇯🇵 **Japanese Lamb Curry with Potatoes (カレーライス風ラムカレー)**"
+    "1. Sear the lamb: Season lamb cubes generously with salt and pepper. In a Dutch oven or heavy pot, heat 1 tbsp oil over medium-high. Sear lamb cubes until browned on all sides (3–4 min). Remove and set aside.",
+    "2. Sauté aromatics & veggies: In the same pot, add sliced onions. Cook until softened and starting to caramelize (6–8 min). Add minced garlic and ginger, cooking for 1 min. Add carrots and potatoes, stirring for 2 min.",
+    "3. Add liquids: Return seared lamb to the pot. Pour in 3 cups of broth, honey, mirin, dark soy sauce, and vinegar. Bring to a boil, then reduce to a gentle simmer. Skim off foam, cover, and cook for 1.5 hours until lamb is fork-tender.",
+    "4. Add curry roux: If using store-bought roux: break up curry roux blocks and stir in. Simmer gently for 10–15 min until velvety and glossy. (If using homemade: toast flour and curry powder in 1 tbsp butter for 1 min, whisk in soy sauce, ketchup, Worcestershire, sugar, and 1/2 cup broth, then stir into the main pot.)",
+    "5. Serve: Ladle generously over hot steamed Japanese rice. Garnish with chopped green onions and pickled ginger."
   ],
-  "notes": "",
+  "notes": "Comforting, rich, and mildly sweet. Can also be made in an Instant Pot (high pressure for 35 minutes).",
   "sourceUrl": "",
-  "succinct": true,
+  "succinct": false,
   "tags": [
-    "Quick (<25m)",
-    "Quick-Fire Note",
     "Lamb",
-    "Bowls & Skillets"
+    "Soups & Stews"
   ],
   "ingredientKeywords": [
-    "**japanese",
+    "###",
+    "serves",
+    "comforting",
+    "mild",
+    "rich",
+    "perfect",
+    "over",
+    "white",
+    "rice",
+    "cubed",
     "lamb",
-    "curry",
-    "with",
-    "potatoes",
-    "カレーライス風ラムカレー"
+    "leg"
   ]
 }

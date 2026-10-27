@@ -24,6 +24,11 @@
   "ingredients": [
     "1 pre-made pizza crust (or homemade if you prefer)",
     "1 can of Heinz baked beans",
+    "1/4 cup of grated cheddar cheese",
+    "1/2 cup of grated mozzarella (maybe get a pizza mix)",
+    "1/4 cup of chopped red onion",
+    "1/4 cup of chopped green bell pepper",
+    "1/4 cup of chopped cooked bacon or ham (optional)",
     "1 teaspoon of dried oregano",
     "Salt and pepper to taste"
   ],
@@ -55,8 +60,8 @@
     "heinz",
     "baked",
     "beans",
-    "teaspoon",
-    "oregano",
-    "salt"
+    "grated",
+    "cheddar",
+    "cheese"
   ]
 }
