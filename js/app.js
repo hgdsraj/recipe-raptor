@@ -834,9 +834,12 @@
     }
   }
 
-  function renderModalContent() {
+  function renderModalContent(preserveScroll = false) {
     const recipe = state.currentModalRecipe;
     if (!recipe) return;
+
+    const prevBodyScroll = preserveScroll ? (el.modalContent.querySelector(".modal-body")?.scrollTop || 0) : 0;
+    const prevBackdropScroll = preserveScroll ? (el.recipeModalBackdrop?.scrollTop || 0) : 0;
 
     const scaleFactor = state.modalServings / (state.baseServings || 2);
     const scaledCalories = Math.round(recipe.calories * scaleFactor);
@@ -937,7 +940,7 @@
             <div class="panel-header">
               <h3 class="panel-title">
                 <span>🥗 Ingredients</span>
-                <span class="prep-progress-pill">${checkedIngs.size}/${totalIngs} prepped</span>
+                <span class="prep-progress-pill" id="ingPrepProgressPill">${checkedIngs.size}/${totalIngs} prepped</span>
               </h3>
               <button class="btn btn-card-action" id="modalAddGroceryBtn" title="Add unchecked ingredients to your Grocery List">
                 🛒 + Grocery (${uncheckedCount || totalIngs})
@@ -967,7 +970,7 @@
             <div class="panel-header">
               <h3 class="panel-title">
                 <span>👨‍🍳 Step-by-Step Instructions</span>
-                <span class="prep-progress-pill">${checkedSteps.size}/${(recipe.instructions || []).length} done</span>
+                <span class="prep-progress-pill" id="stepPrepProgressPill">${checkedSteps.size}/${(recipe.instructions || []).length} done</span>
               </h3>
             </div>
             <div style="font-size: 0.73rem; color: var(--text-muted); margin-bottom: 0.5rem;">
@@ -1005,22 +1008,28 @@
       </div>
     `;
 
+    if (preserveScroll) {
+      const newBody = el.modalContent.querySelector(".modal-body");
+      if (newBody) newBody.scrollTop = prevBodyScroll;
+      if (el.recipeModalBackdrop) el.recipeModalBackdrop.scrollTop = prevBackdropScroll;
+    }
+
     document.getElementById("modalCloseInnerBtn").addEventListener("click", closeRecipeModal);
     document.getElementById("modalFooterCloseBtn")?.addEventListener("click", closeRecipeModal);
 
     document.getElementById("scalerMinusBtn").addEventListener("click", () => {
       if (state.modalServings > 1) {
         state.modalServings -= 1;
-        renderModalContent();
+        renderModalContent(true);
       }
     });
 
     document.getElementById("scalerPlusBtn").addEventListener("click", () => {
       state.modalServings += 1;
-      renderModalContent();
+      renderModalContent(true);
     });
 
-    // Interactive Ingredient Checklist & Single-Item Grocery Quick-Add
+    // Interactive Ingredient Checklist & Single-Item Grocery Quick-Add (In-Place DOM Update - Zero Scroll Jump)
     el.modalContent.querySelectorAll(".ingredient-row").forEach(row => {
       row.addEventListener("click", (e) => {
         const singleBtn = e.target.closest(".ing-single-add-btn");
@@ -1033,25 +1042,38 @@
         const idx = parseInt(row.getAttribute("data-ing-idx"));
         if (checkedIngs.has(idx)) {
           checkedIngs.delete(idx);
+          row.classList.remove("checked");
         } else {
           checkedIngs.add(idx);
+          row.classList.add("checked");
           AudioEngine.beep(520, 0.05, "sine");
         }
-        renderModalContent();
+        const newUnchecked = Math.max(0, totalIngs - checkedIngs.size);
+        const ingPill = document.getElementById("ingPrepProgressPill");
+        if (ingPill) ingPill.textContent = `${checkedIngs.size}/${totalIngs} prepped`;
+        const grocBtn = document.getElementById("modalAddGroceryBtn");
+        if (grocBtn) grocBtn.textContent = `🛒 + Grocery (${newUnchecked || totalIngs})`;
       });
     });
 
-    // Interactive Numbered Steps in Modal
+    // Interactive Numbered Steps in Modal (In-Place DOM Update - Zero Scroll Jump)
+    const totalStepsCount = (recipe.instructions || []).length;
     el.modalContent.querySelectorAll(".instruction-step").forEach(stepRow => {
       stepRow.addEventListener("click", () => {
         const idx = parseInt(stepRow.getAttribute("data-modal-step-idx"));
+        const numBadge = stepRow.querySelector(".step-num");
         if (checkedSteps.has(idx)) {
           checkedSteps.delete(idx);
+          stepRow.classList.remove("completed");
+          if (numBadge) numBadge.textContent = String(idx + 1);
         } else {
           checkedSteps.add(idx);
+          stepRow.classList.add("completed");
+          if (numBadge) numBadge.textContent = "✓";
           AudioEngine.beep(620, 0.06, "sine");
         }
-        renderModalContent();
+        const stepPill = document.getElementById("stepPrepProgressPill");
+        if (stepPill) stepPill.textContent = `${checkedSteps.size}/${totalStepsCount} done`;
       });
     });
 
@@ -1061,7 +1083,7 @@
 
     document.getElementById("modalToggleFavBtn").addEventListener("click", () => {
       toggleFavorite(recipe.id);
-      renderModalContent();
+      renderModalContent(true);
       renderRecipes();
     });
 
@@ -1475,7 +1497,13 @@
         const idx = parseInt(e.target.getAttribute("data-idx"));
         state.groceryList[idx].checked = e.target.checked;
         localStorage.setItem("reciperaptor_grocery", JSON.stringify(state.groceryList));
-        renderGroceryList();
+        const row = e.target.closest(".grocery-item-row");
+        if (row) row.classList.toggle("checked", e.target.checked);
+        const tot = state.groceryList.length;
+        const chk = state.groceryList.filter(i => i.checked).length;
+        if (el.grocerySubStatus) {
+          el.grocerySubStatus.textContent = tot === 0 ? "0 items" : `${tot - chk} remaining · ${chk} checked`;
+        }
       });
     });
 
@@ -1766,7 +1794,14 @@
         e.stopPropagation();
         const id = favBtn.getAttribute("data-fav-id");
         toggleFavorite(id);
-        renderRecipes();
+        if (state.activeTag === "favorites") {
+          renderRecipes();
+        } else {
+          const isFavNow = state.favorites.has(id);
+          favBtn.classList.toggle("favorited", isFavNow);
+          const svg = favBtn.querySelector("svg");
+          if (svg) svg.setAttribute("fill", isFavNow ? "currentColor" : "none");
+        }
         return;
       }
 
