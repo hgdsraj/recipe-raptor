@@ -1,17 +1,20 @@
 {
   "id": "beanz-pizza-dough-above",
+  "docOrder": 63,
+  "docLine": 635,
   "title": "Beanz pizza (dough above)",
+  "originalTitle": "Beanz pizza (dough above)",
   "category": "Pizza & Breads",
   "protein": "Pork",
   "servings": 4,
-  "prepTime": "20 mins",
-  "cookTime": "25 mins",
-  "totalTime": "45 mins",
-  "calories": 698,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 671,
   "macros": {
     "protein_g": 32,
     "carbs_g": 57,
-    "fat_g": 38
+    "fat_g": 35
   },
   "micros": {
     "fiber_g": 6,
@@ -45,6 +48,8 @@
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "Pork",
@@ -62,6 +67,8 @@
     "beans",
     "grated",
     "cheddar",
-    "cheese"
+    "cheese",
+    "mozzarella",
+    "maybe"
   ]
 }

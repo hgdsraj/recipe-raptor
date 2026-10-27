@@ -1,0 +1,54 @@
+{
+  "id": "crispy-garlic-salt-pan-toasted-ciabatta",
+  "docOrder": 30,
+  "docLine": 422,
+  "title": "Crispy Garlic-Salt Pan-Toasted Ciabatta",
+  "originalTitle": "Ciabatta Toast",
+  "category": "Mains & Grills",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 374,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 48,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Margarine \\+ garlic salt on pan toasted ciabatta"
+  ],
+  "instructions": [
+    "Prep all ingredients for Crispy Garlic-Salt Pan-Toasted Ciabatta: Margarine \\+ garlic salt on pan toasted ciabatta.",
+    "Cook and assemble according to the doc method: Margarine \\+ garlic salt on pan toasted ciabatta.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: Margarine \\+ garlic salt on pan toasted ciabatta",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "margarine",
+    "garlic",
+    "salt",
+    "pan",
+    "toasted",
+    "ciabatta"
+  ]
+}

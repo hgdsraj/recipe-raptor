@@ -1,0 +1,65 @@
+{
+  "id": "2-ingredient-heavy-cream-soft-flour-tortillas",
+  "docOrder": 163,
+  "docLine": 2045,
+  "title": "2-Ingredient Heavy Cream Soft Flour Tortillas",
+  "originalTitle": "2-Ingredient Heavy Cream Soft Flour Tortillas",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 8,
+  "prepTime": "15 mins",
+  "cookTime": "10 mins",
+  "totalTime": "25 mins",
+  "calories": 613,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 25
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 cups (250g) self-rising flour (or 2 cups all-purpose flour + 1.5 tsp baking powder + 3/4 tsp salt)",
+    "1 cup (240ml) heavy whipping cream (replaces both fat/lard and water)"
+  ],
+  "instructions": [
+    "In a large bowl, pour the heavy whipping cream into the self-rising flour (or flour + baking powder + salt) and stir until a shaggy dough comes together.",
+    "Knead on the counter for 3–4 minutes until silky smooth, divide into 8 equal balls, cover, and let rest for 15–20 minutes.",
+    "Roll each ball paper-thin on a lightly floured surface.",
+    "Cook on a dry, hot skillet over medium-high heat for 45–60 seconds per side until big golden blisters puff up. Keep stacked in a warm towel."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/aA1FPB_-JdQ?si=7trOOsbXFEPRm4Zz](",
+  "sourceUrl": "https://youtube.com/shorts/aA1FPB_-JdQ?si=7trOOsbXFEPRm4Zz",
+  "sourceTitle": "YouTube · 2-Ingredient Heavy Cream Tortillas",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "250g",
+    "self-rising",
+    "flour",
+    "cups",
+    "all-purpose",
+    "tsp",
+    "baking",
+    "powder",
+    "3/4",
+    "salt",
+    "240ml",
+    "heavy",
+    "whipping",
+    "cream"
+  ]
+}

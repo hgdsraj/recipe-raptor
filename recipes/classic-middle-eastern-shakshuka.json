@@ -1,0 +1,72 @@
+{
+  "id": "classic-middle-eastern-shakshuka",
+  "docOrder": 27,
+  "docLine": 410,
+  "title": "Classic Middle Eastern Shakshuka",
+  "originalTitle": "Shakshuka'",
+  "category": "Breakfast & Eggs",
+  "protein": "Eggs",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 376,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "6 large eggs",
+    "1 medium yellow onion, diced",
+    "1 red bell pepper, seeded and diced",
+    "4 cloves garlic, finely minced",
+    "1 can (28 oz) whole peeled tomatoes, crushed by hand",
+    "2 tsp sweet paprika, 1.5 tsp ground cumin, 1/4 tsp chili flakes or cayenne",
+    "2 tbsp extra-virgin olive oil",
+    "1/2 cup crumbled feta cheese",
+    "Fresh cilantro and parsley, chopped, plus crusty bread for dipping"
+  ],
+  "instructions": [
+    "Heat olive oil in a wide skillet over medium heat. Sauté diced onion and red bell pepper for 6–8 minutes until soft.",
+    "Add minced garlic, paprika, cumin, and chili flakes; stir for 1 minute until fragrant.",
+    "Pour in the crushed tomatoes with their juices, season with salt and pepper, and simmer for 10 minutes until thickened.",
+    "Make 6 small wells in the tomato sauce and crack an egg into each well. Sprinkle with crumbled feta, cover the pan, and cook on medium-low for 5–7 minutes until whites are set and yolks are runny. Garnish with fresh herbs."
+  ],
+  "notes": "",
+  "sourceUrl": "https://downshiftology.com/recipes/shakshuka/",
+  "sourceTitle": "Downshiftology · Classic Shakshuka",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Eggs",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "eggs",
+    "medium",
+    "yellow",
+    "onion",
+    "red",
+    "bell",
+    "pepper",
+    "seeded",
+    "garlic",
+    "minced",
+    "whole",
+    "peeled",
+    "tomatoes"
+  ]
+}

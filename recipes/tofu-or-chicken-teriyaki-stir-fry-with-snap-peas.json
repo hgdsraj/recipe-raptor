@@ -1,0 +1,82 @@
+{
+  "id": "tofu-or-chicken-teriyaki-stir-fry-with-snap-peas",
+  "docOrder": 2,
+  "docLine": 267,
+  "title": "Tofu or Chicken Teriyaki Stir-Fry with Snap Peas",
+  "originalTitle": "Tofu/chicken teriyaki",
+  "category": "Bowls & Skillets",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 416,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 39,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Snap peas ends removed",
+    "Red bell pepper small chunks or slices",
+    "Tofu firm cut into small cubes/chicken cut very finely",
+    "Carrots finely diced",
+    "Onion finely diced",
+    "Garlic ginger paste",
+    "Teriyaki sauce",
+    "Mirin",
+    "Rice wine vinegar",
+    "Green onion",
+    "Sake",
+    "Sesame seeds",
+    "Cooked rice",
+    "Green onion",
+    "Parsley/cilantro/carrot greens",
+    "Sesame oil"
+  ],
+  "instructions": [
+    "Fry onion in olive oil with carrots, peppers, snap peas, salt pepper",
+    "Garlic ginger paste in 30 seconds",
+    "Pat tofu/chicken dry cut into chunks",
+    "Tofu/chicken in bit of olibe oil fry up",
+    "Add bit of mirin, rice wine vinegar, teriyaki sauce",
+    "Deglaze with sake",
+    "Add cornstarch slurry to thicken if needed",
+    "Season to taste",
+    "Serve with rice with streak of sesame oil, green onion, parsley/cilantro, and sesame seed to garnish tofu/chicken mix"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Chicken",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "snap",
+    "peas",
+    "ends",
+    "removed",
+    "red",
+    "bell",
+    "pepper",
+    "small",
+    "chunks",
+    "slices",
+    "tofu",
+    "firm",
+    "cut",
+    "into"
+  ]
+}

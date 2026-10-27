@@ -1,0 +1,69 @@
+{
+  "id": "reverse-seared-smoked-bison-burgers-225-f",
+  "docOrder": 71,
+  "docLine": 695,
+  "title": "Reverse-Seared Smoked Bison Burgers (225°F)",
+  "originalTitle": "Smoked bison burger (225)",
+  "category": "Sandwiches & Wraps",
+  "protein": "Beef",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "45 mins",
+  "totalTime": "55 mins",
+  "calories": 492,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 24,
+    "fat_g": 28
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1.5 lbs ground bison (90/10 lean-to-fat ratio)",
+    "1 tbsp cold grated butter or olive oil (keeps lean bison juicy during smoking)",
+    "1 tbsp Worcestershire sauce",
+    "1.5 tsp coarse kosher salt, 1 tsp coarsely cracked black pepper, 1 tsp garlic powder, 1/2 tsp smoked paprika",
+    "4 slices aged white cheddar or Swiss cheese",
+    "4 toasted brioche buns, caramelized onions, lettuce, tomato, and smoky burger sauce"
+  ],
+  "instructions": [
+    "Preheat smoker to 225°F (107°C) with hickory or oak wood.",
+    "Gently mix ground bison with Worcestershire sauce, grated cold butter, garlic powder, salt, and pepper without overworking the meat; form into 4 thick patties with a thumb dimple in the center.",
+    "Smoke the bison patties at 225°F for 35–45 minutes until internal temperature reaches 130°F.",
+    "Transfer to a screaming-hot cast-iron skillet or direct grill grates for 60 seconds per side to crust, top with cheddar to melt (140–145°F final medium temp), and serve on toasted buns."
+  ],
+  "notes": "",
+  "sourceUrl": "https://heygrillhey.com/smoked-burgers/",
+  "sourceTitle": "Hey Grill Hey · 225°F Smoked Bison Burgers",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Beef",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "bison",
+    "90/10",
+    "lean-to-fat",
+    "ratio",
+    "cold",
+    "grated",
+    "butter",
+    "olive",
+    "oil",
+    "keeps",
+    "lean",
+    "juicy",
+    "during"
+  ]
+}

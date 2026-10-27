@@ -1,0 +1,70 @@
+{
+  "id": "classic-beef-rice-stuffed-bell-peppers",
+  "docOrder": 110,
+  "docLine": 1385,
+  "title": "Classic Beef & Rice Stuffed Bell Peppers",
+  "originalTitle": "Stuffed peppers",
+  "category": "Bowls & Skillets",
+  "protein": "Beef",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "45 mins",
+  "totalTime": "60 mins",
+  "calories": 548,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 38,
+    "fat_g": 28
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "6 large bell peppers (green, red, or yellow), tops sliced off and seeded",
+    "1 lb lean ground beef or ground turkey",
+    "1 cup cooked white or brown rice",
+    "1 small yellow onion, finely diced & 2 cloves garlic, minced",
+    "1 can (15 oz) tomato sauce + 1 tbsp Worcestershire sauce",
+    "1 tsp Italian seasoning, 1/2 tsp garlic powder, salt & black pepper",
+    "1 cup shredded mozzarella or Monterey Jack cheese"
+  ],
+  "instructions": [
+    "Preheat oven to 350°F (175°C). Parboil or steam the hollowed bell peppers for 4 minutes until slightly tender, then drain upside down.",
+    "Brown the ground beef or turkey with diced onion and garlic in a skillet over medium-high heat; drain excess fat.",
+    "Stir in cooked rice, half of the tomato sauce, Worcestershire sauce, Italian seasoning, salt, and pepper; simmer 3 minutes.",
+    "Spoon the meat-and-rice filling into the bell peppers, top with remaining tomato sauce, cover with foil, and bake 35 minutes. Uncover, top with mozzarella, and bake 10 minutes more until bubbly."
+  ],
+  "notes": "Doc Note: [https\\://www.allrecipes.com/recipe/16330/stuffed-peppers/](",
+  "sourceUrl": "https://www.allrecipes.com/recipe/16330/stuffed-peppers/",
+  "sourceTitle": "Allrecipes · Classic Stuffed Peppers",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Beef",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "bell",
+    "peppers",
+    "green",
+    "red",
+    "yellow",
+    "tops",
+    "off",
+    "seeded",
+    "lean",
+    "ground",
+    "beef",
+    "turkey",
+    "cooked"
+  ]
+}

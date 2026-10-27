@@ -1,37 +1,54 @@
 {
   "id": "chicken-soup",
+  "docOrder": 40,
+  "docLine": 450,
   "title": "Chicken soup",
+  "originalTitle": "Chicken soup",
   "category": "Soups & Stews",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 424,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 384,
   "macros": {
     "protein_g": 38,
-    "carbs_g": 41,
+    "carbs_g": 31,
     "fat_g": 12
   },
   "micros": {
     "fiber_g": 8,
-    "sodium_mg": 670,
+    "sodium_mg": 660,
     "iron_mg": 2.0,
     "potassium_mg": 750,
     "vitamin_c_mg": 27,
     "calcium_mg": 80
   },
   "ingredients": [
-    "Rotisserie Chicken soup with small pasta, braised celery, potato, carrots, onion finely minced, parsley, basil, thyme, oregano (or no thyme oregano instead dill), touch of garlic, touch of pepper, salt"
+    "Rotisserie Chicken soup",
+    "Small pasta",
+    "Braised celery",
+    "Potato",
+    "Carrots",
+    "Onion finely minced",
+    "Parsley",
+    "Basil",
+    "Thyme",
+    "Oregano (or no thyme oregano instead dill)"
   ],
   "instructions": [
-    "Rotisserie Chicken soup with small pasta, braised celery, potato, carrots, onion finely minced, parsley, basil, thyme, oregano (or no thyme oregano instead dill), touch of garlic, touch of pepper, salt"
+    "Prep all ingredients for Chicken soup: Rotisserie Chicken soup, Small pasta, Braised celery, Potato.",
+    "Cook and assemble according to the doc method: Rotisserie Chicken soup with small pasta, braised celery, potato, carrots, onion finely minced, parsley, basil, thyme, oregano (or no thyme oregano instead dill), touch of garlic, touch of pepper, salt.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Rotisserie Chicken soup with small pasta, braised celery, potato, carrots, onion finely minced, parsley, basil, thyme, oregano (or no thyme oregano instead dill), touch of garlic, touch of pepper, salt",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
     "High-Protein",
+    "Low-Calorie",
     "Quick-Fire Note",
     "Chicken",
     "Soups & Stews"
@@ -40,7 +57,6 @@
     "rotisserie",
     "chicken",
     "soup",
-    "with",
     "small",
     "pasta",
     "braised",
@@ -48,6 +64,9 @@
     "potato",
     "carrots",
     "onion",
-    "minced"
+    "minced",
+    "parsley",
+    "basil",
+    "thyme"
   ]
 }

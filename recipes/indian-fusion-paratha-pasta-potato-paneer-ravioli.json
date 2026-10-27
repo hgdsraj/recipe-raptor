@@ -1,0 +1,68 @@
+{
+  "id": "indian-fusion-paratha-pasta-potato-paneer-ravioli",
+  "docOrder": 111,
+  "docLine": 1389,
+  "title": "Indian Fusion Paratha Pasta & Potato-Paneer Ravioli",
+  "originalTitle": "Parantha pasta",
+  "category": "Pasta & Noodles",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 596,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 90,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 10,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Stuffed raviolis",
+    "Potato",
+    "Paneer",
+    "Noodles from parantha dough",
+    "A Indian cream sauce",
+    "Fried paneer",
+    "Lines of sour cream",
+    "Green sauce"
+  ],
+  "instructions": [
+    "Prep & mise en place: Gather and prepare all components for Indian Fusion Paratha Pasta & Potato-Paneer Ravioli.",
+    "Noodles from parantha dough with a Indian cream sauce and fried paneer and lines of sour cream and green sauce",
+    "Season to taste with kosher salt, freshly cracked black pepper, and finishing garnishes before serving warm."
+  ],
+  "notes": "Original Doc Shorthand: Stuffed raviolis with potato and paneer — Noodles from parantha dough with a Indian cream sauce and fried paneer and lines of sour cream and green sauce",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "stuffed",
+    "raviolis",
+    "potato",
+    "paneer",
+    "noodles",
+    "from",
+    "parantha",
+    "dough",
+    "indian",
+    "cream",
+    "sauce",
+    "fried",
+    "lines",
+    "sour"
+  ]
+}

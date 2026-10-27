@@ -1,0 +1,67 @@
+{
+  "id": "chef-jos-andr-s-40-second-microwave-mayo-omelette",
+  "docOrder": 198,
+  "docLine": 2440,
+  "title": "Chef José Andrés' 40-Second Microwave Mayo Omelette",
+  "originalTitle": "Chef José Andrés' 40-Second Microwave Mayo Omelette",
+  "category": "Breakfast & Eggs",
+  "protein": "Eggs",
+  "servings": 1,
+  "prepTime": "1 min",
+  "cookTime": "1 min",
+  "totalTime": "2 mins",
+  "calories": 376,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 large egg",
+    "1 generous tbsp full-fat mayonnaise (emulsified oil + egg yolk keeps the egg soufflé-fluffy in the microwave)",
+    "1 tsp softened butter or olive oil (for greasing the dish)",
+    "Pinch of flaky sea salt, freshly cracked black pepper, and chopped chives"
+  ],
+  "instructions": [
+    "Crack 1 large egg into a bowl, add 1 generous tablespoon of mayonnaise, and whisk vigorously with a fork or whisk until light, frothy, and full of tiny air bubbles.",
+    "Coat a shallow microwave-safe plate or wide ramekin with 1 tsp butter or olive oil and pour in the whisked egg-mayo mixture.",
+    "Microwave on high for 30 to 40 seconds until puffed and softly set, fold in half like a French omelette, and finish with chives and black pepper."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/fmUQ4qn4oZ0?si=1NjvZBssGwd6gVDE](",
+  "sourceUrl": "https://youtube.com/shorts/fmUQ4qn4oZ0?si=1NjvZBssGwd6gVDE",
+  "sourceTitle": "YouTube · Michelin Chef 40-Second Microwave Egg Omelette",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Eggs",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "egg",
+    "generous",
+    "tbsp",
+    "full-fat",
+    "mayonnaise",
+    "emulsified",
+    "oil",
+    "yolk",
+    "keeps",
+    "soufflé-fluffy",
+    "microwave",
+    "softened",
+    "butter"
+  ]
+}

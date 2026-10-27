@@ -1,40 +1,50 @@
 {
   "id": "kohlrabi-mash",
+  "docOrder": 58,
+  "docLine": 601,
   "title": "Kohlrabi mash",
-  "category": "Soups & Stews",
+  "originalTitle": "Kohlrabi mash",
+  "category": "Sides & Sauces",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 394,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 306,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 52,
+    "protein_g": 7,
+    "carbs_g": 38,
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 9,
-    "sodium_mg": 560,
+    "fiber_g": 8,
+    "sodium_mg": 410,
     "iron_mg": 3.0,
-    "potassium_mg": 600,
-    "vitamin_c_mg": 22,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
     "calcium_mg": 80
   },
   "ingredients": [
-    "witb salt, vegetable broth, immersion blender. Served with duck breast ideally -> healthy alternative"
+    "Witb salt",
+    "Vegetable broth",
+    "Immersion blender. Served",
+    "Duck breast ideally -\\> healthy alternative"
   ],
   "instructions": [
-    "witb salt, vegetable broth, immersion blender. Served with duck breast ideally -> healthy alternative"
+    "Prep all ingredients for Kohlrabi mash: Witb salt, Vegetable broth, Immersion blender. Served, Duck breast ideally -\\> healthy alternative.",
+    "Cook and assemble according to the doc method: witb salt, vegetable broth, immersion blender. Served with duck breast ideally -\\> healthy alternative.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: witb salt, vegetable broth, immersion blender. Served with duck breast ideally -\\> healthy alternative",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
     "Low-Calorie",
     "Quick-Fire Note",
     "Vegetarian",
-    "Soups & Stews"
+    "Sides & Sauces"
   ],
   "ingredientKeywords": [
     "witb",
@@ -44,10 +54,11 @@
     "immersion",
     "blender",
     "served",
-    "with",
     "duck",
     "breast",
     "ideally",
-    "healthy"
+    "-\\>",
+    "healthy",
+    "alternative"
   ]
 }

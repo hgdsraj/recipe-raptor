@@ -1,0 +1,73 @@
+{
+  "id": "classic-french-croque-monsieur-with-gruy-re-b-chamel-the-vivaldi-way",
+  "docOrder": 191,
+  "docLine": 2298,
+  "title": "Classic French Croque Monsieur with Gruyère Béchamel (The Vivaldi Way)",
+  "originalTitle": "Classic French Croque Monsieur with Gruyère Béchamel (The Vivaldi Way)",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 486,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 tbsp butter",
+    "5 tbsp flour",
+    "1 cup milk",
+    "Salt, pepper, and nutmeg to taste",
+    "200g Gruyère cheese, grated",
+    "2 slices of a nice thick cut bread",
+    "Dijon mustard",
+    "100g ham (I used prosciutto cotto)"
+  ],
+  "instructions": [
+    "Melt butter in a pan, whisk in flour, and cook briefly to remove the raw flour taste.",
+    "Add milk and stir until the mixture thickens into a",
+    "béchamel sauce.",
+    "Remove from heat and stir in salt, pepper, nutmeg, and a portion of the grated Gruyère cheese.",
+    "Spread Dijon mustard on one side of the bread slices.",
+    "Assemble the sandwich with the béchamel sauce and ham.",
+    "Toast the sandwich in a frying pan with butter until golden brown on both sides.",
+    "Spread additional béchamel sauce and sprinkle more Gruyère on top of the sandwich.",
+    "Place in a 400°F oven until the cheese is melted and bubbly, or use the broiler to speed up the process"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "butter",
+    "flour",
+    "milk",
+    "salt",
+    "pepper",
+    "nutmeg",
+    "gruyère",
+    "cheese",
+    "grated",
+    "nice",
+    "thick",
+    "cut",
+    "bread",
+    "dijon"
+  ]
+}

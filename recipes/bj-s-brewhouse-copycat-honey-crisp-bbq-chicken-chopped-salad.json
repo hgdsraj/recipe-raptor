@@ -1,0 +1,73 @@
+{
+  "id": "bj-s-brewhouse-copycat-honey-crisp-bbq-chicken-chopped-salad",
+  "docOrder": 125,
+  "docLine": 1502,
+  "title": "BJ's Brewhouse Copycat Honey-Crisp BBQ Chicken Chopped Salad",
+  "originalTitle": "BJ Brewhouse barbecue chicken salad",
+  "category": "Salads",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "12 mins",
+  "totalTime": "27 mins",
+  "calories": 362,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 12,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 7,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 30,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 lb crispy breaded chicken breast tenders or grilled chicken breast, chopped",
+    "6 cups chopped Romaine & iceberg lettuce",
+    "1 cup black beans, rinsed and drained",
+    "1 cup fire-roasted sweet corn kernels",
+    "2 Roma tomatoes, diced",
+    "1/2 cup shredded Monterey Jack & Cheddar cheese",
+    "1/3 cup crispy fried onion strings or tortilla strips",
+    "1/3 cup smoky Hickory BBQ sauce (for drizzling)",
+    "1/2 cup buttermilk ranch dressing + fresh chopped cilantro"
+  ],
+  "instructions": [
+    "Air-fry or bake the chicken tenders (or grill seasoned chicken breasts) at 400°F for 12–14 minutes until golden and crisp, then dice into bite-sized pieces.",
+    "In a large chilled bowl, toss the chopped Romaine and iceberg lettuce with buttermilk ranch dressing.",
+    "Arrange the dressed greens on platters and top in rows with black beans, roasted corn, diced tomatoes, cheddar-jack cheese, and warm crispy chicken.",
+    "Drizzle generously with smoky BBQ sauce and top with crunchy onion strings and fresh cilantro."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/JSdYki3gfdA?si=V-7z0WX7XUAlR-Bw](",
+  "sourceUrl": "https://youtube.com/shorts/JSdYki3gfdA?si=V-7z0WX7XUAlR-Bw",
+  "sourceTitle": "YouTube · BJ's Brewhouse BBQ Chicken Salad",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Salads"
+  ],
+  "ingredientKeywords": [
+    "crispy",
+    "breaded",
+    "chicken",
+    "breast",
+    "tenders",
+    "grilled",
+    "romaine",
+    "iceberg",
+    "lettuce",
+    "black",
+    "beans",
+    "rinsed",
+    "drained",
+    "fire-roasted"
+  ]
+}

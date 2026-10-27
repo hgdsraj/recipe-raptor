@@ -1,0 +1,75 @@
+{
+  "id": "restaurant-style-aloo-matar-spiced-potato-pea-curry",
+  "docOrder": 8,
+  "docLine": 310,
+  "title": "Restaurant-Style Aloo Matar (Spiced Potato & Pea Curry)",
+  "originalTitle": "Aloo mattar:",
+  "category": "Bowls & Skillets",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "25 mins",
+  "totalTime": "35 mins",
+  "calories": 484,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 62,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 teaspoon oil",
+    "1 large yellow onion, diced",
+    "4-6 garlic cloves, minced",
+    "1 tablespoon minced ginger",
+    "1 teaspoon garam masala",
+    "1/2 teaspoon turmeric powder",
+    "1/4 - 1 teaspoon cayenne pepper, to taste",
+    "1 teaspoon salt, or to taste",
+    "1 15oz can tomatoes, whole or diced (or 3 tomatoes chopped)",
+    "1 lb yukon gold potatoes (4-5 small potatoes), peeled and cut into 1/2\" pieces",
+    "1 cup green peas, fresh or frozen",
+    "1 cup Pacific Foods Low Sodium Vegetable Broth",
+    "2 tablespoon coconut cream (optional)",
+    "cilantro for garnish"
+  ],
+  "instructions": [
+    "Heat the oil in a large pot over medium heat and add the onion and a pinch of salt. Sauté until soft, about 5 minutes. Add the garlic and ginger, and let fry for about 1 minute.",
+    "Add the garam masala, turmeric, cayenne, and salt and stir to coat the onion mixture, then add the tomatoes. If using whole tomatoes break them into chunks with a spatula. Sauté until the tomatoes have softened and turned juicy, starting to break down, about 5 minutes. Blend the sauce until smooth with an immersion blender or upright blender and return to pot.",
+    "Add the potatoes, peas, and vegetable broth. Turn the heat up to bring to a low boil, then turn the heat down, cover, and let simmer until the potatoes are tender, usually 10-15 minutes.",
+    "Add the coconut cream and stir to combine. Taste and adjust salt as needed. Garnish with cilantro to serve."
+  ],
+  "notes": "Personal Note: [https\\://www.thecuriouschickpea.com/restaurant-style-aloo-matar/](",
+  "sourceUrl": "https://www.thecuriouschickpea.com/restaurant-style-aloo-matar/",
+  "sourceTitle": "The Curious Chickpea",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Verified Source",
+    "Vegetarian",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "teaspoon",
+    "oil",
+    "large",
+    "yellow",
+    "onion",
+    "4-6",
+    "garlic",
+    "cloves",
+    "minced",
+    "tablespoon",
+    "ginger",
+    "garam",
+    "masala",
+    "1/2"
+  ]
+}

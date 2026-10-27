@@ -1,0 +1,68 @@
+{
+  "id": "italian-meat-trio-fresh-mozzarella-tomato-pesto-ciabatta-sandwich",
+  "docOrder": 65,
+  "docLine": 665,
+  "title": "Italian Meat Trio, Fresh Mozzarella, Tomato & Pesto Ciabatta Sandwich",
+  "originalTitle": "Sandwich with mozzarella and tomatoes and meat trio pesto ciabatta",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "5 mins",
+  "totalTime": "15 mins",
+  "calories": 486,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 large artisan ciabatta loaf, halved horizontally (or 2 ciabatta rolls)",
+    "3 tbsp basil pesto + 1 tbsp mayonnaise or balsamic glaze",
+    "4 oz thinly sliced prosciutto, soppressata/salami, and mortadella (Italian meat trio)",
+    "4 oz fresh mozzarella, thickly sliced",
+    "2 ripe Roma or heirloom tomatoes, sliced and seasoned with salt, pepper & oregano",
+    "1 cup fresh arugula tossed with a squeeze of lemon and olive oil"
+  ],
+  "instructions": [
+    "Slice the ciabatta loaf horizontally, drizzle the cut sides with a touch of olive oil, and toast in a skillet or 400°F oven for 4 minutes until crisp.",
+    "Spread basil pesto generously on the bottom half and mayonnaise or balsamic glaze on the top half.",
+    "Layer the fresh mozzarella, salted tomato slices, folded ribbons of prosciutto, salami, and mortadella, and peppery lemon-dressed arugula. Press, slice in half, and serve."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/shOhK7-nD4I?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/shOhK7-nD4I?feature=share",
+  "sourceTitle": "YouTube · Italian Trio Pesto Ciabatta",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "artisan",
+    "ciabatta",
+    "loaf",
+    "halved",
+    "horizontally",
+    "rolls",
+    "basil",
+    "pesto",
+    "tbsp",
+    "mayonnaise",
+    "balsamic",
+    "glaze",
+    "thinly"
+  ]
+}

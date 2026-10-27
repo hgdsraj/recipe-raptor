@@ -1,48 +1,65 @@
 {
   "id": "healthy-sea-bass-and-chard-stew",
+  "docOrder": 51,
+  "docLine": 578,
   "title": "Healthy Sea Bass and Chard Stew",
+  "originalTitle": "Healthy Sea Bass and Chard Stew",
   "category": "Soups & Stews",
   "protein": "Fish & Seafood",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 410,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 380,
   "macros": {
     "protein_g": 35,
-    "carbs_g": 18,
-    "fat_g": 22
+    "carbs_g": 15,
+    "fat_g": 20
   },
   "micros": {
     "fiber_g": 8,
-    "sodium_mg": 630,
+    "sodium_mg": 620,
     "iron_mg": 2.1,
     "potassium_mg": 820,
     "vitamin_c_mg": 23,
     "calcium_mg": 200
   },
   "ingredients": [
-    "Sea bass and chard stewed with leeks and tarragon in vegetable broth lightly reduced with garlic and butter"
+    "Garnish",
+    "Chives flower?? Parsley",
+    "Chives",
+    "Sea bass",
+    "Chard stewed",
+    "Leeks",
+    "Tarragon in vegetable broth lightly reduced",
+    "Garlic",
+    "Butter"
   ],
   "instructions": [
-    "Garnish with chives flower?? Parsley, chives"
+    "Garnish with chives flower?? Parsley, chives",
+    "Sea bass and chard stewed with leeks and tarragon in vegetable broth lightly reduced with garlic and butter"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Garnish with chives flower?? Parsley, chives — Sea bass and chard stewed with leeks and tarragon in vegetable broth lightly reduced with garlic and butter",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
     "High-Protein",
+    "Low-Calorie",
     "Quick-Fire Note",
     "Fish & Seafood",
     "Soups & Stews"
   ],
   "ingredientKeywords": [
+    "garnish",
+    "chives",
+    "flower??",
+    "parsley",
     "sea",
     "bass",
-    "and",
     "chard",
     "stewed",
-    "with",
     "leeks",
     "tarragon",
     "vegetable",

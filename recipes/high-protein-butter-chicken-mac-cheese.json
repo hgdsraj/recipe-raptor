@@ -1,0 +1,68 @@
+{
+  "id": "high-protein-butter-chicken-mac-cheese",
+  "docOrder": 186,
+  "docLine": 2254,
+  "title": "High-Protein Butter Chicken Mac & Cheese",
+  "originalTitle": "High-Protein Butter Chicken Mac & Cheese",
+  "category": "Pasta & Noodles",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "20 mins",
+  "totalTime": "35 mins",
+  "calories": 582,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 67,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1.5 lbs boneless, skinless chicken breast or thighs, cubed",
+    "12 oz cavatappi or elbow macaroni (or chickpea protein pasta)",
+    "Marinade: 1/2 cup 0% Greek yogurt, 1 tbsp ginger-garlic paste, 1.5 tsp garam masala, 1.5 tsp Kashmiri chili powder, 1 tsp cumin, 1/2 tsp turmeric, salt",
+    "Butter Chicken Cheese Sauce: 1 tbsp butter, 1 cup tomato passata/crushed tomatoes, 1/2 cup blended cottage cheese or light cream, 1.5 cups shredded mozzarella & sharp cheddar, 1 tsp kasuri methi (dried fenugreek leaves)",
+    "Fresh chopped cilantro"
+  ],
+  "instructions": [
+    "Toss cubed chicken with the Greek yogurt, ginger-garlic paste, and spices; sear in a hot skillet or air-fry at 400°F for 10 minutes until charred.",
+    "Boil the macaroni in salted water until al dente and drain.",
+    "In the skillet, simmer butter, tomato passata, garam masala, and kasuri methi for 5 minutes. Turn heat to low and stir in blended cottage cheese (or cream) and shredded cheddar/mozzarella until velvety.",
+    "Fold the cooked macaroni and charred chicken into the creamy butter chicken cheese sauce, top with extra mozzarella, broil 2 minutes, and garnish with cilantro."
+  ],
+  "notes": "Doc Note: [https\\://www.instagram.com/reel/Da_Eq6axAzl/?igsh=YTA0eXQ3eW94cTNy](",
+  "sourceUrl": "https://www.instagram.com/reel/Da_Eq6axAzl/?igsh=YTA0eXQ3eW94cTNy",
+  "sourceTitle": "Instagram Reel · High-Protein Butter Chicken Mac",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "skinless",
+    "chicken",
+    "breast",
+    "thighs",
+    "cubed",
+    "cavatappi",
+    "elbow",
+    "macaroni",
+    "chickpea",
+    "protein",
+    "pasta",
+    "marinade",
+    "1/2"
+  ]
+}

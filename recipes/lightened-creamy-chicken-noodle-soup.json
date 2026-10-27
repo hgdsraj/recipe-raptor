@@ -1,0 +1,75 @@
+{
+  "id": "lightened-creamy-chicken-noodle-soup",
+  "docOrder": 48,
+  "docLine": 523,
+  "title": "Lightened Creamy Chicken Noodle Soup",
+  "originalTitle": "Creamy but healthy chicken noodle soup",
+  "category": "Soups & Stews",
+  "protein": "Chicken",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
+  "calories": 382,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 17,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 660,
+    "iron_mg": 2.0,
+    "potassium_mg": 750,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 tbsp unsalted butter or olive oil",
+    "1 medium yellow onion, diced",
+    "3 large carrots, peeled and sliced",
+    "2 stalks celery, sliced",
+    "3 cloves garlic, minced",
+    "1/3 cup all-purpose flour",
+    "6 cups low-sodium chicken broth",
+    "1 cup low-fat milk (1% or 2%)",
+    "2.5 cups cooked shredded chicken breast (or rotisserie chicken)",
+    "2 cups uncooked wide egg noodles",
+    "1 tsp dried thyme, 1/2 tsp dried oregano, 1 bay leaf, fresh parsley, salt & pepper"
+  ],
+  "instructions": [
+    "Melt butter with olive oil in a Dutch oven over medium heat. Sauté diced onion, carrots, and celery for 6–7 minutes until softened, then stir in garlic for 1 minute.",
+    "Sprinkle the flour over the vegetables and stir constantly for 1–2 minutes to cook out the raw flour taste.",
+    "Slowly whisk in the chicken broth and milk until smooth. Add thyme, oregano, bay leaf, salt, pepper, and shredded chicken.",
+    "Bring to a gentle boil, add uncooked egg noodles, and simmer uncovered for 8–10 minutes until noodles are tender and the broth is velvety and creamy without any heavy cream."
+  ],
+  "notes": "Doc Note: [https\\://sallysbakingaddiction.com/lightened-creamy-chicken-noodle-soup/](",
+  "sourceUrl": "https://sallysbakingaddiction.com/lightened-creamy-chicken-noodle-soup/",
+  "sourceTitle": "Sally's Baking Addiction · Lightened Creamy Chicken Noodle Soup",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "unsalted",
+    "butter",
+    "olive",
+    "oil",
+    "medium",
+    "yellow",
+    "onion",
+    "large",
+    "carrots",
+    "peeled",
+    "stalks",
+    "celery",
+    "garlic",
+    "minced"
+  ]
+}

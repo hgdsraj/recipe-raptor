@@ -1,0 +1,68 @@
+{
+  "id": "low-and-slow-smoked-steelhead-or-salmon-225-f",
+  "docOrder": 70,
+  "docLine": 691,
+  "title": "Low-and-Slow Smoked Steelhead or Salmon (225°F)",
+  "originalTitle": "Smoked steelhead 225  (or salmon)",
+  "category": "Mains & Grills",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "90 mins",
+  "totalTime": "110 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 to 2 lb steelhead trout or wild salmon fillet, skin-on",
+    "Dry Brine: 1/2 cup brown sugar + 3 tbsp kosher salt + 1 tsp garlic powder + 1 tsp black pepper",
+    "Glaze: 2 tbsp pure maple syrup or honey + 1 tsp Dijon mustard",
+    "Alder, apple, or cherry wood pellets/chips for smoking"
+  ],
+  "instructions": [
+    "Coat the steelhead or salmon flesh with the brown sugar and kosher salt dry brine, cover, and refrigerate for 3–4 hours. Rinse gently under cold water, pat completely dry, and let sit uncovered in the fridge 1 hour to form a tacky pellicle.",
+    "Preheat smoker (pellet grill or offset) to 225°F (107°C) with alder or fruitwood.",
+    "Place the fillet skin-side down on greased grates (or parchment) and smoke at 225°F for 60–90 minutes.",
+    "Brush with the warm maple glaze during the final 15 minutes until internal temperature reaches 135–140°F for flaky, moist smoked fish."
+  ],
+  "notes": "",
+  "sourceUrl": "https://heygrillhey.com/smoked-salmon/",
+  "sourceTitle": "Hey Grill Hey · 225°F Smoked Salmon / Steelhead",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "steelhead",
+    "trout",
+    "wild",
+    "salmon",
+    "fillet",
+    "skin-on",
+    "dry",
+    "brine",
+    "1/2",
+    "cup",
+    "brown",
+    "sugar",
+    "tbsp",
+    "kosher"
+  ]
+}

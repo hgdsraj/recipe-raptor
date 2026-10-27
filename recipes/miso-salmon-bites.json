@@ -1,12 +1,15 @@
 {
   "id": "miso-salmon-bites",
+  "docOrder": 95,
+  "docLine": 1169,
   "title": "Miso salmon bites",
-  "category": "Sides & Sauces",
+  "originalTitle": "Miso salmon bites",
+  "category": "Mains & Grills",
   "protein": "Fish & Seafood",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "25 mins",
-  "totalTime": "40 mins",
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
   "calories": 338,
   "macros": {
     "protein_g": 35,
@@ -14,11 +17,11 @@
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 480,
     "iron_mg": 2.1,
-    "potassium_mg": 620,
-    "vitamin_c_mg": 8,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
     "calcium_mg": 80
   },
   "ingredients": [
@@ -31,30 +34,20 @@
     "Green onion"
   ],
   "instructions": [
-    "4, 6 oz filets of wild salmon cut into bites",
-    "1/2 cup shiro miso (white)",
-    "1/2 cup white sugar",
-    "1/2 cup dry sake",
-    "1/4 cup soy sauce",
-    "Sesame seeds roasted",
-    "Green onion",
-    "Note: 2 tbsp each for one 6 oz filet",
-    "Mix the marinade",
-    "Mix in the salmon",
-    "1 hr in fridge",
-    "Save marinade, add to parchment, put some extra marinade",
-    "Bake 400 for a few mins",
-    "Glaze with more marinade, flip, glaze",
-    "Bake til done"
+    "Prep all ingredients for Miso salmon bites: 4, 6 oz filets of wild salmon cut into bites, 1/2 cup shiro miso (white), 1/2 cup white sugar, 1/2 cup dry sake.",
+    "Cook and assemble according to the doc method: 4, 6 oz filets of wild salmon cut into bites 1/2 cup shiro miso (white) 1/2 cup white sugar 1/2 cup dry sake 1/4 cup soy sauce Sesame seeds roasted Green onion Note: 2 tbsp each for one 6 oz filet Mix the marinade Mix in the salmon 1 hr in fridge Save marinade, add to parchment, put some extra marinade Bake 400 for a few mins Glaze with more marinade, flip, glaze Bake til done.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "Mix the marinade\nMix in the salmon\n1 hr in fridge\nSave marinade, add to parchment, put some extra marinade\nBake 400 for a few mins\nGlaze with more marinade, flip, glaze\nBake til done",
+  "notes": "Mix the marinade Mix in the salmon 1 hr in fridge Save marinade, add to parchment, put some extra marinade Bake 400 for a few mins Glaze with more marinade, flip, glaze Bake til done",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "High-Protein",
     "Low-Calorie",
     "Fish & Seafood",
-    "Sides & Sauces"
+    "Mains & Grills"
   ],
   "ingredientKeywords": [
     "filets",
@@ -68,6 +61,8 @@
     "white",
     "sugar",
     "dry",
-    "sake"
+    "sake",
+    "soy",
+    "sauce"
   ]
 }

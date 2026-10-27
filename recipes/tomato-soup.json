@@ -1,38 +1,50 @@
 {
   "id": "tomato-soup",
+  "docOrder": 50,
+  "docLine": 573,
   "title": "Tomato soup",
+  "originalTitle": "Tomato soup",
   "category": "Soups & Stews",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 466,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 396,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 52,
-    "fat_g": 22
+    "protein_g": 14,
+    "carbs_g": 40,
+    "fat_g": 20
   },
   "micros": {
-    "fiber_g": 11,
-    "sodium_mg": 560,
+    "fiber_g": 10,
+    "sodium_mg": 550,
     "iron_mg": 3.0,
     "potassium_mg": 720,
     "vitamin_c_mg": 37,
     "calcium_mg": 200
   },
   "ingredients": [
-    "Tomatoes roast with garlic olive oil salt pepper roast 30 min 400 degrees",
-    "Put in pan with some veggie stock let it simmer. Puree hand blend, add cream, red wine vinegar, salt pepper"
+    "Tomatoes roast",
+    "Garlic olive oil salt pepper roast 30 min 400 degrees",
+    "Put in pan",
+    "Some veggie stock let it simmer. Puree hand blend",
+    "Add cream",
+    "Red wine vinegar",
+    "Salt pepper"
   ],
   "instructions": [
-    "Tomatoes roast with garlic olive oil salt pepper roast 30 min 400 degrees",
-    "Put in pan with some veggie stock let it simmer. Puree hand blend, add cream, red wine vinegar, salt pepper"
+    "Prep & mise en place: Gather and prepare all components for Tomato soup.",
+    "Put in pan with some veggie stock let it simmer. Puree hand blend, add cream, red wine vinegar, salt pepper",
+    "Season to taste with kosher salt, freshly cracked black pepper, and finishing garnishes before serving warm."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Tomatoes roast with garlic olive oil salt pepper roast 30 min 400 degrees — Put in pan with some veggie stock let it simmer. Puree hand blend, add cream, red wine vinegar, salt pepper",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
+    "Low-Calorie",
     "Quick-Fire Note",
     "Vegetarian",
     "Soups & Stews"
@@ -40,7 +52,6 @@
   "ingredientKeywords": [
     "tomatoes",
     "roast",
-    "with",
     "garlic",
     "olive",
     "oil",
@@ -49,6 +60,9 @@
     "min",
     "400",
     "degrees",
-    "put"
+    "put",
+    "pan",
+    "veggie",
+    "stock"
   ]
 }

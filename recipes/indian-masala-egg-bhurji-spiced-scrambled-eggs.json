@@ -1,0 +1,71 @@
+{
+  "id": "indian-masala-egg-bhurji-spiced-scrambled-eggs",
+  "docOrder": 106,
+  "docLine": 1331,
+  "title": "Indian Masala Egg Bhurji (Spiced Scrambled Eggs)",
+  "originalTitle": "Indian bhurji",
+  "category": "Breakfast & Eggs",
+  "protein": "Eggs",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 376,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 tbsp butter",
+    "1 small red onion, finely chopped",
+    "1 green or red chilli, deseeded and finely chopped",
+    "2 garlic cloves, crushed",
+    "¼ tsp ground cumin",
+    "¼ tsp garam masala",
+    "good pinch of turmeric",
+    "2 large tomatoes, deseeded and finely chopped",
+    "7 eggs, beaten",
+    "small pack coriander, roughly chopped",
+    "4 chapatis (or gluten-free alternative), lightly toasted, to serve"
+  ],
+  "instructions": [
+    "Prep all ingredients for Indian Masala Egg Bhurji (Spiced Scrambled Eggs): 1 tbsp butter, 1 small red onion, finely chopped, 1 green or red chilli, deseeded and finely chopped, 2 garlic cloves, crushed.",
+    "Cook and assemble according to the doc method: 1 tbsp butter 1 small red onion, finely chopped 1 green or red chilli, deseeded and finely chopped 2 garlic cloves, crushed ¼ tsp ground cumin ¼ tsp garam masala good pinch of turmeric 2 large tomatoes, deseeded and finely chopped 7 eggs, beaten small pack coriander, roughly chopped 4 chapatis (or gluten-free alternative), lightly toasted, to serve.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: 1 tbsp butter — 1 small red onion, finely chopped — 1 green or red chilli, deseeded and finely chopped — 2 garlic cloves, crushed — ¼ tsp ground cumin — ¼ tsp garam masala — good pinch of turmeric — 2 large tomatoes, deseeded and finely chopped — 7 eggs, beaten — small pack coriander, roughly chopped — 4 chapatis (or gluten-free alternative), lightly toasted, to serve",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Eggs",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "butter",
+    "small",
+    "red",
+    "onion",
+    "green",
+    "chilli",
+    "deseeded",
+    "garlic",
+    "cloves",
+    "crushed",
+    "tsp",
+    "ground",
+    "cumin",
+    "garam"
+  ]
+}

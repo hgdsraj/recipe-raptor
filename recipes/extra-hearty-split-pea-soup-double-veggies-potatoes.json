@@ -1,0 +1,73 @@
+{
+  "id": "extra-hearty-split-pea-soup-double-veggies-potatoes",
+  "docOrder": 9,
+  "docLine": 314,
+  "title": "Extra-Hearty Split Pea Soup (Double Veggies & Potatoes)",
+  "originalTitle": "split pea soup,",
+  "category": "Soups & Stews",
+  "protein": "Turkey",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "90 mins",
+  "totalTime": "105 mins",
+  "calories": 357,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 29,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 630,
+    "iron_mg": 2.2,
+    "potassium_mg": 720,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2.25 cups dried green split peas, rinsed",
+    "2 quarts (8 cups) cold water or low-sodium vegetable/chicken broth",
+    "1.5 lbs meaty ham bone, diced smoked ham, or smoked turkey",
+    "2 large onions, thinly sliced",
+    "6 stalks celery, chopped (double vegetable ratio)",
+    "6 large carrots, chopped (double vegetable ratio)",
+    "4 medium Yukon Gold or Russet potatoes, peeled and cubed (extra hearty)",
+    "1/2 tsp dried marjoram or thyme",
+    "1/2 tsp salt, 1/4 tsp black pepper, pinch of cayenne"
+  ],
+  "instructions": [
+    "In a large stockpot or Dutch oven, combine the rinsed split peas, cold broth/water, ham bone (or smoked turkey), and sliced onions.",
+    "Season with salt, black pepper, and marjoram. Bring to a boil, then reduce heat to low, cover, and simmer gently for 60 minutes.",
+    "Remove meat from the bone and dice, returning meat to the pot. Add the double portion of chopped carrots, celery, and cubed potatoes.",
+    "Simmer uncovered on low for 35–45 minutes until the split peas break down into a thick velvety soup and the potatoes and carrots are fork-tender."
+  ],
+  "notes": "Doc Note: make extra hearty with double vegetables/potatoes: [https\\://www.allrecipes.com/recipe/13384/split-pea-soup/](",
+  "sourceUrl": "https://www.allrecipes.com/recipe/13384/split-pea-soup/",
+  "sourceTitle": "Allrecipes · Hearty Split Pea Soup",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "green",
+    "split",
+    "peas",
+    "rinsed",
+    "quarts",
+    "cups",
+    "cold",
+    "water",
+    "low-sodium",
+    "vegetable/chicken",
+    "broth",
+    "meaty",
+    "ham",
+    "bone"
+  ]
+}

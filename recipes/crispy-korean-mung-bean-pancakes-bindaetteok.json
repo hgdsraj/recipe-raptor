@@ -1,0 +1,72 @@
+{
+  "id": "crispy-korean-mung-bean-pancakes-bindaetteok",
+  "docOrder": 37,
+  "docLine": 440,
+  "title": "Crispy Korean Mung Bean Pancakes (Bindaetteok)",
+  "originalTitle": "Mung bean pancake",
+  "category": "Mains & Grills",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "15 mins",
+  "totalTime": "35 mins",
+  "calories": 384,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 45,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 420,
+    "iron_mg": 4.2,
+    "potassium_mg": 580,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 cup dried peeled split mung beans (soaked in cold water 4 hrs or overnight, drained)",
+    "1/2 cup water",
+    "1 cup well-fermented kimchi, squeezed and finely chopped",
+    "1 cup mung bean sprouts, blanched and chopped",
+    "3 scallions (green onions), chopped",
+    "2 cloves garlic, minced",
+    "4 oz ground pork or diced pork belly (optional, omit for vegan)",
+    "1 tbsp soy sauce, 1 tsp toasted sesame oil, 1/2 tsp salt",
+    "3 tbsp neutral oil for pan-frying, plus soy-vinegar dipping sauce"
+  ],
+  "instructions": [
+    "Blend the soaked, drained mung beans with 1/2 cup water and 1/2 tsp salt in a blender until a thick, slightly textured batter forms.",
+    "Transfer batter to a bowl and fold in chopped kimchi, blanched bean sprouts, scallions, garlic, soy sauce, sesame oil, and optional seasoned ground pork.",
+    "Heat 1.5 tbsp oil in a non-stick or cast-iron skillet over medium-high heat. Ladle batter into 4-inch rounds (or one large pancake).",
+    "Fry for 4–5 minutes per side until golden brown and extra crispy on the edges. Serve hot with soy-vinegar-onion dipping sauce."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.maangchi.com/recipe/bindaetteok",
+  "sourceTitle": "Maangchi · Korean Mung Bean Pancake (Bindaetteok)",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Tofu & Plant-Based",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "peeled",
+    "split",
+    "mung",
+    "beans",
+    "soaked",
+    "cold",
+    "water",
+    "hrs",
+    "overnight",
+    "drained",
+    "well-fermented",
+    "kimchi",
+    "squeezed",
+    "bean"
+  ]
+}

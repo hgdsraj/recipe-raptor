@@ -1,0 +1,66 @@
+{
+  "id": "baguettes-l-ancienne-cold-retarded-artisan-french-baguettes",
+  "docOrder": 156,
+  "docLine": 2016,
+  "title": "Baguettes à l'Ancienne (Cold-Retarded Artisan French Baguettes)",
+  "originalTitle": "Baguettes à l'Ancienne (Cold-Retarded Artisan French Baguettes)",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 6,
+  "prepTime": "30 mins",
+  "cookTime": "25 mins",
+  "totalTime": "55 mins",
+  "calories": 559,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "6 cups (765g) unbleached bread flour or French Type 65 flour",
+    "2.25 tsp (10g) kosher salt",
+    "1.5 tsp (5g) instant yeast",
+    "2.5 to 2.75 cups (590–650ml) ice-cold water (40–50°F — key to delaying yeast before cold retardation)"
+  ],
+  "instructions": [
+    "Whisk together flour, salt, and instant yeast. Add the ice-cold water and mix with a stiff spatula or dough whisk until a wet, sticky dough forms; rest 5 minutes, then stretch-and-fold vigorously for 3 minutes.",
+    "Transfer to a lightly oiled bowl, cover tightly, and refrigerate immediately (40°F) overnight or up to 4 days for slow enzymatic flavor development.",
+    "Two hours before baking, transfer the cold dough to a floured counter to warm up for 90 minutes. Divide into 3–6 pieces, gently pre-shape into cylinders, and roll into 14-inch baguettes without degassing the open crumb.",
+    "Preheat oven with a baking stone and steam pan to 500°F (260°C). Score each baguette with 3–5 diagonal slashes, slide onto the stone, pour 1 cup boiling water into the steam pan, and bake at 475°F for 20–24 minutes until blistered and deep golden brown."
+  ],
+  "notes": "Doc Note: [https\\://www.thefreshloaf.com/node/17415/baguettes-l039ancienne-cold-retardation](",
+  "sourceUrl": "https://www.thefreshloaf.com/node/17415/baguettes-l039ancienne-cold-retardation",
+  "sourceTitle": "The Fresh Loaf · Peter Reinhart's Baguettes à l'Ancienne",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "765g",
+    "unbleached",
+    "bread",
+    "flour",
+    "french",
+    "type",
+    "10g",
+    "kosher",
+    "salt",
+    "instant",
+    "yeast",
+    "cups",
+    "590–650ml",
+    "ice-cold"
+  ]
+}

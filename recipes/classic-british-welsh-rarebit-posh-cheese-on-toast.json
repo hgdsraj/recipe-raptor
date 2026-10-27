@@ -1,0 +1,71 @@
+{
+  "id": "classic-british-welsh-rarebit-posh-cheese-on-toast",
+  "docOrder": 166,
+  "docLine": 2054,
+  "title": "Classic British Welsh Rarebit ('Posh Cheese on Toast')",
+  "originalTitle": "Classic British Welsh Rarebit ('Posh Cheese on Toast')",
+  "category": "Sandwiches & Wraps",
+  "protein": "Vegetarian",
+  "servings": 2,
+  "prepTime": "5 mins",
+  "cookTime": "10 mins",
+  "totalTime": "15 mins",
+  "calories": 428,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 48,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 tbsp (25g) unsalted butter",
+    "2 tbsp (25g) all-purpose flour",
+    "1/3 cup (80ml) dark British ale, stout, or lager (or milk)",
+    "200g (2 cups) aged sharp Cheddar or Red Leicester cheese, coarsely grated",
+    "1 tbsp Worcestershire sauce (Lea & Perrins)",
+    "1 tsp English mustard powder or Dijon mustard",
+    "1 egg yolk (optional, gives a soufflé-like golden blister under the broiler)",
+    "2 thick slices sourdough or country bread, toasted"
+  ],
+  "instructions": [
+    "Melt butter in a small saucepan over medium heat, stir in the flour, and cook the roux for 2 minutes until sandy and bubbling.",
+    "Gradually whisk in the warm beer/ale until a thick, smooth paste forms, then remove from high heat and stir in the grated aged Cheddar, Worcestershire sauce, mustard, and black pepper until melted (stir in optional egg yolk).",
+    "Toast the thick sourdough slices on both sides and pile the thick, savory cheese rarebit mixture edge-to-edge on top.",
+    "Broil under high heat for 2–3 minutes until bubbling, blistered, and deep golden brown. Finish with an extra splash of Worcestershire sauce."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/bpEQiyLovvk?si=kkgkfIJ00YE7l5Wg](",
+  "sourceUrl": "https://youtube.com/shorts/bpEQiyLovvk?si=kkgkfIJ00YE7l5Wg",
+  "sourceTitle": "YouTube · Classic Welsh Rarebit",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "25g",
+    "unsalted",
+    "butter",
+    "all-purpose",
+    "flour",
+    "80ml",
+    "dark",
+    "british",
+    "ale",
+    "stout",
+    "lager",
+    "milk",
+    "cups",
+    "aged"
+  ]
+}

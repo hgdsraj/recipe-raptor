@@ -1,24 +1,27 @@
 {
   "id": "crispy-wafer-gpt",
+  "docOrder": 75,
+  "docLine": 740,
   "title": "Crispy wafer GPT",
-  "category": "Sandwiches & Wraps",
-  "protein": "Eggs",
-  "servings": 2,
+  "originalTitle": "Crispy wafer GPT",
+  "category": "Sweets & Drinks",
+  "protein": "Vegetarian",
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "120 mins",
-  "totalTime": "130 mins",
-  "calories": 394,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 490,
   "macros": {
-    "protein_g": 22,
-    "carbs_g": 18,
-    "fat_g": 26
+    "protein_g": 6,
+    "carbs_g": 76,
+    "fat_g": 18
   },
   "micros": {
-    "fiber_g": 4,
-    "sodium_mg": 460,
-    "iron_mg": 2.6,
-    "potassium_mg": 340,
-    "vitamin_c_mg": 14,
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
     "calcium_mg": 200
   },
   "ingredients": [
@@ -44,22 +47,21 @@
     "Bake for 8-10 minutes, or until the edges of the cookies are golden brown.",
     "Remove from the oven and let cool on the baking sheet for 5 minutes.",
     "Carefully transfer the cookies to a wire rack to cool completely.",
-    "Optional: You can sandwich two cookies together with your favorite filling (e.g. Nutella, whipped cream, jam, etc.) to make a delicious wafer cookie sandwich.",
-    "Enjoy your delicious, light, and crispy wafer layer cookies!"
+    "Optional: You can sandwich two cookies together with your favorite filling (e.g. Nutella, whipped cream, jam, etc.) to make a delicious wafer cookie sandwich."
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
-    "Low-Calorie",
-    "Eggs",
-    "Sandwiches & Wraps"
+    "Vegetarian",
+    "Sweets & Drinks"
   ],
   "ingredientKeywords": [
     "make",
     "delicious",
     "light",
-    "and",
     "crispy",
     "wafer",
     "layer",
@@ -67,6 +69,9 @@
     "you",
     "will",
     "need",
-    "the"
+    "following",
+    "ingredients",
+    "steps",
+    "all-purpose"
   ]
 }

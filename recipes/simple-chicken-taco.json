@@ -1,17 +1,20 @@
 {
   "id": "simple-chicken-taco",
+  "docOrder": 101,
+  "docLine": 1263,
   "title": "Simple chicken taco",
+  "originalTitle": "Simple chicken taco",
   "category": "Sandwiches & Wraps",
   "protein": "Chicken",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 432,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 414,
   "macros": {
     "protein_g": 38,
     "carbs_g": 25,
-    "fat_g": 20
+    "fat_g": 18
   },
   "micros": {
     "fiber_g": 4,
@@ -29,20 +32,21 @@
     "Cilantro",
     "Lime",
     "Sour cream",
-    "Taco tortilla",
-    "Chicken Thai chopped up tossed with olive oil garlic powder paprika cumin",
-    "Pickled onion, sour cream, lime, cilantro"
+    "Taco tortilla"
   ],
   "instructions": [
     "Roast a poblano high heat broil, let steam in a pot covrted",
-    "Cook Monterey Jack, poblano chopped up, toss in chicken when melty and brown"
+    "Chicken Thai chopped up tossed with olive oil garlic powder paprika cumin",
+    "Cook Monterey Jack, poblano chopped up, toss in chicken when melty and brown",
+    "Pickled onion, sour cream, lime, cilantro"
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "High-Protein",
-    "Quick (<25m)",
     "Chicken",
     "Sandwiches & Wraps"
   ],
@@ -58,6 +62,7 @@
     "lime",
     "sour",
     "cream",
-    "taco"
+    "taco",
+    "tortilla"
   ]
 }

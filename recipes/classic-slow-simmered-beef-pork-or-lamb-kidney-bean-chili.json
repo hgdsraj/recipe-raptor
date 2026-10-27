@@ -1,0 +1,81 @@
+{
+  "id": "classic-slow-simmered-beef-pork-or-lamb-kidney-bean-chili",
+  "docOrder": 200,
+  "docLine": 2460,
+  "title": "Classic Slow-Simmered Beef, Pork or Lamb & Kidney Bean Chili",
+  "originalTitle": "Classic Slow-Simmered Beef, Pork or Lamb & Kidney Bean Chili",
+  "category": "Soups & Stews",
+  "protein": "Beef",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 406,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 16,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 740,
+    "iron_mg": 3.8,
+    "potassium_mg": 680,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 lb ground beef",
+    "1 onion, chopped",
+    "1 bell pepper, chopped",
+    "1 C chopped celery",
+    "1 46 oz bottle of tomato juice",
+    "1 29 oz can tomato sauce",
+    "1/4 C chili powder",
+    "2 tsp ground cumin",
+    "1 1/2 tsp garlic powder",
+    "1 tsp salt",
+    "1/2 tsp pepper",
+    "1/2 tsp oregano",
+    "1/2 tsp white sugar",
+    "1/4 tsp cayenne pepper",
+    "1 14.5 oz can diced tomatoes",
+    "1 15 oz can light red kidney beans, drained and rinsed",
+    "In a large pot over"
+  ],
+  "instructions": [
+    "Medium-high heat, cook the ground beef with onion, bell pepper, and celery until beef is browned and vegetables are soft (about 8-10 minutes). Drain excess fat. Return mixture to the pot. Add tomato juice,",
+    "Tomato sauce, diced tomatoes, kidney beans, chili beans, and all seasonings.",
+    "Stir well and bring to a boil.",
+    "Reduce heat to low and simmer uncovered for 2 to 3 hours, stirring occasionally.",
+    "For chicken or turkey ground - cook separate first with tomato paste and dash of soy sauce and remove. Add Worcestershire sauce to the chili 1tbsp.",
+    "For Lamb ground - add 1- 1.5 tbsp each coriander, cumin, smoked paprika during ground lamb cooking and 1/4 tsp cinnamon before simmer",
+    "Pork shoulder 1/2 inch cubes sear hard then proceed normal"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Beef",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "beef",
+    "onion",
+    "bell",
+    "pepper",
+    "celery",
+    "bottle",
+    "tomato",
+    "juice",
+    "can",
+    "sauce",
+    "1/4",
+    "chili",
+    "powder"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "spanish-pan-con-tomate-with-optional-burrata",
+  "docOrder": 99,
+  "docLine": 1251,
+  "title": "Spanish Pan con Tomate (With Optional Burrata)",
+  "originalTitle": "Pan con tamate",
+  "category": "Mains & Grills",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 428,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 48,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Tomatoes",
+    "Hella riep",
+    "Shredded on a cheese grater or blend it",
+    "Mix it",
+    "Salt",
+    "Olive oil (lil bit like tsp per tomato)",
+    "Put it on olive oil toasted bread",
+    "Garlic",
+    "Optional burrata on top"
+  ],
+  "instructions": [
+    "Mix it with salt and olive oil (lil bit like tsp per tomato)",
+    "Put it on olive oil toasted bread with garlic",
+    "Optional burrata on top"
+  ],
+  "notes": "Original Doc Shorthand: Tomatoes, hella riep, shredded on a cheese grater or blend it — Mix it with salt and olive oil (lil bit like tsp per tomato) — Put it on olive oil toasted bread with garlic — Optional burrata on top",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "tomatoes",
+    "hella",
+    "riep",
+    "shredded",
+    "cheese",
+    "grater",
+    "blend",
+    "mix",
+    "salt",
+    "olive",
+    "oil",
+    "lil",
+    "bit",
+    "like"
+  ]
+}

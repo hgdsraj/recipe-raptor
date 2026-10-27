@@ -1,17 +1,20 @@
 {
   "id": "mortadella-sandwich",
+  "docOrder": 123,
+  "docLine": 1490,
   "title": "Mortadella sandwich",
+  "originalTitle": "Mortadella sandwich",
   "category": "Sandwiches & Wraps",
   "protein": "Pork",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 504,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 486,
   "macros": {
     "protein_g": 32,
     "carbs_g": 22,
-    "fat_g": 32
+    "fat_g": 30
   },
   "micros": {
     "fiber_g": 6,
@@ -22,20 +25,24 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "Bread toasted with mayo and mustard on it",
-    "Pan fried thick pile mortadella and cheese melted in It ( can do 3 layers of mortadella cheese mortadella cheese, cooking each layer separately in pan)",
+    "Bread toasted",
+    "Mayo",
+    "Mustard on it",
+    "Pan fried thick pile mortadella",
+    "Cheese melted in It ( can do 3 layers of mortadella cheese mortadella cheese",
+    "Cooking each layer separately in pan)",
     "Optionally spinach tomato thin"
   ],
   "instructions": [
-    "Bread toasted with mayo and mustard on it",
     "Pan fried thick pile mortadella and cheese melted in It ( can do 3 layers of mortadella cheese mortadella cheese, cooking each layer separately in pan)",
     "Optionally spinach tomato thin"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Bread toasted with mayo and mustard on it — Pan fried thick pile mortadella and cheese melted in It ( can do 3 layers of mortadella cheese mortadella cheese, cooking each layer separately in pan) — Optionally spinach tomato thin",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
-    "Quick (<25m)",
     "Quick-Fire Note",
     "Pork",
     "Sandwiches & Wraps"
@@ -43,15 +50,17 @@
   "ingredientKeywords": [
     "bread",
     "toasted",
-    "with",
     "mayo",
-    "and",
     "mustard",
     "pan",
     "fried",
     "thick",
     "pile",
     "mortadella",
-    "cheese"
+    "cheese",
+    "melted",
+    "can",
+    "layers",
+    "cooking"
   ]
 }

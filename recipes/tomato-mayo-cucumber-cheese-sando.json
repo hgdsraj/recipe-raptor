@@ -1,20 +1,23 @@
 {
   "id": "tomato-mayo-cucumber-cheese-sando",
+  "docOrder": 116,
+  "docLine": 1441,
   "title": "Tomato mayo cucumber cheese sando",
+  "originalTitle": "Tomato mayo cucumber cheese sando",
   "category": "Sandwiches & Wraps",
   "protein": "Vegetarian",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 466,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 428,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 52,
-    "fat_g": 22
+    "protein_g": 14,
+    "carbs_g": 48,
+    "fat_g": 20
   },
   "micros": {
-    "fiber_g": 9,
+    "fiber_g": 8,
     "sodium_mg": 410,
     "iron_mg": 3.0,
     "potassium_mg": 640,
@@ -27,16 +30,24 @@
     "Thick slice tomatoes",
     "Cheese slice",
     "Salt pepper on tomatoes!",
+    "Drizzle of vinegar on tomato optional",
     "Even simpler just tomato mayo salt pepper"
   ],
   "instructions": [
-    "Drizzle of vinegar on tomato optional"
+    "Put down mayo on both sides",
+    "Thin sliced cucumber",
+    "Thick slice tomatoes",
+    "Cheese slice",
+    "Salt pepper on tomatoes!",
+    "Drizzle of vinegar on tomato optional",
+    "Even simpler just tomato mayo salt pepper"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Put down mayo on both sides — Thin sliced cucumber — Thick slice tomatoes — Cheese slice — Salt pepper on tomatoes! — Drizzle of vinegar on tomato optional — Even simpler just tomato mayo salt pepper",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
-    "Quick (<25m)",
     "Vegetarian",
     "Sandwiches & Wraps"
   ],
@@ -52,6 +63,8 @@
     "slice",
     "tomatoes",
     "cheese",
-    "salt"
+    "salt",
+    "pepper",
+    "tomatoes!"
   ]
 }

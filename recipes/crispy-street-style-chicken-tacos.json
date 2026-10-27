@@ -1,0 +1,71 @@
+{
+  "id": "crispy-street-style-chicken-tacos",
+  "docOrder": 61,
+  "docLine": 611,
+  "title": "Crispy Street-Style Chicken Tacos",
+  "originalTitle": "Chicken tacos",
+  "category": "Sandwiches & Wraps",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "15 mins",
+  "totalTime": "30 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lbs boneless, skinless chicken thighs",
+    "2 tbsp olive or avocado oil",
+    "1 tbsp chili powder, 1.5 tsp cumin, 1.5 tsp smoked paprika, 1 tsp garlic powder, 1 tsp oregano, 1 tsp salt",
+    "Juice of 1 lime + 2 tbsp orange juice",
+    "8–10 corn tortillas",
+    "1/2 white onion, finely diced & 1/2 bunch fresh cilantro, chopped",
+    "Salsa verde or roasted red salsa, queso fresco, and lime wedges"
+  ],
+  "instructions": [
+    "Marinate chicken thighs in oil, lime juice, orange juice, chili powder, cumin, smoked paprika, garlic powder, oregano, and salt for at least 20 minutes.",
+    "Sear the chicken thighs in a hot cast-iron skillet or on a grill for 5–6 minutes per side until deeply charred and juicy (175°F internal).",
+    "Rest 5 minutes, then chop finely into street-taco bite-sized pieces, tossing back in the pan juices.",
+    "Dip corn tortillas lightly in the pan drippings, char on the hot skillet, and fill with chopped chicken, finely diced white onion, cilantro, and salsa."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/sLXPb6FbGp8?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/sLXPb6FbGp8?feature=share",
+  "sourceTitle": "YouTube · Street-Style Chicken Tacos",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "skinless",
+    "chicken",
+    "thighs",
+    "olive",
+    "avocado",
+    "oil",
+    "chili",
+    "powder",
+    "tsp",
+    "cumin",
+    "smoked",
+    "paprika",
+    "garlic"
+  ]
+}

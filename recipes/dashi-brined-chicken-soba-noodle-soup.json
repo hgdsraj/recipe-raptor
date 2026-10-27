@@ -1,0 +1,73 @@
+{
+  "id": "dashi-brined-chicken-soba-noodle-soup",
+  "docOrder": 42,
+  "docLine": 500,
+  "title": "Dashi & Brined Chicken Soba Noodle Soup",
+  "originalTitle": "Soba Noodle Soup",
+  "category": "Soups & Stews",
+  "protein": "Chicken",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "15 mins",
+  "totalTime": "25 mins",
+  "calories": 328,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 17,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 660,
+    "iron_mg": 2.0,
+    "potassium_mg": 630,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 bundles dried buckwheat soba noodles",
+    "2 boneless skinless chicken thighs, brined lightly in salt water",
+    "4 cups Japanese dashi stock (kombu + bonito dashi)",
+    "2 tbsp soy sauce (usukuchi or regular)",
+    "2 tbsp mirin",
+    "1 tbsp Yondu umami seasoning or white miso paste",
+    "3 scallions (green onions), thinly sliced on a bias",
+    "Shichimi togarashi (Japanese 7-spice) to finish"
+  ],
+  "instructions": [
+    "Bring dashi stock to a gentle simmer. Poach the brined chicken thighs in the broth for 10–12 minutes, skimming any scum from the surface.",
+    "Season the hot dashi broth to taste with soy sauce, mirin, and Yondu (or whisk in miso off the heat). Slice the poached chicken.",
+    "Boil buckwheat soba noodles in a separate pot of unsalted water for 4–5 minutes, drain, and rinse briefly under cold water to remove excess starch before warming in the broth.",
+    "Divide soba noodles into bowls, ladle the steaming umami broth over top, and garnish with sliced chicken, scallions, and shichimi togarashi."
+  ],
+  "notes": "Doc Note: Soba noodle buckwheat soup, dashi, boil brined chicken thigh, descum, yondu, soy sauce, miso, mirin etc options for seasoning, serve with green onions in bowl [https\\://youtube.com/shorts/FNu4Odrh9Nc?feature=share]( my",
+  "sourceUrl": "https://youtube.com/shorts/FNu4Odrh9Nc?feature=share",
+  "sourceTitle": "YouTube · Japanese Soba Noodle Soup",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "bundles",
+    "buckwheat",
+    "soba",
+    "noodles",
+    "boneless",
+    "skinless",
+    "chicken",
+    "thighs",
+    "brined",
+    "lightly",
+    "salt",
+    "water",
+    "japanese",
+    "dashi"
+  ]
+}

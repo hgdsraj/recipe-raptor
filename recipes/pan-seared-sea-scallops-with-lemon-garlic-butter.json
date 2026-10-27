@@ -1,0 +1,72 @@
+{
+  "id": "pan-seared-sea-scallops-with-lemon-garlic-butter",
+  "docOrder": 10,
+  "docLine": 318,
+  "title": "Pan-Seared Sea Scallops with Lemon Garlic Butter",
+  "originalTitle": "Scallops",
+  "category": "Sides & Sauces",
+  "protein": "Fish & Seafood",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "5 mins",
+  "totalTime": "15 mins",
+  "calories": 308,
+  "macros": {
+    "protein_g": 17,
+    "carbs_g": 15,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 lb large dry-packed sea scallops (about 10–12 scallops), side muscle removed",
+    "1 tbsp high-smoke-point neutral oil (avocado or grapeseed)",
+    "2 tbsp unsalted butter",
+    "2 cloves garlic, lightly smashed",
+    "2 sprigs fresh thyme",
+    "Juice of 1/2 lemon",
+    "1 tbsp finely chopped fresh parsley or chives",
+    "Coarse kosher salt and freshly ground black pepper"
+  ],
+  "instructions": [
+    "Thoroughly pat dry the scallops between paper towels for 10 minutes — removing surface moisture is critical for a deep golden crust.",
+    "Heat neutral oil in a stainless-steel or cast-iron skillet over high heat until shimmering and just smoking.",
+    "Season scallops with kosher salt and place in the pan clockwise without crowding. Sear undisturbed for 90–120 seconds until a deep mahogany crust forms.",
+    "Flip scallops, immediately add butter, smashed garlic, and thyme, and baste scallops with the foaming brown butter for 60 seconds. Finish with fresh lemon juice and parsley."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/the-food-lab-best-pan-seared-scallops-recipe",
+  "sourceTitle": "Serious Eats · Pan-Seared Sea Scallops",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "dry-packed",
+    "sea",
+    "scallops",
+    "10–12",
+    "side",
+    "muscle",
+    "removed",
+    "high-smoke-point",
+    "neutral",
+    "oil",
+    "avocado",
+    "grapeseed",
+    "unsalted"
+  ]
+}

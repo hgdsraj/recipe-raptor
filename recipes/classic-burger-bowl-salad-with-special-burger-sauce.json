@@ -1,0 +1,72 @@
+{
+  "id": "classic-burger-bowl-salad-with-special-burger-sauce",
+  "docOrder": 55,
+  "docLine": 595,
+  "title": "Classic Burger Bowl Salad with Special Burger Sauce",
+  "originalTitle": "Classic turkey burger salad",
+  "category": "Sandwiches & Wraps",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 375,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 15
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 lb extra-lean ground turkey, seasoned with garlic powder, onion powder, Worcestershire, salt & pepper",
+    "6 cups crisp Romaine or iceberg lettuce, chopped",
+    "1 cup cherry tomatoes, halved",
+    "1/2 English cucumber, diced",
+    "1/2 red onion, thinly sliced",
+    "1/2 cup diced dill pickles",
+    "1/2 cup shredded reduced-fat sharp cheddar",
+    "Light Burger Sauce: 3 tbsp Greek yogurt, 1 tbsp light mayo, 1.5 tbsp sugar-free ketchup, 1 tsp yellow mustard, 1 tbsp pickle juice"
+  ],
+  "instructions": [
+    "Form seasoned ground turkey into 4 burger patties (or crumble-sear in a cast-iron skillet) and cook 4–5 minutes per side until caramelized and cooked through.",
+    "Whisk together the Greek yogurt, light mayo, ketchup, mustard, and dill pickle brine for the tangy burger sauce.",
+    "Layer crisp lettuce, tomatoes, cucumber, red onion, dill pickles, and cheddar in bowls, top with the sliced hot turkey burgers, and drizzle with burger sauce."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.skinnytaste.com/burger-in-a-bowl/",
+  "sourceTitle": "Skinnytaste · Classic Turkey Burger Salad",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "extra-lean",
+    "ground",
+    "turkey",
+    "seasoned",
+    "garlic",
+    "powder",
+    "onion",
+    "worcestershire",
+    "salt",
+    "pepper",
+    "crisp",
+    "romaine",
+    "iceberg",
+    "lettuce"
+  ]
+}

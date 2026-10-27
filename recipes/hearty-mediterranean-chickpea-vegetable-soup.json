@@ -1,0 +1,73 @@
+{
+  "id": "hearty-mediterranean-chickpea-vegetable-soup",
+  "docOrder": 32,
+  "docLine": 430,
+  "title": "Hearty Mediterranean Chickpea & Vegetable Soup",
+  "originalTitle": "Hearty chickpea soup",
+  "category": "Soups & Stews",
+  "protein": "Tofu & Plant-Based",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "30 mins",
+  "totalTime": "40 mins",
+  "calories": 462,
+  "macros": {
+    "protein_g": 24,
+    "carbs_g": 51,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 12,
+    "sodium_mg": 560,
+    "iron_mg": 4.2,
+    "potassium_mg": 780,
+    "vitamin_c_mg": 35,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 cans (15 oz each) chickpeas (garbanzo beans), drained and rinsed",
+    "2 tbsp extra-virgin olive oil",
+    "1 medium yellow onion, diced",
+    "3 carrots, peeled and diced",
+    "3 stalks celery, diced",
+    "4 cloves garlic, minced",
+    "1 medium Yukon Gold potato, peeled and finely cubed",
+    "1 can (14.5 oz) fire-roasted diced tomatoes",
+    "4 cups vegetable or chicken broth",
+    "1 tsp fresh rosemary, 1 tsp thyme, 1/2 tsp smoked paprika",
+    "2 cups baby spinach or kale, plus lemon juice & Parmesan"
+  ],
+  "instructions": [
+    "Heat olive oil in a Dutch oven over medium heat. Sauté onion, carrots, and celery for 6–7 minutes until softened.",
+    "Stir in garlic, rosemary, thyme, and smoked paprika and cook for 1 minute.",
+    "Add cubed potato, fire-roasted tomatoes, chickpeas, and broth. Bring to a boil, then simmer for 20 minutes until potatoes are tender.",
+    "Lightly mash a quarter of the chickpeas against the side of the pot (or pulse briefly with an immersion blender) to make the broth rich and creamy, then stir in spinach and fresh lemon juice."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.twopeasandtheirpod.com/chickpea-soup/",
+  "sourceTitle": "Two Peas & Their Pod · Hearty Chickpea Soup",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Tofu & Plant-Based",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "each",
+    "chickpeas",
+    "garbanzo",
+    "beans",
+    "drained",
+    "rinsed",
+    "extra-virgin",
+    "olive",
+    "oil",
+    "medium",
+    "yellow",
+    "onion",
+    "carrots",
+    "peeled"
+  ]
+}

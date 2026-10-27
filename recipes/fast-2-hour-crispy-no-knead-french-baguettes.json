@@ -1,0 +1,66 @@
+{
+  "id": "fast-2-hour-crispy-no-knead-french-baguettes",
+  "docOrder": 157,
+  "docLine": 2019,
+  "title": "Fast 2-Hour Crispy No-Knead French Baguettes",
+  "originalTitle": "Fast 2-Hour Crispy No-Knead French Baguettes",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "22 mins",
+  "totalTime": "37 mins",
+  "calories": 559,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "3.25 cups (400g) bread flour or all-purpose flour",
+    "1.35 cups (320ml) warm water (105°F)",
+    "1.5 tsp (5g) instant dry yeast + 1 tsp honey or sugar",
+    "1.5 tsp (8g) fine sea salt"
+  ],
+  "instructions": [
+    "Dissolve instant yeast and honey in warm water, then stir in flour and sea salt with a wooden spoon until a sticky dough forms (no kneading required).",
+    "Cover and let rise in a warm spot for 60–75 minutes until doubled and bubbly, performing one quick stretch-and-fold at the 30-minute mark.",
+    "Turn dough out onto a generously floured surface, divide in half lengthwise, and gently twist/shape into two rustic baguettes on a parchment-lined baking sheet.",
+    "Score the tops with a razor blade, mist with water, and bake at 460°F (240°C) with a pan of hot water on the bottom rack for 20–22 minutes until crisp and golden."
+  ],
+  "notes": "Doc Note: [https\\://youtu.be/Z-husjZkxHw?si=kydzSXiO0FfUEvx_](",
+  "sourceUrl": "https://youtu.be/Z-husjZkxHw?si=kydzSXiO0FfUEvx_",
+  "sourceTitle": "YouTube · Fast Crispy French Baguettes",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "400g",
+    "bread",
+    "flour",
+    "all-purpose",
+    "320ml",
+    "warm",
+    "water",
+    "105°f",
+    "instant",
+    "dry",
+    "yeast",
+    "tsp",
+    "honey",
+    "sugar"
+  ]
+}

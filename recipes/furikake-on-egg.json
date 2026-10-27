@@ -1,17 +1,20 @@
 {
   "id": "furikake-on-egg",
+  "docOrder": 96,
+  "docLine": 1188,
   "title": "Furikake on egg",
-  "category": "Sandwiches & Wraps",
+  "originalTitle": "Furikake on egg",
+  "category": "Breakfast & Eggs",
   "protein": "Eggs",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 458,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 378,
   "macros": {
     "protein_g": 22,
-    "carbs_g": 34,
-    "fat_g": 26
+    "carbs_g": 32,
+    "fat_g": 18
   },
   "micros": {
     "fiber_g": 6,
@@ -19,9 +22,21 @@
     "iron_mg": 2.6,
     "potassium_mg": 460,
     "vitamin_c_mg": 29,
-    "calcium_mg": 200
+    "calcium_mg": 80
   },
   "ingredients": [
+    "Make a fried egg throw on furikake",
+    "Or make a omelette or scramble",
+    "3 large eggs",
+    "1 tablespoon soy sauce",
+    "1 tablespoon mirin (sweet rice wine)",
+    "1 tablespoon vegetable oil",
+    "2 green onions",
+    "Finely chopped",
+    "Salt",
+    "Pepper to taste"
+  ],
+  "instructions": [
     "Make a fried egg throw on furikake",
     "Or make a omelette or scramble",
     "3 large eggs",
@@ -31,28 +46,20 @@
     "2 green onions, finely chopped",
     "Salt and pepper to taste",
     "Furikake",
-    "Top with furikkake",
-    "Naan egg wrap",
-    "Just egg patty",
-    "Two naan",
-    "Cream cheese one side",
-    "Peri Peri mayo other side",
-    "Onions or onion chimichurri with finely diced peppers and cilantro",
-    "Low fat mozarella on Peri side",
-    "Can include thinly sliced tomatoes and or thinly sliced cucumber (add salt or marinate in vinegar or add some vinegar)"
-  ],
-  "instructions": [
     "Mix mirin, eggs",
     "Sautee green onions in a little oil",
-    "Mix soy sauce, salt, and pepper to eggs, pour in,.scramble or omelette"
+    "Mix soy sauce, salt, and pepper to eggs, pour in,.scramble or omelette",
+    "Top with furikkake"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Make a fried egg throw on furikake — Or make a omelette or scramble — 3 large eggs — 1 tablespoon soy sauce — 1 tablespoon mirin (sweet rice wine) — 1 tablespoon vegetable oil — 2 green onions, finely chopped — Salt and pepper to taste — Furikake — Mix mirin, eggs — Sautee green onions in a little oil — Mix soy sauce, salt, and pepper to eggs, pour in,.scramble or omelette — Top with furikkake",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
-    "Quick (<25m)",
+    "Low-Calorie",
     "Eggs",
-    "Sandwiches & Wraps"
+    "Breakfast & Eggs"
   ],
   "ingredientKeywords": [
     "make",
@@ -66,6 +73,8 @@
     "eggs",
     "tablespoon",
     "soy",
-    "sauce"
+    "sauce",
+    "mirin",
+    "sweet"
   ]
 }

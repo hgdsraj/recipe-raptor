@@ -1,0 +1,74 @@
+{
+  "id": "classic-beef-or-lamb-shepherd-s-pie",
+  "docOrder": 11,
+  "docLine": 320,
+  "title": "Classic Beef or Lamb Shepherd's Pie",
+  "originalTitle": "Shepherds pie\\!",
+  "category": "Mains & Grills",
+  "protein": "Beef",
+  "servings": 6,
+  "prepTime": "25 mins",
+  "cookTime": "45 mins",
+  "totalTime": "70 mins",
+  "calories": 548,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 38,
+    "fat_g": 28
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1.5 lbs ground lamb or lean ground beef",
+    "1 large onion, finely diced",
+    "2 carrots, peeled and finely diced",
+    "2 stalks celery, finely diced",
+    "3 cloves garlic, minced",
+    "2 tbsp tomato paste & 2 tbsp Worcestershire sauce",
+    "2 tbsp all-purpose flour",
+    "1.5 cups beef or chicken stock",
+    "1 tsp fresh rosemary & 1 tsp fresh thyme, minced",
+    "1 cup frozen peas and corn",
+    "2 lbs Yukon Gold potatoes, boiled and mashed with 3 tbsp butter, 1/3 cup warm milk, and 1/2 cup grated Parmesan/Cheddar"
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Boil Yukon Gold potatoes in salted water for 15 minutes until tender, drain, and mash until smooth with butter, milk, and cheese.",
+    "Brown the ground lamb or beef in a cast-iron skillet or Dutch oven over medium-high heat. Add onion, carrots, celery, garlic, rosemary, and thyme; cook 6–8 minutes until softened.",
+    "Stir in tomato paste and flour, cook 1 minute, then deglaze with Worcestershire sauce and stock. Simmer 8 minutes until thick and glossy, then fold in peas and corn.",
+    "Spread the creamy mashed potatoes evenly over the meat filling, roughing the surface with a fork for crispy peaks. Bake 25 minutes (broil last 2 minutes) until golden brown."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+  "sourceTitle": "Serious Eats · Classic Shepherd's Pie",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Beef",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "lamb",
+    "lean",
+    "beef",
+    "large",
+    "onion",
+    "carrots",
+    "peeled",
+    "stalks",
+    "celery",
+    "garlic",
+    "minced",
+    "tomato",
+    "paste"
+  ]
+}

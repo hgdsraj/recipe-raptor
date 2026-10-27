@@ -1,0 +1,66 @@
+{
+  "id": "24-hour-no-knead-dutch-oven-bread",
+  "docOrder": 35,
+  "docLine": 436,
+  "title": "24-Hour No-Knead Dutch Oven Bread",
+  "originalTitle": "Bread again no knead",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 6,
+  "prepTime": "10 mins",
+  "cookTime": "35 mins",
+  "totalTime": "45 mins",
+  "calories": 559,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "400g bread flour or all-purpose flour",
+    "300ml warm water (75% hydration)",
+    "8g fine sea salt",
+    "1g (1/4 tsp) instant dry yeast"
+  ],
+  "instructions": [
+    "Whisk together 400g flour, 8g salt, and 1g instant yeast in a large bowl. Pour in 300ml water and mix with a spoon or wet hand just until a shaggy, sticky dough forms with no dry flour remaining.",
+    "Cover tightly and let ferment at room temperature for 18–24 hours until bubbly and doubled in volume.",
+    "With wet hands, fold the edges of the dough toward the center into a taut round boule and rest on parchment paper for 45 minutes while preheating a Dutch oven inside a 450°F (230°C) oven.",
+    "Lower the dough on parchment into the scorching Dutch oven. Bake 20 minutes with the lid closed, then remove the lid and bake 15 minutes open until deep chestnut brown and hollow-sounding. Cool 1 hour before slicing."
+  ],
+  "notes": "Doc Note (moved from L428): Bread 400g flour, gram yeast, 8g salt, 300ml water, just mix til shaggy, let sit 24 hrs fold towards center, bake in dutch oven preheated, 20 min lid closed, 15 mins lid open.",
+  "sourceUrl": "https://cooking.nytimes.com/recipes/11376-no-knead-bread",
+  "sourceTitle": "NYT Cooking · Dutch Oven No-Knead Bread",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "bread",
+    "flour",
+    "all-purpose",
+    "warm",
+    "water",
+    "75%",
+    "hydration",
+    "fine",
+    "sea",
+    "salt",
+    "1/4",
+    "tsp",
+    "instant",
+    "dry"
+  ]
+}

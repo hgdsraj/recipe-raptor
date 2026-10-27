@@ -1,0 +1,69 @@
+{
+  "id": "crispy-double-italian-sausage-parm-hero",
+  "docOrder": 115,
+  "docLine": 1437,
+  "title": "Crispy Double Italian Sausage Parm Hero",
+  "originalTitle": "Double sausage Parm hero",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 2,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 486,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 420,
+    "vitamin_c_mg": 5,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 lb sweet and/or hot Italian sausages, casings removed",
+    "2 long crusty Italian hero/sub rolls, split lengthwise",
+    "1.5 cups rich marinara sauce",
+    "6 slices low-moisture mozzarella or provolone cheese",
+    "1/3 cup freshly grated Parmigiano-Reggiano",
+    "2 cloves garlic + 2 tbsp melted garlic-herb butter (for toasting the roll)",
+    "Fresh basil leaves and dried oregano"
+  ],
+  "instructions": [
+    "Press the uncased Italian sausage meat into two long flat patties the exact length of your hero rolls (or butterfly whole links).",
+    "Sear the sausage patties in a hot cast-iron skillet for 4–5 minutes per side until deeply browned and crisp.",
+    "Brush the split hero rolls with garlic butter and toast under the broiler for 2 minutes.",
+    "Layer two stacked sausage patties into each roll with hot marinara sauce, mozzarella, and Parmigiano-Reggiano. Broil 2–3 minutes until the cheese is blistered and molten; top with fresh basil."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/Uv0R8PrSA50?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/Uv0R8PrSA50?feature=share",
+  "sourceTitle": "YouTube · Double Sausage Parm Hero",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "sweet",
+    "and/or",
+    "hot",
+    "italian",
+    "sausages",
+    "casings",
+    "removed",
+    "long",
+    "crusty",
+    "hero/sub",
+    "rolls",
+    "split",
+    "lengthwise",
+    "rich"
+  ]
+}

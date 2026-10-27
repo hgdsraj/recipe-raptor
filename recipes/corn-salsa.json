@@ -1,23 +1,26 @@
 {
   "id": "corn-salsa",
+  "docOrder": 91,
+  "docLine": 1086,
   "title": "Corn salsa",
-  "category": "Soups & Stews",
+  "originalTitle": "Corn salsa",
+  "category": "Sides & Sauces",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 394,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 306,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 52,
+    "protein_g": 7,
+    "carbs_g": 38,
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 11,
-    "sodium_mg": 560,
+    "fiber_g": 8,
+    "sodium_mg": 410,
     "iron_mg": 3.0,
-    "potassium_mg": 720,
+    "potassium_mg": 640,
     "vitamin_c_mg": 37,
     "calcium_mg": 80
   },
@@ -30,21 +33,23 @@
     "Touch of vinegar",
     "Fresh chopped cilantro",
     "Jalapeno one deseeded",
-    "Or sub vinegar and jalapeno with canned jalapenos + some juice to taste",
+    "Or sub vinegar and jalapeno with canned jalapenos \\+ some juice to taste",
     "Tsp olive oil",
     "Avocado"
   ],
   "instructions": [
     "Combine except avocado",
-    "Add avocado + salt when serving"
+    "Add avocado \\+ salt when serving"
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "Low-Calorie",
     "Vegetarian",
-    "Soups & Stews"
+    "Sides & Sauces"
   ],
   "ingredientKeywords": [
     "lime",
@@ -58,6 +63,8 @@
     "half",
     "bell",
     "pepper",
-    "touch"
+    "touch",
+    "vinegar",
+    "cilantro"
   ]
 }

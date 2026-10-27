@@ -1,0 +1,71 @@
+{
+  "id": "spinach-cottage-cheese-stuffed-chicken-breast-with-sweet-potatoes-endives",
+  "docOrder": 59,
+  "docLine": 605,
+  "title": "Spinach & Cottage Cheese Stuffed Chicken Breast with Sweet Potatoes & Endives",
+  "originalTitle": "Sweet potato with chicken breast stuffed with spinach and cottage cheese. Endives",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "25 mins",
+  "totalTime": "40 mins",
+  "calories": 470,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 39,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "4 boneless, skinless chicken breasts (6 oz each)",
+    "3/4 cup cottage cheese (drained if watery)",
+    "2 cups fresh baby spinach, wilted and finely chopped",
+    "2 tbsp grated Parmesan cheese + 2 cloves garlic, minced",
+    "1 tsp Italian seasoning, 1 tsp smoked paprika, salt & black pepper",
+    "2 medium sweet potatoes, cubed or halved and roasted at 400°F",
+    "3 Belgian endives, halved lengthwise and braised or roasted with olive oil, balsamic & lemon",
+    "1 tbsp olive oil"
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Roast cubed sweet potatoes with half the olive oil, salt, and pepper for 25 minutes.",
+    "Mix the cottage cheese, wilted chopped spinach, Parmesan, minced garlic, and pinch of salt and pepper in a bowl.",
+    "Cut a horizontal pocket into the thickest side of each chicken breast. Stuff with the spinach-cottage cheese mixture, seal with toothpicks, and season outside with paprika, Italian seasoning, salt, and pepper.",
+    "Sear stuffed chicken breasts and halved Belgian endives in an oven-safe skillet for 3 minutes, then transfer to the 400°F oven for 15–17 minutes until chicken reaches 165°F and endives are caramelized."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.skinnytaste.com/spinach-and-cheese-stuffed-chicken/",
+  "sourceTitle": "Skinnytaste · Stuffed Chicken Breast with Sweet Potato",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "skinless",
+    "chicken",
+    "breasts",
+    "each",
+    "cottage",
+    "cheese",
+    "drained",
+    "watery",
+    "baby",
+    "spinach",
+    "wilted",
+    "grated",
+    "parmesan"
+  ]
+}

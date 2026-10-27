@@ -1,0 +1,61 @@
+{
+  "id": "crispy-parmesan-crusted-sourdough-guacamole-tomato-egg-sandwich",
+  "docOrder": 38,
+  "docLine": 442,
+  "title": "Crispy Parmesan-Crusted Sourdough, Guacamole & Tomato Egg Sandwich",
+  "originalTitle": "Egg sandwich:",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 376,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Parmesan crisp",
+    "Sourdough",
+    "Guacamole",
+    "Egg sandwich",
+    "Thinly sliced salted tomatoes"
+  ],
+  "instructions": [
+    "Prep all ingredients for Crispy Parmesan-Crusted Sourdough, Guacamole & Tomato Egg Sandwich: Parmesan crisp, Sourdough, Guacamole, Egg sandwich.",
+    "Cook and assemble according to the doc method: Parmesan crisp, sourdough, guacamole, egg sandwich, with thinly sliced salted tomatoes.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: Parmesan crisp, sourdough, guacamole, egg sandwich, with thinly sliced salted tomatoes",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick-Fire Note",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "parmesan",
+    "crisp",
+    "sourdough",
+    "guacamole",
+    "egg",
+    "sandwich",
+    "thinly",
+    "salted",
+    "tomatoes"
+  ]
+}

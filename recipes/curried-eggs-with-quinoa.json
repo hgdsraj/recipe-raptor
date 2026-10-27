@@ -1,46 +1,74 @@
 {
   "id": "curried-eggs-with-quinoa",
+  "docOrder": 53,
+  "docLine": 587,
   "title": "Curried eggs with quinoa",
+  "originalTitle": "Curried eggs with quinoa",
   "category": "Breakfast & Eggs",
   "protein": "Eggs",
-  "servings": 2,
-  "prepTime": "5 mins",
-  "cookTime": "15 mins",
-  "totalTime": "20 mins",
-  "calories": 322,
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "20 mins",
+  "totalTime": "35 mins",
+  "calories": 376,
   "macros": {
     "protein_g": 22,
     "carbs_g": 18,
-    "fat_g": 18
+    "fat_g": 24
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 460,
     "iron_mg": 2.6,
-    "potassium_mg": 340,
-    "vitamin_c_mg": 14,
-    "calcium_mg": 80
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
   },
   "ingredients": [
-    "Curried eggs with quinoa"
+    "6 eggs",
+    "4 tablespoons unsalted butter",
+    "1 medium onion, peeled and chopped",
+    "1 garlic clove, peeled and crushed",
+    "2 tablespoons curry powder",
+    "2 tablespoons tomato paste",
+    "3/4 cup water",
+    "1 tablespoon lemon juice",
+    "salt & freshly ground black pepper, to taste",
+    "1 lemon, zest of",
+    "2 tablespoons fresh flat-leaf parsley, chopped"
   ],
   "instructions": [
-    "Prepare Curried eggs with quinoa according to personal taste and desired accompaniments."
+    "Hard boil the eggs, using your favorite method. Cool slightly and peel. Cut them in half lengthwise.",
+    "Melt the butter in a frying pan and saute the onion and garlic, until onion is just soft.",
+    "Stir in the curry powder, tomato paste, water, lemon juice, salt and pepper. Allow the mixture to cook over a low heat until it is just bubbling.",
+    "Add egg halves to onion mixture and stir gently, until reheated through. Add a little more water if sauce gets too thick.",
+    "Add lemon zest and parsley. Stir again and serve while hot."
   ],
-  "notes": "",
+  "notes": "Personal Note: [https\\://www.food.com/recipe/curried-eggs-482976](",
   "sourceUrl": "https://www.food.com/recipe/curried-eggs-482976",
-  "succinct": true,
+  "sourceTitle": "Food.com",
+  "hasImage": false,
+  "succinct": false,
   "tags": [
     "Low-Calorie",
-    "Quick (<25m)",
-    "Quick-Fire Note",
+    "Verified Source",
     "Eggs",
     "Breakfast & Eggs"
   ],
   "ingredientKeywords": [
-    "curried",
     "eggs",
-    "with",
-    "quinoa"
+    "tablespoons",
+    "unsalted",
+    "butter",
+    "medium",
+    "onion",
+    "peeled",
+    "garlic",
+    "clove",
+    "crushed",
+    "curry",
+    "powder",
+    "tomato",
+    "paste"
   ]
 }

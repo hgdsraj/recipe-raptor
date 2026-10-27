@@ -1,12 +1,15 @@
 {
   "id": "turkey-swiss-sandwich",
+  "docOrder": 43,
+  "docLine": 504,
   "title": "Turkey Swiss Sandwich",
+  "originalTitle": "Turkey Swiss Sandwich",
   "category": "Sandwiches & Wraps",
   "protein": "Turkey",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
   "calories": 321,
   "macros": {
     "protein_g": 40,
@@ -22,24 +25,37 @@
     "calcium_mg": 80
   },
   "ingredients": [
-    ": mayo+mustard Swiss, turkey, tomato, salt, very thinly sliced red onion, chopped lettuce, red wine vinegar, olive oil, salt, pepper, oregano"
+    ": mayo",
+    "Mustard Swiss",
+    "Turkey",
+    "Tomato",
+    "Salt",
+    "Very thinly sliced red onion",
+    "Chopped lettuce",
+    "Red wine vinegar",
+    "Olive oil",
+    "Pepper"
   ],
   "instructions": [
-    ": mayo+mustard Swiss, turkey, tomato, salt, very thinly sliced red onion, chopped lettuce, red wine vinegar, olive oil, salt, pepper, oregano"
+    "Prep all ingredients for Turkey Swiss Sandwich: : mayo, Mustard Swiss, Turkey, Tomato.",
+    "Cook and assemble according to the doc method: : mayo+mustard Swiss, turkey, tomato, salt, very thinly sliced red onion, chopped lettuce, red wine vinegar, olive oil, salt, pepper, oregano.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: : mayo+mustard Swiss, turkey, tomato, salt, very thinly sliced red onion, chopped lettuce, red wine vinegar, olive oil, salt, pepper, oregano",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
     "High-Protein",
     "Low-Calorie",
-    "Quick (<25m)",
     "Quick-Fire Note",
     "Turkey",
     "Sandwiches & Wraps"
   ],
   "ingredientKeywords": [
-    "mayo+mustard",
+    "mayo",
+    "mustard",
     "swiss",
     "turkey",
     "tomato",
@@ -50,6 +66,7 @@
     "onion",
     "lettuce",
     "wine",
-    "vinegar"
+    "vinegar",
+    "olive"
   ]
 }

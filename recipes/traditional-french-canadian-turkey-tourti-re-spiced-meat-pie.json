@@ -1,0 +1,71 @@
+{
+  "id": "traditional-french-canadian-turkey-tourti-re-spiced-meat-pie",
+  "docOrder": 129,
+  "docLine": 1526,
+  "title": "Traditional French-Canadian Turkey Tourtière (Spiced Meat Pie)",
+  "originalTitle": "Turkey tourtiere",
+  "category": "Sweets & Drinks",
+  "protein": "Turkey",
+  "servings": 6,
+  "prepTime": "25 mins",
+  "cookTime": "50 mins",
+  "totalTime": "75 mins",
+  "calories": 352,
+  "macros": {
+    "protein_g": 13,
+    "carbs_g": 48,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lbs ground turkey (dark meat preferred)",
+    "1 large Russet potato, peeled, boiled, and finely mashed (binds the filling)",
+    "1 medium yellow onion, finely minced",
+    "1 stalk celery, finely minced",
+    "2 cloves garlic, minced",
+    "1 cup chicken or turkey stock",
+    "1/2 tsp ground cinnamon, 1/4 tsp ground cloves, 1/4 tsp ground nutmeg, 1/4 tsp allspice, 1 tsp dried savory or thyme",
+    "1 double-crust pie pastry (bottom + top crust) & 1 beaten egg for egg wash"
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). In a saucepan, simmer ground turkey, minced onion, celery, garlic, stock, cinnamon, cloves, nutmeg, allspice, savory, salt, and pepper over medium-low heat for 25 minutes until most liquid evaporates.",
+    "Stir the finely mashed potato into the warm spiced turkey mixture until cohesive and creamy; let cool slightly.",
+    "Line a 9-inch pie plate with the bottom pastry crust, spoon in the spiced turkey filling, and cover with the top crust. Crimp edges, cut steam vents, and brush with beaten egg.",
+    "Bake at 400°F for 15 minutes, then reduce to 350°F for 30–35 minutes until the crust is deep golden brown."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/tourtiere-french-canadian-pork-pie-recipe",
+  "sourceTitle": "Serious Eats · Traditional French-Canadian Tourtière",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sweets & Drinks"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "turkey",
+    "dark",
+    "meat",
+    "preferred",
+    "large",
+    "russet",
+    "potato",
+    "peeled",
+    "boiled",
+    "mashed",
+    "binds",
+    "filling",
+    "medium"
+  ]
+}

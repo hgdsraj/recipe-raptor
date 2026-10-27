@@ -1,0 +1,73 @@
+{
+  "id": "andy-cooks-creamy-french-tarragon-chicken-poulet-l-estragon",
+  "docOrder": 100,
+  "docLine": 1259,
+  "title": "Andy Cooks' Creamy French Tarragon Chicken (Poulet à l'Estragon)",
+  "originalTitle": "Tarragon chicken",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "25 mins",
+  "totalTime": "35 mins",
+  "calories": 414,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "4 bone-in, skin-on chicken thighs or boneless chicken breasts",
+    "1 tbsp olive oil + 2 tbsp unsalted butter",
+    "2 shallots, finely diced",
+    "3 cloves garlic, thinly sliced",
+    "1/2 cup dry white wine (Sauvignon Blanc or Chardonnay)",
+    "1 cup rich chicken stock",
+    "1/2 cup heavy cream or crème fraîche",
+    "1 tbsp Dijon mustard",
+    "1 large bunch fresh tarragon, leaves picked and roughly chopped",
+    "Juice of 1/2 lemon, kosher salt, and freshly cracked black pepper"
+  ],
+  "instructions": [
+    "Season chicken generously with salt and pepper. Sear skin-side down in a heavy skillet with olive oil over medium-high heat for 6–8 minutes until golden crisp, flip for 3 minutes, and remove to a plate.",
+    "Add butter to the pan and sweat the finely diced shallots and garlic with a few tarragon stems over medium heat for 3 minutes.",
+    "Pour in the white wine to deglaze, scraping up the golden chicken fond, and reduce by half.",
+    "Add chicken stock and Dijon mustard, return the chicken to the pan, and simmer for 10–12 minutes until cooked through. Stir in cream, fresh chopped tarragon leaves, and a squeeze of lemon juice."
+  ],
+  "notes": "Doc Note: Andy",
+  "sourceUrl": "https://www.andy-cooks.com/blogs/recipes/creamy-tarragon-chicken",
+  "sourceTitle": "Andy Cooks · Creamy Tarragon Chicken",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "bone-in",
+    "skin-on",
+    "chicken",
+    "thighs",
+    "boneless",
+    "breasts",
+    "olive",
+    "oil",
+    "tbsp",
+    "unsalted",
+    "butter",
+    "shallots",
+    "garlic",
+    "thinly"
+  ]
+}

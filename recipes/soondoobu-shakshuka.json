@@ -1,11 +1,14 @@
 {
   "id": "soondoobu-shakshuka",
+  "docOrder": 45,
+  "docLine": 513,
   "title": "Soondoobu shakshuka",
+  "originalTitle": "Soondoobu shakshuka",
   "category": "Breakfast & Eggs",
   "protein": "Eggs",
-  "servings": 2,
-  "prepTime": "5 mins",
-  "cookTime": "15 mins",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
   "totalTime": "20 mins",
   "calories": 322,
   "macros": {
@@ -22,23 +25,56 @@
     "calcium_mg": 80
   },
   "ingredients": [
-    "Soondoobu shakshuka"
+    "¼ cup onion, finely diced",
+    "2 scallion, finely diced",
+    "2 garlic cloves, finely sliced",
+    "½ cup oyster mushroom, diced",
+    "⅓ cup neutral oil",
+    "2 tbsp gochugaru (Korean Chili Flakes)",
+    "1 tbsp soy sauce",
+    "2 tbsp fish sauce (season to your liking)",
+    "¼ cup water",
+    "4 eggs",
+    "2 tbsp tofu mayonnaise",
+    "scallions for garnish"
   ],
   "instructions": [
-    "Prepare Soondoobu shakshuka according to personal taste and desired accompaniments."
+    "Heat a medium stainless steel pan on medium-high.",
+    "Once the pan comes up to temperature, add oil and sauté onion, scallion, garlic, and mushroom.",
+    "Once the onion becomes translucent and the mushroom becomes golden brown, drop the heat to low. Then add the gochugaru.",
+    "Stir the ingredients together quickly so the gochugaru does not burn. The oil should turn into a scarlet hue at this point.",
+    "While the oil is hot, drizzle in soy sauce and let it slightly burn. This step allows for more depth and smokiness in the chili oil.",
+    "Add water to the chili oil to deglaze the pan. At this point, season the mixture with fish sauce, slightly saltier than your liking since the eggs will be going in.",
+    "Once the mixture comes up to a simmer, create 4 holes in the pan, and carefully crack the eggs in.",
+    "Heat on low until the whites on the eggs have set, for about seven minutes.",
+    "Dollop a generous amount of the tofu aioli next to the eggs, garnish with chopped scallion and enjoy!"
   ],
-  "notes": "",
+  "notes": "Personal Note: [https\\://doobydobap.com/recipe/soondubu_shakshuka](",
   "sourceUrl": "https://doobydobap.com/recipe/soondubu_shakshuka",
-  "succinct": true,
+  "sourceTitle": "Doobydobap",
+  "hasImage": false,
+  "succinct": false,
   "tags": [
     "Low-Calorie",
     "Quick (<25m)",
-    "Quick-Fire Note",
+    "Verified Source",
     "Eggs",
     "Breakfast & Eggs"
   ],
   "ingredientKeywords": [
-    "soondoobu",
-    "shakshuka"
+    "cup",
+    "onion",
+    "scallion",
+    "garlic",
+    "cloves",
+    "oyster",
+    "mushroom",
+    "neutral",
+    "oil",
+    "gochugaru",
+    "korean",
+    "chili",
+    "flakes",
+    "soy"
   ]
 }

@@ -1,17 +1,20 @@
 {
   "id": "parmesan-mozza-just-egg",
+  "docOrder": 83,
+  "docLine": 930,
   "title": "Parmesan mozza just egg",
-  "category": "Sandwiches & Wraps",
+  "originalTitle": "Parmesan mozza just egg",
+  "category": "Breakfast & Eggs",
   "protein": "Eggs",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 394,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 376,
   "macros": {
     "protein_g": 22,
     "carbs_g": 18,
-    "fat_g": 26
+    "fat_g": 24
   },
   "micros": {
     "fiber_g": 6,
@@ -24,8 +27,12 @@
   "ingredients": [
     "Make egg",
     "Toast bread",
-    "Put egg and mozzarella and spinach and banana peppers on sandwich",
-    "Put parmesan down on pan and bread on top",
+    "Put egg",
+    "Mozzarella",
+    "Spinach",
+    "Banana peppers on sandwich",
+    "Put parmesan down on pan",
+    "Bread on top",
     "Do same for other sude"
   ],
   "instructions": [
@@ -35,14 +42,16 @@
     "Put parmesan down on pan and bread on top",
     "Do same for other sude"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Make egg — Toast bread — Put egg and mozzarella and spinach and banana peppers on sandwich — Put parmesan down on pan and bread on top — Do same for other sude",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
     "Low-Calorie",
-    "Quick (<25m)",
+    "Quick-Fire Note",
     "Eggs",
-    "Sandwiches & Wraps"
+    "Breakfast & Eggs"
   ],
   "ingredientKeywords": [
     "make",
@@ -50,12 +59,14 @@
     "toast",
     "bread",
     "put",
-    "and",
     "mozzarella",
     "spinach",
     "banana",
     "peppers",
     "sandwich",
-    "parmesan"
+    "parmesan",
+    "down",
+    "pan",
+    "top"
   ]
 }

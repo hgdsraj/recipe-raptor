@@ -1,0 +1,59 @@
+{
+  "id": "freddie-boy-cocktail-vanilla-vodka-passion-fruit-lychee-foam",
+  "docOrder": 153,
+  "docLine": 1993,
+  "title": "Freddie Boy Cocktail (Vanilla Vodka, Passion Fruit & Lychee Foam)",
+  "originalTitle": "Freddie Boy Cocktail (Vanilla Vodka, Passion Fruit & Lychee Foam)",
+  "category": "Sweets & Drinks",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 436,
+  "macros": {
+    "protein_g": 6,
+    "carbs_g": 76,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2oz vanilla voeka",
+    "1 oz passion fruit syrup",
+    "1 oz lemon juice",
+    "2 dashes angostura bitters"
+  ],
+  "instructions": [
+    "Shake in ice",
+    "Double strain",
+    "Lychee foam"
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Sweets & Drinks"
+  ],
+  "ingredientKeywords": [
+    "vanilla",
+    "voeka",
+    "passion",
+    "fruit",
+    "syrup",
+    "lemon",
+    "juice",
+    "dashes",
+    "angostura",
+    "bitters"
+  ]
+}

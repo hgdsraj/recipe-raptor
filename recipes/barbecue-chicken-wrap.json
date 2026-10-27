@@ -1,24 +1,27 @@
 {
   "id": "barbecue-chicken-wrap",
+  "docOrder": 127,
+  "docLine": 1511,
   "title": "Barbecue chicken wrap",
+  "originalTitle": "Barbecue chicken wrap",
   "category": "Sandwiches & Wraps",
   "protein": "Chicken",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 432,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 414,
   "macros": {
     "protein_g": 38,
     "carbs_g": 25,
-    "fat_g": 20
+    "fat_g": 18
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 550,
-    "vitamin_c_mg": 12,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
     "calcium_mg": 200
   },
   "ingredients": [
@@ -32,21 +35,17 @@
     "Goat cheese"
   ],
   "instructions": [
-    "Chicken",
-    "Onion thin sliced red",
-    "Jalapenos",
-    "Mayo",
-    "Barbecue sauce",
-    "Jalapeno juice",
-    "Wrapped up in tortilla",
-    "Goat cheese"
+    "Prep all ingredients for Barbecue chicken wrap: Chicken, Onion thin sliced red, Jalapenos, Mayo.",
+    "Cook and assemble according to the doc method: Chicken Onion thin sliced red Jalapenos Mayo Barbecue sauce Jalapeno juice Wrapped up in tortilla Goat cheese.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Chicken — Onion thin sliced red — Jalapenos — Mayo — Barbecue sauce — Jalapeno juice — Wrapped up in tortilla — Goat cheese",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "High-Protein",
-    "Quick (<25m)",
     "Chicken",
     "Sandwiches & Wraps"
   ],
@@ -62,6 +61,8 @@
     "jalapeno",
     "juice",
     "wrapped",
-    "tortilla"
+    "tortilla",
+    "goat",
+    "cheese"
   ]
 }

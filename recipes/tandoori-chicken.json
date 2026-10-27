@@ -1,24 +1,27 @@
 {
   "id": "tandoori-chicken",
+  "docOrder": 77,
+  "docLine": 815,
   "title": "Tandoori chicken",
-  "category": "Sides & Sauces",
+  "originalTitle": "Tandoori chicken",
+  "category": "Mains & Grills",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "25 mins",
-  "totalTime": "40 mins",
-  "calories": 360,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 416,
   "macros": {
     "protein_g": 38,
-    "carbs_g": 25,
+    "carbs_g": 39,
     "fat_g": 12
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 550,
-    "vitamin_c_mg": 12,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
     "calcium_mg": 80
   },
   "ingredients": [
@@ -27,16 +30,19 @@
     "Yogurt"
   ],
   "instructions": [
-    "Marinate it, grill it med heat, baste with sauce."
+    "Marinate it, grill it med heat, baste with sauce.",
+    "Serve with potatoes roasted, oiled, spicy pepper and salt. \\+ Garlic roasted asparagus"
   ],
   "notes": "",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
     "High-Protein",
-    "Low-Calorie",
+    "Quick-Fire Note",
     "Chicken",
-    "Sides & Sauces"
+    "Mains & Grills"
   ],
   "ingredientKeywords": [
     "tandoori",

@@ -1,0 +1,75 @@
+{
+  "id": "crustless-herbed-chicken-pot-pie",
+  "docOrder": 24,
+  "docLine": 400,
+  "title": "Crustless Herbed Chicken Pot Pie",
+  "originalTitle": "Individual pot pie simple crust less",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "25 mins",
+  "totalTime": "35 mins",
+  "calories": 414,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 pound boneless chicken breast, cut into bite-sized pieces",
+    "2 teaspoons olive oil",
+    "kosher salt and pepper",
+    "4 tablespoons butter",
+    "3 tablespoons all purpose flour",
+    "2 shallots, chopped",
+    "2 large carrots, chopped (about 3/4 cup)",
+    "1/2 cup frozen peas",
+    "1/2 cup frozen corn",
+    "1 cup whole milk",
+    "1 1/4 cups vegetable or chicken broth",
+    "1/2 teaspoon dried thyme",
+    "1/2 cup panko"
+  ],
+  "instructions": [
+    "Cut chicken breast into bite sized pieces, season with 1/2 teaspoon kosher salt and 1/4 teaspoon black pepper. Add 2 teaspoons of oil to a large skillet or cast iron pan and cook the chicken breast over medium heat for about 3 minutes on each side until browned and cooked through, 6-8 minutes total. Remove browned chicken pieces from the pan and set aside.",
+    "In the same pan, melt butter over medium heat, then add in shallots and carrots. Cook over medium-low heat until softened, stirring often, about 5 minutes. Add the peas and corn, and then mix in the all purpose flour until all the veggies are coated.",
+    "Pour in the broth and bring the mixture to a boil over high heat, then immediately lower it to a simmer over medium low heat, stirring often so the flour gets smooth and not clumpy. With the heat turned down to medium low, stir in milk as it starts to thicken, then add thyme and 1/4 teaspoon kosher salt and a pinch of black pepper if desired. Simmer for 8-10 minutes, stirring often, until the sauce is nice and thick, enough to coat a spoon. Add cooked chicken into the mixture. Taste the sauce and adjust the seasonings to your preference.",
+    "If using an oven-safe skillet, top the crustless pot pie mixture with panko and broil in the oven on high heat for 1-2 minutes, until the panko is golden brown. If using individual ramekins or a casserole dish, transfer the filling to the dish and top with the panko, broiling the same way. Serve warm."
+  ],
+  "notes": "Personal Note: [https\\://thedizzycook.com/crustless-chicken-pot-pie/](",
+  "sourceUrl": "https://thedizzycook.com/crustless-chicken-pot-pie/",
+  "sourceTitle": "The Dizzy Cook",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "pound",
+    "boneless",
+    "chicken",
+    "breast",
+    "cut",
+    "into",
+    "bite-sized",
+    "pieces",
+    "teaspoons",
+    "olive",
+    "oil",
+    "kosher",
+    "salt",
+    "pepper"
+  ]
+}

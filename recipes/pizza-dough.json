@@ -1,20 +1,23 @@
 {
   "id": "pizza-dough",
+  "docOrder": 62,
+  "docLine": 615,
   "title": "Pizza Dough",
+  "originalTitle": "Pizza Dough",
   "category": "Pizza & Breads",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "20 mins",
-  "cookTime": "120 mins",
-  "totalTime": "140 mins",
-  "calories": 588,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 559,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 87,
-    "fat_g": 20
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
   },
   "micros": {
-    "fiber_g": 7,
+    "fiber_g": 6,
     "sodium_mg": 410,
     "iron_mg": 3.0,
     "potassium_mg": 520,
@@ -40,6 +43,8 @@
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "Vegetarian",

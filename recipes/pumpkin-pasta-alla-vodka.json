@@ -1,45 +1,78 @@
 {
   "id": "pumpkin-pasta-alla-vodka",
+  "docOrder": 124,
+  "docLine": 1498,
   "title": "Pumpkin pasta alla vodka",
+  "originalTitle": "Pumpkin pasta alla vodka",
   "category": "Pasta & Noodles",
   "protein": "Vegetarian",
   "servings": 4,
   "prepTime": "5 mins",
   "cookTime": "15 mins",
   "totalTime": "20 mins",
-  "calories": 570,
+  "calories": 596,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 96,
-    "fat_g": 14
+    "protein_g": 14,
+    "carbs_g": 90,
+    "fat_g": 20
   },
   "micros": {
-    "fiber_g": 9,
+    "fiber_g": 10,
     "sodium_mg": 410,
     "iron_mg": 3.0,
-    "potassium_mg": 520,
-    "vitamin_c_mg": 22,
-    "calcium_mg": 80
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
   },
   "ingredients": [
-    "Pumpkin pasta alla vodka"
+    "1 tablespoon olive oil",
+    "1 shallot (minced)",
+    "2 garlic cloves (minced)",
+    "Kosher salt",
+    "1/2 teaspoon crushed red pepper",
+    "2 ounces vodka",
+    "3 ounces tomato paste",
+    "1 cup pure pumpkin puree (*not pumpkin pie filling!)",
+    "1 cup heavy whipping cream",
+    "Pinch freshly grated nutmeg",
+    "2 ounces shredded Parmesan cheese (plus more as garnish)",
+    "2 tablespoons unsalted butter ((cold straight from the fridge) )",
+    "1 pound pasta of choice ((I used rigatoni) )",
+    "Crispy sage leaves (as garnish)"
   ],
   "instructions": [
-    "Prepare Pumpkin pasta alla vodka according to personal taste and desired accompaniments."
+    "In a large saucepan, set over medium-low heat, add the olive oil. When warm, add the minced onion, garlic and a pinch of kosher salt. Cook until softened, about 5 minutes.",
+    "Pour in the tomato paste, along with the red pepper flakes, and cook it until the tomato paste turns a really dark red color, about 3 minutes. Add the vodka and let it sizzle and allow the vodka to cook off a bit, about 1 minute.",
+    "Pour in the pumpkin puree and mix it until smooth. Then, pour in the heavy cream and mix again. Turn off the sauce. Now, we’re gonna boil the pasta!",
+    "Bring a pot of salted water to a boil. You want the water as salty as the sea. Pour in the pasta and cook it until about 1 minute shy of al dente. Reserve about 1 cup of pasta water. Drain the pasta.",
+    "Turn the heat up on the sauce to medium. Pour in 1/2 cup pasta water, along with the freshly grated nutmeg and grated Parmesan-Reggiano and give it a taste. Add salt to taste. I added a pinch or two. Pour in the pasta and then add in the cold butter. Mix it vigorously for 1 minute, until thick and luscious.",
+    "Garnish with grated Parmesan-Reggiano and some crispy sage leaves."
   ],
-  "notes": "",
+  "notes": "Personal Note: [https\\://www.acozykitchen.com/pumpkin-pasta-alla-vodka](",
   "sourceUrl": "https://www.acozykitchen.com/pumpkin-pasta-alla-vodka",
-  "succinct": true,
+  "sourceTitle": "A Cozy Kitchen",
+  "hasImage": false,
+  "succinct": false,
   "tags": [
     "Quick (<25m)",
-    "Quick-Fire Note",
+    "Verified Source",
     "Vegetarian",
     "Pasta & Noodles"
   ],
   "ingredientKeywords": [
-    "pumpkin",
-    "pasta",
-    "alla",
-    "vodka"
+    "tablespoon",
+    "olive",
+    "oil",
+    "shallot",
+    "minced",
+    "garlic",
+    "cloves",
+    "kosher",
+    "salt",
+    "1/2",
+    "teaspoon",
+    "crushed",
+    "red",
+    "pepper"
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "id": "herbes-de-provence-roast-chicken-breast-with-garlic-ratatouille",
+  "docOrder": 6,
+  "docLine": 304,
+  "title": "Herbes de Provence Roast Chicken Breast with Garlic Ratatouille",
+  "originalTitle": "Ratatouille with garlic and herbs de provence roast chicken breast",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "35 mins",
+  "totalTime": "50 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "4 boneless, skinless chicken breasts (or bone-in split breasts)",
+    "2 tbsp Herbes de Provence",
+    "6 cloves garlic (4 smashed for ratatouille, 2 minced for chicken)",
+    "1 medium eggplant, cubed into 3/4-inch dice",
+    "2 medium zucchinis, cubed",
+    "1 red bell pepper & 1 yellow bell pepper, chopped",
+    "1 medium yellow onion, diced",
+    "1 can (14 oz) crushed San Marzano tomatoes (or 4 ripe Roma tomatoes, chopped)",
+    "2 tbsp extra-virgin olive oil",
+    "Fresh basil leaves, kosher salt, and freshly ground black pepper"
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Rub chicken breasts with 1 tbsp olive oil, minced garlic, 1 tbsp Herbes de Provence, salt, and black pepper.",
+    "In a large oven-safe skillet or braiser over medium-high heat, sear chicken breasts 3 minutes per side until golden; remove to a plate.",
+    "In the same pan, sauté onion, bell peppers, eggplant, zucchini, smashed garlic cloves, and remaining 1 tbsp Herbes de Provence in 1 tbsp olive oil for 8 minutes until softened.",
+    "Stir in crushed tomatoes and simmer 5 minutes. Nestle the chicken breasts on top of the ratatouille and roast in the oven for 15–18 minutes until chicken reaches 165°F. Finish with fresh torn basil."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.feastingathome.com/ratatouille-recipe/",
+  "sourceTitle": "Feasting at Home · Provençal Chicken & Ratatouille",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "skinless",
+    "chicken",
+    "breasts",
+    "bone-in",
+    "split",
+    "herbes",
+    "provence",
+    "garlic",
+    "smashed",
+    "ratatouille",
+    "minced",
+    "medium",
+    "eggplant"
+  ]
+}

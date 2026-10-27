@@ -1,0 +1,70 @@
+{
+  "id": "crispy-pan-fried-chicken-oysters-sot-l-y-laisse",
+  "docOrder": 145,
+  "docLine": 1863,
+  "title": "Crispy Pan-Fried Chicken Oysters (Sot-l'y-laisse)",
+  "originalTitle": "Crispy Pan-Fried Chicken Oysters (Sot-l'y-laisse)",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 2,
+  "prepTime": "5 mins",
+  "cookTime": "6 mins",
+  "totalTime": "11 mins",
+  "calories": 414,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "8–10 chicken oysters (the two prized oval dark-meat medallions on the back of a whole chicken near the thigh socket), skin-on",
+    "1 tbsp unsalted butter + 1 tsp neutral oil",
+    "2 cloves garlic, lightly crushed in skin",
+    "2 sprigs fresh thyme",
+    "Splash of dry white wine or fresh lemon juice",
+    "Flaky sea salt and freshly cracked black pepper"
+  ],
+  "instructions": [
+    "Pat the chicken oysters dry and season generously with salt and freshly ground black pepper.",
+    "Place skin-side down in a skillet over medium-high heat with 1 tsp oil and sear for 3–4 minutes until the skin is glass-crispy and golden.",
+    "Flip the chicken oysters, add butter, crushed garlic, and thyme sprigs, and baste with foaming brown butter for 90 seconds.",
+    "Finish with a squeeze of lemon juice or splash of white wine and serve immediately — known in French kitchens as 'sot-l'y-laisse' ('only a fool leaves them behind')."
+  ],
+  "notes": "Doc Note: https\\://youtube.com/shorts/swSkvL_BqJ8?si=l6J8RHRmWvNli2vc",
+  "sourceUrl": "https://youtube.com/shorts/swSkvL_BqJ8?si=l6J8RHRmWvNli2vc",
+  "sourceTitle": "YouTube · Chef's Secret Chicken Oysters (Sot-l'y-laisse)",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "8–10",
+    "chicken",
+    "oysters",
+    "two",
+    "prized",
+    "oval",
+    "dark-meat",
+    "medallions",
+    "back",
+    "whole",
+    "near",
+    "thigh",
+    "socket",
+    "skin-on"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "high-protein-cottage-cheese-avocado-egg-whites-on-sourdough-toast",
+  "docOrder": 57,
+  "docLine": 599,
+  "title": "High-Protein Cottage Cheese, Avocado & Egg Whites on Sourdough Toast",
+  "originalTitle": "Cottage cheese, avocado, egg whites on toast",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 1,
+  "prepTime": "5 mins",
+  "cookTime": "5 mins",
+  "totalTime": "10 mins",
+  "calories": 376,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 slices thick-cut sourdough bread, toasted golden",
+    "1/2 cup low-fat cottage cheese",
+    "1/2 medium Hass avocado, sliced or lightly mashed with lemon juice",
+    "3/4 cup liquid egg whites (about 4 egg whites), softly scrambled or fried into a patty",
+    "1 tsp Everything Bagel seasoning & pinch of red pepper flakes",
+    "Flaky sea salt and freshly cracked black pepper"
+  ],
+  "instructions": [
+    "Toast the sourdough slices until crisp and golden brown.",
+    "In a non-stick skillet over medium-low heat, cook the egg whites with a pinch of salt and black pepper until softly set.",
+    "Spread the cottage cheese generously across the warm sourdough toast, layer with sliced avocado and warm egg whites, and finish with Everything Bagel seasoning and chili flakes."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.eatingbirdfood.com/cottage-cheese-toast/",
+  "sourceTitle": "Eating Bird Food · High-Protein Cottage Cheese Toast",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "thick-cut",
+    "sourdough",
+    "bread",
+    "toasted",
+    "golden",
+    "low-fat",
+    "cottage",
+    "cheese",
+    "1/2",
+    "medium",
+    "hass",
+    "avocado",
+    "lightly",
+    "mashed"
+  ]
+}

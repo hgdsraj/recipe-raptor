@@ -1,0 +1,76 @@
+{
+  "id": "salmon-burgers-on-toast-with-salad-potatoes",
+  "docOrder": 1,
+  "docLine": 265,
+  "title": "Salmon Burgers on Toast with Salad & Potatoes",
+  "originalTitle": "Salmom burgers on toast with salad and potatoes",
+  "category": "Sandwiches & Wraps",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "15 mins",
+  "totalTime": "30 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 32,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lbs fresh wild salmon or steelhead fillet, skinless, finely chopped",
+    "2 tbsp light mayonnaise or Greek yogurt",
+    "1 tbsp Dijon mustard",
+    "2 tbsp fresh dill, finely chopped",
+    "2 scallions (green onions), finely sliced",
+    "1 tbsp lemon juice + 1 tsp lemon zest",
+    "1/2 cup panko breadcrumbs",
+    "1/2 tsp kosher salt & 1/2 tsp freshly cracked black pepper",
+    "4 slices thick-cut sourdough or brioche toast",
+    "4 cups mixed baby greens tossed with lemon-olive oil vinaigrette",
+    "1.5 lbs baby potatoes, halved and roasted at 400°F with olive oil, salt & rosemary"
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Toss halved baby potatoes with 1 tbsp olive oil, salt, pepper, and rosemary; roast cut-side down for 25–30 minutes until crisp.",
+    "Cut a quarter of the salmon into a fine paste with your knife (acts as the binder) and dice the remaining salmon into 1/4-inch pieces.",
+    "Fold the salmon together with mayonnaise, Dijon mustard, dill, scallions, lemon juice, zest, panko, salt, and black pepper. Form into 4 patties.",
+    "Sear the salmon patties in a lightly oiled skillet over medium-high heat for 3–4 minutes per side until golden crisp outside and 125–130°F internally.",
+    "Serve patties open-faced or sandwiched on toasted sourdough alongside the crisp herb-roasted potatoes and lemon-dressed green salad."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/the-best-salmon-burgers-recipe",
+  "sourceTitle": "Serious Eats · Fresh Salmon Burgers",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "wild",
+    "salmon",
+    "steelhead",
+    "fillet",
+    "skinless",
+    "light",
+    "mayonnaise",
+    "greek",
+    "yogurt",
+    "dijon",
+    "mustard",
+    "dill",
+    "scallions",
+    "green"
+  ]
+}

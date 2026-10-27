@@ -1,0 +1,69 @@
+{
+  "id": "sous-vide-pork-carnitas-burrito",
+  "docOrder": 34,
+  "docLine": 434,
+  "title": "Sous Vide Pork Carnitas Burrito",
+  "originalTitle": "Carnitas burrito sous vide",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "16 hrs",
+  "totalTime": "16 hrs",
+  "calories": 542,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 36,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "3 lbs boneless pork shoulder (Boston butt), cut into 2-inch steaks",
+    "1 medium onion, quartered",
+    "1 orange, halved (juice squeezed, peels included)",
+    "4 cloves garlic, smashed",
+    "1 cinnamon stick, 2 bay leaves, 2 tsp dried Mexican oregano, 1 tsp ground cumin",
+    "1 tbsp kosher salt & 1 tsp black pepper",
+    "Large flour burrito tortillas, cilantro-lime rice, black beans, pico de gallo, guacamole, and Monterey Jack cheese"
+  ],
+  "instructions": [
+    "Preheat sous vide water bath to 165°F (74°C) for juicy shreddable carnitas.",
+    "Season pork shoulder with salt, pepper, oregano, and cumin. Place in a vacuum bag with onion quarters, smashed garlic, cinnamon stick, bay leaves, orange juice, and 2 strips of orange peel.",
+    "Seal and cook in the 165°F water bath for 16–24 hours until meltingly tender.",
+    "Remove pork, shred into chunky pieces, spread on a foil-lined sheet pan with a few spoonfuls of bag juices, and broil on high for 4–5 minutes until edges are crispy and charred. Roll into warm burritos with rice, beans, cheese, and salsa."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/sous-vide-carnitas-crispy-mexican-style-pulled-pork-recipe",
+  "sourceTitle": "Serious Eats · Kenji's Sous Vide Carnitas",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "pork",
+    "shoulder",
+    "boston",
+    "butt",
+    "cut",
+    "into",
+    "2-inch",
+    "steaks",
+    "medium",
+    "onion",
+    "quartered",
+    "orange",
+    "halved"
+  ]
+}

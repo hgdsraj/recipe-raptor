@@ -648,6 +648,108 @@ body {
   font-weight: 800;
 }
 
+.badge-source-link {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: rgba(6, 182, 212, 0.14);
+  color: var(--raptor-cyan);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  text-decoration: none;
+  transition: var(--transition);
+  max-width: 195px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge-source-link:hover {
+  background: rgba(6, 182, 212, 0.28);
+  border-color: var(--raptor-cyan);
+  transform: translateY(-1px);
+}
+
+.badge-source-yt {
+  background: rgba(244, 63, 94, 0.14);
+  color: #fb7185;
+  border-color: rgba(244, 63, 94, 0.35);
+}
+
+.badge-source-yt:hover {
+  background: rgba(244, 63, 94, 0.28);
+  border-color: #fb7185;
+}
+
+.modal-source-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  background: rgba(6, 182, 212, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.modal-source-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: var(--radius-md);
+  background: var(--raptor-cyan);
+  color: #06131f;
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.modal-source-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.meal-plan-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  margin-bottom: 0.5rem;
+}
+
+.meal-plan-row-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.meal-plan-row-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.meal-plan-row-title:hover {
+  color: var(--raptor-green);
+}
+
+.meal-plan-row-meta {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  margin-top: 2px;
+}
+
 .favorite-btn {
   background: none;
   border: none;
@@ -1526,7 +1628,8 @@ body {
     font-size: 0.8rem;
   }
 
-  #groceryBtn .btn-text {
+  #groceryBtn .btn-text,
+  #mealPlanBtn .btn-text {
     display: none;
   }
 

@@ -1,0 +1,70 @@
+{
+  "id": "authentic-taqueria-style-mexican-rice-and-pinto-black-beans",
+  "docOrder": 147,
+  "docLine": 1869,
+  "title": "Authentic Taqueria-Style Mexican Rice and Pinto/Black Beans",
+  "originalTitle": "Authentic Taqueria-Style Mexican Rice and Pinto/Black Beans",
+  "category": "Bowls & Skillets",
+  "protein": "Chicken",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "30 mins",
+  "totalTime": "45 mins",
+  "calories": 470,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 39,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Mexican Rice: 1.5 cups long-grain white rice, rinsed and dried",
+    "3 Roma tomatoes + 1/4 white onion + 2 cloves garlic (blended into smooth tomato purée)",
+    "2 cups chicken or vegetable broth",
+    "2 tbsp neutral oil, 1 tsp cumin, 1 whole jalapeño or serrano, salt, and fresh cilantro",
+    "Mexican Beans: 2 cans (15 oz) pinto or black beans (with liquid)",
+    "2 tbsp bacon fat, lard, or olive oil + 1/2 finely diced onion + 2 cloves garlic",
+    "1/2 tsp oregano, 1/2 tsp cumin, cotija cheese, and pickled jalapeños"
+  ],
+  "instructions": [
+    "Make the Mexican Rice: Toast the rinsed, dried white rice in 2 tbsp oil over medium heat for 5–6 minutes, stirring constantly until golden and nutty.",
+    "Pour the blended fresh tomato-onion-garlic purée into the toasted rice and fry for 2 minutes until deepened in color. Stir in broth, cumin, salt, and whole jalapeño; cover and simmer on low for 18 minutes, then rest 10 minutes covered.",
+    "Make the Mexican Beans: Sauté diced onion and garlic in oil/drippings for 5 minutes until caramelized. Pour in the pinto or black beans with their liquid, cumin, and oregano.",
+    "Simmer the beans for 15 minutes, mashing about a third of the beans with a potato masher for a creamy restaurant texture. Top with cotija cheese and cilantro."
+  ],
+  "notes": "Doc Note: [https\\://youtu.be/JGEsSDUCr_c?si=c0EcdSkKk9munMZD](",
+  "sourceUrl": "https://youtu.be/JGEsSDUCr_c?si=c0EcdSkKk9munMZD",
+  "sourceTitle": "YouTube · Authentic Mexican Rice & Beans",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "mexican",
+    "rice",
+    "cups",
+    "long-grain",
+    "white",
+    "rinsed",
+    "roma",
+    "tomatoes",
+    "1/4",
+    "onion",
+    "cloves",
+    "garlic",
+    "blended",
+    "into"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "maple-miso-steelhead-with-broccolini-potatoes",
+  "docOrder": 5,
+  "docLine": 302,
+  "title": "Maple Miso Steelhead with Broccolini & Potatoes",
+  "originalTitle": "Maple miso Steelhead brocolini potato",
+  "category": "Mains & Grills",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "25 mins",
+  "totalTime": "35 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 32,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "4 steelhead trout or salmon fillets (6 oz each)",
+    "2 tbsp white or red miso paste",
+    "2 tbsp pure maple syrup",
+    "1 tbsp low-sodium soy sauce",
+    "1 tbsp rice vinegar",
+    "1 tsp toasted sesame oil",
+    "1 tsp freshly grated ginger & 1 clove garlic, minced",
+    "1 lb baby Yukon Gold potatoes, halved",
+    "1 large bunch broccolini, ends trimmed",
+    "1 tbsp olive oil, salt, black pepper, and toasted sesame seeds"
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C). Toss halved baby potatoes with 1/2 tbsp olive oil, salt, and pepper on a sheet pan and roast head-start for 12 minutes.",
+    "Whisk together the miso paste, maple syrup, soy sauce, rice vinegar, sesame oil, grated ginger, and garlic until smooth.",
+    "Remove the sheet pan, push potatoes to one side, add broccolini tossed with olive oil and a pinch of salt, and place steelhead fillets skin-side down in the center.",
+    "Brush fillets generously with the maple-miso glaze and roast for 10–12 minutes (broiling the last 2 minutes) until caramelized and flaky. Garnish with sesame seeds."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.nytimes.com/recipes/1019916-maple-miso-salmon-with-broccoli",
+  "sourceTitle": "NYT Cooking · Sheet-Pan Maple Miso Steelhead",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "steelhead",
+    "trout",
+    "salmon",
+    "fillets",
+    "each",
+    "white",
+    "red",
+    "miso",
+    "paste",
+    "pure",
+    "maple",
+    "syrup",
+    "low-sodium",
+    "soy"
+  ]
+}

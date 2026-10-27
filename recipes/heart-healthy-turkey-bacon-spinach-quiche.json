@@ -1,0 +1,74 @@
+{
+  "id": "heart-healthy-turkey-bacon-spinach-quiche",
+  "docOrder": 12,
+  "docLine": 322,
+  "title": "Heart-Healthy Turkey Bacon & Spinach Quiche",
+  "originalTitle": "Turkey bacon quiche [https\\://www\\.yumaregional.org/Medical-Services/Heart-and-Vascular-Care/28daysofheart/Heart-Healthy-Recipes/Turkey-Bacon-Spinach-Quiche](https://www.yumaregional.org/Medical-Services/Heart-and-Vascular-Care/28daysofheart/Heart-Healthy-Recipes/Turkey-Bacon-Spinach-Quiche)",
+  "category": "Breakfast & Eggs",
+  "protein": "Turkey",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "40 mins",
+  "totalTime": "55 mins",
+  "calories": 375,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 15
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "6 slices lean turkey bacon, cooked crisp and crumbled",
+    "4 cups fresh baby spinach, wilted and squeezed dry (or 10 oz frozen spinach, thawed and drained)",
+    "1 small yellow onion, finely diced",
+    "2 cloves garlic, minced",
+    "4 large whole eggs + 4 large egg whites",
+    "1 cup low-fat milk (or unsweetened almond/evaporated skim milk)",
+    "3/4 cup reduced-fat shredded Swiss or part-skim mozzarella cheese",
+    "1/4 cup grated Parmesan cheese",
+    "1/4 tsp ground nutmeg, 1/2 tsp salt, 1/2 tsp black pepper",
+    "1 whole-wheat 9-inch pie crust (or bake crustless in a lightly greased pie dish)"
+  ],
+  "instructions": [
+    "Preheat oven to 375°F (190°C) and lightly coat a 9-inch pie dish with olive oil spray (or line with whole-wheat crust).",
+    "Crisp the turkey bacon in a non-stick skillet, remove and crumble. In the same pan, sauté diced onion, garlic, and spinach until tender and dry.",
+    "Layer the spinach-onion mixture, crumbled turkey bacon, and shredded Swiss/mozzarella cheese in the pie dish.",
+    "Whisk together the eggs, egg whites, low-fat milk, Parmesan, nutmeg, salt, and black pepper. Pour over the filling and bake for 35–40 minutes until golden and a knife inserted in the center comes out clean."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.yumaregional.org/Medical-Services/Heart-and-Vascular-Care/28daysofheart/Heart-Healthy-Recipes/Turkey-Bacon-Spinach-Quiche",
+  "sourceTitle": "Yuma Regional · Heart-Healthy Turkey Bacon Quiche",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "lean",
+    "turkey",
+    "bacon",
+    "cooked",
+    "crisp",
+    "crumbled",
+    "baby",
+    "spinach",
+    "wilted",
+    "squeezed",
+    "dry",
+    "frozen",
+    "thawed",
+    "drained"
+  ]
+}

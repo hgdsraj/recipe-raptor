@@ -1,0 +1,74 @@
+{
+  "id": "masala-fish-fry-aa-meats-style",
+  "docOrder": 22,
+  "docLine": 393,
+  "title": "Masala Fish Fry (AA Meats Style)",
+  "originalTitle": "Masala fish from aa meats",
+  "category": "Bowls & Skillets",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "12 mins",
+  "totalTime": "27 mins",
+  "calories": 394,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 32,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lbs white fish or salmon fillets (AA Meats masala-marinated or fresh), cut into portions",
+    "1.5 tbsp ginger-garlic paste",
+    "1.5 tsp Kashmiri red chili powder",
+    "1 tsp ground coriander & 1 tsp roasted cumin powder",
+    "1/2 tsp turmeric powder & 1 tsp garam masala",
+    "1 tsp ajwain (carom seeds), crushed",
+    "2 tbsp besan (gram flour) + 1 tbsp rice flour (for crispy masala crust)",
+    "2 tbsp lemon juice",
+    "2 tbsp mustard oil or avocado oil for pan-searing/air-frying",
+    "Fresh cilantro, chaat masala, and sliced red onions to serve"
+  ],
+  "instructions": [
+    "Combine ginger-garlic paste, lemon juice, Kashmiri chili, coriander, cumin, turmeric, garam masala, ajwain, besan, rice flour, salt, and a splash of water into a thick masala paste.",
+    "Coat the fish pieces thoroughly in the masala marinade and rest for 20–30 minutes.",
+    "Heat oil in a cast-iron skillet over medium-high heat (or preheat air fryer to 400°F).",
+    "Pan-sear the masala fish for 4–5 minutes per side (or air-fry 10–12 minutes) until the spice crust is deeply charred and crisp. Sprinkle with chaat masala and lemon juice."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.indianhealthyrecipes.com/fish-fry-recipe/",
+  "sourceTitle": "Swasthi's Recipes · Indian Masala Fish",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "white",
+    "fish",
+    "salmon",
+    "fillets",
+    "meats",
+    "masala-marinated",
+    "cut",
+    "into",
+    "portions",
+    "ginger-garlic",
+    "paste",
+    "kashmiri",
+    "red",
+    "chili"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "spaghetti-meatballs-the-vivaldi-way",
+  "docOrder": 162,
+  "docLine": 2042,
+  "title": "Spaghetti & Meatballs (The Vivaldi Way)",
+  "originalTitle": "Spaghetti & Meatballs (The Vivaldi Way)",
+  "category": "Pasta & Noodles",
+  "protein": "Beef",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "35 mins",
+  "totalTime": "55 mins",
+  "calories": 606,
+  "macros": {
+    "protein_g": 36,
+    "carbs_g": 66,
+    "fat_g": 22
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 600,
+    "iron_mg": 3.8,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 21,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 lb ground beef + 1/2 lb ground pork (or Italian sausage)",
+    "1/2 cup Italian breadcrumbs soaked in 1/3 cup whole milk (panade)",
+    "1/2 cup freshly grated Parmigiano-Reggiano + Pecorino Romano",
+    "2 large eggs",
+    "3 cloves garlic, minced & 2 tbsp fresh Italian parsley, chopped",
+    "1 tsp kosher salt, 1/2 tsp black pepper, 1/2 tsp dried oregano",
+    "1 lb spaghetti + 4 cups San Marzano tomato marinara sauce + fresh basil"
+  ],
+  "instructions": [
+    "Soak the breadcrumbs in milk for 5 minutes, then gently mix with the ground beef, ground pork, Parmigiano, eggs, garlic, parsley, salt, and pepper without overworking.",
+    "Roll into 2-oz meatballs and sear in olive oil in a Dutch oven (or roast at 425°F for 12 minutes) until browned on the outside.",
+    "Transfer the seared meatballs directly into simmering San Marzano tomato sauce and braise gently for 20–25 minutes so they stay impossibly tender.",
+    "Toss al dente spaghetti with the rich tomato sauce, a splash of starchy pasta water, and grated Parmigiano, then crown with meatballs and fresh basil."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/Ifx5z8EJYqg?si=i5Y6ZgedwUew3mXQ](",
+  "sourceUrl": "https://youtube.com/shorts/Ifx5z8EJYqg?si=i5Y6ZgedwUew3mXQ",
+  "sourceTitle": "YouTube · Steve | The Vivaldi Way Spaghetti & Meatballs",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Beef",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "beef",
+    "1/2",
+    "pork",
+    "italian",
+    "sausage",
+    "breadcrumbs",
+    "soaked",
+    "1/3",
+    "cup",
+    "whole",
+    "milk",
+    "panade",
+    "freshly"
+  ]
+}

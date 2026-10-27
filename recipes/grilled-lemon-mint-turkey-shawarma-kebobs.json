@@ -1,0 +1,69 @@
+{
+  "id": "grilled-lemon-mint-turkey-shawarma-kebobs",
+  "docOrder": 88,
+  "docLine": 1037,
+  "title": "Grilled Lemon-Mint Turkey Shawarma Kebobs",
+  "originalTitle": "Shwarma Kebob Turkey",
+  "category": "Bowls & Skillets",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 lb turkey",
+    "1 small onion",
+    "4 tsp shwarma seasoning (has about 1 tsp salt)",
+    "2 tsp parsley",
+    "2 tsp garlic powder",
+    "Juice of one lemon",
+    "1 tsp chopped mint",
+    "1 finely diced chili"
+  ],
+  "instructions": [
+    "Prep & mise en place: Gather and prepare all components for Grilled Lemon-Mint Turkey Shawarma Kebobs.",
+    "BBQ on hot grill max heat one side,  50% heat on using side around 11 minutes rotating every 2 mins",
+    "Season to taste with kosher salt, freshly cracked black pepper, and finishing garnishes before serving warm."
+  ],
+  "notes": "Original Doc Shorthand: 1 lb turkey — 1 small onion — 4 tsp shwarma seasoning (has about 1 tsp salt) — 2 tsp parsley — 2 tsp garlic powder — Juice of one lemon — 1 tsp chopped mint — 1 finely diced chili — BBQ on hot grill max heat one side,  50% heat on using side around 11 minutes rotating every 2 mins",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Turkey",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "turkey",
+    "small",
+    "onion",
+    "shwarma",
+    "seasoning",
+    "has",
+    "tsp",
+    "salt",
+    "parsley",
+    "garlic",
+    "powder",
+    "juice",
+    "one",
+    "lemon"
+  ]
+}

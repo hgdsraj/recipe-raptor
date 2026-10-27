@@ -1,40 +1,56 @@
 {
   "id": "turkey-shepherds-pie",
+  "docOrder": 52,
+  "docLine": 583,
   "title": "Turkey shepherds pie",
-  "category": "Soups & Stews",
+  "originalTitle": "Turkey shepherds pie",
+  "category": "Mains & Grills",
   "protein": "Turkey",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 457,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 431,
   "macros": {
     "protein_g": 40,
-    "carbs_g": 36,
-    "fat_g": 17
+    "carbs_g": 34,
+    "fat_g": 15
   },
   "micros": {
     "fiber_g": 6,
-    "sodium_mg": 640,
+    "sodium_mg": 490,
     "iron_mg": 2.2,
-    "potassium_mg": 600,
-    "vitamin_c_mg": 10,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
     "calcium_mg": 200
   },
   "ingredients": [
-    "parsley paprika garlic chives on top and cheese on top lightly, creamed potatoes very smooth yukon gold, low fat sour cream, low fat vegetable broth. Garlic, parsley with immersion blender. Mix meat with carrots, onion, celery, sliced mushrooms"
+    "Parsley paprika garlic chives on top",
+    "Cheese on top lightly",
+    "Creamed potatoes very smooth yukon gold",
+    "Low fat sour cream",
+    "Low fat vegetable broth. Garlic",
+    "Parsley",
+    "Immersion blender. Mix meat",
+    "Carrots",
+    "Onion",
+    "Celery"
   ],
   "instructions": [
-    "parsley paprika garlic chives on top and cheese on top lightly, creamed potatoes very smooth yukon gold, low fat sour cream, low fat vegetable broth. Garlic, parsley with immersion blender. Mix meat with carrots, onion, celery, sliced mushrooms"
+    "Prep all ingredients for Turkey shepherds pie: Parsley paprika garlic chives on top, Cheese on top lightly, Creamed potatoes very smooth yukon gold, Low fat sour cream.",
+    "Cook and assemble according to the doc method: parsley paprika garlic chives on top and cheese on top lightly, creamed potatoes very smooth yukon gold, low fat sour cream, low fat vegetable broth. Garlic, parsley with immersion blender. Mix meat with carrots, onion, celery, sliced mushrooms.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: parsley paprika garlic chives on top and cheese on top lightly, creamed potatoes very smooth yukon gold, low fat sour cream, low fat vegetable broth. Garlic, parsley with immersion blender. Mix meat with carrots, onion, celery, sliced mushrooms",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": true,
   "tags": [
     "High-Protein",
     "Quick-Fire Note",
     "Turkey",
-    "Soups & Stews"
+    "Mains & Grills"
   ],
   "ingredientKeywords": [
     "parsley",
@@ -42,12 +58,14 @@
     "garlic",
     "chives",
     "top",
-    "and",
     "cheese",
     "lightly",
     "creamed",
     "potatoes",
     "very",
-    "smooth"
+    "smooth",
+    "yukon",
+    "gold",
+    "low"
   ]
 }

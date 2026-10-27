@@ -1,0 +1,69 @@
+{
+  "id": "savory-umami-msg-garlic-compound-butter",
+  "docOrder": 118,
+  "docLine": 1460,
+  "title": "Savory Umami MSG Garlic Compound Butter",
+  "originalTitle": "Make.msg butter",
+  "category": "Sides & Sauces",
+  "protein": "Vegetarian",
+  "servings": 8,
+  "prepTime": "10 mins",
+  "cookTime": "5 mins",
+  "totalTime": "15 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 7,
+    "carbs_g": 38,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 cup (2 sticks) unsalted grass-fed butter, softened at room temperature",
+    "1.5 tsp monosodium glutamate (MSG / Ajinomoto)",
+    "1 head roasted garlic, cloves squeezed out (or 3 raw cloves finely grated)",
+    "1 tsp miso paste or soy sauce",
+    "2 tbsp finely chopped fresh chives or parsley",
+    "1/2 tsp flaky sea salt & 1/2 tsp freshly cracked black pepper"
+  ],
+  "instructions": [
+    "Whip the softened butter in a bowl with a spatula or mixer until light and fluffy.",
+    "Fold in the roasted garlic, MSG, miso paste, chopped chives, flaky salt, and black pepper until thoroughly incorporated.",
+    "Roll the butter into a tight log using parchment paper or plastic wrap and chill in the refrigerator for 1 hour. Slice coins over hot steaks, roast chicken, steamed vegetables, or crusty bread."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/UBAmz9Vd1mI?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/UBAmz9Vd1mI?feature=share",
+  "sourceTitle": "YouTube · Umami MSG Compound Butter",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "sticks",
+    "unsalted",
+    "grass-fed",
+    "butter",
+    "softened",
+    "room",
+    "temperature",
+    "monosodium",
+    "glutamate",
+    "msg",
+    "ajinomoto",
+    "head",
+    "roasted",
+    "garlic"
+  ]
+}

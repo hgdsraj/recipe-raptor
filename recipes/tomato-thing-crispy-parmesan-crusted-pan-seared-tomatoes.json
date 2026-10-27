@@ -1,0 +1,71 @@
+{
+  "id": "tomato-thing-crispy-parmesan-crusted-pan-seared-tomatoes",
+  "docOrder": 133,
+  "docLine": 1554,
+  "title": "Tomato Thing (Crispy Parmesan-Crusted Pan-Seared Tomatoes)",
+  "originalTitle": "Tomato Thing (Crispy Parmesan-Crusted Pan-Seared Tomatoes)",
+  "category": "Sides & Sauces",
+  "protein": "Vegetarian",
+  "servings": 2,
+  "prepTime": "5 mins",
+  "cookTime": "8 mins",
+  "totalTime": "13 mins",
+  "calories": 360,
+  "macros": {
+    "protein_g": 7,
+    "carbs_g": 38,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 large ripe beefsteak or heirloom tomatoes, sliced into thick 1/2-inch rounds",
+    "1/2 cup freshly grated Parmigiano-Reggiano",
+    "1/3 cup seasoned Italian panko breadcrumbs",
+    "2 cloves garlic, finely minced",
+    "2 tbsp fresh basil & parsley, finely chopped",
+    "1.5 tbsp extra-virgin olive oil",
+    "Flaky sea salt and freshly cracked black pepper"
+  ],
+  "instructions": [
+    "Slice the tomatoes into thick 1/2-inch rounds and season lightly on both sides with salt and black pepper.",
+    "Combine grated Parmigiano-Reggiano, panko breadcrumbs, minced garlic, and chopped herbs on a plate, then press both sides of the tomato slices firmly into the Parmesan mixture.",
+    "Heat olive oil in a non-stick or cast-iron skillet over medium-high heat.",
+    "Sear the coated tomato slices for 2–3 minutes per side until the Parmesan forms a lacy, golden-brown crust while the tomato center stays juicy and warm."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/j0gNWpcdNcg?si=djTXHwS-ex6Snqls](",
+  "sourceUrl": "https://youtube.com/shorts/j0gNWpcdNcg?si=djTXHwS-ex6Snqls",
+  "sourceTitle": "YouTube · Chef Jean-Pierre / Crispy Parmesan Tomatoes",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "ripe",
+    "beefsteak",
+    "heirloom",
+    "tomatoes",
+    "into",
+    "thick",
+    "1/2-inch",
+    "rounds",
+    "freshly",
+    "grated",
+    "parmigiano-reggiano",
+    "seasoned",
+    "italian"
+  ]
+}

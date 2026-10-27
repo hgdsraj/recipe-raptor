@@ -1,12 +1,15 @@
 {
   "id": "turkey-meatloaf",
+  "docOrder": 20,
+  "docLine": 387,
   "title": "Turkey meatloaf",
+  "originalTitle": "Turkey meatloaf",
   "category": "Mains & Grills",
   "protein": "Turkey",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
+  "prepTime": "35 mins",
+  "cookTime": "55 mins",
+  "totalTime": "90 mins",
   "calories": 321,
   "macros": {
     "protein_g": 40,
@@ -14,31 +17,62 @@
     "fat_g": 9
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 490,
     "iron_mg": 2.2,
-    "potassium_mg": 520,
-    "vitamin_c_mg": 10,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
     "calcium_mg": 80
   },
   "ingredients": [
-    "Turkey meatloaf"
+    "1 tablespoon extra-virgin olive oil",
+    "1 medium onion, peeled and finely chopped",
+    "2 garlic cloves, minced",
+    "8 ounces (225 grams) cremini or white button mushrooms, trimmed and very finely chopped",
+    "¾ teaspoon fine sea salt",
+    "½ teaspoon freshly ground black pepper",
+    "1 tablespoon Worcestershire sauce",
+    "7 tablespoons (120 g) ketchup, divided (try our homemade ketchup)",
+    "1 cup (60 g) panko breadcrumbs, crushed saltine crackers, or use homemade breadcrumbs",
+    "⅓ cup (80 ml) whole milk",
+    "2 large eggs, lightly beaten",
+    "1 pound (450 g) ground turkey (90% to 92% lean)"
   ],
   "instructions": [
-    "Prepare Turkey meatloaf according to personal taste and desired accompaniments."
+    "Heat the oven to 400°F (200°C). Line a rimmed baking sheet or a 9-by-13-inch baking pan with aluminum foil and lightly oil it.",
+    "In a large skillet, heat the oil over medium-low heat. Add the onion and cook, stirring occasionally, until softened, about 5 minutes. Stir in the garlic and cook until fragrant, about 1 minute. Add the mushrooms, ½ teaspoon of salt, and ¼ teaspoon of pepper. Cook, stirring occasionally, until mushrooms release their liquid, and it boils away, about 10 minutes.",
+    "Transfer the onions and mushrooms to a large bowl. Stir in the Worcestershire sauce and 3 tablespoons of the ketchup. Let cool for 5 minutes.",
+    "In a small bowl, combine breadcrumbs and milk. Stir soaked breadcrumbs and eggs into the cooled mushroom mixture.",
+    "Using a fork or your hands, gently mix in the ground turkey, remaining ¼ teaspoon salt, and the remaining ¼ teaspoon pepper just until combined. (The mixture will be wet.)",
+    "Form the meatloaf into a 9-by-5-inch oval in the middle of the prepared baking sheet. Spread the remaining 4 tablespoons of ketchup evenly over the top. (If the loaf seems wet, refrigerate for 10 minutes to firm up.)",
+    "Bake until an instant-read thermometer inserted into the center of the meatloaf registers 165°F, about 50 minutes. Let the meatloaf rest for 10 minutes before slicing and serving."
   ],
-  "notes": "",
+  "notes": "Personal Note: [https\\://www.inspiredtaste.net/21535/unbelievably-moist-turkey-meatloaf-recipe/](",
   "sourceUrl": "https://www.inspiredtaste.net/21535/unbelievably-moist-turkey-meatloaf-recipe/",
-  "succinct": true,
+  "sourceTitle": "Inspired Taste",
+  "hasImage": false,
+  "succinct": false,
   "tags": [
     "High-Protein",
     "Low-Calorie",
-    "Quick-Fire Note",
+    "Verified Source",
     "Turkey",
     "Mains & Grills"
   ],
   "ingredientKeywords": [
-    "turkey",
-    "meatloaf"
+    "tablespoon",
+    "extra-virgin",
+    "olive",
+    "oil",
+    "medium",
+    "onion",
+    "peeled",
+    "garlic",
+    "cloves",
+    "minced",
+    "ounces",
+    "225",
+    "grams",
+    "cremini"
   ]
 }

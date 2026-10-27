@@ -1,0 +1,67 @@
+{
+  "id": "grilled-street-corn-salad-esquites-style",
+  "docOrder": 136,
+  "docLine": 1631,
+  "title": "Grilled Street Corn Salad (Esquites Style)",
+  "originalTitle": "Grilled Street Corn Salad (Esquites Style)",
+  "category": "Salads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 314,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 33,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 11,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 55,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "One green onion",
+    "Two corn grilled",
+    "Half a lime squeezed",
+    "1/2 tbsp mayo",
+    "Salt pepper",
+    "Paprika smoked",
+    "Cilantro bunch"
+  ],
+  "instructions": [
+    "Prep all ingredients for Grilled Street Corn Salad (Esquites Style): One green onion, Two corn grilled, Half a lime squeezed, 1/2 tbsp mayo.",
+    "Cook and assemble according to the doc method: One green onion Two corn grilled Half a lime squeezed 1/2 tbsp mayo Salt pepper Paprika smoked Cilantro bunch.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: One green onion — Two corn grilled — Half a lime squeezed — 1/2 tbsp mayo — Salt pepper — Paprika smoked — Cilantro bunch",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Salads"
+  ],
+  "ingredientKeywords": [
+    "one",
+    "green",
+    "onion",
+    "two",
+    "corn",
+    "grilled",
+    "half",
+    "lime",
+    "squeezed",
+    "mayo",
+    "salt",
+    "pepper",
+    "paprika",
+    "smoked"
+  ]
+}

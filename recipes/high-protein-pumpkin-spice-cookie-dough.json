@@ -1,0 +1,71 @@
+{
+  "id": "high-protein-pumpkin-spice-cookie-dough",
+  "docOrder": 140,
+  "docLine": 1811,
+  "title": "High-Protein Pumpkin Spice Cookie Dough",
+  "originalTitle": "High-Protein Pumpkin Spice Cookie Dough",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 613,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 25
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "8 oz plain cottage cheese (I recommend full-fat)",
+    "8 oz pumpkin puree",
+    "¼ cup maple syrup",
+    "1 tsp vanilla extract (or vanilla bean paste)",
+    "1 tsp pumpkin pie spice (+ more as desired)",
+    "pinch of kosher salt",
+    "2 cups almond flour",
+    "½ cup vanilla protein powder",
+    "3 tbsp coconut flour (as needed -- SEE NOTE*)",
+    "½ cup mini chocolate chips"
+  ],
+  "instructions": [
+    "Add cottage cheese, pumpkin puree, maple syrup, vanilla, pumpkin pie spice & kosher salt to a blender and blend until smooth.",
+    "Pour blended cottage cheese & pumpkin mixture into a large bowl and add in the almond flour and protein powder. Stir to combine, then add in the coconut flour little by little, as needed, to get the cookie dough to your desired thickness.",
+    "Finally, stir in the chocolate chips. Enjoy right away, or let chill in the fridge."
+  ],
+  "notes": "Personal Note: [https\\://munchinwithmaddie.blog/protein-pumpkin-cookie-dough/](",
+  "sourceUrl": "https://munchinwithmaddie.blog/protein-pumpkin-cookie-dough/",
+  "sourceTitle": "Munchin With Maddie",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Quick (<25m)",
+    "Verified Source",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "plain",
+    "cottage",
+    "cheese",
+    "recommend",
+    "full-fat",
+    "pumpkin",
+    "puree",
+    "cup",
+    "maple",
+    "syrup",
+    "vanilla",
+    "extract",
+    "bean",
+    "paste"
+  ]
+}

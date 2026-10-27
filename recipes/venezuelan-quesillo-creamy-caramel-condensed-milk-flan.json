@@ -1,0 +1,68 @@
+{
+  "id": "venezuelan-quesillo-creamy-caramel-condensed-milk-flan",
+  "docOrder": 164,
+  "docLine": 2048,
+  "title": "Venezuelan Quesillo (Creamy Caramel Condensed Milk Flan)",
+  "originalTitle": "Venezuelan Quesillo (Creamy Caramel Condensed Milk Flan)",
+  "category": "Sweets & Drinks",
+  "protein": "Eggs",
+  "servings": 8,
+  "prepTime": "15 mins",
+  "cookTime": "60 mins",
+  "totalTime": "75 mins",
+  "calories": 374,
+  "macros": {
+    "protein_g": 7,
+    "carbs_g": 46,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 340,
+    "vitamin_c_mg": 14,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Caramel: 1 cup granulated white sugar + 1/4 cup water",
+    "Custard: 1 can (14 oz / 397g) sweetened condensed milk",
+    "1.5 cups whole milk (use the condensed milk can to measure 1 equal can of whole milk)",
+    "5 large whole eggs",
+    "1 tbsp dark rum (optional traditional touch) & 1 tbsp pure vanilla extract"
+  ],
+  "instructions": [
+    "Make the Caramel: Cook sugar and water in a metal quesillera mold or saucepan over medium heat without stirring until deep amber caramel forms; swirl immediately to coat the bottom and sides of the mold.",
+    "Blend the whole eggs, sweetened condensed milk, whole milk, vanilla extract, and rum in a blender for 60 seconds (blending creates the signature tiny bubbles or 'quesillo' cheese-like holes).",
+    "Pour the custard into the caramel-lined mold, cover tightly with a lid or double foil, and place inside a larger roasting pan filled halfway with hot water (bain-marie).",
+    "Bake at 350°F (175°C) for 55–60 minutes until set, chill in the fridge for at least 4 hours, and invert onto a rimmed platter."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/w022RDHbNEs?si=IJSXzTfs2SnFLpWR](",
+  "sourceUrl": "https://youtube.com/shorts/w022RDHbNEs?si=IJSXzTfs2SnFLpWR",
+  "sourceTitle": "YouTube · Traditional Venezuelan Quesillo",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Eggs",
+    "Sweets & Drinks"
+  ],
+  "ingredientKeywords": [
+    "caramel",
+    "cup",
+    "granulated",
+    "white",
+    "sugar",
+    "1/4",
+    "water",
+    "custard",
+    "can",
+    "397g",
+    "sweetened",
+    "condensed",
+    "milk",
+    "whole"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "authentic-mexican-pork-or-chicken-pozole-rojo",
+  "docOrder": 78,
+  "docLine": 825,
+  "title": "Authentic Mexican Pork or Chicken Pozole Rojo",
+  "originalTitle": "Pozole",
+  "category": "Soups & Stews",
+  "protein": "Chicken",
+  "servings": 6,
+  "prepTime": "20 mins",
+  "cookTime": "90 mins",
+  "totalTime": "110 mins",
+  "calories": 328,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 17,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 660,
+    "iron_mg": 2.0,
+    "potassium_mg": 750,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 lbs pork shoulder (cut into cubes) or bone-in chicken thighs/breasts",
+    "2 cans (25 oz each) white hominy, drained and rinsed",
+    "4 dried guajillo chiles & 3 dried ancho chiles, stemmed, seeded, and softened in hot water",
+    "1 white onion (half for broth, half for blending) + 6 cloves garlic",
+    "1.5 tsp Mexican oregano & 1 tsp ground cumin",
+    "8 cups pork or chicken broth, 2 bay leaves, kosher salt",
+    "Garnishes: shredded green cabbage, thinly sliced radishes, diced white onion, cilantro, oregano, lime wedges, and tostadas"
+  ],
+  "instructions": [
+    "Simmer the pork shoulder (or chicken) in 8 cups of water/broth with half an onion, 3 garlic cloves, bay leaves, and salt for 60 minutes until tender.",
+    "Blend the rehydrated guajillo and ancho chiles with half an onion, 3 garlic cloves, cumin, oregano, and 1.5 cups soaking liquid until silky smooth; strain through a sieve.",
+    "Fry the strained red chile sauce in 1 tbsp oil in a hot pot for 5 minutes to deepen flavor, then pour into the pork/chicken broth along with the rinsed white hominy.",
+    "Simmer together for 25–30 minutes until the hominy is plump and the red broth is rich. Serve in deep bowls piled with shredded cabbage, radishes, lime, and tostadas."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/oVMsE72ULmg?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/oVMsE72ULmg?feature=share",
+  "sourceTitle": "YouTube · Mexican Pozole Rojo",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "pork",
+    "shoulder",
+    "cut",
+    "into",
+    "cubes",
+    "bone-in",
+    "chicken",
+    "thighs/breasts",
+    "each",
+    "white",
+    "hominy",
+    "drained",
+    "rinsed",
+    "guajillo"
+  ]
+}

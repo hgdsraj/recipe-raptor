@@ -1,0 +1,73 @@
+{
+  "id": "chinese-tomato-and-egg-stir-fry-fan-qie-chao-dan",
+  "docOrder": 26,
+  "docLine": 408,
+  "title": "Chinese Tomato and Egg Stir-Fry (Fan Qie Chao Dan)",
+  "originalTitle": "Chinese tomato and egg try",
+  "category": "Breakfast & Eggs",
+  "protein": "Eggs",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "8 mins",
+  "totalTime": "18 mins",
+  "calories": 378,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 32,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "4 large ripe tomatoes, cut into wedges",
+    "6 large eggs",
+    "3 scallions (green onions), whites and greens separated and chopped",
+    "2 cloves garlic, finely minced",
+    "1/2 tsp toasted sesame oil + 1/2 tsp Shaoxing wine (for eggs)",
+    "1 tbsp ketchup (optional restaurant secret for color and tang)",
+    "1.5 tsp sugar (balances tomato acidity)",
+    "1/2 tsp white pepper & 3/4 tsp kosher salt",
+    "2 tbsp neutral oil, plus steamed white rice for serving"
+  ],
+  "instructions": [
+    "Beat the eggs vigorously with 1/4 tsp salt, white pepper, Shaoxing wine, and sesame oil.",
+    "Heat 1.5 tbsp oil in a wok or skillet over medium-high heat until shimmering. Pour in the eggs and scramble into soft, billowing curds in 45 seconds; transfer immediately to a plate.",
+    "Add remaining 1/2 tbsp oil to the pan and sauté scallion whites and garlic for 20 seconds. Add tomato wedges, sugar, salt, and ketchup; stir-fry for 2–3 minutes until the tomatoes soften and release a rich, glossy sauce.",
+    "Return the soft scrambled eggs and scallion greens to the pan, toss gently for 30 seconds so the eggs soak up the savory-sweet tomato juices, and serve over hot steamed rice."
+  ],
+  "notes": "",
+  "sourceUrl": "https://thewoksoflife.com/stir-fried-tomato-and-egg/",
+  "sourceTitle": "The Woks of Life · Chinese Tomato Egg Stir-Fry",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Eggs",
+    "Breakfast & Eggs"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "ripe",
+    "tomatoes",
+    "cut",
+    "into",
+    "wedges",
+    "eggs",
+    "scallions",
+    "green",
+    "onions",
+    "whites",
+    "greens",
+    "separated",
+    "garlic"
+  ]
+}

@@ -1,20 +1,23 @@
 {
   "id": "chatgpt-potato",
+  "docOrder": 74,
+  "docLine": 711,
   "title": "Chatgpt potato",
+  "originalTitle": "Chatgpt potato",
   "category": "Sides & Sauces",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "25 mins",
-  "totalTime": "40 mins",
-  "calories": 530,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 416,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 68,
-    "fat_g": 22
+    "protein_g": 7,
+    "carbs_g": 52,
+    "fat_g": 20
   },
   "micros": {
-    "fiber_g": 9,
+    "fiber_g": 8,
     "sodium_mg": 410,
     "iron_mg": 3.0,
     "potassium_mg": 640,
@@ -22,7 +25,6 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "Sure, here's a recipe for super creamy and delicious baked russet potato cubes that are also healthy!",
     "4 medium russet potatoes, scrubbed and cubed",
     "2 tablespoons olive oil",
     "1/2 teaspoon garlic powder",
@@ -48,23 +50,27 @@
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "Vegetarian",
     "Sides & Sauces"
   ],
   "ingredientKeywords": [
-    "sure",
-    "here's",
-    "recipe",
-    "for",
-    "super",
-    "creamy",
-    "and",
-    "delicious",
-    "baked",
+    "medium",
     "russet",
-    "potato",
-    "cubes"
+    "potatoes",
+    "scrubbed",
+    "cubed",
+    "tablespoons",
+    "olive",
+    "oil",
+    "1/2",
+    "teaspoon",
+    "garlic",
+    "powder",
+    "onion",
+    "paprika"
   ]
 }

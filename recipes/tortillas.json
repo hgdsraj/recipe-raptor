@@ -1,20 +1,23 @@
 {
   "id": "tortillas",
+  "docOrder": 76,
+  "docLine": 782,
   "title": "Tortillas",
+  "originalTitle": "Tortillas",
   "category": "Pizza & Breads",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "20 mins",
-  "cookTime": "120 mins",
-  "totalTime": "140 mins",
-  "calories": 588,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 559,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 87,
-    "fat_g": 20
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
   },
   "micros": {
-    "fiber_g": 7,
+    "fiber_g": 6,
     "sodium_mg": 410,
     "iron_mg": 3.0,
     "potassium_mg": 520,
@@ -40,11 +43,13 @@
     "After the rest period, heat a large pan over medium heat. Roll each dough piece into a rough circle, about 6-7 inches in diameter, keep work surface and rolling pin lightly floured. Don’t stack uncooked tortillas on top of each other or they will stick together. (I like to separate my tortillas with parchement paper.)",
     "When the pan is hot, place one dough circle into the pan and allow to cook 45 seconds to 1 minute or until the bottom surface has a few pale brown spots and the uncooked surface is bubbly. If browning too fast, reduce the heat a bit. If it’s taking longer than a minute to see a few pale golden brown spots on the underside of tortillas, increase the heat a bit. Flip to other side and cook for 15-20 seconds. The tortillas should be nice and soft but have a few small brown spots on the surface.",
     "Remove from pan with tongs and stack in a covered container or zippered bag to keep the tortillas soft.",
-    "Serve warm or allow to cool for later use. When ready to use, place a slightly damp paper towel in the bottom of a microwave-safe container (with a cover) that will hold the stacked tortillas. Microwave uncovered for 15-30 seconds (start with 15) or until warm, then keep covered to hold heat while serving.",
+    "Serve warm or allow to cool for later use. When ready to use, place a slightly damp paper towel in the bottom of a microwave-safe container (with a cover) that will hold the stacked tortillas. Microwave uncovered for 15-30 seconds (start with 15\\) or until warm, then keep covered to hold heat while serving.",
     "Store in an airtight container or zippered bag at room temperature for 24 hours or refrigerate for up to 1 week. To freeze, separate tortillas with parchment paper or waxed paper and place in a zippered bag before placing in the freezer."
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "Vegetarian",
@@ -62,6 +67,8 @@
     "virgin",
     "olive",
     "oil",
-    "vegetable"
+    "vegetable",
+    "other",
+    "fairly"
   ]
 }

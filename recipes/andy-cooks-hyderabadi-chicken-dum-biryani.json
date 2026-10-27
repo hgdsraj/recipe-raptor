@@ -1,0 +1,73 @@
+{
+  "id": "andy-cooks-hyderabadi-chicken-dum-biryani",
+  "docOrder": 33,
+  "docLine": 432,
+  "title": "Andy Cooks' Hyderabadi Chicken Dum Biryani",
+  "originalTitle": "Andy Hyderabad biryani",
+  "category": "Bowls & Skillets",
+  "protein": "Chicken",
+  "servings": 6,
+  "prepTime": "35 mins",
+  "cookTime": "50 mins",
+  "totalTime": "85 mins",
+  "calories": 416,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 39,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 lbs bone-in or boneless skinless chicken thighs, cut into large pieces",
+    "2 cups aged long-grain Basmati rice, washed and soaked 30 mins",
+    "3 large yellow/red onions, thinly sliced and fried golden crisp (birista)",
+    "1 cup full-fat plain yogurt",
+    "2 tbsp ginger-garlic paste",
+    "2 tsp Kashmiri red chili powder, 1 tsp turmeric, 1 tbsp garam masala, 2 tsp ground coriander, 1 tsp cumin",
+    "2 green chilies (slit), 1/2 cup fresh mint leaves, 1/2 cup fresh cilantro, juice of 1 lemon",
+    "Whole spices for rice: 4 green cardamom pods, 4 cloves, 1 cinnamon stick, 2 bay leaves, 1 tsp shahi jeera (caraway/cumin)",
+    "Pinch of saffron threads steeped in 1/4 cup warm milk + 2 tbsp ghee"
+  ],
+  "instructions": [
+    "Fry the thinly sliced onions in oil over medium heat for 15–20 minutes until deep golden brown and crispy (birista); drain on paper towels.",
+    "Marinate the chicken in the bottom of a heavy Dutch oven with yogurt, ginger-garlic paste, Kashmiri chili, turmeric, garam masala, coriander, cumin, lemon juice, salt, half the crispy fried onions, and half the chopped mint and cilantro for at least 1 hour.",
+    "Boil a large pot of well-salted water with the whole spices (cardamom, cloves, cinnamon, bay leaves, cumin). Boil the soaked Basmati rice for 5–6 minutes until 70% cooked; drain immediately.",
+    "Layer the 70%-cooked Basmati rice directly over the raw marinated chicken (kacchi dum style). Top with the remaining crispy onions, mint, cilantro, saffron milk, and melted ghee.",
+    "Seal the Dutch oven tightly with foil and a heavy lid. Cook over medium-high heat for 5 minutes until steam builds, then turn heat to the lowest setting (or bake at 325°F) for 35–40 minutes. Rest 10 minutes before gently fluffing from the bottom."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.andy-cooks.com/blogs/recipes/chicken-biryani",
+  "sourceTitle": "Andy Cooks · Hyderabadi Chicken Biryani",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "bone-in",
+    "boneless",
+    "skinless",
+    "chicken",
+    "thighs",
+    "cut",
+    "into",
+    "large",
+    "pieces",
+    "aged",
+    "long-grain",
+    "basmati",
+    "rice",
+    "washed"
+  ]
+}

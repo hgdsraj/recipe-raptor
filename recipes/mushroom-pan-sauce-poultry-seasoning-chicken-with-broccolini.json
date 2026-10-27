@@ -1,55 +1,70 @@
 {
   "id": "mushroom-pan-sauce-poultry-seasoning-chicken-with-broccolini",
+  "docOrder": 23,
+  "docLine": 395,
   "title": "Mushroom pan sauce poultry seasoning chicken with broccolini",
-  "category": "Soups & Stews",
+  "originalTitle": "Mushroom pan sauce poultry seasoning chicken with broccolini",
+  "category": "Sides & Sauces",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 360,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 244,
   "macros": {
-    "protein_g": 38,
-    "carbs_g": 25,
+    "protein_g": 19,
+    "carbs_g": 15,
     "fat_g": 12
   },
   "micros": {
-    "fiber_g": 8,
-    "sodium_mg": 670,
+    "fiber_g": 6,
+    "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 750,
+    "potassium_mg": 670,
     "vitamin_c_mg": 27,
     "calcium_mg": 80
   },
   "ingredients": [
-    "Pan sear chicken with poultry seasoning, maybe some fresh thyme and rosemary and sage. Bake brocollini with salt and pepper olive oil.",
-    "Make pan sauce with fried mushrooms, corn starch, white wine, chicken broth (optional), corn starch."
+    "Pan sear chicken",
+    "Poultry seasoning",
+    "Maybe some fresh thyme",
+    "Rosemary",
+    "Sage. Bake brocollini",
+    "Salt",
+    "Pepper olive oil.",
+    "Make pan sauce",
+    "Fried mushrooms",
+    "Corn starch"
   ],
   "instructions": [
     "Pan sear chicken with poultry seasoning, maybe some fresh thyme and rosemary and sage. Bake brocollini with salt and pepper olive oil.",
     "Make pan sauce with fried mushrooms, corn starch, white wine, chicken broth (optional), corn starch."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Pan sear chicken with poultry seasoning, maybe some fresh thyme and rosemary and sage. Bake brocollini with salt and pepper olive oil. — Make pan sauce with fried mushrooms, corn starch, white wine, chicken broth (optional), corn starch.",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
-    "High-Protein",
     "Low-Calorie",
+    "Quick-Fire Note",
     "Chicken",
-    "Soups & Stews"
+    "Sides & Sauces"
   ],
   "ingredientKeywords": [
     "pan",
     "sear",
     "chicken",
-    "with",
     "poultry",
     "seasoning",
     "maybe",
     "thyme",
-    "and",
     "rosemary",
     "sage",
-    "bake"
+    "bake",
+    "brocollini",
+    "salt",
+    "pepper",
+    "olive"
   ]
 }

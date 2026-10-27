@@ -1,0 +1,73 @@
+{
+  "id": "turkey-breast-fajitas-with-tzatziki",
+  "docOrder": 4,
+  "docLine": 300,
+  "title": "Turkey Breast Fajitas with Tzatziki",
+  "originalTitle": "Turkey breast fajitas tzatziki",
+  "category": "Sandwiches & Wraps",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "12 mins",
+  "totalTime": "27 mins",
+  "calories": 321,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 9
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lbs turkey breast tenderloins, sliced into thin fajita strips",
+    "2 bell peppers (1 red, 1 yellow), thinly sliced",
+    "1 large red onion, thinly sliced",
+    "1.5 tbsp olive oil",
+    "1 tbsp chili powder, 1.5 tsp ground cumin, 1 tsp smoked paprika, 1 tsp garlic powder, 1/2 tsp oregano",
+    "Juice of 1 lime",
+    "8 warm flour or corn tortillas",
+    "1 cup Greek yogurt tzatziki sauce (0% Greek yogurt, grated cucumber, garlic, dill, lemon juice)",
+    "Fresh cilantro and pickled jalapeños for serving"
+  ],
+  "instructions": [
+    "Toss sliced turkey breast strips with half the olive oil, lime juice, chili powder, cumin, smoked paprika, garlic powder, oregano, salt, and pepper.",
+    "Heat a cast-iron skillet over high heat. Sear the turkey strips in a single layer for 4–5 minutes until browned and cooked through; transfer to a plate.",
+    "In the same blistering skillet, add remaining olive oil, sliced bell peppers, and red onion. Char-sauté for 4–5 minutes until tender-crisp.",
+    "Return turkey to the skillet, toss together for 1 minute, and serve in warm tortillas topped generously with chilled cucumber-dill tzatziki and cilantro."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.themediterraneandish.com/tzatziki-sauce-recipe/",
+  "sourceTitle": "The Mediterranean Dish · Fajitas & Tzatziki",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "turkey",
+    "breast",
+    "tenderloins",
+    "into",
+    "thin",
+    "fajita",
+    "strips",
+    "bell",
+    "peppers",
+    "red",
+    "yellow",
+    "thinly",
+    "large",
+    "onion"
+  ]
+}

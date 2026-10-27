@@ -1,24 +1,27 @@
 {
   "id": "fried-chicken-bread-bad-butter-slaw-burger",
+  "docOrder": 120,
+  "docLine": 1470,
   "title": "Fried chicken bread bad butter slaw burger",
+  "originalTitle": "Fried chicken bread bad butter slaw burger",
   "category": "Sandwiches & Wraps",
   "protein": "Chicken",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 432,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 414,
   "macros": {
     "protein_g": 38,
     "carbs_g": 25,
-    "fat_g": 20
+    "fat_g": 18
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 550,
-    "vitamin_c_mg": 12,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
     "calcium_mg": 200
   },
   "ingredients": [
@@ -27,16 +30,18 @@
     "Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots)"
   ],
   "instructions": [
-    "Fried chicken",
-    "Hot sauce drench it",
-    "Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots)"
+    "Prep all ingredients for Fried chicken bread bad butter slaw burger: Fried chicken, Hot sauce drench it, Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots).",
+    "Cook and assemble according to the doc method: Fried chicken Hot sauce drench it Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots).",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Fried chicken — Hot sauce drench it — Brioch or potato e Bun then lettuce then chicken then bread and butter coleslaw (onion cucumber carrots)",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
     "High-Protein",
-    "Quick (<25m)",
+    "Quick-Fire Note",
     "Chicken",
     "Sandwiches & Wraps"
   ],
@@ -52,6 +57,8 @@
     "then",
     "lettuce",
     "bread",
-    "and"
+    "butter",
+    "coleslaw",
+    "onion"
   ]
 }

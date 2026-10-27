@@ -1,24 +1,27 @@
 {
   "id": "fresh-green-sauce-chicken",
+  "docOrder": 67,
+  "docLine": 674,
   "title": "Fresh green sauce chicken",
+  "originalTitle": "Fresh green sauce chicken",
   "category": "Sides & Sauces",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "25 mins",
-  "totalTime": "40 mins",
-  "calories": 360,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 244,
   "macros": {
-    "protein_g": 38,
-    "carbs_g": 25,
+    "protein_g": 19,
+    "carbs_g": 15,
     "fat_g": 12
   },
   "micros": {
-    "fiber_g": 4,
+    "fiber_g": 6,
     "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 550,
-    "vitamin_c_mg": 12,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
     "calcium_mg": 80
   },
   "ingredients": [
@@ -30,20 +33,17 @@
     "425 bake it in a casserole dish"
   ],
   "instructions": [
-    "4 chicken thighs, lots of slits",
-    "1 cup La Costena green sauce",
-    "2tsp olive oil",
-    "2 tablespoons white vinegar",
-    "Cilantro after",
-    "425 bake it in a casserole dish"
+    "Prep all ingredients for Fresh green sauce chicken: 4 chicken thighs, lots of slits, 1 cup La Costena green sauce, 2tsp olive oil, 2 tablespoons white vinegar.",
+    "Cook and assemble according to the doc method: 4 chicken thighs, lots of slits 1 cup La Costena green sauce 2tsp olive oil 2 tablespoons white vinegar Cilantro after 425 bake it in a casserole dish.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: 4 chicken thighs, lots of slits — 1 cup La Costena green sauce — 2tsp olive oil — 2 tablespoons white vinegar — Cilantro after — 425 bake it in a casserole dish",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
-    "High-Protein",
     "Low-Calorie",
-    "One-Pot",
     "Chicken",
     "Sides & Sauces"
   ],
@@ -59,6 +59,8 @@
     "oil",
     "tablespoons",
     "white",
-    "vinegar"
+    "vinegar",
+    "cilantro",
+    "after"
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "id": "healthy-loaded-ground-beef-or-turkey-taco-salad",
+  "docOrder": 54,
+  "docLine": 591,
+  "title": "Healthy Loaded Ground Beef or Turkey Taco Salad",
+  "originalTitle": "Taco salad",
+  "category": "Sandwiches & Wraps",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "10 mins",
+  "totalTime": "20 mins",
+  "calories": 375,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 15
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 10,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 lb lean ground beef or ground turkey",
+    "2 tbsp homemade taco seasoning (chili powder, cumin, paprika, garlic powder, oregano, salt)",
+    "6 cups chopped Romaine lettuce",
+    "1 cup cherry tomatoes, halved",
+    "1 large hass avocado, cubed",
+    "1/2 cup shredded Monterey Jack or Cheddar cheese",
+    "1/4 cup sliced black olives & 1/4 cup diced red onion",
+    "1/2 cup salsa + 1/3 cup sour cream or Greek yogurt (whisked together as creamy salsa dressing)",
+    "Fresh cilantro and lime wedges"
+  ],
+  "instructions": [
+    "Brown the ground beef or turkey in a skillet over medium-high heat for 7–8 minutes, breaking it apart.",
+    "Stir in the taco seasoning and 1/4 cup water; simmer 2 minutes until thick and saucy.",
+    "Arrange chopped Romaine lettuce in large bowls and top with cherry tomatoes, avocado, shredded cheese, red onion, black olives, and warm seasoned taco meat.",
+    "Drizzle with the creamy salsa-yogurt dressing and garnish with cilantro and fresh lime."
+  ],
+  "notes": "Doc Note: [https\\://www.wholesomeyum.com/recipes/taco-salad/](",
+  "sourceUrl": "https://www.wholesomeyum.com/recipes/taco-salad/",
+  "sourceTitle": "Wholesome Yum · Healthy Taco Salad",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "lean",
+    "ground",
+    "beef",
+    "turkey",
+    "homemade",
+    "taco",
+    "seasoning",
+    "chili",
+    "powder",
+    "cumin",
+    "paprika",
+    "garlic",
+    "oregano",
+    "salt"
+  ]
+}

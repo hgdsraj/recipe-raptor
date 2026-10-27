@@ -1,0 +1,70 @@
+{
+  "id": "restaurant-style-fire-roasted-salsa-warm-tortilla-chips",
+  "docOrder": 135,
+  "docLine": 1629,
+  "title": "Restaurant-Style Fire-Roasted Salsa & Warm Tortilla Chips",
+  "originalTitle": "Restaurant-Style Fire-Roasted Salsa & Warm Tortilla Chips",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 6,
+  "prepTime": "10 mins",
+  "cookTime": "5 mins",
+  "totalTime": "15 mins",
+  "calories": 559,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 can (28 oz) fire-roasted whole peeled tomatoes (with juices)",
+    "1/2 medium white onion, roughly chopped",
+    "1–2 jalapeño or serrano peppers, stemmed",
+    "2 cloves garlic, peeled",
+    "1 large handful fresh cilantro leaves and tender stems",
+    "Juice of 1 fresh lime",
+    "1/2 tsp ground cumin & 1 tsp kosher salt",
+    "Warm crispy corn tortilla chips for serving"
+  ],
+  "instructions": [
+    "Place white onion, jalapeño, and garlic in a food processor and pulse 4–5 times until finely chopped.",
+    "Add the fire-roasted tomatoes, fresh cilantro, lime juice, cumin, and kosher salt.",
+    "Pulse briefly 6–8 times until you reach a vibrant, scoopable restaurant-style consistency. Chill 30 minutes and serve with warm salted tortilla chips."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/restaurant-style-salsa-recipe",
+  "sourceTitle": "Serious Eats · Restaurant-Style Salsa & Chips",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "fire-roasted",
+    "whole",
+    "peeled",
+    "tomatoes",
+    "juices",
+    "1/2",
+    "medium",
+    "white",
+    "onion",
+    "roughly",
+    "1–2",
+    "jalapeño",
+    "serrano",
+    "peppers"
+  ]
+}

@@ -1,23 +1,26 @@
 {
   "id": "potatoes-roasted",
+  "docOrder": 73,
+  "docLine": 701,
   "title": "Potatoes roasted",
-  "category": "Soups & Stews",
+  "originalTitle": "Potatoes roasted",
+  "category": "Sides & Sauces",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 458,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 362,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 68,
+    "protein_g": 7,
+    "carbs_g": 52,
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 9,
-    "sodium_mg": 560,
+    "fiber_g": 6,
+    "sodium_mg": 410,
     "iron_mg": 3.0,
-    "potassium_mg": 600,
+    "potassium_mg": 520,
     "vitamin_c_mg": 22,
     "calcium_mg": 80
   },
@@ -25,19 +28,22 @@
     "Potatoes, peeled, cubed",
     "400 degrees",
     "Salt, spicy chili powder",
-    "15 mins",
+    "15 mins"
+  ],
+  "instructions": [
+    "Flip",
     "15 mins",
     "208 internal"
   ],
-  "instructions": [
-    "Flip"
-  ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
+    "Low-Calorie",
     "Vegetarian",
-    "Soups & Stews"
+    "Sides & Sauces"
   ],
   "ingredientKeywords": [
     "potatoes",
@@ -49,8 +55,6 @@
     "spicy",
     "chili",
     "powder",
-    "mins",
-    "208",
-    "internal"
+    "mins"
   ]
 }

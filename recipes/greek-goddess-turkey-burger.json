@@ -1,12 +1,15 @@
 {
   "id": "greek-goddess-turkey-burger",
+  "docOrder": 98,
+  "docLine": 1215,
   "title": "Greek goddess turkey burger",
+  "originalTitle": "Greek goddess turkey burger",
   "category": "Sandwiches & Wraps",
   "protein": "Turkey",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
   "calories": 321,
   "macros": {
     "protein_g": 40,
@@ -22,7 +25,6 @@
     "calcium_mg": 80
   },
   "ingredients": [
-    "Toppings:",
     "1/2 onion",
     "3 green onions",
     "5 oz baby spinach",
@@ -31,14 +33,17 @@
     "Chopped 2 tbsp parsley",
     "4 oz feta",
     "Salt pepper to taste",
+    "Sautee onion and green onion whites until golden in olive oil",
     "Salt ppeper",
+    "Sautee spinach until just wilted but still bright",
     "Salt pepper",
     "Take off heat",
+    "Add dill parsley, feta, and green onion greens",
     "Get some tzatziki",
-    "Burger:",
     "1 lb turkey",
     "1/2 onion grated",
     "Salt and pepper (like 1/2 tsp each)",
+    "Cook burgers",
     "Bun buttered toasted",
     "Put down tzatziki",
     "Put down a burger",
@@ -47,23 +52,22 @@
     "Bam"
   ],
   "instructions": [
-    "Sautee onion and green onion whites until golden in olive oil",
-    "Sautee spinach until just wilted but still bright",
-    "Add dill parsley, feta, and green onion greens",
-    "Cook burgers"
+    "Prep all ingredients for Greek goddess turkey burger: 1/2 onion, 3 green onions, 5 oz baby spinach, 2 tbsp olive oil.",
+    "Cook and assemble according to the doc method: Toppings: 1/2 onion 3 green onions 5 oz baby spinach 2 tbsp olive oil Chopped 2 tbsp dill Chopped 2 tbsp parsley 4 oz feta Salt pepper to taste Sautee onion and green onion whites until golden in olive oil Salt ppeper Sautee spinach until just wilted but still bright Salt pepper Take off heat Add dill parsley, feta, and green onion greens Get some tzatziki Burger: 1 lb turkey 1/2 onion grated Salt and pepper (like 1/2 tsp each) Cook burgers Bun buttered toasted Put down tzatziki Put down a burger Put down the topping Put down the bun Bam.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Toppings: — 1/2 onion — 3 green onions — 5 oz baby spinach — 2 tbsp olive oil — Chopped 2 tbsp dill — Chopped 2 tbsp parsley — 4 oz feta — Salt pepper to taste — Sautee onion and green onion whites until golden in olive oil — Salt ppeper — Sautee spinach until just wilted but still bright — Salt pepper — Take off heat — Add dill parsley, feta, and green onion greens — Get some tzatziki — Burger: — 1 lb turkey — 1/2 onion grated — Salt and pepper (like 1/2 tsp each) — Cook burgers — Bun buttered toasted — Put down tzatziki — Put down a burger — Put down the topping — Put down the bun — Bam",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "High-Protein",
     "Low-Calorie",
-    "Quick (<25m)",
     "Turkey",
     "Sandwiches & Wraps"
   ],
   "ingredientKeywords": [
-    "toppings",
     "1/2",
     "onion",
     "green",
@@ -74,6 +78,9 @@
     "oil",
     "tbsp",
     "dill",
-    "parsley"
+    "parsley",
+    "feta",
+    "salt",
+    "pepper"
   ]
 }

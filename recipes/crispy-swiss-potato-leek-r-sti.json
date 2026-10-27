@@ -1,0 +1,70 @@
+{
+  "id": "crispy-swiss-potato-leek-r-sti",
+  "docOrder": 31,
+  "docLine": 426,
+  "title": "Crispy Swiss Potato & Leek Rösti",
+  "originalTitle": "Potato leek rosti",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "20 mins",
+  "totalTime": "35 mins",
+  "calories": 669,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 97,
+    "fat_g": 25
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 lbs Russet or Yukon Gold potatoes, peeled",
+    "2 medium leeks (white and light green parts), halved and thinly sliced",
+    "2 tbsp unsalted butter + 2 tbsp olive oil",
+    "2 tbsp cornstarch or all-purpose flour",
+    "1/2 cup grated Gruyère or Parmesan cheese (optional)",
+    "1 tsp kosher salt & 1/2 tsp freshly ground black pepper",
+    "Fresh chives or thyme for garnish"
+  ],
+  "instructions": [
+    "Sauté the thinly sliced leeks in 1 tbsp butter over medium heat for 6–8 minutes until sweet and softened.",
+    "Coarsely grate the peeled potatoes on a box grater, then wring out as much liquid as possible using a clean kitchen towel.",
+    "Toss the dry shredded potatoes in a bowl with the sautéed leeks, cornstarch, salt, black pepper, and optional Gruyère.",
+    "Heat 1 tbsp butter and 2 tbsp olive oil in a 10-inch non-stick or cast-iron skillet over medium heat. Pack the potato-leek mixture into an even cake, pressing firmly with a spatula.",
+    "Fry for 8–10 minutes per side (invert onto a plate to flip) until both sides are deeply golden brown and shattering-crisp."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/potato-leek-rosti-recipe",
+  "sourceTitle": "Serious Eats · Crispy Potato Leek Rösti",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "russet",
+    "yukon",
+    "gold",
+    "potatoes",
+    "peeled",
+    "medium",
+    "leeks",
+    "white",
+    "light",
+    "green",
+    "parts",
+    "halved",
+    "thinly",
+    "unsalted"
+  ]
+}

@@ -1,17 +1,20 @@
 {
   "id": "primavera",
+  "docOrder": 103,
+  "docLine": 1302,
   "title": "Primavera",
+  "originalTitle": "Primavera",
   "category": "Pasta & Noodles",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "25 mins",
-  "totalTime": "40 mins",
-  "calories": 608,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 582,
   "macros": {
     "protein_g": 38,
-    "carbs_g": 69,
-    "fat_g": 20
+    "carbs_g": 67,
+    "fat_g": 18
   },
   "micros": {
     "fiber_g": 8,
@@ -29,17 +32,18 @@
     "Can cook chicken breast and thinly dice"
   ],
   "instructions": [
-    "Can use konjac pasta!",
-    "Vegetables like broccoli, red pepper, tomatoes, peas, beans, cauliflower, asparagus, thin potatoes",
-    "Can do an Alfredo or a marinara",
-    "Little parmesan",
-    "Can cook chicken breast and thinly dice"
+    "Prep all ingredients for Primavera: Can use konjac pasta!, Vegetables like broccoli, red pepper, tomatoes, peas, beans, cauliflower, asparagus, thin potatoes, Can do an Alfredo or a marinara, Little parmesan.",
+    "Cook and assemble according to the doc method: Can use konjac pasta! Vegetables like broccoli, red pepper, tomatoes, peas, beans, cauliflower, asparagus, thin potatoes Can do an Alfredo or a marinara Little parmesan Can cook chicken breast and thinly dice.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Can use konjac pasta! — Vegetables like broccoli, red pepper, tomatoes, peas, beans, cauliflower, asparagus, thin potatoes — Can do an Alfredo or a marinara — Little parmesan — Can cook chicken breast and thinly dice",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
     "High-Protein",
+    "Quick-Fire Note",
     "Chicken",
     "Pasta & Noodles"
   ],
@@ -55,6 +59,8 @@
     "pepper",
     "tomatoes",
     "peas",
-    "beans"
+    "beans",
+    "cauliflower",
+    "asparagus"
   ]
 }

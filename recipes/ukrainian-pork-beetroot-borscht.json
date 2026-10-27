@@ -1,0 +1,73 @@
+{
+  "id": "ukrainian-pork-beetroot-borscht",
+  "docOrder": 39,
+  "docLine": 446,
+  "title": "Ukrainian Pork & Beetroot Borscht",
+  "originalTitle": "Pork Borscht",
+  "category": "Soups & Stews",
+  "protein": "Pork",
+  "servings": 6,
+  "prepTime": "25 mins",
+  "cookTime": "90 mins",
+  "totalTime": "115 mins",
+  "calories": 514,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 29,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 790,
+    "iron_mg": 2.4,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1.5 lbs bone-in pork ribs or pork shoulder cubes",
+    "3 medium red beets, peeled and julienned or coarsely grated",
+    "3 medium Yukon Gold potatoes, peeled and cubed",
+    "1/2 small green cabbage, finely shredded",
+    "1 large onion, finely diced & 2 carrots, grated",
+    "3 cloves garlic, grated",
+    "2 tbsp tomato paste + 1 cup crushed tomatoes",
+    "1 tbsp apple cider vinegar or lemon juice (preserves vibrant ruby color)",
+    "1 tsp sugar, 2 bay leaves, 5 black peppercorns, kosher salt",
+    "1 can (14 oz) white cannellini or kidney beans (optional)",
+    "Fresh dill, parsley, and sour cream (smetana) for serving"
+  ],
+  "instructions": [
+    "Simmer the pork ribs or pork shoulder in 10 cups of cold water with bay leaves and peppercorns for 60 minutes, skimming any foam, to create a rich pork broth. Remove pork, dice meat, and return to pot.",
+    "Add cubed potatoes and shredded cabbage to the simmering pork broth and cook for 12–15 minutes.",
+    "Meanwhile, in a large skillet with 2 tbsp oil or rendered pork fat, sauté the julienned beets with vinegar and sugar for 6 minutes, then add onion, grated carrots, tomato paste, and crushed tomatoes; braise together for 8 minutes.",
+    "Stir the ruby beet-tomato soffritto and optional beans into the soup pot. Simmer 5–8 minutes, turn off heat, stir in grated raw garlic and fresh dill, and let rest 15 minutes before serving with sour cream."
+  ],
+  "notes": "Doc Note: Pork borscht based on this [https\\://youtu.be/RnotGXO0qSs](",
+  "sourceUrl": "https://youtu.be/RnotGXO0qSs",
+  "sourceTitle": "YouTube · Authentic Ukrainian Pork Borscht",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "bone-in",
+    "pork",
+    "ribs",
+    "shoulder",
+    "cubes",
+    "medium",
+    "red",
+    "beets",
+    "peeled",
+    "julienned",
+    "coarsely",
+    "grated",
+    "yukon",
+    "gold"
+  ]
+}

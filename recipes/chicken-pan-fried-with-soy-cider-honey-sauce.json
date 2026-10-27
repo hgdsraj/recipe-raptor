@@ -1,45 +1,59 @@
 {
   "id": "chicken-pan-fried-with-soy-cider-honey-sauce",
+  "docOrder": 87,
+  "docLine": 1026,
   "title": "Chicken pan fried with soy cider honey sauce",
-  "category": "Soups & Stews",
+  "originalTitle": "Chicken pan fried with soy cider honey sauce",
+  "category": "Sides & Sauces",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 432,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 298,
   "macros": {
-    "protein_g": 38,
-    "carbs_g": 25,
-    "fat_g": 20
+    "protein_g": 19,
+    "carbs_g": 15,
+    "fat_g": 18
   },
   "micros": {
-    "fiber_g": 8,
-    "sodium_mg": 670,
+    "fiber_g": 6,
+    "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 750,
+    "potassium_mg": 670,
     "vitamin_c_mg": 27,
     "calcium_mg": 200
   },
   "ingredients": [
-    "Do chicken breast, scored on one side cross cross",
+    "Do chicken breast",
+    "Scored on one side cross cross",
+    "Toss in flour",
+    "Fry in tbsp butter",
+    "Tsp olive oil (small pan if just a little) just use olive oil for healthier one",
+    "Chuck in garlic fresh",
+    "Tsp soy sauce",
+    "Tsp apple cider vinegar",
+    "Tsp honey",
+    "Chives on top to garnish"
+  ],
+  "instructions": [
+    "Toss in flour",
+    "Fry in tbsp butter and tsp olive oil (small pan if just a little) just use olive oil for healthier one",
     "Chuck in garlic fresh",
     "Tsp soy sauce, tsp apple cider vinegar, tsp honey",
     "Chives on top to garnish",
     "Salt pepper as needed",
     "Can add ginger and chili flakes and sesame oil"
   ],
-  "instructions": [
-    "Toss in flour",
-    "Fry in tbsp butter and tsp olive oil (small pan if just a little) just use olive oil for healthier one"
-  ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Do chicken breast, scored on one side cross cross — Toss in flour — Fry in tbsp butter and tsp olive oil (small pan if just a little) just use olive oil for healthier one — Chuck in garlic fresh — Tsp soy sauce, tsp apple cider vinegar, tsp honey — Chives on top to garnish — Salt pepper as needed — Can add ginger and chili flakes and sesame oil",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
-    "High-Protein",
+    "Low-Calorie",
     "Chicken",
-    "Soups & Stews"
+    "Sides & Sauces"
   ],
   "ingredientKeywords": [
     "chicken",
@@ -48,11 +62,13 @@
     "one",
     "side",
     "cross",
-    "chuck",
-    "garlic",
+    "toss",
+    "flour",
+    "fry",
+    "tbsp",
+    "butter",
     "tsp",
-    "soy",
-    "sauce",
-    "apple"
+    "olive",
+    "oil"
   ]
 }

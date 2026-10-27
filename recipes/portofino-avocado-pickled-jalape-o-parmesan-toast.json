@@ -1,0 +1,65 @@
+{
+  "id": "portofino-avocado-pickled-jalape-o-parmesan-toast",
+  "docOrder": 107,
+  "docLine": 1345,
+  "title": "Portofino Avocado, Pickled Jalapeño & Parmesan Toast",
+  "originalTitle": "Avo toast",
+  "category": "Sandwiches & Wraps",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 428,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 48,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Portofino toast",
+    "1/4 avocado",
+    "Jalapeno pickled or fresh deseeded",
+    "Sliced cherry tomatoes",
+    "Salt pepper olive oil",
+    "Fresh grated parmesan"
+  ],
+  "instructions": [
+    "Prep all ingredients for Portofino Avocado, Pickled Jalapeño & Parmesan Toast: Portofino toast, 1/4 avocado, Jalapeno pickled or fresh deseeded, Sliced cherry tomatoes.",
+    "Cook and assemble according to the doc method: Portofino toast 1/4 avocado Jalapeno pickled or fresh deseeded Sliced cherry tomatoes Salt pepper olive oil Fresh grated parmesan.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: Portofino toast — 1/4 avocado — Jalapeno pickled or fresh deseeded — Sliced cherry tomatoes — Salt pepper olive oil — Fresh grated parmesan",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Vegetarian",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "portofino",
+    "toast",
+    "1/4",
+    "avocado",
+    "jalapeno",
+    "pickled",
+    "deseeded",
+    "cherry",
+    "tomatoes",
+    "salt",
+    "pepper",
+    "olive",
+    "oil",
+    "grated"
+  ]
+}

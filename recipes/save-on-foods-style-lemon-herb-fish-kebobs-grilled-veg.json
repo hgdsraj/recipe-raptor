@@ -1,0 +1,74 @@
+{
+  "id": "save-on-foods-style-lemon-herb-fish-kebobs-grilled-veg",
+  "docOrder": 21,
+  "docLine": 391,
+  "title": "Save-On-Foods Style Lemon Herb Fish Kebobs & Grilled Veg",
+  "originalTitle": "Save on fish kebobs and veg",
+  "category": "Mains & Grills",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "10 mins",
+  "totalTime": "25 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lbs firm fish fillets (salmon, steelhead, cod, or halibut), cut into 1.5-inch cubes",
+    "1 medium zucchini, sliced into half-moons",
+    "1 red bell pepper & 1 yellow bell pepper, cut into 1.5-inch squares",
+    "1 red onion, cut into wedges",
+    "8 cremini mushrooms, halved",
+    "3 tbsp olive oil",
+    "Juice and zest of 1 lemon",
+    "2 cloves garlic, minced",
+    "1 tbsp fresh dill + 1 tsp dried oregano, salt & black pepper"
+  ],
+  "instructions": [
+    "Whisk together olive oil, lemon juice, lemon zest, minced garlic, dill, oregano, salt, and pepper.",
+    "Toss cubed fish and vegetables in the lemon-herb marinade for 15–20 minutes.",
+    "Thread fish cubes alternating with bell peppers, red onion, zucchini, and mushrooms onto skewers.",
+    "Grill over medium-high heat (400°F) or broil for 8–10 minutes, turning once, until the fish is flaky and vegetables are lightly charred."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.saveonfoods.com",
+  "sourceTitle": "Save-On-Foods · Marinated Fish Skewers & Veg",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "firm",
+    "fish",
+    "fillets",
+    "salmon",
+    "steelhead",
+    "cod",
+    "halibut",
+    "cut",
+    "into",
+    "5-inch",
+    "cubes",
+    "medium",
+    "zucchini",
+    "half-moons"
+  ]
+}

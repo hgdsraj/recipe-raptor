@@ -1,0 +1,67 @@
+{
+  "id": "naan-egg-wrap-just-egg-cream-cheese-peri-peri",
+  "docOrder": 97,
+  "docLine": 1206,
+  "title": "Naan Egg Wrap (Just Egg, Cream Cheese & Peri-Peri)",
+  "originalTitle": "Naan Egg Wrap (Just Egg, Cream Cheese & Peri-Peri)",
+  "category": "Sandwiches & Wraps",
+  "protein": "Eggs",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 376,
+  "macros": {
+    "protein_g": 22,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 460,
+    "iron_mg": 2.6,
+    "potassium_mg": 460,
+    "vitamin_c_mg": 29,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Just egg patty",
+    "Two naan",
+    "Cream cheese one side",
+    "Peri Peri mayo other side",
+    "Onions or onion chimichurri with finely diced peppers and cilantro",
+    "Low fat mozarella on Peri side",
+    "Can include thinly sliced tomatoes and or thinly sliced cucumber (add salt or marinate in vinegar or add some vinegar)"
+  ],
+  "instructions": [
+    "Prep all ingredients for Naan Egg Wrap (Just Egg, Cream Cheese & Peri-Peri): Just egg patty, Two naan, Cream cheese one side, Peri Peri mayo other side.",
+    "Cook and assemble according to the doc method: Just egg patty Two naan Cream cheese one side Peri Peri mayo other side Onions or onion chimichurri with finely diced peppers and cilantro Low fat mozarella on Peri side Can include thinly sliced tomatoes and or thinly sliced cucumber (add salt or marinate in vinegar or add some vinegar).",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: Just egg patty — Two naan — Cream cheese one side — Peri Peri mayo other side — Onions or onion chimichurri with finely diced peppers and cilantro — Low fat mozarella on Peri side — Can include thinly sliced tomatoes and or thinly sliced cucumber (add salt or marinate in vinegar or add some vinegar)",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Eggs",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "just",
+    "egg",
+    "patty",
+    "two",
+    "naan",
+    "cream",
+    "cheese",
+    "one",
+    "side",
+    "peri",
+    "mayo",
+    "other",
+    "onions",
+    "onion"
+  ]
+}

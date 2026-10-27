@@ -1,0 +1,55 @@
+{
+  "id": "quick-crispy-pita-bread-pepperoni-pizza",
+  "docOrder": 184,
+  "docLine": 2234,
+  "title": "Quick Crispy Pita Bread Pepperoni Pizza",
+  "originalTitle": "Quick Crispy Pita Bread Pepperoni Pizza",
+  "category": "Sandwiches & Wraps",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 428,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 48,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Pita",
+    "Sauce",
+    "Pepperoni",
+    "Light cheese"
+  ],
+  "instructions": [
+    "Prep all ingredients for Quick Crispy Pita Bread Pepperoni Pizza: Pita, Sauce, Pepperoni, Light cheese.",
+    "Cook and assemble according to the doc method: Pita Sauce Pepperoni Light cheese.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
+  ],
+  "notes": "Original Doc Shorthand: Pita — Sauce — Pepperoni — Light cheese",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "pita",
+    "sauce",
+    "pepperoni",
+    "light",
+    "cheese"
+  ]
+}

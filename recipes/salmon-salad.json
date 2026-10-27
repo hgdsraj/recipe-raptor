@@ -1,24 +1,27 @@
 {
   "id": "salmon-salad",
+  "docOrder": 112,
+  "docLine": 1395,
   "title": "Salmon salad",
+  "originalTitle": "Salmon salad",
   "category": "Salads",
   "protein": "Fish & Seafood",
   "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 386,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 368,
   "macros": {
     "protein_g": 35,
     "carbs_g": 12,
-    "fat_g": 22
+    "fat_g": 20
   },
   "micros": {
-    "fiber_g": 7,
+    "fiber_g": 9,
     "sodium_mg": 480,
     "iron_mg": 2.1,
-    "potassium_mg": 620,
-    "vitamin_c_mg": 26,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 41,
     "calcium_mg": 200
   },
   "ingredients": [
@@ -37,27 +40,18 @@
     "Feta cheese"
   ],
   "instructions": [
-    "Can of salmon",
-    "Honey",
-    "Hot sauce",
-    "Onion or green onion",
-    "Celery",
-    "Cucumber",
-    "Lemon",
-    "Greek yogurt",
-    "Dill",
-    "Cilantro",
-    "Cumin",
-    "Oregano",
-    "Feta cheese"
+    "Prep all ingredients for Salmon salad: Can of salmon, Honey, Hot sauce, Onion or green onion.",
+    "Cook and assemble according to the doc method: Can of salmon Honey Hot sauce Onion or green onion Celery Cucumber Lemon Greek yogurt Dill Cilantro Cumin Oregano Feta cheese.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Can of salmon — Honey — Hot sauce — Onion or green onion — Celery — Cucumber — Lemon — Greek yogurt — Dill — Cilantro — Cumin — Oregano — Feta cheese",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "High-Protein",
     "Low-Calorie",
-    "Quick (<25m)",
     "Fish & Seafood",
     "Salads"
   ],
@@ -73,6 +67,8 @@
     "cucumber",
     "lemon",
     "greek",
-    "yogurt"
+    "yogurt",
+    "dill",
+    "cilantro"
   ]
 }

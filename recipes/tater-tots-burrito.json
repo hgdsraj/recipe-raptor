@@ -1,17 +1,20 @@
 {
   "id": "tater-tots-burrito",
+  "docOrder": 119,
+  "docLine": 1464,
   "title": "Tater tots burrito",
+  "originalTitle": "Tater tots burrito",
   "category": "Sandwiches & Wraps",
   "protein": "Pork",
-  "servings": 2,
+  "servings": 4,
   "prepTime": "10 mins",
-  "cookTime": "10 mins",
-  "totalTime": "20 mins",
-  "calories": 504,
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 486,
   "macros": {
     "protein_g": 32,
     "carbs_g": 22,
-    "fat_g": 32
+    "fat_g": 30
   },
   "micros": {
     "fiber_g": 4,
@@ -22,20 +25,27 @@
     "calcium_mg": 200
   },
   "ingredients": [
-    "White tortilla, Tater tots, cheese, pulled pork barbecue, coleslaw (good drenched sauce slaw), ranch, jalapenos",
+    "White tortilla",
+    "Tater tots",
+    "Cheese",
+    "Pulled pork barbecue",
+    "Coleslaw (good drenched sauce slaw)",
+    "Ranch",
+    "Jalapenos",
     "Wrap in paper then foil",
     "Cut in half"
   ],
   "instructions": [
-    "White tortilla, Tater tots, cheese, pulled pork barbecue, coleslaw (good drenched sauce slaw), ranch, jalapenos",
     "Wrap in paper then foil",
     "Cut in half"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: White tortilla, Tater tots, cheese, pulled pork barbecue, coleslaw (good drenched sauce slaw), ranch, jalapenos — Wrap in paper then foil — Cut in half",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
-    "Quick (<25m)",
+    "Quick-Fire Note",
     "Pork",
     "Sandwiches & Wraps"
   ],
@@ -51,6 +61,8 @@
     "coleslaw",
     "good",
     "drenched",
-    "sauce"
+    "sauce",
+    "slaw",
+    "ranch"
   ]
 }

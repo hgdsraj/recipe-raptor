@@ -1,0 +1,66 @@
+{
+  "id": "crispy-mayo-panko-chicken-parm-with-halved-roast-potatoes",
+  "docOrder": 19,
+  "docLine": 381,
+  "title": "Crispy Mayo-Panko Chicken Parm with Halved Roast Potatoes",
+  "originalTitle": "Simple roast potatoes halved with chicken Parm",
+  "category": "Mains & Grills",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 416,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 39,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Parm: (mayo",
+    "Garlic",
+    "Salt",
+    "Pepper",
+    "Lemon) (panko) fry medium then broil",
+    "Maple miso slamon/cod"
+  ],
+  "instructions": [
+    "Parm: (mayo, garlic, salt, pepper, lemon) (panko) fry medium then broil",
+    "Maple miso slamon/cod"
+  ],
+  "notes": "Original Doc Shorthand: Parm: (mayo, garlic, salt, pepper, lemon) (panko) fry medium then broil — Maple miso slamon/cod",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick-Fire Note",
+    "Chicken",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "parm",
+    "mayo",
+    "garlic",
+    "salt",
+    "pepper",
+    "lemon",
+    "panko",
+    "fry",
+    "medium",
+    "then",
+    "broil",
+    "maple",
+    "miso",
+    "slamon/cod"
+  ]
+}

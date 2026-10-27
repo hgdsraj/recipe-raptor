@@ -1,0 +1,65 @@
+{
+  "id": "creamy-korean-ramyun-mac-cheese",
+  "docOrder": 105,
+  "docLine": 1323,
+  "title": "Creamy Korean Ramyun Mac & Cheese",
+  "originalTitle": "Unhealthy ramyun Mac",
+  "category": "Pasta & Noodles",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 540,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 76,
+    "fat_g": 20
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "Boil Macaroni",
+    "Make ramyun",
+    "Only half the water",
+    "Put in macaroni mix up",
+    "Put in cheese powder",
+    "Mix up"
+  ],
+  "instructions": [
+    "Boil Macaroni",
+    "Make ramyun with only half the water",
+    "Put in macaroni mix up",
+    "Put in cheese powder",
+    "Mix up;"
+  ],
+  "notes": "Original Doc Shorthand: Boil Macaroni — Make ramyun with only half the water — Put in macaroni mix up — Put in cheese powder — Mix up;",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "boil",
+    "macaroni",
+    "make",
+    "ramyun",
+    "only",
+    "half",
+    "water",
+    "put",
+    "mix",
+    "cheese",
+    "powder"
+  ]
+}

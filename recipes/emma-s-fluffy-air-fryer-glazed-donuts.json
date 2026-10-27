@@ -1,0 +1,71 @@
+{
+  "id": "emma-s-fluffy-air-fryer-glazed-donuts",
+  "docOrder": 68,
+  "docLine": 683,
+  "title": "Emma's Fluffy Air Fryer Glazed Donuts",
+  "originalTitle": "Glazed dojuts",
+  "category": "Sweets & Drinks",
+  "protein": "Vegetarian",
+  "servings": 8,
+  "prepTime": "20 mins",
+  "cookTime": "5 mins",
+  "totalTime": "25 mins",
+  "calories": 490,
+  "macros": {
+    "protein_g": 6,
+    "carbs_g": 76,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2.25 cups (280g) all-purpose flour",
+    "3 tbsp (40g) granulated sugar",
+    "1/2 tsp salt",
+    "2.25 tsp (7g / 1 packet) instant dry yeast",
+    "2/3 cup (160ml) warm whole milk",
+    "3 tbsp (42g) unsalted butter, melted",
+    "1 large egg, room temperature",
+    "Vanilla Glaze: 1.5 cups (180g) powdered icing sugar, 3 tbsp milk, 1 tsp vanilla extract, plus melted butter for brushing"
+  ],
+  "instructions": [
+    "Whisk warm milk, sugar, melted butter, egg, and yeast together, then mix in flour and salt; knead for 5–6 minutes until a soft, pillowy dough forms.",
+    "Cover and let rise in a warm spot for 1 hour until doubled in size.",
+    "Roll the dough out to 1/2-inch thickness, cut out 8 donuts and donut holes, and let proof on parchment squares for 25 minutes until puffy.",
+    "Preheat Air Fryer to 350°F (175°C). Brush donuts lightly with melted butter, air-fry for 4–5 minutes until golden brown, and dip immediately while warm into the smooth vanilla powdered sugar glaze."
+  ],
+  "notes": "Doc Note: [https\\://www.emmafontanella.com/airfryerdonuts](",
+  "sourceUrl": "https://www.emmafontanella.com/airfryerdonuts",
+  "sourceTitle": "Emma Fontanella · Air Fryer Glazed Donuts",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Sweets & Drinks"
+  ],
+  "ingredientKeywords": [
+    "280g",
+    "all-purpose",
+    "flour",
+    "40g",
+    "granulated",
+    "sugar",
+    "salt",
+    "packet",
+    "instant",
+    "dry",
+    "yeast",
+    "160ml",
+    "warm",
+    "whole"
+  ]
+}

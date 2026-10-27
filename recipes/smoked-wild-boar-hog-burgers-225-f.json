@@ -1,0 +1,67 @@
+{
+  "id": "smoked-wild-boar-hog-burgers-225-f",
+  "docOrder": 72,
+  "docLine": 699,
+  "title": "Smoked Wild Boar (Hog) Burgers (225°F)",
+  "originalTitle": "Smoked hog burger (boar)",
+  "category": "Sandwiches & Wraps",
+  "protein": "Pork",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "50 mins",
+  "totalTime": "60 mins",
+  "calories": 486,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 30
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1.5 lbs ground wild boar (hog) — optionally blended with 3 oz finely minced bacon for richness",
+    "1 tbsp apple cider vinegar or Worcestershire sauce",
+    "1 tsp dried sage, 1 tsp garlic powder, 1 tsp onion powder, 1/2 tsp smoked paprika, 1.5 tsp kosher salt, 1 tsp black pepper",
+    "4 slices Gruyère, Gouda, or sharp cheddar cheese",
+    "4 toasted brioche or pretzel buns, apple-cabbage slaw or caramelized onions, and whole-grain mustard mayo"
+  ],
+  "instructions": [
+    "Preheat smoker to 225°F (107°C) with apple or hickory wood.",
+    "Combine ground wild boar (and optional minced bacon) with apple cider vinegar, sage, garlic powder, onion powder, smoked paprika, salt, and pepper. Shape into 4 patties.",
+    "Smoke at 225°F for 45–50 minutes until internal temperature reaches 145°F, then sear over high heat for 1–2 minutes per side until 155–160°F internal.",
+    "Top with Gruyère or sharp cheddar to melt, and serve on toasted buns with whole-grain mustard mayo and caramelized onions."
+  ],
+  "notes": "",
+  "sourceUrl": "https://brokenarrowranch.com/blogs/wild-game-recipes/wild-boar-burgers",
+  "sourceTitle": "Broken Arrow Ranch · Smoked Wild Boar Burgers",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "ground",
+    "wild",
+    "boar",
+    "hog",
+    "optionally",
+    "blended",
+    "minced",
+    "bacon",
+    "richness",
+    "apple",
+    "cider",
+    "vinegar",
+    "worcestershire",
+    "sauce"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "cedar-plank-barbecued-salmon-with-grilled-carrots-seasonal-veg",
+  "docOrder": 56,
+  "docLine": 597,
+  "title": "Cedar-Plank Barbecued Salmon with Grilled Carrots & Seasonal Veg",
+  "originalTitle": "Salmon barbecued on plank with grilled carrots and grilled other vegetable",
+  "category": "Mains & Grills",
+  "protein": "Fish & Seafood",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "18 mins",
+  "totalTime": "33 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 740,
+    "vitamin_c_mg": 23,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1.5 lb wild salmon or steelhead fillet (or 4 individual fillets), skin-on",
+    "1 untreated cedar grilling plank (soaked in water for at least 1 hour)",
+    "1 tbsp Dijon mustard + 1.5 tbsp pure maple syrup or brown sugar",
+    "1 tsp smoked paprika, 1/2 tsp garlic powder, kosher salt & black pepper",
+    "1 lb slender carrots, halved lengthwise",
+    "1 bunch asparagus or 2 medium zucchinis, halved lengthwise",
+    "1.5 tbsp olive oil and fresh lemon wedges"
+  ],
+  "instructions": [
+    "Soak the cedar plank in water for 1–2 hours. Preheat BBQ grill to medium-high heat (400°F).",
+    "Place the damp cedar plank on the hot grates for 2 minutes until it crackles lightly, then flip it over and place the salmon skin-side down on the toasted side.",
+    "Brush salmon with Dijon mustard, maple syrup, smoked paprika, salt, and pepper. Toss halved carrots and zucchini/asparagus with olive oil, salt, and pepper.",
+    "Close the grill lid and smoke-roast the salmon on the cedar plank while grilling the carrots and vegetables alongside for 14–18 minutes until salmon reaches 125–130°F and carrots are tender-charred."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/cedar-plank-salmon-recipe",
+  "sourceTitle": "Serious Eats · Cedar-Plank Barbecued Salmon",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "wild",
+    "salmon",
+    "steelhead",
+    "fillet",
+    "individual",
+    "fillets",
+    "skin-on",
+    "untreated",
+    "cedar",
+    "grilling",
+    "plank",
+    "soaked",
+    "water",
+    "least"
+  ]
+}

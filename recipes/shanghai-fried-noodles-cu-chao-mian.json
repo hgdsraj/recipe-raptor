@@ -1,0 +1,73 @@
+{
+  "id": "shanghai-fried-noodles-cu-chao-mian",
+  "docOrder": 121,
+  "docLine": 1477,
+  "title": "Shanghai Fried Noodles (Cu Chao Mian)",
+  "originalTitle": "Shanghai fried noodles",
+  "category": "Pasta & Noodles",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "10 mins",
+  "totalTime": "25 mins",
+  "calories": 528,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 67,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 lb thick fresh Shanghai wheat noodles (or thick udon noodles)",
+    "8 oz pork loin, chicken thigh, or shiitake mushrooms, thinly sliced",
+    "3 cups baby bok choy or Napa cabbage, chopped",
+    "6 dried shiitake mushrooms, rehydrated and thinly sliced",
+    "2 tbsp dark soy sauce (for rich mahogany color and caramel notes)",
+    "1.5 tbsp light soy sauce & 1 tbsp oyster sauce",
+    "1 tsp sugar, 1/2 tsp white pepper, 1 tsp toasted sesame oil",
+    "1 tbsp Shaoxing rice wine + 1 tsp cornstarch (for velvet marinade)",
+    "2 tbsp neutral oil for high-heat wok stir-frying"
+  ],
+  "instructions": [
+    "Marinate sliced pork or chicken with Shaoxing wine, 1 tsp light soy sauce, and cornstarch for 10 minutes. Whisk remaining dark soy sauce, light soy sauce, oyster sauce, sugar, white pepper, and sesame oil in a small bowl.",
+    "Parboil fresh Shanghai noodles 1 minute shy of package instructions, drain, rinse under cold water to prevent sticking, and toss with 1 tsp oil.",
+    "Heat wok over high heat until smoking. Sear the pork/chicken for 2 minutes, add sliced shiitake mushrooms and bok choy stems, and stir-fry for 2 minutes.",
+    "Add the noodles, bok choy leaves, and the dark soy sauce mixture. Toss vigorously over high heat for 2–3 minutes until every noodle is glossy, smoky, and caramelized."
+  ],
+  "notes": "Doc Note: [https\\://thewoksoflife.com/shanghai-fried-noodles/](",
+  "sourceUrl": "https://thewoksoflife.com/shanghai-fried-noodles/",
+  "sourceTitle": "The Woks of Life · Shanghai Fried Noodles",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "thick",
+    "shanghai",
+    "wheat",
+    "noodles",
+    "udon",
+    "pork",
+    "loin",
+    "chicken",
+    "thigh",
+    "shiitake",
+    "mushrooms",
+    "thinly",
+    "baby",
+    "bok"
+  ]
+}

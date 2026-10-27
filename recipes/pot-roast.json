@@ -1,12 +1,15 @@
 {
   "id": "pot-roast",
+  "docOrder": 79,
+  "docLine": 829,
   "title": "Pot roast",
-  "category": "Sides & Sauces",
+  "originalTitle": "Pot roast",
+  "category": "Mains & Grills",
   "protein": "Beef",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "120 mins",
-  "totalTime": "135 mins",
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
   "calories": 438,
   "macros": {
     "protein_g": 36,
@@ -28,21 +31,23 @@
     "Oregano, basil",
     "Salt pepper",
     "Onion",
-    "Garlic",
-    "Throw in the sauce,"
+    "Garlic"
   ],
   "instructions": [
     "Sautee onion, garlic, throw in tomatoes, basil, oregano, salt, pepper",
     "Sear the meat both sides",
+    "Throw in the sauce,",
     "Simmer low slow 3 hours in dutch oven (or oven it for 3 hours low)"
   ],
   "notes": "",
   "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
   "succinct": false,
   "tags": [
     "High-Protein",
     "Beef",
-    "Sides & Sauces"
+    "Mains & Grills"
   ],
   "ingredientKeywords": [
     "meat",
@@ -55,7 +60,6 @@
     "salt",
     "pepper",
     "onion",
-    "garlic",
-    "throw"
+    "garlic"
   ]
 }

@@ -1,17 +1,20 @@
 {
   "id": "italian-sausage-bread",
+  "docOrder": 117,
+  "docLine": 1452,
   "title": "Italian sausage bread",
+  "originalTitle": "Italian sausage bread",
   "category": "Pizza & Breads",
   "protein": "Pork",
   "servings": 4,
-  "prepTime": "20 mins",
-  "cookTime": "25 mins",
-  "totalTime": "45 mins",
-  "calories": 626,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 617,
   "macros": {
     "protein_g": 32,
     "carbs_g": 57,
-    "fat_g": 30
+    "fat_g": 29
   },
   "micros": {
     "fiber_g": 6,
@@ -29,16 +32,17 @@
     "Italian sausage"
   ],
   "instructions": [
-    "Bread",
-    "Pesto",
-    "Pan fried red peppers and red onions",
-    "Provole melted",
-    "Italian sausage"
+    "Prep all ingredients for Italian sausage bread: Bread, Pesto, Pan fried red peppers and red onions, Provole melted.",
+    "Cook and assemble according to the doc method: Bread Pesto Pan fried red peppers and red onions Provole melted Italian sausage.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Bread — Pesto — Pan fried red peppers and red onions — Provole melted — Italian sausage",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
+    "Quick-Fire Note",
     "Pork",
     "Pizza & Breads"
   ],
@@ -49,7 +53,6 @@
     "fried",
     "red",
     "peppers",
-    "and",
     "onions",
     "provole",
     "melted",

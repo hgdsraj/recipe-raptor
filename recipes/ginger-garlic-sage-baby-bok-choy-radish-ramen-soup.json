@@ -1,0 +1,77 @@
+{
+  "id": "ginger-garlic-sage-baby-bok-choy-radish-ramen-soup",
+  "docOrder": 185,
+  "docLine": 2240,
+  "title": "Ginger, Garlic & Sage Baby Bok Choy Radish Ramen Soup",
+  "originalTitle": "Ginger, Garlic & Sage Baby Bok Choy Radish Ramen Soup",
+  "category": "Soups & Stews",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 342,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 40,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 550,
+    "iron_mg": 3.0,
+    "potassium_mg": 600,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "Simmer 2.5 cups",
+    "5 baby bok choy cut up",
+    "Put in 1 radish slices",
+    "2 slices ginger",
+    "3 garlic cloves",
+    "3 sage leaves",
+    "1 sprig of thyme just whisk around",
+    "Thinly sliced onion 1/4",
+    "1/4 cup of frozen mixed veg",
+    "Little bit of soup base"
+  ],
+  "instructions": [
+    "Simmer 2.5 cups with 5 baby bok choy cut up",
+    "Put in 1 radish slices",
+    "2 slices ginger",
+    "3 garlic cloves",
+    "3 sage leaves",
+    "1 sprig of thyme just whisk around",
+    "Thinly sliced onion 1/4",
+    "1/4 cup of frozen mixed veg",
+    "Little bit of soup base",
+    "Make ramen noodles for 3.5 mins only"
+  ],
+  "notes": "Original Doc Shorthand: Simmer 2.5 cups with 5 baby bok choy cut up — Put in 1 radish slices — 2 slices ginger — 3 garlic cloves — 3 sage leaves — 1 sprig of thyme just whisk around — Thinly sliced onion 1/4 — 1/4 cup of frozen mixed veg — Little bit of soup base — Make ramen noodles for 3.5 mins only",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "simmer",
+    "cups",
+    "baby",
+    "bok",
+    "choy",
+    "cut",
+    "put",
+    "radish",
+    "slices",
+    "ginger",
+    "garlic",
+    "cloves",
+    "sage",
+    "leaves"
+  ]
+}

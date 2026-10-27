@@ -1,0 +1,70 @@
+{
+  "id": "rich-slow-braised-garlic-herb-pork-stew",
+  "docOrder": 179,
+  "docLine": 2219,
+  "title": "Rich Slow-Braised Garlic & Herb Pork Stew",
+  "originalTitle": "Rich Slow-Braised Garlic & Herb Pork Stew",
+  "category": "Soups & Stews",
+  "protein": "Pork",
+  "servings": 6,
+  "prepTime": "15 mins",
+  "cookTime": "90 mins",
+  "totalTime": "105 mins",
+  "calories": 460,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 29,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 790,
+    "iron_mg": 2.4,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2.5 lbs boneless pork shoulder, cut into 1.5-inch cubes",
+    "1 large yellow onion, diced",
+    "3 carrots, cut into thick coins & 2 stalks celery, chopped",
+    "3 medium Yukon Gold potatoes, cubed",
+    "5 cloves garlic, smashed",
+    "2 tbsp tomato paste & 2 tbsp all-purpose flour",
+    "1 cup dry red wine or dark beer + 3 cups beef or chicken stock",
+    "2 tbsp Worcestershire sauce, 1 tbsp soy sauce, 2 sprigs rosemary, 3 sprigs thyme, 2 bay leaves"
+  ],
+  "instructions": [
+    "Season pork shoulder cubes generously with salt and pepper and sear in batches in a hot Dutch oven with 1 tbsp oil until deeply browned on all sides.",
+    "Sauté onion, carrots, celery, and garlic in the pork drippings for 5 minutes. Stir in tomato paste and flour and cook 2 minutes.",
+    "Deglaze with red wine, scraping up all browned bits, then add stock, Worcestershire sauce, soy sauce, herbs, and seared pork.",
+    "Cover and simmer on low (or braise in a 325°F oven) for 75–90 minutes, adding the cubed Yukon Gold potatoes for the final 30 minutes until meltingly tender."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/eIzf6GJOspM?lc=Ugy98nG2zsJDgkNTvVF4AaABAg\\&si=h7l2G3V6-6zDMlXr](",
+  "sourceUrl": "https://youtube.com/shorts/eIzf6GJOspM?lc=Ugy98nG2zsJDgkNTvVF4AaABAg&si=h7l2G3V6-6zDMlXr",
+  "sourceTitle": "YouTube · Rich Braised Pork Stew",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Soups & Stews"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "pork",
+    "shoulder",
+    "cut",
+    "into",
+    "5-inch",
+    "cubes",
+    "large",
+    "yellow",
+    "onion",
+    "carrots",
+    "thick",
+    "coins",
+    "stalks"
+  ]
+}

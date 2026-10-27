@@ -138,6 +138,7 @@
     sortBy: "default",
     favorites: new Set(JSON.parse(localStorage.getItem("reciperaptor_favorites") || "[]")),
     groceryList: JSON.parse(localStorage.getItem("reciperaptor_grocery") || "[]"),
+    mealPlan: JSON.parse(localStorage.getItem("reciperaptor_mealplan") || "[]"),
     theme: localStorage.getItem("reciperaptor_theme") || "dark",
     currentModalRecipe: null,
     modalServings: 2,
@@ -184,11 +185,23 @@
     sortSelect: document.getElementById("sortSelect"),
     recipesGrid: document.getElementById("recipesGrid"),
     resultsCount: document.getElementById("resultsCount"),
+    totalRecipesStat: document.getElementById("totalRecipesStat"),
+    avgProteinStat: document.getElementById("avgProteinStat"),
+    sourceCountStat: document.getElementById("sourceCountStat"),
     favCountBadge: document.getElementById("favCountBadge"),
     groceryCountBadge: document.getElementById("groceryCountBadge"),
+    mealPlanCountBadge: document.getElementById("mealPlanCountBadge"),
     rouletteBtn: document.getElementById("rouletteBtn"),
+    mealPlanBtn: document.getElementById("mealPlanBtn"),
     groceryBtn: document.getElementById("groceryBtn"),
     addRecipeBtn: document.getElementById("addRecipeBtn"),
+
+    // Meal Plan Modal
+    mealPlanBackdrop: document.getElementById("mealPlanBackdrop"),
+    mealPlanCloseBtn: document.getElementById("mealPlanCloseBtn"),
+    mealPlanBody: document.getElementById("mealPlanBody"),
+    clearMealPlanBtn: document.getElementById("clearMealPlanBtn"),
+    mealPlanToGroceryBtn: document.getElementById("mealPlanToGroceryBtn"),
 
     // Modals
     recipeModalBackdrop: document.getElementById("recipeModalBackdrop"),
@@ -390,6 +403,31 @@
   function updateHeaderBadges() {
     el.favCountBadge.textContent = state.favorites.size;
     el.groceryCountBadge.textContent = state.groceryList.length;
+    if (el.mealPlanCountBadge) el.mealPlanCountBadge.textContent = state.mealPlan.length;
+    if (el.totalRecipesStat) el.totalRecipesStat.textContent = state.recipes.length;
+    if (el.sourceCountStat) {
+      el.sourceCountStat.textContent = state.recipes.filter(r => r.sourceUrl).length;
+    }
+    if (el.avgProteinStat && state.recipes.length > 0) {
+      const avgP = Math.round(state.recipes.reduce((acc, r) => acc + (r.macros?.protein_g || 0), 0) / state.recipes.length);
+      el.avgProteinStat.textContent = `${avgP}g`;
+    }
+  }
+
+  function getSourceBadgeInfo(recipe) {
+    const url = (recipe.sourceUrl || "").trim();
+    if (!url) return null;
+    const lower = url.toLowerCase();
+    const label = recipe.sourceTitle || "Source Recipe";
+    if (lower.includes("youtube.com") || lower.includes("youtu.be")) {
+      const shortLabel = label.replace(/^YouTube\s*·\s*/i, "").slice(0, 22);
+      return { icon: "▶️", text: shortLabel || "YouTube", isYt: true, url, fullTitle: label };
+    }
+    if (lower.includes("instagram.com")) {
+      return { icon: "📸", text: "Instagram Reel", isYt: true, url, fullTitle: label };
+    }
+    const shortWeb = label.split("·")[0].trim().slice(0, 22);
+    return { icon: "🌐", text: shortWeb || "Web Recipe", isYt: false, url, fullTitle: label };
   }
 
   /**
@@ -484,6 +522,8 @@
           if (totalMin > 25) continue;
         } else if (state.activeTag === "low-cal") {
           if ((recipe.calories || 0) > 400) continue;
+        } else if (state.activeTag === "has-source") {
+          if (!recipe.sourceUrl) continue;
         } else if (state.activeTag === "succinct") {
           if (!recipe.succinct) continue;
         }
@@ -523,10 +563,16 @@
         if (b.score !== a.score) return b.score - a.score;
       }
 
-      if (state.sortBy === "title-asc") {
+      if (state.sortBy === "doc-asc") {
+        return (a.recipe.docOrder || 999) - (b.recipe.docOrder || 999);
+      } else if (state.sortBy === "title-asc") {
         return a.recipe.title.localeCompare(b.recipe.title);
       } else if (state.sortBy === "protein-desc") {
         return (b.recipe.macros?.protein_g || 0) - (a.recipe.macros?.protein_g || 0);
+      } else if (state.sortBy === "efficiency-desc") {
+        const effA = ((a.recipe.macros?.protein_g || 0) * 4) / (a.recipe.calories || 400);
+        const effB = ((b.recipe.macros?.protein_g || 0) * 4) / (b.recipe.calories || 400);
+        return effB - effA;
       } else if (state.sortBy === "calories-asc") {
         return (a.recipe.calories || 0) - (b.recipe.calories || 0);
       } else if (state.sortBy === "time-asc") {
@@ -534,7 +580,7 @@
         const tB = parseInt(b.recipe.totalTime) || 30;
         return tA - tB;
       }
-      return 0;
+      return (a.recipe.docOrder || 999) - (b.recipe.docOrder || 999);
     }).map(sr => sr.recipe);
   }
 
@@ -587,6 +633,11 @@
         previewText = recipe.instructions[0];
       }
 
+      const srcInfo = getSourceBadgeInfo(recipe);
+      const sourceBadgeHtml = srcInfo
+        ? `<a href="${escapeHtml(srcInfo.url)}" target="_blank" rel="noopener noreferrer" class="badge-source-link ${srcInfo.isYt ? 'badge-source-yt' : ''}" title="Open Source: ${escapeHtml(srcInfo.fullTitle)}">${srcInfo.icon} ${escapeHtml(srcInfo.text)} ↗</a>`
+        : "";
+
       return `
         <div class="recipe-card" data-id="${escapeHtml(recipe.id)}">
           <div>
@@ -594,7 +645,7 @@
               <div class="card-badges">
                 <span class="badge badge-protein">${escapeHtml(recipe.protein || 'Meal')}</span>
                 <span class="badge badge-category">${escapeHtml(recipe.category || 'Mains')}</span>
-                ${recipe.succinct ? '<span class="badge badge-succinct">⚡ Quick Note</span>' : ''}
+                ${sourceBadgeHtml}
                 ${matchBadgeHtml}
               </div>
               <button class="favorite-btn ${isFav ? 'favorited' : ''}" data-fav-id="${escapeHtml(recipe.id)}" title="Favorite recipe">
@@ -645,6 +696,7 @@
               <span>${escapeHtml(recipe.totalTime || '25 mins')}</span>
             </div>
             <div class="card-actions">
+              <button class="btn-card-action quick-plan-btn" data-id="${escapeHtml(recipe.id)}" title="Add to Meal Plan">📅 +Plan</button>
               <button class="btn-card-action open-detail-btn" data-id="${escapeHtml(recipe.id)}">Details</button>
               <button class="btn-card-action quick-cook-btn" data-id="${escapeHtml(recipe.id)}" title="Cook Mode">👨‍🍳 Cook</button>
             </div>
@@ -678,6 +730,10 @@
     state.baseServings = recipe.servings || 2;
     state.modalServings = state.baseServings;
 
+    if (history.replaceState) {
+      history.replaceState(null, "", `#recipe=${encodeURIComponent(recipe.id)}`);
+    }
+
     renderModalContent();
     el.recipeModalBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
@@ -687,6 +743,9 @@
     el.recipeModalBackdrop.classList.remove("open");
     document.body.style.overflow = "";
     state.currentModalRecipe = null;
+    if (history.replaceState && window.location.hash.startsWith("#recipe=")) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
   }
 
   function renderModalContent() {
@@ -700,6 +759,7 @@
     const scaledFat = Math.round((recipe.macros?.fat_g || 0) * scaleFactor);
 
     const isFav = state.favorites.has(recipe.id);
+    const srcInfo = getSourceBadgeInfo(recipe);
 
     el.modalContent.innerHTML = `
       <div class="modal-header">
@@ -707,7 +767,7 @@
           <div class="card-badges">
             <span class="badge badge-protein">${escapeHtml(recipe.protein)}</span>
             <span class="badge badge-category">${escapeHtml(recipe.category)}</span>
-            ${recipe.succinct ? '<span class="badge badge-succinct">⚡ Quick-Fire Recipe Note</span>' : ''}
+            ${recipe.docOrder ? `<span class="badge badge-category">Doc #${recipe.docOrder}</span>` : ''}
           </div>
           <h2 class="modal-title">${escapeHtml(cleanMarkdownText(recipe.title))}</h2>
         </div>
@@ -717,6 +777,18 @@
       </div>
 
       <div class="modal-body">
+        ${srcInfo ? `
+        <div class="modal-source-banner">
+          <div>
+            <div style="font-size: 0.72rem; text-transform: uppercase; font-weight: 800; color: var(--raptor-cyan); letter-spacing: 0.05em;">Verified Source Reference</div>
+            <div style="font-size: 0.9rem; font-weight: 600; color: var(--text-primary); margin-top: 2px;">${srcInfo.icon} ${escapeHtml(srcInfo.fullTitle)}</div>
+          </div>
+          <a href="${escapeHtml(srcInfo.url)}" target="_blank" rel="noopener noreferrer" class="modal-source-btn">
+            <span>🔗 Open Original Source</span>
+            <span>↗</span>
+          </a>
+        </div>
+        ` : ''}
         <div class="recipe-summary-strip">
           <div class="summary-item">
             <span class="summary-item-label">Servings</span>
@@ -822,11 +894,13 @@
       </div>
 
       <div class="modal-footer">
-        <div style="display: flex; gap: 0.5rem;">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
           <button class="btn btn-card-action" id="modalToggleFavBtn">
-            ${isFav ? '❤️ Favorited' : '🤍 Add Favorite'}
+            ${isFav ? '❤️ Favorited' : '🤍 Favorite'}
           </button>
-          <button class="btn btn-card-action" id="modalPrintBtn">🖨️ Print Recipe</button>
+          <button class="btn btn-card-action" id="modalAddPlanBtn">📅 + Meal Plan</button>
+          <button class="btn btn-card-action" id="modalShareBtn">🔗 Share Link</button>
+          <button class="btn btn-card-action" id="modalPrintBtn">🖨️ Print</button>
         </div>
         <button class="btn btn-primary" id="modalStartCookBtn">
           👨‍🍳 Start Cook Mode
@@ -856,6 +930,17 @@
       toggleFavorite(recipe.id);
       renderModalContent();
       renderRecipes();
+    });
+
+    document.getElementById("modalAddPlanBtn").addEventListener("click", () => {
+      addRecipeToMealPlan(recipe.id, state.modalServings);
+    });
+
+    document.getElementById("modalShareBtn").addEventListener("click", () => {
+      const shareUrl = `${window.location.origin}${window.location.pathname}#recipe=${encodeURIComponent(recipe.id)}`;
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        showToast("Direct recipe link copied to clipboard!", "🔗");
+      });
     });
 
     document.getElementById("modalPrintBtn").addEventListener("click", () => {
@@ -1013,6 +1098,121 @@
     const mins = Math.floor(state.timerSecondsLeft / 60);
     const secs = state.timerSecondsLeft % 60;
     el.cookTimerDisplay.textContent = `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+  }
+
+  // --- Weekly Meal Planner & Macro Calculator ---
+  function addRecipeToMealPlan(recipeId, servings = null) {
+    const recipe = state.recipes.find(r => r.id === recipeId);
+    if (!recipe) return;
+    state.mealPlan.push({
+      uid: "mp-" + Math.random().toString(36).substring(2, 9),
+      id: recipe.id,
+      servings: servings || recipe.servings || 2
+    });
+    localStorage.setItem("reciperaptor_mealplan", JSON.stringify(state.mealPlan));
+    updateHeaderBadges();
+    AudioEngine.chime();
+    showToast(`Added "${recipe.title}" to Meal Plan!`, "📅");
+  }
+
+  function openMealPlanModal() {
+    renderMealPlan();
+    el.mealPlanBackdrop.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMealPlanModal() {
+    el.mealPlanBackdrop.classList.remove("open");
+    document.body.style.overflow = "";
+  }
+
+  function renderMealPlan() {
+    if (!el.mealPlanBody) return;
+    if (state.mealPlan.length === 0) {
+      el.mealPlanBody.innerHTML = `
+        <div class="empty-state" style="padding: 2.5rem 1rem;">
+          <div class="empty-state-icon">📅🥗</div>
+          <h3>Your Meal Plan is Empty</h3>
+          <p>Click <strong>📅 +Plan</strong> on any recipe card or modal to stack meals and track your total macros &amp; calories.</p>
+        </div>
+      `;
+      return;
+    }
+
+    let totCal = 0, totP = 0, totC = 0, totF = 0, totFib = 0;
+    const resolved = state.mealPlan.map((entry, idx) => {
+      const r = state.recipes.find(x => x.id === entry.id);
+      if (!r) return null;
+      totCal += r.calories || 0;
+      totP += r.macros?.protein_g || 0;
+      totC += r.macros?.carbs_g || 0;
+      totF += r.macros?.fat_g || 0;
+      totFib += r.micros?.fiber_g || 0;
+      return { entry, r, idx };
+    }).filter(Boolean);
+
+    const eff = totCal > 0 ? Math.round(((totP * 4) / totCal) * 100) : 0;
+
+    el.mealPlanBody.innerHTML = `
+      <div class="recipe-summary-strip">
+        <div class="summary-item">
+          <span class="summary-item-label">Planned Meals</span>
+          <span class="summary-item-val">${resolved.length}</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-item-label">Total Calories</span>
+          <span class="summary-item-val" style="color: var(--raptor-green)">${totCal} kcal</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-item-label">Total Protein</span>
+          <span class="summary-item-val" style="color: var(--macro-protein)">${totP}g (${eff}%)</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-item-label">Total Carbs</span>
+          <span class="summary-item-val" style="color: var(--macro-carbs)">${totC}g</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-item-label">Total Fat</span>
+          <span class="summary-item-val" style="color: var(--macro-fat)">${totF}g</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-item-label">Total Fiber</span>
+          <span class="summary-item-val">${totFib.toFixed(1)}g</span>
+        </div>
+      </div>
+
+      <div>
+        ${resolved.map(({ r, idx }) => `
+          <div class="meal-plan-row">
+            <div class="meal-plan-row-info">
+              <div class="meal-plan-row-title" data-open-id="${escapeHtml(r.id)}">${escapeHtml(r.title)}</div>
+              <div class="meal-plan-row-meta">
+                🔥 ${r.calories} kcal · 🥩 ${r.macros?.protein_g || 0}g P · 🌾 ${r.macros?.carbs_g || 0}g C · 🥑 ${r.macros?.fat_g || 0}g F · ⏱️ ${escapeHtml(r.totalTime || '25m')}
+              </div>
+            </div>
+            <button class="btn-card-action mp-remove-btn" data-mp-idx="${idx}" style="color: var(--raptor-coral);">&times; Remove</button>
+          </div>
+        `).join("")}
+      </div>
+    `;
+
+    el.mealPlanBody.querySelectorAll(".meal-plan-row-title").forEach(t => {
+      t.addEventListener("click", () => {
+        const id = t.getAttribute("data-open-id");
+        closeMealPlanModal();
+        openRecipeModal(id);
+      });
+    });
+
+    el.mealPlanBody.querySelectorAll(".mp-remove-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const idx = parseInt(btn.getAttribute("data-mp-idx"));
+        state.mealPlan.splice(idx, 1);
+        localStorage.setItem("reciperaptor_mealplan", JSON.stringify(state.mealPlan));
+        updateHeaderBadges();
+        renderMealPlan();
+      });
+    });
   }
 
   // --- Grocery List ---
@@ -1295,12 +1495,27 @@
     });
 
     el.recipesGrid.addEventListener("click", (e) => {
+      // Allow clicking source links directly without opening the modal
+      const sourceLink = e.target.closest(".badge-source-link");
+      if (sourceLink) {
+        e.stopPropagation();
+        return;
+      }
+
       const favBtn = e.target.closest(".favorite-btn");
       if (favBtn) {
         e.stopPropagation();
         const id = favBtn.getAttribute("data-fav-id");
         toggleFavorite(id);
         renderRecipes();
+        return;
+      }
+
+      const planBtn = e.target.closest(".quick-plan-btn");
+      if (planBtn) {
+        e.stopPropagation();
+        const id = planBtn.getAttribute("data-id");
+        addRecipeToMealPlan(id);
         return;
       }
 
@@ -1354,6 +1569,30 @@
       updateTimerDisplay();
     });
 
+    if (el.mealPlanBtn) {
+      el.mealPlanBtn.addEventListener("click", openMealPlanModal);
+      el.mealPlanCloseBtn.addEventListener("click", closeMealPlanModal);
+      el.mealPlanBackdrop.addEventListener("click", (e) => {
+        if (e.target === el.mealPlanBackdrop) closeMealPlanModal();
+      });
+      el.clearMealPlanBtn.addEventListener("click", () => {
+        state.mealPlan = [];
+        localStorage.setItem("reciperaptor_mealplan", "[]");
+        updateHeaderBadges();
+        renderMealPlan();
+        showToast("Meal plan cleared", "🗑️");
+      });
+      el.mealPlanToGroceryBtn.addEventListener("click", () => {
+        if (state.mealPlan.length === 0) return;
+        state.mealPlan.forEach(entry => {
+          const r = state.recipes.find(x => x.id === entry.id);
+          if (r) addRecipeToGrocery(r, 1);
+        });
+        closeMealPlanModal();
+        openGroceryDrawer();
+      });
+    }
+
     el.groceryBtn.addEventListener("click", openGroceryDrawer);
     el.groceryDrawerCloseBtn.addEventListener("click", closeGroceryDrawer);
     el.copyGroceryBtn.addEventListener("click", copyGroceryListToClipboard);
@@ -1372,11 +1611,20 @@
     });
   }
 
+  function checkDeepLinkHash() {
+    if (window.location.hash && window.location.hash.startsWith("#recipe=")) {
+      const id = decodeURIComponent(window.location.hash.replace("#recipe=", ""));
+      if (id) openRecipeModal(id);
+    }
+  }
+
   function init() {
     initTheme();
     renderFilterBars();
     renderRecipes();
     setupEventListeners();
+    checkDeepLinkHash();
+    window.addEventListener("hashchange", checkDeepLinkHash);
     console.log("🦖 RecipeRaptor loaded with Smart NLP Search &", state.recipes.length, "recipes!");
   }
 

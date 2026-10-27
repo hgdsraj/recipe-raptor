@@ -1,0 +1,72 @@
+{
+  "id": "quick-japanese-curry-rice-kare-raisu",
+  "docOrder": 60,
+  "docLine": 607,
+  "title": "Quick Japanese Curry Rice (Kare Raisu)",
+  "originalTitle": "Japanese curry",
+  "category": "Bowls & Skillets",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "15 mins",
+  "cookTime": "30 mins",
+  "totalTime": "45 mins",
+  "calories": 416,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 39,
+    "fat_g": 12
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 550,
+    "vitamin_c_mg": 12,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1 lb boneless chicken thighs, beef chuck, or pork shoulder, cut into bite-sized pieces",
+    "2 medium yellow onions, sliced",
+    "2 medium carrots, cut into rolling wedges (rangiri)",
+    "2 medium Yukon Gold potatoes, cubed",
+    "1 tbsp grated ginger & 2 cloves garlic, minced",
+    "3.5 cups chicken or beef stock",
+    "1/2 package (approx. 4.5 oz) S&B Golden Curry or Vermont Curry roux blocks",
+    "1 tbsp soy sauce, 1 tbsp honey or grated apple, 1 tsp Worcestershire sauce",
+    "Steamed short-grain Japanese rice & fukujinzuke (pickled radish)"
+  ],
+  "instructions": [
+    "Sear the chicken, beef, or pork pieces in 1 tbsp neutral oil in a Dutch oven until browned. Add sliced onions and caramelize for 6–8 minutes.",
+    "Add garlic, ginger, carrots, and potatoes; stir for 2 minutes, then pour in the stock. Bring to a boil, skim foam, cover, and simmer 15–20 minutes until vegetables are tender.",
+    "Turn off the heat, break in the Japanese curry roux blocks, and stir until completely dissolved.",
+    "Turn heat back to low, stir in soy sauce, honey/grated apple, and Worcestershire sauce, and simmer 5 minutes until thick and glossy. Serve over steamed rice."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/VTuYlMW3DYQ?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/VTuYlMW3DYQ?feature=share",
+  "sourceTitle": "YouTube · Classic Japanese Curry",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "chicken",
+    "thighs",
+    "beef",
+    "chuck",
+    "pork",
+    "shoulder",
+    "cut",
+    "into",
+    "bite-sized",
+    "pieces",
+    "medium",
+    "yellow",
+    "onions"
+  ]
+}

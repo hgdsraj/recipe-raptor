@@ -1,0 +1,70 @@
+{
+  "id": "one-pan-baked-chicken-pepper-fajitas",
+  "docOrder": 46,
+  "docLine": 517,
+  "title": "One-Pan Baked Chicken & Pepper Fajitas",
+  "originalTitle": "One pan pot fajita",
+  "category": "Sandwiches & Wraps",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 414,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1.5 lbs boneless, skinless chicken breasts or thighs, thinly sliced",
+    "3 bell peppers (red, yellow, green), sliced into strips",
+    "1 large red or yellow onion, sliced into half-moons",
+    "2 tbsp avocado or olive oil",
+    "2 tsp chili powder, 1.5 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, 1 tsp onion powder, 1/2 tsp oregano, 1 tsp salt",
+    "Juice of 1 fresh lime",
+    "Warm flour or corn tortillas, avocado, salsa, and sour cream/Greek yogurt"
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C) or heat a large deep skillet over medium-high heat.",
+    "Place sliced chicken, bell peppers, and onions directly into a single baking dish or large skillet.",
+    "Drizzle with oil and lime juice, sprinkle the fajita spice blend over everything, and toss right in the pan until evenly coated.",
+    "Bake for 20–22 minutes (or sear-sauté on stovetop for 12–14 minutes), finishing under the broiler for 2 minutes to char the pepper edges. Serve sizzling in warm tortillas."
+  ],
+  "notes": "Doc Note: [https\\://youtube.com/shorts/WW8KQah_kRA?feature=share](",
+  "sourceUrl": "https://youtube.com/shorts/WW8KQah_kRA?feature=share",
+  "sourceTitle": "YouTube · One-Pan Chicken Fajitas",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Chicken",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "skinless",
+    "chicken",
+    "breasts",
+    "thighs",
+    "thinly",
+    "bell",
+    "peppers",
+    "red",
+    "yellow",
+    "green",
+    "into",
+    "strips",
+    "large"
+  ]
+}

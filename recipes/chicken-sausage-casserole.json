@@ -1,41 +1,57 @@
 {
   "id": "chicken-sausage-casserole",
+  "docOrder": 13,
+  "docLine": 324,
   "title": "Chicken Sausage Casserole",
-  "category": "Soups & Stews",
+  "originalTitle": "Chicken Sausage Casserole",
+  "category": "Mains & Grills",
   "protein": "Chicken",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "35 mins",
-  "totalTime": "50 mins",
-  "calories": 424,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 416,
   "macros": {
     "protein_g": 38,
-    "carbs_g": 41,
+    "carbs_g": 39,
     "fat_g": 12
   },
   "micros": {
-    "fiber_g": 8,
-    "sodium_mg": 670,
+    "fiber_g": 6,
+    "sodium_mg": 520,
     "iron_mg": 2.0,
-    "potassium_mg": 750,
+    "potassium_mg": 670,
     "vitamin_c_mg": 27,
     "calcium_mg": 80
   },
   "ingredients": [
-    "Chicken sausage, potatoes, cabbage, carrots, brocolli, tomato sauce (tomato paste, cruhsed tomatoes, chili powder), oregano, basil, touch of sugar, red peppers https://www.tastesoflizzyt.com/homemade-italian-sausage-seasoning/"
+    "Chicken sausage",
+    "Potatoes",
+    "Cabbage",
+    "Carrots",
+    "Brocolli",
+    "Tomato sauce (tomato paste",
+    "Cruhsed tomatoes",
+    "Chili powder)",
+    "Oregano",
+    "Basil"
   ],
   "instructions": [
-    "Chicken sausage, potatoes, cabbage, carrots, brocolli, tomato sauce (tomato paste, cruhsed tomatoes, chili powder), oregano, basil, touch of sugar, red peppers https://www.tastesoflizzyt.com/homemade-italian-sausage-seasoning/"
+    "Prep all ingredients for Chicken Sausage Casserole: Chicken sausage, Potatoes, Cabbage, Carrots.",
+    "Cook and assemble according to the doc method: Chicken sausage, potatoes, cabbage, carrots, brocolli, tomato sauce (tomato paste, cruhsed tomatoes, chili powder), oregano, basil, touch of sugar, red peppers [https\\://www.tastesoflizzyt.com/homemade-italian-sausage-seasoning/](.",
+    "Adjust seasoning with salt, pepper, and acidity to taste and serve hot."
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Chicken sausage, potatoes, cabbage, carrots, brocolli, tomato sauce (tomato paste, cruhsed tomatoes, chili powder), oregano, basil, touch of sugar, red peppers [https\\://www.tastesoflizzyt.com/homemade-italian-sausage-seasoning/](",
   "sourceUrl": "https://www.tastesoflizzyt.com/homemade-italian-sausage-seasoning/",
+  "sourceTitle": "Tastes of Lizzy T",
+  "hasImage": false,
   "succinct": true,
   "tags": [
     "High-Protein",
+    "Verified Source",
     "Quick-Fire Note",
-    "One-Pot",
     "Chicken",
-    "Soups & Stews"
+    "Mains & Grills"
   ],
   "ingredientKeywords": [
     "chicken",
@@ -49,6 +65,8 @@
     "paste",
     "cruhsed",
     "tomatoes",
-    "chili"
+    "chili",
+    "powder",
+    "oregano"
   ]
 }

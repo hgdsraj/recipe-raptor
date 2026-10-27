@@ -1,0 +1,67 @@
+{
+  "id": "dough-guy-72-hour-cold-ferment-neapolitan-ny-pizza-dough",
+  "docOrder": 165,
+  "docLine": 2051,
+  "title": "Dough Guy 72-Hour Cold-Ferment Neapolitan/NY Pizza Dough",
+  "originalTitle": "Dough Guy 72-Hour Cold-Ferment Neapolitan/NY Pizza Dough",
+  "category": "Pizza & Breads",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "20 mins",
+  "cookTime": "10 mins",
+  "totalTime": "30 mins",
+  "calories": 559,
+  "macros": {
+    "protein_g": 14,
+    "carbs_g": 83,
+    "fat_g": 19
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 520,
+    "vitamin_c_mg": 22,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "500g Tipo 00 flour or high-protein bread flour (100%)",
+    "325g (325ml) cold water (65% hydration)",
+    "13g fine sea salt (2.6%)",
+    "10g extra-virgin olive oil (2%)",
+    "2g (1/2 tsp) instant dry yeast (0.4%)"
+  ],
+  "instructions": [
+    "Dissolve instant yeast in the cold water, add the flour, and mix until roughly combined; autolyse (rest) covered for 20 minutes.",
+    "Add the sea salt and olive oil, kneading for 6–8 minutes (or performing 3 sets of stretch-and-folds 20 minutes apart) until the dough is smooth and passes the windowpane test.",
+    "Bulk ferment at room temperature for 1 hour, then divide into three 280g dough balls, place in lightly oiled lidded containers, and cold-ferment in the refrigerator (38–40°F) for 24 to 72 hours.",
+    "Remove dough balls from the fridge 2–3 hours before baking to reach room temperature, stretch by hand (preserving the airy cornicione rim), top, and bake on a preheated steel/stone at maximum oven heat (500–550°F)."
+  ],
+  "notes": "Doc Note: [https\\://doughguy.co/pages/dough](",
+  "sourceUrl": "https://doughguy.co/pages/dough",
+  "sourceTitle": "Dough Guy · Cold-Ferment Pizza Dough",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Vegetarian",
+    "Pizza & Breads"
+  ],
+  "ingredientKeywords": [
+    "tipo",
+    "flour",
+    "high-protein",
+    "bread",
+    "100%",
+    "325ml",
+    "cold",
+    "water",
+    "65%",
+    "hydration",
+    "fine",
+    "sea",
+    "salt",
+    "extra-virgin"
+  ]
+}

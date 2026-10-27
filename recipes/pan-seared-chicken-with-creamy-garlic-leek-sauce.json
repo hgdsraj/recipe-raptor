@@ -1,0 +1,78 @@
+{
+  "id": "pan-seared-chicken-with-creamy-garlic-leek-sauce",
+  "docOrder": 176,
+  "docLine": 2157,
+  "title": "Pan-Seared Chicken with Creamy Garlic Leek Sauce",
+  "originalTitle": "Pan-Seared Chicken with Creamy Garlic Leek Sauce",
+  "category": "Sides & Sauces",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "30 mins",
+  "totalTime": "40 mins",
+  "calories": 298,
+  "macros": {
+    "protein_g": 19,
+    "carbs_g": 15,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "2 large boneless skinless chicken breasts",
+    "Salt & pepper (to taste, see note)",
+    "2 small-to-medium leeks",
+    "1 tablespoon olive oil",
+    "2 tablespoons butter (divided)",
+    "3 cloves garlic (minced)",
+    "1/2 teaspoon Italian seasoning",
+    "1/2 cup dry white wine",
+    "1 teaspoon cornstarch",
+    "1 cup heavy/whipping cream",
+    "Fresh chopped parsley (optional, to taste)"
+  ],
+  "instructions": [
+    "Cut your chicken breasts in half lengthwise to make four thinner cutlets. Season them with salt & pepper.",
+    "To prepare the leeks, discard the top dark green portion of the leeks and keep the bulbs (light green and white parts). Slice the bulbs into thin rings. Add the leeks to a colander and rinse them thoroughly (use your hands to dislodge any stubborn dirt; it can hide). Shake them a few times so they're not too wet.",
+    "Add the olive oil and one tablespoon of the butter to a skillet over medium-high heat.",
+    "Once the pan is hot, add the chicken to the skillet and cook it for 4-5 minutes/side until golden. Transfer the chicken to a plate.",
+    "Reduce the heat to medium and add the remaining butter to the skillet. Let it melt, then add in the leeks. Sauté them, stirring fairly often, for 5 minutes, or until softened and lightly browned. Transfer the leeks to a plate (the same one as the chicken is fine).",
+    "Add the garlic, Italian seasoning, and white wine to the skillet. Let it bubble until the liquid is reduced by half.",
+    "In a small bowl, mix the cornstarch with 2 teaspoons of cold water and stir until dissolved.",
+    "Add the cream and cornstarch slurry to the pan and give it a good stir.",
+    "Add the chicken and leeks back to the skillet (and any plate juices). Simmer for another 5 minutes or until the chicken is cooked through and the sauce has thickened a bit (you may need to increase the heat again to get it going). If the sauce becomes too thick, add in another splash of cream of wine. Season with extra salt & pepper as needed and sprinkle with parsley if desired."
+  ],
+  "notes": "Personal Note: [https\\://www.saltandlavender.com/chicken-with-creamy-leek-sauce/](",
+  "sourceUrl": "https://www.saltandlavender.com/chicken-with-creamy-leek-sauce/",
+  "sourceTitle": "Salt & Lavender",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Verified Source",
+    "Chicken",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "large",
+    "boneless",
+    "skinless",
+    "chicken",
+    "breasts",
+    "salt",
+    "pepper",
+    "see",
+    "note",
+    "small-to-medium",
+    "leeks",
+    "tablespoon",
+    "olive",
+    "oil"
+  ]
+}

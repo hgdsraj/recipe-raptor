@@ -1,0 +1,74 @@
+{
+  "id": "one-pot-turkey-mushroom-stroganoff-healthy-hamburger-helper",
+  "docOrder": 47,
+  "docLine": 521,
+  "title": "One-Pot Turkey Mushroom Stroganoff (Healthy Hamburger Helper)",
+  "originalTitle": "Turkey stroganoff with mushrooms hamburger helper",
+  "category": "Mains & Grills",
+  "protein": "Turkey",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 431,
+  "macros": {
+    "protein_g": 40,
+    "carbs_g": 34,
+    "fat_g": 15
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 490,
+    "iron_mg": 2.2,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 25,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1 lb lean ground turkey",
+    "8 oz cremini or button mushrooms, sliced",
+    "1 medium yellow onion, finely diced",
+    "3 cloves garlic, minced",
+    "1 tbsp Dijon mustard & 1 tbsp Worcestershire sauce",
+    "1 tsp smoked paprika & 1/2 tsp dried thyme",
+    "2 tbsp all-purpose flour",
+    "2.5 cups low-sodium beef or chicken broth",
+    "8 oz wide egg noodles or cavatappi",
+    "1/2 cup plain Greek yogurt or light sour cream",
+    "2 tbsp fresh chopped parsley, salt & black pepper"
+  ],
+  "instructions": [
+    "Brown the ground turkey and diced onion in a deep skillet or Dutch oven over medium-high heat for 5 minutes. Add sliced mushrooms and garlic; sauté another 5 minutes until browned.",
+    "Sprinkle in flour, smoked paprika, salt, and pepper, stirring for 1 minute. Deglaze with Worcestershire sauce, Dijon mustard, and broth.",
+    "Stir in the uncooked egg noodles, bring to a boil, cover, and simmer on medium-low for 8–10 minutes, stirring occasionally, until noodles are tender and sauce is thick.",
+    "Remove from heat and fold in Greek yogurt (or sour cream) and fresh parsley for a creamy one-pot Hamburger Helper upgrade."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.skinnytaste.com/turkey-stroganoff/",
+  "sourceTitle": "Skinnytaste · Ground Turkey Mushroom Stroganoff",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Turkey",
+    "Mains & Grills"
+  ],
+  "ingredientKeywords": [
+    "lean",
+    "ground",
+    "turkey",
+    "cremini",
+    "button",
+    "mushrooms",
+    "medium",
+    "yellow",
+    "onion",
+    "garlic",
+    "minced",
+    "dijon",
+    "mustard",
+    "tbsp"
+  ]
+}

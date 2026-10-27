@@ -1,0 +1,69 @@
+{
+  "id": "tartar-sauce",
+  "docOrder": 81,
+  "docLine": 884,
+  "title": "Tartar sauce",
+  "originalTitle": "Tartar sauce",
+  "category": "Sides & Sauces",
+  "protein": "Vegetarian",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 306,
+  "macros": {
+    "protein_g": 7,
+    "carbs_g": 38,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 410,
+    "iron_mg": 3.0,
+    "potassium_mg": 640,
+    "vitamin_c_mg": 37,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "1/2 cup of plain Greek yogurt",
+    "1/4 cup of diced pickles",
+    "1 tablespoon of capers, drained and finely chopped",
+    "1 tablespoon of fresh lemon juice",
+    "1 tablespoon of chopped fresh dill",
+    "1 teaspoon of Dijon mustard",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "In a small bowl, stir together the Greek yogurt, pickles, capers, lemon juice, dill, and mustard.",
+    "Season the tartar sauce with salt and pepper to taste.",
+    "Cover the bowl with plastic wrap and refrigerate for at least 30 minutes to allow the flavors to meld.",
+    "Serve the tartar sauce cold with your baked fish and chips.",
+    "This healthy tartar sauce recipe is a great alternative to traditional tartar sauce, which is typically made with mayonnaise and can be high in calories and fat. Greek yogurt is a great source of protein and calcium, and using it in place of mayonnaise makes this tartar sauce much lighter and healthier. The addition of pickles, capers, and fresh herbs adds lots of flavor without adding extra calories or fat."
+  ],
+  "notes": "",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": false,
+  "tags": [
+    "Low-Calorie",
+    "Vegetarian",
+    "Sides & Sauces"
+  ],
+  "ingredientKeywords": [
+    "plain",
+    "greek",
+    "yogurt",
+    "pickles",
+    "tablespoon",
+    "capers",
+    "drained",
+    "lemon",
+    "juice",
+    "dill",
+    "teaspoon",
+    "dijon",
+    "mustard",
+    "salt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "chicken-shawarma-pita-kebobs",
+  "docOrder": 126,
+  "docLine": 1506,
+  "title": "Chicken Shawarma Pita Kebobs",
+  "originalTitle": "Chicken Shawarma Pita Kebobs",
+  "category": "Sandwiches & Wraps",
+  "protein": "Chicken",
+  "servings": 4,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 414,
+  "macros": {
+    "protein_g": 38,
+    "carbs_g": 25,
+    "fat_g": 18
+  },
+  "micros": {
+    "fiber_g": 6,
+    "sodium_mg": 520,
+    "iron_mg": 2.0,
+    "potassium_mg": 670,
+    "vitamin_c_mg": 27,
+    "calcium_mg": 200
+  },
+  "ingredients": [
+    "1lb Chicken",
+    "Shawarma seasoning",
+    "Onion finely diced plus egg",
+    "Panko",
+    "Mint",
+    "1/2 tsp salt",
+    "Barbecue it",
+    "Make",
+    "Hummus",
+    "Pita"
+  ],
+  "instructions": [
+    "1lb Chicken with shawarma seasoning and onion finely diced plus egg and panko, mint, and 1/2 tsp salt",
+    "Barbecue it",
+    "Make with hummus, pita, jalapenos, goat cheese or feta, tzatziki thin sliced onion, cucumber ,tomato"
+  ],
+  "notes": "Original Doc Shorthand: 1lb Chicken with shawarma seasoning and onion finely diced plus egg and panko, mint, and 1/2 tsp salt — Barbecue it — Make with hummus, pita, jalapenos, goat cheese or feta, tzatziki thin sliced onion, cucumber ,tomato",
+  "sourceUrl": "",
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Quick-Fire Note",
+    "Chicken",
+    "Sandwiches & Wraps"
+  ],
+  "ingredientKeywords": [
+    "chicken",
+    "shawarma",
+    "seasoning",
+    "onion",
+    "plus",
+    "egg",
+    "panko",
+    "mint",
+    "salt",
+    "barbecue",
+    "make",
+    "hummus",
+    "pita"
+  ]
+}

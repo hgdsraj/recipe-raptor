@@ -1,20 +1,23 @@
 {
   "id": "baked-feta-pasta",
+  "docOrder": 122,
+  "docLine": 1483,
   "title": "Baked feta pasta",
+  "originalTitle": "Baked feta pasta",
   "category": "Pasta & Noodles",
   "protein": "Vegetarian",
   "servings": 4,
-  "prepTime": "15 mins",
-  "cookTime": "25 mins",
-  "totalTime": "40 mins",
-  "calories": 570,
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "totalTime": "30 mins",
+  "calories": 542,
   "macros": {
-    "protein_g": 15,
-    "carbs_g": 96,
+    "protein_g": 14,
+    "carbs_g": 90,
     "fat_g": 14
   },
   "micros": {
-    "fiber_g": 11,
+    "fiber_g": 10,
     "sodium_mg": 410,
     "iron_mg": 3.0,
     "potassium_mg": 640,
@@ -22,17 +25,30 @@
     "calcium_mg": 80
   },
   "ingredients": [
-    "Put 2 pint cherry tomatoes toss with olive oil and few garlic cloves in baking dish with one block of feta, basil, salt, pepper",
-    "Mash with fork"
+    "Put 2 pint cherry tomatoes toss",
+    "Olive oil",
+    "Few garlic cloves in baking dish",
+    "One block of feta",
+    "Basil",
+    "Salt",
+    "Pepper",
+    "Bake 400 for 30 - 35 mins",
+    "Mash",
+    "Fork"
   ],
   "instructions": [
+    "Put 2 pint cherry tomatoes toss with olive oil and few garlic cloves in baking dish with one block of feta, basil, salt, pepper",
     "Bake 400 for 30 - 35 mins",
+    "Mash with fork",
     "Add cooked pasta and pasta water and combine"
   ],
-  "notes": "",
+  "notes": "Original Doc Shorthand: Put 2 pint cherry tomatoes toss with olive oil and few garlic cloves in baking dish with one block of feta, basil, salt, pepper — Bake 400 for 30 - 35 mins — Mash with fork — Add cooked pasta and pasta water and combine",
   "sourceUrl": "",
-  "succinct": false,
+  "sourceTitle": "",
+  "hasImage": false,
+  "succinct": true,
   "tags": [
+    "Quick-Fire Note",
     "Vegetarian",
     "Pasta & Noodles"
   ],
@@ -42,12 +58,14 @@
     "cherry",
     "tomatoes",
     "toss",
-    "with",
     "olive",
     "oil",
-    "and",
     "few",
     "garlic",
-    "cloves"
+    "cloves",
+    "baking",
+    "dish",
+    "one",
+    "block"
   ]
 }

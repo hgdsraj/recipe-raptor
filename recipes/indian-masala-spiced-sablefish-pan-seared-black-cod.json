@@ -1,0 +1,72 @@
+{
+  "id": "indian-masala-spiced-sablefish-pan-seared-black-cod",
+  "docOrder": 150,
+  "docLine": 1878,
+  "title": "Indian Masala Spiced Sablefish (Pan-Seared Black Cod)",
+  "originalTitle": "Indian Masala Spiced Sablefish (Pan-Seared Black Cod)",
+  "category": "Bowls & Skillets",
+  "protein": "Fish & Seafood",
+  "servings": 2,
+  "prepTime": "15 mins",
+  "cookTime": "10 mins",
+  "totalTime": "25 mins",
+  "calories": 338,
+  "macros": {
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 14
+  },
+  "micros": {
+    "fiber_g": 4,
+    "sodium_mg": 480,
+    "iron_mg": 2.1,
+    "potassium_mg": 620,
+    "vitamin_c_mg": 8,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 thick sablefish (black cod) fillets (6 oz each), skin-on and pin-bones removed",
+    "1 tbsp ginger-garlic paste",
+    "1 tsp Kashmiri red chili powder",
+    "1/2 tsp turmeric powder, 1 tsp ground coriander, 1/2 tsp roasted cumin, 1/2 tsp garam masala",
+    "1 tbsp thick Greek yogurt or mustard oil",
+    "Juice of 1/2 lemon & kosher salt",
+    "1 tbsp ghee or neutral oil + 8 fresh curry leaves for pan-searing"
+  ],
+  "instructions": [
+    "Score the skin of the sablefish fillets lightly and pat completely dry.",
+    "Whisk together ginger-garlic paste, Kashmiri chili powder, turmeric, coriander, cumin, garam masala, lemon juice, yogurt/mustard oil, and salt. Coat the flesh of the sablefish and marinate 15 minutes.",
+    "Heat ghee or oil in a cast-iron or non-stick skillet over medium-high heat with fresh curry leaves.",
+    "Sear the sablefish skin-side down for 4–5 minutes until crisp, then flip and baste with the spiced pan oil for 3–4 minutes until buttery and flaking into pearlescent layers."
+  ],
+  "notes": "Doc Note: https\\://youtube.com/shorts/sE_tiEl27hs?si=IrcEbjZCEP4ylBwM",
+  "sourceUrl": "https://youtube.com/shorts/sE_tiEl27hs?si=IrcEbjZCEP4ylBwM",
+  "sourceTitle": "YouTube · Indian Spiced Sablefish",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "High-Protein",
+    "Low-Calorie",
+    "Quick (<25m)",
+    "Verified Source",
+    "Quick-Fire Note",
+    "Fish & Seafood",
+    "Bowls & Skillets"
+  ],
+  "ingredientKeywords": [
+    "thick",
+    "sablefish",
+    "black",
+    "cod",
+    "fillets",
+    "each",
+    "skin-on",
+    "pin-bones",
+    "removed",
+    "ginger-garlic",
+    "paste",
+    "kashmiri",
+    "red",
+    "chili"
+  ]
+}

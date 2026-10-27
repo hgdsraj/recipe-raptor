@@ -1,0 +1,72 @@
+{
+  "id": "pappardelle-with-slow-braised-pork-ragu",
+  "docOrder": 16,
+  "docLine": 368,
+  "title": "Pappardelle with Slow-Braised Pork Ragu",
+  "originalTitle": "Pappardelle with braised pork",
+  "category": "Pasta & Noodles",
+  "protein": "Pork",
+  "servings": 6,
+  "prepTime": "20 mins",
+  "cookTime": "150 mins",
+  "totalTime": "170 mins",
+  "calories": 600,
+  "macros": {
+    "protein_g": 32,
+    "carbs_g": 64,
+    "fat_g": 24
+  },
+  "micros": {
+    "fiber_g": 8,
+    "sodium_mg": 650,
+    "iron_mg": 2.4,
+    "potassium_mg": 540,
+    "vitamin_c_mg": 20,
+    "calcium_mg": 80
+  },
+  "ingredients": [
+    "2 lbs boneless pork shoulder (Boston butt), cut into 2-inch chunks",
+    "1 lb pappardelle pasta",
+    "1 medium onion, 1 carrot, 1 celery stalk (finely minced mirepoix)",
+    "4 cloves garlic, minced",
+    "2 tbsp tomato paste",
+    "1 cup dry red or white wine",
+    "1 can (28 oz) crushed San Marzano tomatoes",
+    "1 cup chicken stock",
+    "2 sprigs fresh rosemary, 3 sprigs thyme, 2 bay leaves",
+    "Freshly grated Parmigiano-Reggiano and chopped parsley"
+  ],
+  "instructions": [
+    "Season pork shoulder chunks generously with salt and pepper. Sear in a Dutch oven with 1 tbsp olive oil over medium-high heat until deeply browned on all sides; set aside.",
+    "Lower heat to medium and sweat the minced onion, carrot, celery, and garlic for 6–8 minutes. Stir in tomato paste and caramelize for 2 minutes.",
+    "Deglaze with wine, scraping up all browned fond, and reduce by half. Add crushed tomatoes, chicken stock, herb sprigs, and seared pork.",
+    "Cover and braise at a low simmer (or in a 300°F oven) for 2 to 2.5 hours until fork-tender. Shred the pork into the rich sauce, toss with al dente pappardelle and a splash of pasta water, and finish with Parmigiano-Reggiano."
+  ],
+  "notes": "",
+  "sourceUrl": "https://www.seriouseats.com/pappardelle-with-braised-pork-ragu-recipe",
+  "sourceTitle": "Serious Eats · Braised Pork Ragu Pappardelle",
+  "hasImage": false,
+  "succinct": true,
+  "tags": [
+    "Verified Source",
+    "Quick-Fire Note",
+    "Pork",
+    "Pasta & Noodles"
+  ],
+  "ingredientKeywords": [
+    "boneless",
+    "pork",
+    "shoulder",
+    "boston",
+    "butt",
+    "cut",
+    "into",
+    "2-inch",
+    "chunks",
+    "pappardelle",
+    "pasta",
+    "medium",
+    "onion",
+    "carrot"
+  ]
+}
