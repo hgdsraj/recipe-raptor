@@ -169,6 +169,59 @@
     ]
   },
   {
+    "id": "three-day-yogurt-shawarma-prep",
+    "title": "3-Day Yogurt Shawarma Prep",
+    "category": "Mains & Grills",
+    "protein": "Chicken",
+    "servings": 4,
+    "prepTime": "15 mins",
+    "cookTime": "25 mins",
+    "totalTime": "40 mins",
+    "calories": 420,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 10,
+      "fat_g": 18
+    },
+    "micros": {
+      "fiber_g": 2.0,
+      "sodium_mg": 560,
+      "iron_mg": 2.4,
+      "potassium_mg": 520,
+      "vitamin_c_mg": 12,
+      "calcium_mg": 110
+    },
+    "ingredients": [
+      "2 lbs boneless skinless chicken thighs",
+      "1 cup plain Greek yogurt",
+      "2 tbsp olive oil",
+      "4 cloves garlic minced",
+      "1 tbsp lemon juice",
+      "1 tbsp ground cumin",
+      "1 tbsp smoked paprika",
+      "1 tsp turmeric",
+      "1 tsp ground coriander",
+      "1 tsp salt",
+      "1/2 tsp black pepper"
+    ],
+    "instructions": [
+      "Whisk Greek yogurt, olive oil, garlic, lemon juice, and all shawarma spices in a bowl.",
+      "Coat chicken thighs thoroughly in the marinade.",
+      "Refrigerate in a sealed container for up to 3 days for meal prep.",
+      "To cook: grill over medium-high heat or sear in a cast-iron skillet for 6-8 minutes per side until charred and internal temp reaches 165°F (74°C).",
+      "Slice thinly and serve with rice, tzatziki, and warm pita."
+    ],
+    "notes": "Marinating in Greek yogurt tenderizes the chicken enzymes over 72 hours.",
+    "sourceUrl": "",
+    "succinct": false,
+    "tags": [
+      "High-Protein",
+      "Meal Prep",
+      "Chicken",
+      "Mains & Grills"
+    ]
+  },
+  {
     "id": "6-7-hours-mostly-simmering",
     "title": "6–7 hours (mostly simmering)",
     "category": "Mains & Grills",
